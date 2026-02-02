@@ -1,7 +1,6 @@
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Fonts } from '@/constants/theme';
 import { Ionicons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as DocumentPicker from 'expo-document-picker';
@@ -84,16 +83,6 @@ export default function TabTwoScreen() {
 
   return (
     <View style={styles.container}>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText
-          type="title"
-          style={{
-            fontFamily: Fonts.rounded,
-          }}>
-          Carta FAI
-        </ThemedText>
-      </ThemedView>
-      
       <ThemedView style={styles.contentContainer}>
         {!pdfUri ? (
           <View style={styles.uploadContainer}>
