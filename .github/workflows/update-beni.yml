@@ -2,8 +2,11 @@ name: Update beni FAI
 
 on:
   schedule:
-    - cron: "0 3 * * 1"   # ogni lunedì alle 03:00
+    - cron: "0 3 * * 1"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -12,19 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install deps
-        run: pip install requests
+      - run: pip install requests
 
-      - name: Fetch beni FAI
-        run: python scripts/fetch_beni_fai.py
+      - run: python scripts/fetch_beni_fai.py
 
-      - name: Commit & push
-        run: |
+      - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/beni-fai.json
