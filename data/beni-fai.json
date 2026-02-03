@@ -6832,13 +6832,6 @@
     "url": "https://fondoambiente.it/luoghi/libreria-libri-e-libri"
   },
   {
-    "id": 99590,
-    "title": "LIBRERIA TUTTI GIU' PER TERRA",
-    "lat": 45.5866694,
-    "lng": 9.2736232,
-    "url": "https://fondoambiente.it/luoghi/punto-fai-libreria-tutti-giu-per-terra-"
-  },
-  {
     "id": 114689,
     "title": "LIBRERIA VIRGILIA & CO",
     "lat": 45.5870971,
@@ -7089,6 +7082,13 @@
     "lat": 46.2164725,
     "lng": 10.1746136,
     "url": "https://fondoambiente.it/luoghi/palazzo-lambertenghi"
+  },
+  {
+    "id": 99590,
+    "title": "LIBRERIA TUTTI GIU' PER TERRA",
+    "lat": 45.5873032,
+    "lng": 9.2712931,
+    "url": "https://fondoambiente.it/luoghi/punto-fai-libreria-tutti-giu-per-terra-"
   },
   {
     "id": 40212,
@@ -11823,13 +11823,6 @@
     "url": "https://fondoambiente.it/luoghi/notorius-cinemas-rovigo"
   },
   {
-    "id": 99133,
-    "title": "PALAZZO ROVERELLA",
-    "lat": 45.070533,
-    "lng": 11.78951219,
-    "url": "https://fondoambiente.it/luoghi/palazzo-roverella-"
-  },
-  {
     "id": 115851,
     "title": "RHODIGIUM CAFFÈ",
     "lat": 45.0506461,
@@ -12887,13 +12880,6 @@
     "url": "https://fondoambiente.it/luoghi/madama-venice"
   },
   {
-    "id": 93885,
-    "title": "FONDAZIONE GIORGIO CINI",
-    "lat": 45.430837,
-    "lng": 12.3274251,
-    "url": "https://fondoambiente.it/luoghi/fondazione-giorgio-cini"
-  },
-  {
     "id": 118675,
     "title": "CAMPANIA",
     "lat": 40.8539041,
@@ -12906,6 +12892,13 @@
     "lat": 45.3602478,
     "lng": 10.7302198,
     "url": "https://fondoambiente.it/luoghi/parco-giardino-sigurta"
+  },
+  {
+    "id": 93885,
+    "title": "FONDAZIONE GIORGIO CINI",
+    "lat": 45.4305765,
+    "lng": 12.3298729,
+    "url": "https://fondoambiente.it/luoghi/fondazione-giorgio-cini"
   },
   {
     "id": 87675,
