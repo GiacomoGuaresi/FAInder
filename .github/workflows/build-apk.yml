@@ -36,31 +36,46 @@ jobs:
       - name: Install Expo & EAS CLI
         run: npm install -g expo-cli eas-cli
 
-      - name: Bump version (package.json)
+      - name: Bump version
         run: |
           npm version ${{ inputs.release_type }} --no-git-tag-version
           echo "ANDROID_VERSION_CODE=${{ github.run_number }}" >> $GITHUB_ENV
 
-      - name: Build APK with EAS
-        id: build
+      - name: Trigger Expo Build
+        id: buildstart
         run: |
-          eas build --platform android --profile production --non-interactive --json > build.json
+          eas build \
+            --platform android \
+            --profile production \
+            --non-interactive \
+            --json > build_output.json
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Fetch download URL
+      - name: Wait a few seconds
+        run: sleep 15  # lascia il tempo a EAS di registrare la build
+
+      - name: List finished builds & extract download URL
+        id: listbuilds
         run: |
-          DOWNLOAD_URL=$(jq -r '.[0].artifactUrl' build.json)
-          if [[ -z "$DOWNLOAD_URL" ]]; then
-            echo "❌ artifactUrl not found"
+          BUILDS_JSON=$(eas build:list --platform android --status finished --limit 1 --json)
+
+          DOWNLOAD_URL=$(echo "$BUILDS_JSON" | jq -r '.[0].buildUrl')
+
+          if [[ -z "$DOWNLOAD_URL" || "$DOWNLOAD_URL" == "null" ]]; then
+            echo "❌ Unable to get buildUrl"
+            echo "$BUILDS_JSON"
             exit 1
           fi
-          echo "DOWNLOAD_URL=$DOWNLOAD_URL" >> $GITHUB_ENV
 
-      - name: Download APK
+          echo "DOWNLOAD_URL=$DOWNLOAD_URL" >> $GITHUB_ENV
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Download APK via curl
         run: |
-          echo "Downloading from $DOWNLOAD_URL"
-          curl -L "$DOWNLOAD_URL" -o app.apk
+          echo "Downloading APK from $DOWNLOAD_URL"
+          curl -L -H "Authorization: Bearer $EXPO_TOKEN" "$DOWNLOAD_URL" -o app.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
