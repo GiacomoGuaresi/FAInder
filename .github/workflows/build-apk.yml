@@ -33,72 +33,53 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Setup Expo & EAS CLI
+      - name: Install Expo & EAS CLI
         run: npm install -g expo-cli eas-cli
 
-      - name: Bump version
+      - name: Bump version (package.json)
         run: |
           npm version ${{ inputs.release_type }} --no-git-tag-version
           echo "ANDROID_VERSION_CODE=${{ github.run_number }}" >> $GITHUB_ENV
 
-      - name: Build APK with EAS
-        run: eas build --platform android --profile production --non-interactive
+      - name: Build APK with EAS (JSON output)
+        run: |
+          eas build \
+            --platform android \
+            --profile production \
+            --non-interactive \
+            --json > build.json
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
+      - name: Extract build ID
+        run: |
+          echo "Build JSON:"
+          cat build.json
+
+          BUILD_ID=$(jq -r '.[0].id' build.json)
+
+          if [ -z "$BUILD_ID" ] || [ "$BUILD_ID" = "null" ]; then
+            echo "❌ Build ID not found"
+            exit 1
+          fi
+
+          echo "BUILD_ID=$BUILD_ID" >> $GITHUB_ENV
+          echo "Build ID: $BUILD_ID"
+
       - name: Download APK
         run: |
-          # Wait longer for build to be available
-          sleep 60
-          
-          # Try to get the latest build ID with error handling
-          for i in {1..10}; do
-            echo "Checking for builds... (attempt $i/10)"
-            BUILD_OUTPUT=$(eas build:list --platform android --limit 1 --json 2>&1)
-            echo "Build output: $BUILD_OUTPUT"
-            
-            if echo "$BUILD_OUTPUT" | jq -e '. | length > 0' > /dev/null 2>&1; then
-              BUILD_ID=$(echo "$BUILD_OUTPUT" | jq -r '.[0].id')
-              echo "Found build ID: $BUILD_ID"
-              eas build:download --id $BUILD_ID --platform android --output app.apk
-              if [ -f "app.apk" ]; then
-                echo "APK downloaded successfully"
-                break
-              else
-                echo "Download command succeeded but APK not found"
-              fi
-            else
-              echo "No builds found yet or invalid JSON output"
-              echo "Trying alternative method..."
-              
-              # Alternative: get build ID from previous step output
-              if [ -n "$BUILD_ID" ]; then
-                echo "Using build ID from environment: $BUILD_ID"
-                eas build:download --id $BUILD_ID --platform android --output app.apk
-                if [ -f "app.apk" ]; then
-                  echo "APK downloaded successfully with alternative method"
-                  break
-                fi
-              fi
-            fi
-            
-            if [ $i -eq 10 ]; then
-              echo "Maximum attempts reached"
-              break
-            fi
-            
-            sleep 30
-          done
-          
-          # Check if APK was downloaded
-          if [ ! -f "app.apk" ]; then
-            echo "Error: Could not download APK after multiple attempts"
-            echo "Listing recent builds for debugging:"
-            eas build:list --platform android --limit 5
+          eas build:download \
+            --id "$BUILD_ID" \
+            --platform android \
+            --output app.apk
+
+          if [ ! -f app.apk ]; then
+            echo "❌ APK not downloaded"
             exit 1
-          else
-            echo "APK file found: $(ls -la app.apk)"
           fi
+
+          echo "✅ APK downloaded:"
+          ls -lh app.apk
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
