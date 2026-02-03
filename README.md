@@ -1,4 +1,7 @@
-# FAI-nder
+<div align="center">
+  <img src="assets/images/LOGO.png" alt="FAI-nder Logo" width="200"/>
+  <h1>FAI-nder</h1>
+</div>
 
 FAI-nder è un progetto **open source** che raccoglie e rende consultabili, in forma geografica, alcuni luoghi e attività presenti sulla piattaforma pubblica del Fondo Ambiente Italiano (FAI).
 
