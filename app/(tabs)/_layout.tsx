@@ -53,12 +53,12 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: '#e74f30',
+        tabBarActiveTintColor: 'white',
         tabBarInactiveTintColor: 'rgba(231, 79, 48, 0.6)',
         tabBarStyle: {
           backgroundColor: 'white',
         },
-        tabBarActiveBackgroundColor: 'rgba(231, 79, 48, 0.1)',
+        tabBarActiveBackgroundColor: '#e74f30',
         headerShown: true,
         header: () => <CustomHeader />,
         headerStyle: {
@@ -73,14 +73,14 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Mappa beni',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="map.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
           title: 'Carta FAI',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="creditcard.fill" color={color} />,
         }}
       />
     </Tabs>
