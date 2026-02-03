@@ -126,7 +126,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLoc
           
           for (var i = currentIndex; i < endIndex; i++) {
             var point = markersData[i];
-            var color = point.isVisited ? '#666666' : '#FF0000';
+            var color = point.isVisited ? '#666666' : '#e74f30';
             var opacity = point.isVisited ? 0.4 : 1;
             
             // Custom FAI marker - red/gray pin
@@ -172,7 +172,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLoc
         
         function updateMarkerColor(pointId, isVisited) {
           // Find and update marker color without reloading map
-          var color = isVisited ? '#666666' : '#FF0000';
+          var color = isVisited ? '#666666' : '#e74f30';
           var opacity = isVisited ? 0.4 : 1;
           console.log('Updating marker ' + pointId + ' to color: ' + color);
         }
@@ -187,7 +187,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLoc
               // Update specific marker without recentering
               var pointId = data.data.id;
               var isVisited = data.data.isVisited;
-              var color = isVisited ? '#666666' : '#FF0000';
+              var color = isVisited ? '#666666' : '#e74f30';
               var opacity = isVisited ? 0.4 : 1;
               
               map.eachLayer(function(layer) {
@@ -207,7 +207,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLoc
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId) {
                   var isVisited = visitedIds.has(layer._faiPointId);
-                  var color = isVisited ? '#666666' : '#FF0000';
+                  var color = isVisited ? '#666666' : '#e74f30';
                   var opacity = isVisited ? 0.4 : 1;
                   // Update marker icon
                   var newIcon = L.divIcon({
@@ -237,7 +237,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLoc
               // Update specific marker without recentering
               var pointId = data.data.id;
               var isVisited = data.data.isVisited;
-              var color = isVisited ? '#666666' : '#FF0000';
+              var color = isVisited ? '#666666' : '#e74f30';
               var opacity = isVisited ? 0.4 : 1;
               
               map.eachLayer(function(layer) {
@@ -257,7 +257,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLoc
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId) {
                   var isVisited = visitedIds.has(layer._faiPointId);
-                  var color = isVisited ? '#666666' : '#FF0000';
+                  var color = isVisited ? '#666666' : '#e74f30';
                   var opacity = isVisited ? 0.4 : 1;
                   // Update marker icon
                   var newIcon = L.divIcon({

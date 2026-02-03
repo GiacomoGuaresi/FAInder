@@ -1,26 +1,30 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, ImageSourcePropType, StyleSheet, Text, View } from 'react-native';
 
 import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
+const logo: ImageSourcePropType = require('@/assets/images/LOGO.png');
+
 function CustomHeader() {
   return (
     <View style={styles.header}>
-      <IconSymbol size={32} name="location.fill" color="white" />
-      <Text style={styles.headerTitle}>FAInder</Text>
+      <View style={styles.logoContainer}>
+        <Image source={logo} style={styles.logo} resizeMode="contain" />
+        <Text style={styles.headerTitle}>FAInder</Text>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: '#e74f30',
+    backgroundColor: 'white',
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 20,
+    paddingLeft: 0,
     paddingTop: 40,
     paddingBottom: 12,
     borderBottomWidth: 1,
@@ -29,8 +33,17 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: 'white',
-    marginLeft: 12,
+    color: '#333333',
+  },
+  logoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  logo: {
+    width: 80,
+    height: 32,
+    tintColor: '#e74f30',
+    marginRight: -20,
   },
 });
 
@@ -53,6 +66,7 @@ export default function TabLayout() {
           borderBottomWidth: 1,
           borderBottomColor: '#e0e0e0',
         },
+        headerTintColor: '#e74f30',
         tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
