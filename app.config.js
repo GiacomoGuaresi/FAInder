@@ -12,6 +12,12 @@ module.exports = {
     userInterfaceStyle: "automatic",
     newArchEnabled: true,
 
+    jsEngine: "hermes",
+
+    updates: {
+      enabled: false
+    },
+
     ios: {
       supportsTablet: true
     },
@@ -22,15 +28,10 @@ module.exports = {
       icon: "./assets/images/icon.png",
 
       adaptiveIcon: {
-        backgroundColor: "#E6F4FE",
-        foregroundImage: "./assets/images/android-icon-foreground.png",
-        backgroundImage: "./assets/images/android-icon-background.png"
+        foregroundImage: "./assets/images/android-icon-foreground.png"
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
-      buildOptions: {
-        kotlinCompilerExtensionVersion: "1.5.8"
-      },
       fileSystemAuthority: "com.jack_up98.fainder.filesystem"
     },
 
