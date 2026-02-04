@@ -24,8 +24,55 @@ interface SearchResult {
   lon: string;
 }
 
-const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAIder/refs/heads/main/data/beni-fai.json';
+const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAI-nder/main/data/beni-fai.json';
 const VISITED_STORAGE_KEY = 'fai_visited_places';
+
+// Funzione per decodificare entità HTML
+const decodeHtmlEntities = (text: string): string => {
+  const entityMap: { [key: string]: string } = {
+    '&#39;': "'",
+    '&quot;': '"',
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&agrave;': 'à',
+    '&egrave;': 'è',
+    '&eacute;': 'é',
+    '&igrave;': 'ì',
+    '&ograve;': 'ò',
+    '&ugrave;': 'ù',
+    '&Agrave;': 'À',
+    '&Egrave;': 'È',
+    '&Eacute;': 'É',
+    '&Igrave;': 'Ì',
+    '&Ograve;': 'Ò',
+    '&Ugrave;': 'Ù',
+    '&nbsp;': ' ',
+    '&euro;': '€',
+    '&ndash;': '–',
+    '&mdash;': '—',
+    '&lsquo;': '\'',
+    '&rsquo;': '\'',
+    '&ldquo;': '"',
+    '&rdquo;': '"',
+    '&hellip;': '…'
+  };
+
+  let decoded = text;
+  Object.entries(entityMap).forEach(([entity, char]) => {
+    decoded = decoded.replace(new RegExp(entity, 'g'), char);
+  });
+  
+  return decoded;
+};
+
+// Funzione per tagliare testo a 500 caratteri
+const truncateText = (text: string, maxLength: number = 500): string => {
+  if (text.length <= maxLength) {
+    return text;
+  }
+  return text.substring(0, maxLength).trim() + '...';
+};
 
 const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, userLocation?: Location.LocationObject) => {
   const userLat = userLocation?.coords.latitude ?? 45.4642;
@@ -327,10 +374,20 @@ export default function MapScreen() {
     (async () => {
       try {
         const response = await fetch(FAI_DATA_URL);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data: FaiPoint[] = await response.json();
         setFaiPoints(data);
       } catch (error) {
         console.error('Error fetching FAI points:', error);
+        // Fallback to local data if remote fails
+        try {
+          const localData = require('../../data/beni-fai.json');
+          setFaiPoints(localData);
+        } catch (localError) {
+          console.error('Error loading local data:', localError);
+        }
       } finally {
         setPointsLoading(false);
       }
@@ -597,7 +654,9 @@ export default function MapScreen() {
               
               <Text style={styles.modalTitle}>{selectedPoint?.title}</Text>
               {selectedPoint?.description ? (
-                <Text style={styles.modalDescription}>{selectedPoint.description}</Text>
+                <Text style={styles.modalDescription}>
+                  {truncateText(decodeHtmlEntities(selectedPoint.description))}
+                </Text>
               ) : (
                 <Text style={styles.modalDescriptionPlaceholder}>Nessuna descrizione disponibile</Text>
               )}
