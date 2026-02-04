@@ -43,3 +43,6 @@ app-example
 /ios
 /android
 scripts/data/beni-fai.json
+
+# Android APK files
+*.apk
