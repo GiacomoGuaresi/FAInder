@@ -195,7 +195,7 @@ export default function TabLayout() {
             onPress={navigateToProperties}
           >
             <Ionicons name="list" size={20} color="#e74f30" style={styles.menuItemIcon} />
-            <Text style={styles.menuItemText}>I Miei Beni</Text>
+            <Text style={styles.menuItemText}>Elenco Luoghi</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -237,7 +237,7 @@ export default function TabLayout() {
         <Tabs.Screen
           name="properties"
           options={{
-            title: 'I Miei Beni',
+            title: 'Elenco Luoghi',
             tabBarIcon: ({ color }) => <IconSymbol size={28} name="list.bullet" color={color} />,
             href: null, // Hide from tab bar, only accessible via sidebar
             tabBarStyle: { display: 'none' }, // Hide tab bar on this screen
@@ -247,7 +247,7 @@ export default function TabLayout() {
                 <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
                   <Ionicons name="arrow-back" size={24} color="#333333" />
                 </TouchableOpacity>
-                <Text style={styles.propertiesHeaderTitle}>I Miei Beni</Text>
+                <Text style={styles.propertiesHeaderTitle}>Elenco Luoghi</Text>
                 <View style={styles.placeholder} />
               </View>
             ),
