@@ -1,8 +1,8 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs, useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
-import React, { useState } from 'react';
-import { Image, ImageSourcePropType, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, { useRef, useState } from 'react';
+import { Animated, Image, ImageSourcePropType, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     width: 80,
     height: 32,
     tintColor: '#e74f30',
-    marginRight: -20,
+    marginRight: -20
   },
   menuButton: {
     padding: 8,
@@ -82,12 +82,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 8,
     elevation: 8,
-  },
-  sidebarOpen: {
-    transform: [{ translateX: 0 }],
-  },
-  sidebarClosed: {
-    transform: [{ translateX: -280 }],
   },
   sidebarHeader: {
     flexDirection: 'row',
@@ -161,9 +155,31 @@ export default function TabLayout() {
   const colorScheme = useColorScheme();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const router = useRouter();
+  
+  // Animation values
+  const sidebarTranslateX = useRef(new Animated.Value(-280)).current;
+  const overlayOpacity = useRef(new Animated.Value(0)).current;
 
   const toggleSidebar = () => {
+    const toValue = isSidebarOpen ? -280 : 0;
+    const overlayToValue = isSidebarOpen ? 0 : 1;
+
     setIsSidebarOpen(!isSidebarOpen);
+
+    // Animate sidebar
+    Animated.spring(sidebarTranslateX, {
+      toValue,
+      tension: 300,
+      friction: 30,
+      useNativeDriver: true,
+    }).start();
+
+    // Animate overlay
+    Animated.timing(overlayOpacity, {
+      toValue: overlayToValue,
+      duration: 250,
+      useNativeDriver: true,
+    }).start();
   };
 
   const navigateToProperties = () => {
@@ -184,16 +200,24 @@ export default function TabLayout() {
   return (
     <View style={{ flex: 1 }}>
       {/* Sidebar Overlay */}
-      {isSidebarOpen && (
+      <Animated.View 
+        style={[styles.overlay, { opacity: overlayOpacity }]} 
+        pointerEvents={isSidebarOpen ? 'auto' : 'none'}
+      >
         <TouchableOpacity 
-          style={styles.overlay} 
+          style={{ flex: 1 }} 
           onPress={toggleSidebar}
           activeOpacity={1}
         />
-      )}
+      </Animated.View>
       
       {/* Sidebar */}
-      <View style={[styles.sidebar, isSidebarOpen ? styles.sidebarOpen : styles.sidebarClosed]}>
+      <Animated.View 
+        style={[
+          styles.sidebar, 
+          { transform: [{ translateX: sidebarTranslateX }] }
+        ]}
+      >
         <View style={styles.sidebarHeader}>
           <Text style={styles.sidebarTitle}>Menu</Text>
           <TouchableOpacity onPress={toggleSidebar} style={styles.closeSidebarButton}>
@@ -223,7 +247,7 @@ export default function TabLayout() {
             <Text style={styles.menuItemText}>Sito FAI</Text>
           </TouchableOpacity>
         </View>
-      </View>
+      </Animated.View>
 
       {/* Barra arancione */}
       <View style={styles.themeBar} />
