@@ -15,7 +15,7 @@ interface FaiPoint {
   description?: string;
 }
 
-const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAI-nder/main/data/beni-fai.json';
+const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/main/data/beni-fai.json';
 const VISITED_STORAGE_KEY = 'fai_visited_places';
 
 // Funzione per decodificare entità HTML

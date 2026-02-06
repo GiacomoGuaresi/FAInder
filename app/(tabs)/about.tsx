@@ -14,7 +14,7 @@ export default function AboutScreen() {
   };
 
   const openGithubRepo = async () => {
-    await WebBrowser.openBrowserAsync('https://github.com/GiacomoGuaresi/FAI-nder');
+    await WebBrowser.openBrowserAsync('https://github.com/GiacomoGuaresi/FAInder');
   };
 
   return (

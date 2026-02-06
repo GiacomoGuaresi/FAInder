@@ -24,7 +24,7 @@ interface SearchResult {
   lon: string;
 }
 
-const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAI-nder/main/data/beni-fai.json';
+const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/main/data/beni-fai.json';
 const VISITED_STORAGE_KEY = 'fai_visited_places';
 const FAVORITES_STORAGE_KEY = 'fai_favorites_places';
 const NOT_INTERESTED_STORAGE_KEY = 'fai_not_interested_places';

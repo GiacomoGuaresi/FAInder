@@ -33,62 +33,80 @@ Il progetto **non sostituisce**, **non replica** e **non intende competere** con
 
 ---
 
-## � Setup Sviluppo
+## 🛠️ Setup Sviluppo
 
 ### Prerequisiti
 - Node.js (v18 o superiore)
 - Expo CLI
-- Account Google Cloud per Google Maps API
+- Python 3.11+ (per lo script di scraping)
+- npm o yarn
 
-### Configurazione Google Maps
+### Configurazione Ambiente
 
-1. **Ottieni una API Key**:
-   - Vai su [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
-   - Crea un nuovo progetto o seleziona uno esistente
-   - Abilita le API necessarie:
-     - Maps SDK for Android
-     - Maps SDK for iOS
-     - (Opzionale) Places API per la ricerca
-
-2. **Configura le variabili d'ambiente**:
-   ```bash
-   # Copia il template .env
-   cp .env.example .env
-   
-   # Modifica .env con la tua API key
-   EXPO_PUBLIC_GOOGLE_MAPS_API_KEY=la_tua_api_key_qui
-   ```
-
-3. **Installa le dipendenze**:
+1. **Installa le dipendenze**:
    ```bash
    npm install
    ```
 
-4. **Avvia l'app**:
+2. **Avvia l'app**:
    ```bash
    npm start
    # oppure
    expo start
    ```
 
+**Nota**: L'app utilizza OpenStreetMap e non richiede API key per funzionare. Assicurati di avere configurato correttamente `eas.json` per le credenziali di build.
+
 ### Build di Produzione
 
-Per la build di produzione, assicurati che:
-- La API key sia configurata correttamente nel file `.env`
-- Le API necessarie siano abilitate nel tuo progetto Google Cloud
-- La API key abbia le restrizioni corrette per Android/iOS
+Per la build di produzione:
 
 ```bash
 # Build Android
-expo build:android
+eas build --platform android
 
 # Build iOS  
-expo build:ios
+eas build --platform ios
+
+# Build Web
+eas build --platform web
 ```
 
 ---
 
-## �📦 Contenuto del repository
+## � Struttura del Progetto
+
+```
+FAInder/
+├── app/                    # Navigazione e schermate React Native
+│   ├── (tabs)/            # Tab navigation (Explore, About, etc.)
+│   ├── _layout.tsx        # Layout principale
+│   └── modal.tsx          # Componenti modali
+├── components/            # Componenti riutilizzabili
+│   ├── ui/               # Componenti UI base
+│   └── ...               # Altri componenti custom
+├── constants/            # Costanti dell'app (temi, configurazioni)
+├── data/                 # Dati generati (beni-fai.json)
+├── hooks/                # Custom hooks React
+├── scripts/              # Script di utilità
+│   ├── fetch_beni_fai.py # Script scraping dati FAI
+│   └── reset-project.js  # Reset progetto
+├── services/             # Servizi API e logica business
+├── assets/               # Risorse statiche (immagini, icone)
+├── .github/workflows/    # GitHub Actions (update automatico)
+└── docs/                 # Documentazione dettagliata
+```
+
+### Componenti Principali
+
+- **App Mobile**: React Native con Expo Router per navigazione
+- **Data Pipeline**: Script Python per scraping e GitHub Actions per aggiornamento automatico
+- **Map Integration**: OpenStreetMap tramite react-native-maps
+- **Storage**: AsyncStorage per tracking locale luoghi visitati
+
+---
+
+## � Contenuto del repository
 
 Il repository include:
 
@@ -103,17 +121,98 @@ Il file JSON viene aggiornato automaticamente tramite GitHub Actions.
 
 ---
 
-## 🔗 Fonte dei dati
+## 🔌 API e Dati
 
-I dati provengono esclusivamente da **endpoint pubblici** della piattaforma:
+### Fonte dei Dati
 
-https://platform.fondoambiente.it
+I dati provengono esclusivamente da **endpoint pubblici** della piattaforma FAI:
+
+```
+https://platform.fondoambiente.it/api/luoghi/faixme
+```
+
+### Struttura dei Dati
+
+Il file `data/beni-fai.json` contiene un array di oggetti con la seguente struttura:
+
+```json
+{
+  "id": "12345",
+  "title": "Nome del Luogo",
+  "lat": 45.1234,
+  "lng": 9.5678,
+  "url": "https://fondoambiente.it/luoghi/slug-del-luogo",
+  "description": "Descrizione pulita del luogo"
+}
+```
+
+### Script di Scraping
+
+Lo script `scripts/fetch_beni_fai.py` esegue le seguenti operazioni:
+
+1. **Paginazione**: Recupera i dati paginati dall'API FAI
+2. **Filtraggio**: Mantiene solo luoghi con coordinate valide
+3. **Pulizia**: Rimuovi tag HTML dalle descrizioni
+4. **Normalizzazione**: Formatta i dati in struttura coerente
+5. **Output**: Salva in formato JSON leggibile
+
+### Aggiornamento Automatico
+
+I dati vengono aggiornati automaticamente tramite GitHub Actions:
+- **Frequenza**: Ogni giorno a mezzanotte (UTC)
+- **Trigger**: Manuale via `workflow_dispatch`
+- **Output**: Commit automatico con timestamp
 
 Vengono utilizzate **solo informazioni già accessibili pubblicamente**, senza autenticazione, login o aggiramento di sistemi di protezione.
 
 ---
 
-## ⚠️ Disclaimer e dissociazione
+## 🚀 Sviluppo
+
+### Workflow Locale
+
+1. **Setup Ambiente**:
+   ```bash
+   # Clona il repository
+   git clone https://github.com/GiacomoGuaresi/FAI-nder.git
+   cd FAI-nder
+   
+   # Installa dipendenze
+   npm install
+   ```
+
+2. **Sviluppo App**:
+   ```bash
+   # Avvia development server
+   npm start
+   
+   # Test su dispositivo/simulator
+   npm run android    # Android
+   npm run ios        # iOS  
+   npm run web        # Web
+   ```
+
+3. **Aggiornamento Dati**:
+   ```bash
+   # Manual update dei dati FAI
+   python scripts/fetch_beni_fai.py
+   ```
+
+### Debug e Testing
+
+- **Debug**: Usa Expo DevTools per ispezionare l'app
+- **Logs**: Controlla console Metro per errori runtime
+- **Testing**: I test sono nella cartella `__tests__/`
+
+### Code Style
+
+- **Linting**: `npm run lint` per controllare stile codice
+- **TypeScript**: Configurazione in `tsconfig.json`
+- **ESLint**: Regole in `eslint.config.js`
+
+---
+
+## 🤝 Contribuire
 
 Questo progetto **NON è affiliato, sponsorizzato o approvato** dal Fondo Ambiente Italiano (FAI).
 
@@ -125,7 +224,29 @@ Se il FAI o altri titolari dei diritti ritengono che questo progetto violi in qu
 
 ---
 
-## 🧭 Utilizzo dei dati
+## � Contribuire
+
+### Come Contribuire
+
+1. **Fork** il repository
+2. **Crea un branch**: `git checkout -b feature/nuova-funzionalita`
+3. **Commit**: `git commit -m 'Aggiungi nuova funzionalità'`
+4. **Push**: `git push origin feature/nuova-funzionalita`
+5. **Pull Request**: Apri una PR su GitHub
+
+### Aree di Contributo
+
+- **Bug Fix**: Correzioni e miglioramenti
+- **Features**: Nuove funzionalità per l'app
+- **Documentation**: Miglioramento documentazione
+- **Data Quality**: Miglioramento script scraping
+
+### Linee Guida
+
+- Mantieni il codice pulito e commentato
+- Segui le convenzioni TypeScript/React
+- Testa le modifiche su più piattaforme
+- Aggiorna la documentazione se necessario
 
 I dati generati da questo progetto sono destinati a:
 
@@ -138,7 +259,17 @@ Non è garantita l’accuratezza, completezza o attualità delle informazioni.
 
 ---
 
-## 🛠️ Tecnologie utilizzate
+## � Documentazione Dettagliata
+
+Per documentazione tecnica approfondita, consulta la cartella [`docs/`](./docs):
+
+- **[🚀 Sviluppo](./docs/DEVELOPMENT.md)** - Guida completa sviluppo app mobile
+- **[🔌 API & Dati](./docs/API.md)** - Documentazione API FAI e scraping
+- **[🤝 Contribuire](./docs/CONTRIBUTING.md)** - Guida contributi al progetto
+
+---
+
+## �️ Tecnologie utilizzate
 
 ### Backend e Dati
 - Python (scraping e normalizzazione dati)
@@ -158,8 +289,29 @@ Non è garantita l’accuratezza, completezza o attualità delle informazioni.
 
 ## 📜 Licenza
 
-Il codice del progetto è distribuito sotto licenza **MIT**.  
-I dati rimangono soggetti alle condizioni d’uso del sito di origine.
+Il codice del progetto è distribuito sotto licenza **MIT License**.
+
+- **Codice**: [MIT License](./LICENSE) - uso, modifica, distribuzione liberi
+- **Dati**: Soggetti alle condizioni d'uso del sito FAI di origine
+- **Attribuzione**: Mantenere copyright e licenza in copie
+
+### Cosa Puoi Fare
+
+✅ **Uso Commerciale**: Utilizzare il software per scopi commerciali  
+✅ **Modifica**: Modificare il codice sorgente  
+✅ **Distribuzione**: Distribuire copie modificate o originali  
+✅ **Uso Privato**: Utilizzare privatamente senza obbligo di distribuzione  
+
+### Condizioni
+
+⚠️ **Copyright**: Includere il copyright originale in tutte le copie  
+⚠️ **License**: Includere una copia della licenza MIT  
+⚠️ **Attribution**: Mantenere notice di copyright e licenza  
+
+### Limitazioni
+
+❌ **Responsabilità**: Nessuna garanzia o responsabilità dell'autore  
+❌ **Dati FAI**: I dati dei beni FAI rimangono di proprietà del FAI  
 
 ---
 
@@ -167,4 +319,4 @@ I dati rimangono soggetti alle condizioni d’uso del sito di origine.
 
 Per segnalazioni, richieste o problemi:
 - apri una **Issue** su GitHub
-- oppure contatta l’autore tramite il profilo GitHub
+- oppure contatta l'autore tramite il profilo GitHub
