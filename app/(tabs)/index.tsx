@@ -317,8 +317,17 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId) {
                   var isVisited = visitedIds.has(layer._faiPointId);
-                  var color = isVisited ? '#666666' : '#e74f30';
-                  var opacity = isVisited ? 0.4 : 1;
+                  var color, opacity, size;
+                  
+                  if (isVisited) {
+                    color = '#4CAF50'; // Verde per visitati
+                    opacity = 1;
+                    size = 16; // Più piccolo per visitati
+                  } else {
+                    color = '#e74f30'; // Rosso per normali
+                    opacity = 1;
+                    size = 24; // Grande per luoghi da visitare
+                  }
                   // Update marker icon
                   var newIcon = L.divIcon({
                     html: '<div style="background-color: ' + color + '; opacity: ' + opacity + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 3px 6px rgba(0,0,0,0.4);"></div>',
@@ -387,8 +396,17 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId) {
                   var isVisited = visitedIds.has(layer._faiPointId);
-                  var color = isVisited ? '#666666' : '#e74f30';
-                  var opacity = isVisited ? 0.4 : 1;
+                  var color, opacity, size;
+                  
+                  if (isVisited) {
+                    color = '#4CAF50'; // Verde per visitati
+                    opacity = 1;
+                    size = 16; // Più piccolo per visitati
+                  } else {
+                    color = '#e74f30'; // Rosso per normali
+                    opacity = 1;
+                    size = 24; // Grande per luoghi da visitare
+                  }
                   // Update marker icon
                   var newIcon = L.divIcon({
                     html: '<div style="background-color: ' + color + '; opacity: ' + opacity + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 3px 6px rgba(0,0,0,0.4);"></div>',

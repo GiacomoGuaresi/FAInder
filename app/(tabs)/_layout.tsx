@@ -244,7 +244,7 @@ export default function TabLayout() {
             headerShown: true,
             header: () => (
               <View style={styles.propertiesHeader}>
-                <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+                <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
                   <Ionicons name="arrow-back" size={24} color="#333333" />
                 </TouchableOpacity>
                 <Text style={styles.propertiesHeaderTitle}>I Miei Beni</Text>
