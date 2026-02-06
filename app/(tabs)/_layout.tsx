@@ -87,7 +87,7 @@ export default function TabLayout() {
         <Tabs.Screen
           name="explore"
           options={{
-            title: 'Carta FAI',
+            title: 'Tessera FAI',
             tabBarIcon: ({ color }) => <IconSymbol size={28} name="creditcard.fill" color={color} />,
           }}
         />

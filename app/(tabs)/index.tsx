@@ -752,7 +752,7 @@ export default function MapScreen() {
             <Ionicons name="search" size={20} color="#666" style={styles.searchIcon} />
             <TextInput
               style={styles.searchInput}
-              placeholder="Cerca un indirizzo o luogo..."
+              placeholder="Cerca Luogo"
               value={searchQuery}
               onChangeText={setSearchQuery}
               onSubmitEditing={() => {
