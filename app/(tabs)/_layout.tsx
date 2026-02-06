@@ -10,12 +10,9 @@ import { useColorScheme } from '@/hooks/use-color-scheme';
 
 const logo: ImageSourcePropType = require('@/assets/images/LOGO.png');
 
-function CustomHeader({ onMenuPress }: { onMenuPress: () => void }) {
+function CustomHeader() {
   return (
     <View style={styles.header}>
-      <TouchableOpacity onPress={onMenuPress} style={styles.menuButton}>
-        <Ionicons name="menu" size={24} color="#333333" />
-      </TouchableOpacity>
       <View style={styles.logoContainer}>
         <Image source={logo} style={styles.logo} resizeMode="contain" />
         <Text style={styles.headerTitle}>FAInder</Text>
@@ -29,7 +26,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     flexDirection: 'row',
     alignItems: 'center',
-    paddingLeft: 16,
     paddingTop: 14,
     paddingBottom: 12,
     borderBottomWidth: 1,
@@ -44,16 +40,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     flex: 1,
+    paddingLeft: 16,
   },
   logo: {
     width: 80,
     height: 32,
     tintColor: '#e74f30',
-    marginRight: -20
-  },
-  menuButton: {
-    padding: 8,
-    marginRight: 16,
+    marginRight: -20,
+    marginLeft: -20,
   },
   themeBar: {
     height: 28,
@@ -260,7 +254,7 @@ export default function TabLayout() {
           },
           tabBarActiveBackgroundColor: '#e74f30',
           headerShown: true,
-          header: () => <CustomHeader onMenuPress={toggleSidebar} />,
+          header: () => <CustomHeader />,
           headerStyle: {
             backgroundColor: 'white',
             borderBottomWidth: 1,
@@ -269,6 +263,20 @@ export default function TabLayout() {
           headerTintColor: '#e74f30',
           tabBarButton: HapticTab,
         }}>
+        <Tabs.Screen
+          name="menu"
+          options={{
+            title: 'Menu',
+            tabBarIcon: ({ color }) => <Ionicons name="menu" size={28} color={color} />,
+            headerShown: false,
+          }}
+          listeners={{
+            tabPress: (e) => {
+              e.preventDefault();
+              toggleSidebar();
+            },
+          }}
+        />
         <Tabs.Screen
           name="index"
           options={{
