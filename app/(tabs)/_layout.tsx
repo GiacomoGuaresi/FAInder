@@ -9,6 +9,7 @@ import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
 const logo: ImageSourcePropType = require('@/assets/images/LOGO.png');
+const faiFavicon: ImageSourcePropType = require('@/assets/images/fai-website-favicon.png'); // TODO: Download from fondoambiente.it
 
 function CustomHeader() {
   return (
@@ -82,6 +83,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 16,
+    paddingTop:36,
+    paddingBottom:8,
     borderBottomWidth: 1,
     borderBottomColor: '#e0e0e0',
   },
@@ -238,21 +241,21 @@ export default function TabLayout() {
             style={styles.menuItem}
             onPress={navigateToLuoghiPreferiti}
           >
-            <Ionicons name="star" size={20} color="#e74f30" style={styles.menuItemIcon} />
+            <Ionicons name="star" size={20} color="#FFD700" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>Luoghi Preferiti</Text>
           </TouchableOpacity>
           <TouchableOpacity 
             style={styles.menuItem}
             onPress={navigateToLuoghiVisitati}
           >
-            <Ionicons name="checkmark-circle" size={20} color="#e74f30" style={styles.menuItemIcon} />
+            <Ionicons name="checkmark-circle" size={20} color="#4CAF50" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>Luoghi Visitati</Text>
           </TouchableOpacity>
           <TouchableOpacity 
             style={styles.menuItem}
             onPress={navigateToLuoghiNonInteressati}
           >
-            <Ionicons name="eye-off" size={20} color="#e74f30" style={styles.menuItemIcon} />
+            <Ionicons name="eye-off" size={20} color="#666" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>Luoghi Non Interessati</Text>
           </TouchableOpacity>
           <TouchableOpacity 
@@ -262,18 +265,21 @@ export default function TabLayout() {
             <Ionicons name="map" size={20} color="#e74f30" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>Tutti gli Altri Luoghi</Text>
           </TouchableOpacity>
+          
+          <View style={{ flex: 1 }} />
+          
           <TouchableOpacity 
-            style={styles.menuItem}
+            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#f0f0f0' }]}
             onPress={navigateToAbout}
           >
             <Ionicons name="information-circle-outline" size={20} color="#e74f30" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>About</Text>
           </TouchableOpacity>
           <TouchableOpacity 
-            style={styles.menuItem}
+            style={[styles.menuItem, { borderBottomWidth: 0 }]}
             onPress={openFaiWebsite}
           >
-            <Ionicons name="globe" size={20} color="#e74f30" style={styles.menuItemIcon} />
+            <Image source={faiFavicon} style={[styles.menuItemIcon, { width: 20, height: 20, resizeMode: 'contain' }]} />
             <Text style={styles.menuItemText}>Sito FAI</Text>
           </TouchableOpacity>
         </View>
@@ -282,6 +288,7 @@ export default function TabLayout() {
       {/* Barra arancione */}
       <View style={styles.themeBar} />
       <Tabs
+        initialRouteName="index"
         screenOptions={{
           tabBarActiveTintColor: 'white',
           tabBarInactiveTintColor: '#e74f30',

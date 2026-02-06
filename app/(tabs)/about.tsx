@@ -69,26 +69,41 @@ export default function AboutScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Sviluppatore</Text>
-          <Text style={styles.sectionText}>
-            FAInder è stato sviluppato con ❤️ da Giacomo Guaresi
-          </Text>
+          <View style={styles.developerItem}>
+            <Ionicons name="heart" size={16} color="#e74f30" style={styles.developerIcon} />
+            <Text style={styles.sectionText}>
+              FAInder è stato sviluppato con passione da Giacomo Guaresi
+            </Text>
+          </View>
         </View>
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Disclaimer</Text>
           <View style={styles.disclaimerContainer}>
-            <Text style={styles.sectionText}>
-              🚨 FAInder non è un'applicazione ufficiale del Fondo Ambiente Italiano (FAI).
-            </Text>
-            <Text style={styles.sectionText}>
-              📱 È un progetto indipendente sviluppato a scopo non commerciale e senza fini di lucro.
-            </Text>
-            <Text style={styles.sectionText}>
-              🌍 L'app mira a promuovere la conoscenza e la visita dei beni culturali italiani.
-            </Text>
-            <Text style={styles.sectionText}>
-              🔓 Il codice sorgente è completamente open source e disponibile su GitHub.
-            </Text>
+            <View style={styles.disclaimerItem}>
+              <Ionicons name="warning" size={16} color="#e74f30" style={styles.disclaimerIcon} />
+              <Text style={styles.sectionText}>
+                FAInder non è un'applicazione ufficiale del Fondo Ambiente Italiano (FAI).
+              </Text>
+            </View>
+            <View style={styles.disclaimerItem}>
+              <Ionicons name="phone-portrait" size={16} color="#e74f30" style={styles.disclaimerIcon} />
+              <Text style={styles.sectionText}>
+                È un progetto indipendente sviluppato a scopo non commerciale e senza fini di lucro.
+              </Text>
+            </View>
+            <View style={styles.disclaimerItem}>
+              <Ionicons name="globe" size={16} color="#e74f30" style={styles.disclaimerIcon} />
+              <Text style={styles.sectionText}>
+                L'app mira a promuovere la conoscenza e la visita dei beni culturali italiani.
+              </Text>
+            </View>
+            <View style={styles.disclaimerItem}>
+              <Ionicons name="code" size={16} color="#e74f30" style={styles.disclaimerIcon} />
+              <Text style={styles.sectionText}>
+                Il codice sorgente è completamente open source e disponibile su GitHub.
+              </Text>
+            </View>
           </View>
         </View>
 
@@ -116,9 +131,12 @@ export default function AboutScreen() {
         </TouchableOpacity>
         
         <View style={styles.footer}>
-          <Text style={styles.footerText}>
-            Made with ❤️ for Italian cultural heritage
-          </Text>
+          <View style={styles.footerItem}>
+            <Ionicons name="heart" size={14} color="#e74f30" style={styles.footerIcon} />
+            <Text style={styles.footerText}>
+              Made with passion for Italian cultural heritage
+            </Text>
+          </View>
         </View>
       </ScrollView>
     </View>
@@ -250,5 +268,28 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#999',
     fontStyle: 'italic',
+  },
+  disclaimerItem: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    marginBottom: 8,
+  },
+  disclaimerIcon: {
+    marginRight: 10,
+    marginTop: 4,
+  },
+  developerItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  developerIcon: {
+    marginRight: 10,
+  },
+  footerItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  footerIcon: {
+    marginRight: 8,
   },
 });
