@@ -6608,14 +6608,6 @@
     "description": "Per iscritti FAI riduzione del 10% per la consumazione presso l&#39;Osteria Al Vecchio Bacucco a Ossuccio (CO) DESCRIZIONE Il Ristorante Osteria &ldquo;Al Vecchio Bacucco&rdquo; &egrave; situato a Ossuccio, a 200 mt dal lago. Dalla sala interna e dalla terrazza il panorama sull&rsquo;Isola Comacina &egrave; incantevole. COSA OFFRE Il ristorante propone cucina casalinga, con piatti tipici di carne e pesce di lago."
   },
   {
-    "id": 40019,
-    "title": "VILLA CARLOTTA",
-    "lat": 45.9864134,
-    "lng": 9.2308133,
-    "url": "https://fondoambiente.it/luoghi/villa-carlotta-tremezzo-40019",
-    "description": "&nbsp;Per iscritti FAI biglietto ridotto, 14 euro invece che 17,50 euro, per la visita a Villa Carlotta - Tremezzina (CO) Per restare aggiornati sugli eventi in giardino e in museo visitate il sito www.villacarlotta.it DESCRIZIONE Villa Carlotta conserva e valorizza un patrimonio storico-artistico e botanico tipico del Lago di Como: da oltre trecento anni, natura e architettura convivono in perfetta armonia. COSA VEDERE Alla fine del 1600, il marchese Giorgio Clerici fece edificare una splendida dimora, imponente ma sobria, circondata da un giardino all&#39;italiana. All&#39;interno delle sale &egrave; allestito un museo: Giovanni Battista Sommariva, nei primi anni dell&rsquo;800, acquist&ograve; una serie di capolavori dei maggiori artisti della sua epoca, tra i quali Antonio Canova e Bertel Thorvaldsen, oltre al famosissimo dipinto che raffigura l&rsquo;Ultimo bacio di Francesco Hayez, del 1823. Al secondo piano si trovano i mobili, le stanze private e gli oggetti della principessa Carlotta, che a met&agrave; Ottocento ricevette in dono la Villa in occasione delle nozze con Giorgio II, duca di Sassonia-Meiningen. Per restare aggiornati sugli eventi: www.villacarlotta.it Inoltre a pochi passi, si trova Villa del Balbianello, Bene FAI dal 1988"
-  },
-  {
     "id": 104856,
     "title": "VILLA MAINONA",
     "lat": 45.9821681,
@@ -6910,6 +6902,14 @@
     "lng": 9.2611395,
     "url": "https://fondoambiente.it/luoghi/villa-monastero",
     "description": "Per iscritti FAI riduzione fino al 20% per la visita alla Casa Museo Villa Monastero a Varenna (LC) si applica la riduzione anche all&rsquo;ingresso al Giardino botanico e alla Casa museo e per l&rsquo;ingresso al Giardino botanico, infine per il cumulativo al Giardino di Villa Cipresso Villa Monastero &egrave; nata dalla trasformazione di un antico monastero femminile di fondazione cistercense e dedicato a Maria Vergine sorto alla fine del secolo XII. La Villa vide il susseguirsi di diversi proprietari &ndash; dai valsassinesi Mornico a Carolina Maumari, nipote di Enrichetta Blondel, prima moglie di Alessandro Manzoni, al tedesco Walter Kees, giungendo infine ai milanesi De Marchi di origini svizzere (cui &egrave; intitolata la Sala Polifunzionale di Varenna). A questi spettarono i dispendiosi lavori di edificazione e ristrutturazione che le conferirono nel tempo il suo attuale aspetto di dimora eclettica. Nel 1939 venne donata allo Stato, dai De Marchi appunto, con l&rsquo;obbligo di conservarla ed adibirla ad istituzioni culturali di pubblico beneficio; fu cos&igrave; che quattordici anni pi&ugrave; tardi, nel 1953, sorse il Centro Congressi, che ancor oggi accoglie convegni a carattere culturale e scientifico, tra i quali ricordiamo i corsi estivi della prestigiosa Scuola Italiana di Fisica che ha visto la presenza di pi&ugrave; di 60 Premi Nobel. Nel 2003 viene realizzata la Casa Museo in cui si articola il percorso museale che copre ben 14 sale, dando la possibilit&agrave; ai visitatori di ammirare decorazioni e mobili originari. Fra le stanze pi&ugrave; importanti troviamo la Sala Nera, in stile neo-rinascimentale, la Sala della Musica, il Salottino Mornico,&nbsp; la Sala Rossa, con tappezzerie ed arredi neorococ&ograve;, la Sala Fermi, nella quale il fisico Enrico Fermi tenne le sue ultime lezioni nel 1954. A coronamento di questo elegante edificio troviamo lo splendido Giardino, ricco di specie botaniche rare ed esotiche, che si estende per quasi 2 chilometri lungo il fronte lago da Varenna a Fiumelatte. Annualmente ca. 100.000 visitatori si immergono in un percorso di colori e profumi, svago e apprendimento grazie alla presenza di numerose e rare specie arboree autoctone ed esotiche, pi&ugrave; di 900, che hanno consentito il riconoscimento del Giardino botanico."
+  },
+  {
+    "id": 40019,
+    "title": "VILLA CARLOTTA",
+    "lat": 45.985856,
+    "lng": 9.2280594,
+    "url": "https://fondoambiente.it/luoghi/villa-carlotta-tremezzo-40019",
+    "description": "&nbsp;Per iscritti FAI biglietto ridotto, 14 euro invece che 17,50 euro, per la visita a Villa Carlotta - Tremezzina (CO) Per restare aggiornati sugli eventi in giardino e in museo visitate il sito www.villacarlotta.it DESCRIZIONE Villa Carlotta conserva e valorizza un patrimonio storico-artistico e botanico tipico del Lago di Como: da oltre trecento anni, natura e architettura convivono in perfetta armonia. COSA VEDERE Alla fine del 1600, il marchese Giorgio Clerici fece edificare una splendida dimora, imponente ma sobria, circondata da un giardino all&#39;italiana. All&#39;interno delle sale &egrave; allestito un museo: Giovanni Battista Sommariva, nei primi anni dell&rsquo;800, acquist&ograve; una serie di capolavori dei maggiori artisti della sua epoca, tra i quali Antonio Canova e Bertel Thorvaldsen, oltre al famosissimo dipinto che raffigura l&rsquo;Ultimo bacio di Francesco Hayez, del 1823. Al secondo piano si trovano i mobili, le stanze private e gli oggetti della principessa Carlotta, che a met&agrave; Ottocento ricevette in dono la Villa in occasione delle nozze con Giorgio II, duca di Sassonia-Meiningen. Per restare aggiornati sugli eventi: www.villacarlotta.it Inoltre a pochi passi, si trova Villa del Balbianello, Bene FAI dal 1988"
   },
   {
     "id": 118570,
@@ -11094,14 +11094,6 @@
     "lng": 15.2738,
     "url": "https://fondoambiente.it/luoghi/lungomare-di-siracusa",
     "description": "Per gli iscritti FAI biglietto ridotto fino al 50% per tutti i siti museali, gallerie e siti archeologici della Regione Siciliana. SCOPRI TUTTI I LUOGHI CON BIGLIETTO RIDOTTO Area archeologica e Antiquarium di Megara Hyblaea, Augusta Museo archeologico regionale di Lentini Area archeologica e Villa Romana del Tellaro, Noto Area archeologica di Akrai, Palazzolo Acreide Museo archeologico di Palazzo Cappellani, Palazzolo Acreide Castello Maniace, Siracusa Galleria regionale di Palazzo Bellomo di Siracusa &ndash; Museo interdisciplinare Area archeologica Castello Eurialo, Siracusa Percorso ipogeico di Piazza Duomo, Siracusa Museo archeologico regionale Paolo Orsi di Siracusa Area archeologica della Neapolis, Orecchio di Dionisio e Teatro Greco, Siracusa &nbsp;"
-  },
-  {
-    "id": 40340,
-    "title": "TEATRO GRECO DI SIRACUSA",
-    "lat": 37.0752056,
-    "lng": 15.2775421,
-    "url": "https://fondoambiente.it/luoghi/teatro-greco-di-siracusa",
-    "description": "Per gli iscritti FAI riduzione fino al 15% sul prezzo dei biglietti, esclusi posti numerati del settore A-B-C-D il venerd&igrave; e il sabato, del Teatro Greco di Siracusa. Per usufruire della riduzione scrivere alla seguente email&nbsp;biglietteria@indafondazione.org&nbsp;&nbsp;inviando i dati della prenotazione e allegando la tessera FAI in corso di validit&agrave;. N:B&nbsp;La convenzione &egrave; valida per tutte le date escluse quelle a prezzo unico DESCRIZIONE&nbsp; Il Teatro Greco rappresenta il maggiore esempio dell&rsquo;architettura teatrale dell&rsquo;occidente greco. Ha la particolarit&agrave; di essere quasi interamente scavato nella roccia.Oltre che per le rappresentazioni, cos&igrave; com&rsquo;era costume per gli antichi greci, il teatro veniva usato per le assemblee popolari. Dopo essere stato adattato in epoca imperiale ai giochi circensi, il teatro cadde in abbandono. Nel XVI secolo, cos&igrave; come gli altri monumenti classici, fu depredato dalle maestranze spagnole di Carlo V che usarono la buona pietra gi&agrave; tagliata per erigere le fortificazioni di Ortigia. Altri guasti vennero dai mulini che erano stati impiantati nella cavea. Gli scavi, iniziati alla fine del Settecento e protrattisi per tutto il secolo successivo sono stati completati solo nella met&agrave; del Novecento. Pur nella diversit&agrave;, anche sostanziale, di opinioni degli studiosi sulla genesi del monumento, &egrave; generalmente accettato che la forma attuale risalirebbe all&rsquo;opera di ristrutturazione degli anni 238 &ndash; 215 a.C. sotto il regno di Ierone II. Il teatro si compone di tre parti: koilon (o c&agrave;vea), orchestra e scena. SCOPRI LA PROGRAMMAZIONE&nbsp; &nbsp;"
   },
   {
     "id": 115838,
