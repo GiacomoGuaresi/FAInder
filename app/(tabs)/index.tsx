@@ -7,7 +7,12 @@ import { ActivityIndicator, Modal, StyleSheet, Text, TextInput, TouchableOpacity
 import { WebView } from 'react-native-webview';
 
 import { ErrorBoundary } from '@/components/error-boundary';
+import { useCategoryContext } from '../../contexts/CategoryContext';
 
+interface Category {
+  id: number;
+  name: string;
+}
 
 interface FaiPoint {
   id: number;
@@ -16,6 +21,7 @@ interface FaiPoint {
   lng: number;
   url: string;
   description?: string;
+  categories?: Category[];
 }
 
 interface SearchResult {
@@ -447,6 +453,7 @@ export default function MapScreen() {
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
   const [searchLoading, setSearchLoading] = useState(false);
   const [showSearchResults, setShowSearchResults] = useState(false);
+  const { availableCategories, setAvailableCategories, selectedCategories, toggleCategory } = useCategoryContext();
   const mapRef = useRef<WebView>(null);
 
   useEffect(() => {
@@ -478,12 +485,36 @@ export default function MapScreen() {
         }
         const data: FaiPoint[] = await response.json();
         setFaiPoints(data);
+        
+        // Extract unique categories
+        const categoryMap = new Map<number, string>();
+        data.forEach(point => {
+          if (point.categories) {
+            point.categories.forEach(category => {
+              categoryMap.set(category.id, category.name);
+            });
+          }
+        });
+        const uniqueCategories = Array.from(categoryMap.entries()).map(([id, name]) => ({ id, name }));
+        setAvailableCategories(uniqueCategories.sort((a, b) => a.name.localeCompare(b.name)));
       } catch (error) {
         console.error('Error fetching FAI points:', error);
         // Fallback to local data if remote fails
         try {
-          const localData = require('../../data/beni-fai.json');
+          const localData: FaiPoint[] = require('../../data/beni-fai.json');
           setFaiPoints(localData);
+          
+          // Extract unique categories from local data
+          const categoryMap = new Map<number, string>();
+          localData.forEach(point => {
+            if (point.categories) {
+              point.categories.forEach(category => {
+                categoryMap.set(category.id, category.name);
+              });
+            }
+          });
+          const uniqueCategories = Array.from(categoryMap.entries()).map(([id, name]) => ({ id, name }));
+          setAvailableCategories(uniqueCategories.sort((a, b) => a.name.localeCompare(b.name)));
         } catch (localError) {
           console.error('Error loading local data:', localError);
         }
@@ -531,6 +562,16 @@ export default function MapScreen() {
       }
     })();
   }, []);
+
+  const getFilteredPoints = useCallback(() => {
+    if (selectedCategories.size === 0) {
+      return faiPoints;
+    }
+    return faiPoints.filter(point => 
+      point.categories && 
+      point.categories.some(category => selectedCategories.has(category.id))
+    );
+  }, [faiPoints, selectedCategories]);
 
   const toggleVisited = useCallback(async (id: number) => {
     setVisitedIds((prev) => {
@@ -804,12 +845,12 @@ export default function MapScreen() {
         <WebView
           ref={mapRef}
           style={styles.map}
-          source={{ html: generateMapHTML(faiPoints, visitedIds, favoritesIds, notInterestedIds, location || undefined) }}
+          source={{ html: generateMapHTML(getFilteredPoints(), visitedIds, favoritesIds, notInterestedIds, location || undefined) }}
           onMessage={handleWebViewMessage}
           javaScriptEnabled={true}
           domStorageEnabled={true}
           startInLoadingState={true}
-          key={`${faiPoints.length}-${location?.coords.latitude}-${location?.coords.longitude}`}
+          key={`${getFilteredPoints().length}-${location?.coords.latitude}-${location?.coords.longitude}-${Array.from(selectedCategories).join(',')}`}
           renderLoading={() => (
             <View style={styles.center}>
               <ActivityIndicator size="large" color="#007AFF" />
@@ -879,6 +920,21 @@ export default function MapScreen() {
               ) : (
                 <Text style={styles.modalDescriptionPlaceholder}>Nessuna descrizione disponibile</Text>
               )}
+              
+              {/* Categories */}
+              {selectedPoint?.categories && selectedPoint.categories.length > 0 && (
+                <View style={styles.categoriesContainer}>
+                  <Text style={styles.categoriesTitle}>Categorie:</Text>
+                  <View style={styles.categoriesList}>
+                    {selectedPoint.categories.map((category) => (
+                      <View key={category.id} style={styles.categoryBadge}>
+                        <Text style={styles.categoryBadgeText}>{category.name}</Text>
+                      </View>
+                    ))}
+                  </View>
+                </View>
+              )}
+              
               {selectedPoint && visitedIds.has(selectedPoint.id) && (
                 <View style={styles.visitedBadge}>
                   <Ionicons name="checkmark" size={12} color="#4CAF50" />
@@ -1173,5 +1229,32 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     fontSize: 14,
+  },
+  categoriesContainer: {
+    width: '100%',
+    marginTop: 12,
+    marginBottom: 8,
+  },
+  categoriesTitle: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 6,
+  },
+  categoriesList: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 6,
+  },
+  categoryBadge: {
+    backgroundColor: '#f0f0f0',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+  },
+  categoryBadgeText: {
+    fontSize: 12,
+    color: '#666',
+    fontWeight: '500',
   },
 });

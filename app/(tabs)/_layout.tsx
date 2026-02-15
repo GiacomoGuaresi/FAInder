@@ -2,11 +2,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { Tabs, useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 import React, { useRef, useState } from 'react';
-import { Animated, Image, ImageSourcePropType, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Animated, Image, ImageSourcePropType, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { useCategoryContext } from '../../contexts/CategoryContext';
 
 const logo: ImageSourcePropType = require('@/assets/images/LOGO.png');
 const faiFavicon: ImageSourcePropType = require('@/assets/images/fai-website-favicon.png'); // TODO: Download from fondoambiente.it
@@ -146,12 +147,76 @@ const styles = StyleSheet.create({
   placeholder: {
     width: 40, // Match back button width for centering
   },
+  categorySection: {
+    marginTop: 8,
+    marginBottom: 8,
+  },
+  categoryHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 16,
+    paddingBottom: 8,
+  },
+  categoryTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#333333',
+  },
+  clearFiltersButton: {
+    padding: 4,
+  },
+  categoryList: {
+    paddingHorizontal: 16,
+  },
+  categoryItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderRadius: 6,
+    backgroundColor: '#f8f8f8',
+    marginBottom: 6,
+  },
+  categoryItemSelected: {
+    backgroundColor: '#e74f30',
+  },
+  categoryCheckbox: {
+    width: 20,
+    height: 20,
+    borderRadius: 4,
+    borderWidth: 2,
+    borderColor: '#ccc',
+    marginRight: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  categoryCheckboxSelected: {
+    backgroundColor: '#e74f30',
+    borderColor: '#e74f30',
+  },
+  categoryCheckboxInner: {
+    width: 8,
+    height: 8,
+    backgroundColor: 'white',
+    borderRadius: 2,
+  },
+  categoryText: {
+    fontSize: 14,
+    color: '#333',
+    flex: 1,
+  },
+  categoryTextSelected: {
+    color: 'white',
+    fontWeight: '500',
+  },
 });
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const router = useRouter();
+  const { availableCategories, selectedCategories, toggleCategory, clearCategories } = useCategoryContext();
   
   // Animation values
   const sidebarTranslateX = useRef(new Animated.Value(-280)).current;
@@ -237,6 +302,51 @@ export default function TabLayout() {
           </TouchableOpacity>
         </View>
         <View style={styles.sidebarContent}>
+          {/* Category Filter Section */}
+          {availableCategories.length > 0 && (
+            <View style={styles.categorySection}>
+              <View style={styles.categoryHeader}>
+                <Text style={styles.categoryTitle}>Filtra per Categoria</Text>
+                {selectedCategories.size > 0 && (
+                  <TouchableOpacity 
+                    onPress={clearCategories} 
+                    style={styles.clearFiltersButton}
+                  >
+                    <Ionicons name="close-circle" size={16} color="#e74f30" />
+                  </TouchableOpacity>
+                )}
+              </View>
+              <ScrollView style={styles.categoryList} showsVerticalScrollIndicator={false}>
+                {availableCategories.map((category) => {
+                  const isSelected = selectedCategories.has(category.id);
+                  return (
+                    <TouchableOpacity
+                      key={category.id}
+                      style={[
+                        styles.categoryItem,
+                        isSelected && styles.categoryItemSelected
+                      ]}
+                      onPress={() => toggleCategory(category.id)}
+                    >
+                      <View style={[
+                        styles.categoryCheckbox,
+                        isSelected && styles.categoryCheckboxSelected
+                      ]}>
+                        {isSelected && <View style={styles.categoryCheckboxInner} />}
+                      </View>
+                      <Text style={[
+                        styles.categoryText,
+                        isSelected && styles.categoryTextSelected
+                      ]}>
+                        {category.name}
+                      </Text>
+                    </TouchableOpacity>
+                  );
+                })}
+              </ScrollView>
+            </View>
+          )}
+
           <TouchableOpacity 
             style={styles.menuItem}
             onPress={navigateToLuoghiPreferiti}
