@@ -44,38 +44,116 @@ jobs:
       - name: Trigger Expo Build
         id: buildstart
         run: |
+          echo "Starting EAS build..."
           eas build \
             --platform android \
             --profile production \
             --non-interactive \
             --json > build_output.json
+          
+          echo "Build triggered successfully!"
+          echo "Build output:"
+          cat build_output.json
+          
+          # Extract build ID for reference
+          BUILD_ID=$(cat build_output.json | jq -r '.id // ""')
+          if [[ -n "$BUILD_ID" && "$BUILD_ID" != "null" ]]; then
+            echo "Build ID: $BUILD_ID"
+            echo "BUILD_ID=$BUILD_ID" >> $GITHUB_ENV
+          fi
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Wait a few seconds
-        run: sleep 15  # lascia il tempo a EAS di registrare la build
-
-      - name: List finished builds & extract download URL
-        id: listbuilds
+      - name: Wait for build to complete and get download URL
+        id: waitbuild
         run: |
-          BUILDS_JSON=$(eas build:list --platform android --status finished --limit 1 --json)
-
-          DOWNLOAD_URL=$(echo "$BUILDS_JSON" | jq -r '.[0].buildUrl')
-
-          if [[ -z "$DOWNLOAD_URL" || "$DOWNLOAD_URL" == "null" ]]; then
-            echo "❌ Unable to get buildUrl"
-            echo "$BUILDS_JSON"
+          echo "Waiting for build to complete..."
+          BUILD_ID=""
+          DOWNLOAD_URL=""
+          MAX_ATTEMPTS=60  # 30 minutes max wait (60 * 30 seconds)
+          ATTEMPT=0
+          
+          while [[ $ATTEMPT -lt $MAX_ATTEMPTS ]]; do
+            echo "Attempt $((ATTEMPT + 1))/$MAX_ATTEMPTS"
+            
+            # Get the latest build
+            BUILDS_JSON=$(eas build:list --platform android --limit 1 --json)
+            
+            # Check if we have any builds
+            if [[ -z "$BUILDS_JSON" || "$BUILDS_JSON" == "[]" ]]; then
+              echo "No builds found yet..."
+            else
+              # Get the status of the latest build
+              BUILD_STATUS=$(echo "$BUILDS_JSON" | jq -r '.[0].status // "unknown"')
+              BUILD_ID=$(echo "$BUILDS_JSON" | jq -r '.[0].id // ""')
+              
+              echo "Build status: $BUILD_STATUS"
+              echo "Build ID: $BUILD_ID"
+              
+              if [[ "$BUILD_STATUS" == "finished" ]]; then
+                DOWNLOAD_URL=$(echo "$BUILDS_JSON" | jq -r '.[0].artifacts[0].url // ""')
+                
+                if [[ -n "$DOWNLOAD_URL" && "$DOWNLOAD_URL" != "null" && "$DOWNLOAD_URL" != "" ]]; then
+                  echo "✅ Build completed successfully!"
+                  echo "DOWNLOAD_URL=$DOWNLOAD_URL" >> $GITHUB_ENV
+                  echo "BUILD_ID=$BUILD_ID" >> $GITHUB_ENV
+                  break
+                else
+                  echo "Build finished but no download URL found"
+                  # Try buildUrl as fallback
+                  DOWNLOAD_URL=$(echo "$BUILDS_JSON" | jq -r '.[0].buildUrl // ""')
+                  if [[ -n "$DOWNLOAD_URL" && "$DOWNLOAD_URL" != "null" && "$DOWNLOAD_URL" != "" ]]; then
+                    echo "✅ Using buildUrl as download URL"
+                    echo "DOWNLOAD_URL=$DOWNLOAD_URL" >> $GITHUB_ENV
+                    echo "BUILD_ID=$BUILD_ID" >> $GITHUB_ENV
+                    break
+                  fi
+                fi
+              elif [[ "$BUILD_STATUS" == "failed" || "$BUILD_STATUS" == "canceled" ]]; then
+                echo "❌ Build failed or was canceled"
+                echo "$BUILDS_JSON"
+                exit 1
+              fi
+            fi
+            
+            ATTEMPT=$((ATTEMPT + 1))
+            echo "Waiting 30 seconds before next check..."
+            sleep 30
+          done
+          
+          if [[ $ATTEMPT -eq $MAX_ATTEMPTS ]]; then
+            echo "❌ Timeout waiting for build to complete"
+            echo "Last build status:"
+            eas build:list --platform android --limit 3 --json
             exit 1
           fi
-
-          echo "DOWNLOAD_URL=$DOWNLOAD_URL" >> $GITHUB_ENV
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
       - name: Download APK via curl
         run: |
           echo "Downloading APK from $DOWNLOAD_URL"
-          curl -L -H "Authorization: Bearer $EXPO_TOKEN" "$DOWNLOAD_URL" -o app.apk
+          echo "Build ID: $BUILD_ID"
+          
+          # Try different download methods
+          if curl -L -H "Authorization: Bearer $EXPO_TOKEN" "$DOWNLOAD_URL" -o app.apk; then
+            echo "✅ APK downloaded successfully"
+            ls -la app.apk
+          else
+            echo "❌ Failed to download with Bearer token, trying without auth..."
+            if curl -L "$DOWNLOAD_URL" -o app.apk; then
+              echo "✅ APK downloaded successfully without auth"
+              ls -la app.apk
+            else
+              echo "❌ Failed to download APK"
+              echo "Download URL: $DOWNLOAD_URL"
+              echo "Trying to get build details for debugging..."
+              eas build:view --id="$BUILD_ID" --json || echo "Could not get build details"
+              exit 1
+            fi
+          fi
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
