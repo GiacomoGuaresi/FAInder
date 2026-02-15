@@ -56,7 +56,7 @@ def main():
                 "limit": PER_PAGE,
                 "page": page,
                 "slug": "null|NOT",
-                "with": "luogo",
+                "with": "luogo,categorie",
             },
             timeout=30,
         )
@@ -90,6 +90,14 @@ def main():
 
             # Pulisci la descrizione HTML
             descrizione_pulita = clean_html(item.get("descrizione_html"))
+            
+            # Estrai le categorie
+            categorie = []
+            for cat_data in item.get("categorie", []):
+                categorie.append({
+                    "id": cat_data.get("id"),
+                    "name": cat_data.get("categoria")
+                })
 
             luoghi[lid] = {
                 "id": lid,
@@ -98,6 +106,7 @@ def main():
                 "lng": lng,
                 "url": f"https://fondoambiente.it/luoghi/{luogo['slug']}",
                 "description": descrizione_pulita,
+                "categories": categorie,
             }
 
             log.info(f"📍 Aggiunto luogo: {luogo['nome']}")
