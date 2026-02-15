@@ -34,6 +34,7 @@ const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/m
 const VISITED_STORAGE_KEY = 'fai_visited_places';
 const FAVORITES_STORAGE_KEY = 'fai_favorites_places';
 const NOT_INTERESTED_STORAGE_KEY = 'fai_not_interested_places';
+const CATEGORY_FILTERS_STORAGE_KEY = 'fai_category_filters';
 
 // Funzione per decodificare entità HTML
 const decodeHtmlEntities = (text: string): string => {
@@ -112,11 +113,12 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
           background: white;
           border: none;
           border-radius: 10px;
-          padding: 6px 10px;
+          padding: 10px;
+          margin: 0;
           cursor: pointer;
           font-size: 18px;
-          height: 30px;
           width: 30px;
+          height: 30px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -440,7 +442,11 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
   `;
 };
 
-export default function MapScreen() {
+interface MapScreenProps {
+  onOpenFilterModal?: () => void;
+}
+
+export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   const [location, setLocation] = useState<Location.LocationObject | null>(null);
   const [locationLoading, setLocationLoading] = useState(true);
   const [pointsLoading, setPointsLoading] = useState(true);
@@ -1256,5 +1262,41 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#666',
     fontWeight: '500',
+  },
+  filterMapButton: {
+    position: 'absolute',
+    bottom: 20,
+    left: 16,
+    backgroundColor: 'white',
+    borderRadius: 25,
+    width: 50,
+    height: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
+    zIndex: 1000,
+  },
+  filterMapButtonActive: {
+    backgroundColor: '#e74f30',
+  },
+  filterBadge: {
+    position: 'absolute',
+    top: -5,
+    right: -5,
+    backgroundColor: '#e74f30',
+    borderRadius: 10,
+    width: 20,
+    height: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterBadgeText: {
+    color: 'white',
+    fontSize: 10,
+    fontWeight: '600',
   },
 });

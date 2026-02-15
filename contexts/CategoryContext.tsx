@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { createContext, ReactNode, useContext, useEffect, useState } from 'react';
 
 interface Category {
   id: number;
@@ -13,11 +14,43 @@ interface CategoryContextType {
   clearCategories: () => void;
 }
 
+const CATEGORY_FILTERS_STORAGE_KEY = 'fai_category_filters';
+
 const CategoryContext = createContext<CategoryContextType | undefined>(undefined);
 
 export function CategoryProvider({ children }: { children: ReactNode }) {
   const [availableCategories, setAvailableCategories] = useState<Category[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<Set<number>>(new Set());
+
+  // Carica i filtri salvati all'avvio
+  useEffect(() => {
+    (async () => {
+      try {
+        const stored = await AsyncStorage.getItem(CATEGORY_FILTERS_STORAGE_KEY);
+        if (stored) {
+          const savedCategories = JSON.parse(stored);
+          setSelectedCategories(new Set(savedCategories));
+        }
+      } catch (error) {
+        console.error('Error loading category filters:', error);
+      }
+    })();
+  }, []);
+
+  // Salva i filtri quando cambiano
+  useEffect(() => {
+    (async () => {
+      try {
+        if (selectedCategories.size > 0) {
+          await AsyncStorage.setItem(CATEGORY_FILTERS_STORAGE_KEY, JSON.stringify(Array.from(selectedCategories)));
+        } else {
+          await AsyncStorage.removeItem(CATEGORY_FILTERS_STORAGE_KEY);
+        }
+      } catch (error) {
+        console.error('Error saving category filters:', error);
+      }
+    })();
+  }, [selectedCategories]);
 
   const toggleCategory = (categoryId: number) => {
     setSelectedCategories(prev => {

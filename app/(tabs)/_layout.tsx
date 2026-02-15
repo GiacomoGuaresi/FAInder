@@ -2,7 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Tabs, useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 import React, { useRef, useState } from 'react';
-import { Animated, Image, ImageSourcePropType, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Animated, Image, ImageSourcePropType, Modal, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
@@ -210,11 +210,110 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: '500',
   },
+  filterModalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterModalContent: {
+    backgroundColor: 'white',
+    borderRadius: 16,
+    padding: 24,
+    width: '90%',
+    maxWidth: 320,
+    maxHeight: '80%',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 16,
+    elevation: 8,
+  },
+  filterModalHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  filterModalTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  filterModalClose: {
+    padding: 4,
+  },
+  filterModalList: {
+    maxHeight: 300,
+  },
+  filterModalFooter: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 16,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: '#f0f0f0',
+  },
+  clearFiltersButtonModal: {
+    padding: 8,
+  },
+  applyFiltersButton: {
+    backgroundColor: '#e74f30',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 8,
+  },
+  applyFiltersText: {
+    color: 'white',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  filterMapButton: {
+    position: 'absolute',
+    bottom: 80,
+    left: 16,
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 10,
+    margin: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
+    zIndex: 1000,
+    flexDirection: 'row',
+    width: 50,
+    height: 50,
+  },
+  filterMapButtonActive: {
+    backgroundColor: '#e74f30',
+  },
+  filterBadge: {
+    position: 'absolute',
+    top: -4,
+    right: -4,
+    backgroundColor: '#e74f30',
+    borderRadius: 8,
+    width: 14,
+    height: 14,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterBadgeText: {
+    color: 'white',
+    fontSize: 10,
+    fontWeight: '600',
+  },
 });
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const router = useRouter();
   const { availableCategories, selectedCategories, toggleCategory, clearCategories } = useCategoryContext();
   
@@ -242,6 +341,14 @@ export default function TabLayout() {
       duration: 250,
       useNativeDriver: true,
     }).start();
+  };
+
+  const openFilterModal = () => {
+    setIsFilterModalOpen(true);
+  };
+
+  const closeFilterModal = () => {
+    setIsFilterModalOpen(false);
   };
 
   const navigateToLuoghiPreferiti = () => {
@@ -302,51 +409,6 @@ export default function TabLayout() {
           </TouchableOpacity>
         </View>
         <View style={styles.sidebarContent}>
-          {/* Category Filter Section */}
-          {availableCategories.length > 0 && (
-            <View style={styles.categorySection}>
-              <View style={styles.categoryHeader}>
-                <Text style={styles.categoryTitle}>Filtra per Categoria</Text>
-                {selectedCategories.size > 0 && (
-                  <TouchableOpacity 
-                    onPress={clearCategories} 
-                    style={styles.clearFiltersButton}
-                  >
-                    <Ionicons name="close-circle" size={16} color="#e74f30" />
-                  </TouchableOpacity>
-                )}
-              </View>
-              <ScrollView style={styles.categoryList} showsVerticalScrollIndicator={false}>
-                {availableCategories.map((category) => {
-                  const isSelected = selectedCategories.has(category.id);
-                  return (
-                    <TouchableOpacity
-                      key={category.id}
-                      style={[
-                        styles.categoryItem,
-                        isSelected && styles.categoryItemSelected
-                      ]}
-                      onPress={() => toggleCategory(category.id)}
-                    >
-                      <View style={[
-                        styles.categoryCheckbox,
-                        isSelected && styles.categoryCheckboxSelected
-                      ]}>
-                        {isSelected && <View style={styles.categoryCheckboxInner} />}
-                      </View>
-                      <Text style={[
-                        styles.categoryText,
-                        isSelected && styles.categoryTextSelected
-                      ]}>
-                        {category.name}
-                      </Text>
-                    </TouchableOpacity>
-                  );
-                })}
-              </ScrollView>
-            </View>
-          )}
-
           <TouchableOpacity 
             style={styles.menuItem}
             onPress={navigateToLuoghiPreferiti}
@@ -526,6 +588,104 @@ export default function TabLayout() {
           }}
         />
       </Tabs>
+
+      {/* Filter Button Overlay - only show on map screen */}
+      {availableCategories.length > 0 && (
+        <TouchableOpacity 
+          style={[
+            styles.filterMapButton,
+            selectedCategories.size > 0 && styles.filterMapButtonActive
+          ]}
+          onPress={openFilterModal}
+        >
+          <Ionicons 
+            name="funnel" 
+            size={16} 
+            color={selectedCategories.size > 0 ? "white" : "#333"} 
+          />
+          {selectedCategories.size > 0 && (
+            <View style={styles.filterBadge}>
+              <Text style={styles.filterBadgeText}>{selectedCategories.size}</Text>
+            </View>
+          )}
+        </TouchableOpacity>
+      )}
+
+      {/* Filter Modal */}
+      <Modal
+        visible={isFilterModalOpen}
+        transparent={true}
+        animationType="fade"
+        onRequestClose={closeFilterModal}
+      >
+        <TouchableOpacity 
+          style={styles.filterModalOverlay} 
+          activeOpacity={1}
+          onPress={closeFilterModal}
+        >
+          <TouchableOpacity 
+            style={styles.filterModalContent}
+            activeOpacity={1}
+            onPress={(e) => e.stopPropagation()}
+          >
+            <View style={styles.filterModalHeader}>
+              <Text style={styles.filterModalTitle}>Filtra per Categoria</Text>
+              <TouchableOpacity onPress={closeFilterModal} style={styles.filterModalClose}>
+                <Ionicons name="close" size={24} color="#333333" />
+              </TouchableOpacity>
+            </View>
+            
+            <ScrollView style={styles.filterModalList} showsVerticalScrollIndicator={false}>
+              {availableCategories.map((category) => {
+                const isSelected = selectedCategories.has(category.id);
+                return (
+                  <TouchableOpacity
+                    key={category.id}
+                    style={[
+                      styles.categoryItem,
+                      isSelected && styles.categoryItemSelected
+                    ]}
+                    onPress={() => toggleCategory(category.id)}
+                  >
+                    <View style={[
+                      styles.categoryCheckbox,
+                      isSelected && styles.categoryCheckboxSelected
+                    ]}>
+                      {isSelected && <View style={styles.categoryCheckboxInner} />}
+                    </View>
+                    <Text style={[
+                      styles.categoryText,
+                      isSelected && styles.categoryTextSelected
+                    ]}>
+                      {category.name}
+                    </Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </ScrollView>
+            
+            <View style={styles.filterModalFooter}>
+              <TouchableOpacity 
+                onPress={clearCategories} 
+                style={styles.clearFiltersButtonModal}
+                disabled={selectedCategories.size === 0}
+              >
+                <Ionicons 
+                  name="close-circle" 
+                  size={20} 
+                  color={selectedCategories.size > 0 ? "#e74f30" : "#ccc"} 
+                />
+              </TouchableOpacity>
+              <TouchableOpacity 
+                style={styles.applyFiltersButton}
+                onPress={closeFilterModal}
+              >
+                <Text style={styles.applyFiltersText}>Applica</Text>
+              </TouchableOpacity>
+            </View>
+          </TouchableOpacity>
+        </TouchableOpacity>
+      </Modal>
     </View>
   );
 }
