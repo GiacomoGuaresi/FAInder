@@ -463,7 +463,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   const [searchLoading, setSearchLoading] = useState(false);
   const [showSearchResults, setShowSearchResults] = useState(false);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
-  const { availableCategories, setAvailableCategories, selectedCategories, toggleCategory } = useCategoryContext();
+  const { availableCategories, setAvailableCategories, selectedCategories, toggleCategory, clearCategories } = useCategoryContext();
   const mapRef = useRef<WebView>(null);
 
   useEffect(() => {
@@ -1105,7 +1105,6 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
             <View style={styles.filterModalFooter}>
               <TouchableOpacity 
                 onPress={() => {
-                  const { clearCategories } = useCategoryContext();
                   clearCategories();
                 }} 
                 style={styles.clearFiltersButtonModal}
