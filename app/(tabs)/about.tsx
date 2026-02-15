@@ -22,7 +22,7 @@ export default function AboutScreen() {
       {/* Header */}
       <View style={styles.header}>
         <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
-          <Ionicons name="arrow-back" size={24} color="#333333" />
+          <Ionicons name="arrow-back" size={24} color="#222" />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>About</Text>
         <View style={styles.placeholder} />
@@ -195,12 +195,12 @@ const styles = StyleSheet.create({
     paddingTop: 14,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
+    borderBottomColor: '#222',
   },
   headerTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#333333',
+    color: '#222',
     flex: 1,
     textAlign: 'center',
     marginRight: 40,
@@ -233,7 +233,7 @@ const styles = StyleSheet.create({
   appName: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#333333',
+    color: '#222',
     marginBottom: 5,
   },
   version: {
@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#333333',
+    color: '#222',
     marginBottom: 10,
   },
   sectionText: {

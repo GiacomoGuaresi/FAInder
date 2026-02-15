@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     fontSize: 16,
     fontWeight: '600',
-    color: '#333',
+    color: '#222',
     textAlign: 'center',
   },
   list: {
@@ -227,13 +227,13 @@ const styles = StyleSheet.create({
   propertyTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#222',
     flex: 1,
     marginRight: 8,
   },
   propertyDescription: {
     fontSize: 14,
-    color: '#666',
+    color: '#222',
     lineHeight: 20,
     marginBottom: 8,
   },
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
   emptyText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#666',
+    color: '#222',
     marginTop: 16,
     textAlign: 'center',
   },

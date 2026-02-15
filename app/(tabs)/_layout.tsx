@@ -12,13 +12,16 @@ import { useCategoryContext } from '../../contexts/CategoryContext';
 const logo: ImageSourcePropType = require('@/assets/images/LOGO.png');
 const faiFavicon: ImageSourcePropType = require('@/assets/images/fai-website-favicon.png'); // TODO: Download from fondoambiente.it
 
-function CustomHeader() {
+function CustomHeader({ onMenuPress }: { onMenuPress: () => void }) {
   return (
     <View style={styles.header}>
       <View style={styles.logoContainer}>
         <Image source={logo} style={styles.logo} resizeMode="contain" />
         <Text style={styles.headerTitle}>FAInder</Text>
       </View>
+      <TouchableOpacity onPress={onMenuPress} style={styles.menuButton}>
+        <Ionicons name="menu" size={24} color="#333333" />
+      </TouchableOpacity>
     </View>
   );
 }
@@ -30,8 +33,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingTop: 14,
     paddingBottom: 12,
-    borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
   },
   headerTitle: {
     fontSize: 24,
@@ -50,6 +51,10 @@ const styles = StyleSheet.create({
     tintColor: '#e74f30',
     marginRight: -20,
     marginLeft: -20,
+  },
+  menuButton: {
+    padding: 8,
+    marginRight: 16,
   },
   themeBar: {
     height: 28,
@@ -71,7 +76,7 @@ const styles = StyleSheet.create({
     left: 0,
     width: 280,
     height: '100%',
-    backgroundColor: 'white',
+    backgroundColor: '#222',
     zIndex: 1001,
     shadowColor: '#000',
     shadowOffset: { width: 2, height: 0 },
@@ -87,12 +92,12 @@ const styles = StyleSheet.create({
     paddingTop:36,
     paddingBottom:8,
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
+    borderBottomColor: '#444',
   },
   sidebarTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#333333',
+    color: 'white',
   },
   closeSidebarButton: {
     padding: 8,
@@ -112,14 +117,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
+    borderBottomColor: '#444',
   },
   menuItemIcon: {
     marginRight: 16,
   },
   menuItemText: {
     fontSize: 16,
-    color: '#333',
+    color: 'white',
     fontWeight: '500',
   },
   propertiesHeader: {
@@ -130,12 +135,12 @@ const styles = StyleSheet.create({
     paddingTop: 14,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
+    borderBottomColor: '#222',
   },
   propertiesHeaderTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#333333',
+    color: '#222',
     flex: 1,
     textAlign: 'center',
     marginRight: 40, // Account for back button width
@@ -298,7 +303,7 @@ export default function TabLayout() {
         <View style={styles.sidebarHeader}>
           <Text style={styles.sidebarTitle}>Menu</Text>
           <TouchableOpacity onPress={toggleSidebar} style={styles.closeSidebarButton}>
-            <Ionicons name="close" size={24} color="#333333" />
+            <Ionicons name="close" size={24} color="white" />
           </TouchableOpacity>
         </View>
         <View style={styles.sidebarContent}>
@@ -334,7 +339,7 @@ export default function TabLayout() {
           <View style={{ flex: 1 }} />
           
           <TouchableOpacity 
-            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#f0f0f0' }]}
+            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#444' }]}
             onPress={navigateToAbout}
           >
             <Ionicons name="information-circle-outline" size={20} color="#e74f30" style={styles.menuItemIcon} />
@@ -359,32 +364,22 @@ export default function TabLayout() {
           tabBarInactiveTintColor: '#e74f30',
           tabBarStyle: {
             backgroundColor: 'white',
+            shadowColor: 'transparent',
+            shadowOffset: { width: 0, height: 0 },
+            shadowOpacity: 0,
+            shadowRadius: 0,
+            elevation: 0,
+            borderTopWidth: 0,
           },
           tabBarActiveBackgroundColor: '#e74f30',
           headerShown: true,
-          header: () => <CustomHeader />,
+          header: () => <CustomHeader onMenuPress={toggleSidebar} />,
           headerStyle: {
             backgroundColor: 'white',
-            borderBottomWidth: 1,
-            borderBottomColor: '#e0e0e0',
           },
           headerTintColor: '#e74f30',
           tabBarButton: HapticTab,
         }}>
-        <Tabs.Screen
-          name="menu"
-          options={{
-            title: 'Menu',
-            tabBarIcon: ({ color }) => <Ionicons name="menu" size={28} color={color} />,
-            headerShown: false,
-          }}
-          listeners={{
-            tabPress: (e) => {
-              e.preventDefault();
-              toggleSidebar();
-            },
-          }}
-        />
         <Tabs.Screen
           name="index"
           options={{
@@ -409,7 +404,7 @@ export default function TabLayout() {
             header: () => (
               <View style={styles.propertiesHeader}>
                 <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
-                  <Ionicons name="arrow-back" size={24} color="#333333" />
+                  <Ionicons name="arrow-back" size={24} color="#222" />
                 </TouchableOpacity>
                 <Text style={styles.propertiesHeaderTitle}>Luoghi Preferiti</Text>
                 <View style={styles.placeholder} />
@@ -427,7 +422,7 @@ export default function TabLayout() {
             header: () => (
               <View style={styles.propertiesHeader}>
                 <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
-                  <Ionicons name="arrow-back" size={24} color="#333333" />
+                  <Ionicons name="arrow-back" size={24} color="#222" />
                 </TouchableOpacity>
                 <Text style={styles.propertiesHeaderTitle}>Luoghi Visitati</Text>
                 <View style={styles.placeholder} />
@@ -445,7 +440,7 @@ export default function TabLayout() {
             header: () => (
               <View style={styles.propertiesHeader}>
                 <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
-                  <Ionicons name="arrow-back" size={24} color="#333333" />
+                  <Ionicons name="arrow-back" size={24} color="#222" />
                 </TouchableOpacity>
                 <Text style={styles.propertiesHeaderTitle}>Luoghi Non Interessati</Text>
                 <View style={styles.placeholder} />
@@ -463,7 +458,7 @@ export default function TabLayout() {
             header: () => (
               <View style={styles.propertiesHeader}>
                 <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
-                  <Ionicons name="arrow-back" size={24} color="#333333" />
+                  <Ionicons name="arrow-back" size={24} color="#222" />
                 </TouchableOpacity>
                 <Text style={styles.propertiesHeaderTitle}>Tutti gli Altri Luoghi</Text>
                 <View style={styles.placeholder} />

@@ -199,7 +199,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
               opacity = 1;
               size = 24;
             } else if (point.isNotInterested) {
-              color = '#666666'; // Grigio per non interessati
+              color = '#222'; // Grigio scuro per non interessati
               opacity = 0.4;
               size = 16; // Piccolo per non interessati
             } else if (point.isVisited) {
@@ -262,7 +262,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
             opacity = 1;
             size = 24;
           } else if (isNotInterested) {
-            color = '#666666'; // Grigio per non interessati
+            color = '#222'; // Grigio scuro per non interessati
             opacity = 0.4;
             size = 24;
           } else if (isVisited) {
@@ -298,7 +298,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
                 opacity = 1;
                 size = 24;
               } else if (isNotInterested) {
-                color = '#666666'; // Grigio per non interessati
+                color = '#222'; // Grigio scuro per non interessati
                 opacity = 0.4;
                 size = 24;
               } else if (isVisited) {
@@ -377,7 +377,7 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
                 opacity = 1;
                 size = 24;
               } else if (isNotInterested) {
-                color = '#666666'; // Grigio per non interessati
+                color = '#222'; // Grigio scuro per non interessati
                 opacity = 0.4;
                 size = 24;
               } else if (isVisited) {
@@ -831,7 +831,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
         {/* Search Bar */}
         <View style={styles.searchContainer}>
           <View style={styles.searchInputContainer}>
-            <Ionicons name="search" size={20} color="#666" style={styles.searchIcon} />
+            <Ionicons name="search" size={20} color="#222" style={styles.searchIcon} />
             <TextInput
               style={styles.searchInput}
               placeholder="Cerca Luogo"
@@ -859,7 +859,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
                   setSearchResults([]);
                 }}
               >
-                <Ionicons name="close-circle" size={16} color="#666" />
+                <Ionicons name="close-circle" size={16} color="#222" />
               </TouchableOpacity>
             )}
           </View>
@@ -896,7 +896,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
               <Ionicons 
                 name="funnel" 
                 size={16} 
-                color={selectedCategories.size > 0 ? "white" : "#333"} 
+                color={selectedCategories.size > 0 ? "white" : "#222"} 
               />
               {selectedCategories.size > 0 && (
                 <View style={styles.filterBadge}>
@@ -927,7 +927,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
                 style={styles.closeButton}
                 onPress={() => setSelectedPoint(null)}
               >
-                <Ionicons name="close" size={16} color="#666" />
+                <Ionicons name="close" size={16} color="#222" />
               </TouchableOpacity>
               
               <TouchableOpacity
@@ -956,7 +956,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
                 <Ionicons 
                   name={selectedPoint && notInterestedIds.has(selectedPoint.id) ? "eye-off" : "eye-off-outline"} 
                   size={20} 
-                  color="#666" 
+                  color="#222" 
                 />
               </TouchableOpacity>
               
@@ -997,7 +997,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
               )}
               {selectedPoint && notInterestedIds.has(selectedPoint.id) && (
                 <View style={styles.notInterestedBadge}>
-                  <Ionicons name="close" size={12} color="#666" />
+                  <Ionicons name="close" size={12} color="#222" />
                   <Text style={styles.notInterestedBadgeText}> Non interessato</Text>
                 </View>
               )}
