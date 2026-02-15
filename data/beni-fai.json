@@ -1,5 +1,915 @@
 [
   {
+    "id": 79477,
+    "title": "CASTELLO DELLA MANTA",
+    "lat": 44.6143845,
+    "lng": 7.4825577,
+    "url": "https://fondoambiente.it/luoghi/castello-della-manta",
+    "description": "La dimora dei conti Saluzzo della Manta, sede di uno dei cicli pittorici tardogotici più straordinari d’Europa",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 80110,
+    "title": "CASTELLO E PARCO DI MASINO",
+    "lat": 45.3917733,
+    "lng": 7.9594008,
+    "url": "https://fondoambiente.it/luoghi/castello-e-parco-di-masino",
+    "description": "Il castello millenario nel cuore del Canavese",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86025,
+    "title": "COLLEZIONE ENRICO A VILLA FLECCHIA",
+    "lat": 45.462665,
+    "lng": 8.001923,
+    "url": "https://fondoambiente.it/luoghi/collezione-enrico-a-villa-flecchia",
+    "description": "Paesaggi d’arte in una villa affacciata sull’anfiteatro morenico di Ivrea",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 26780,
+    "title": "OASI ZEGNA",
+    "lat": 45.6697149,
+    "lng": 8.1589066,
+    "url": "https://fondoambiente.it/luoghi/oasi-zegna",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79470,
+    "title": "VILLA DELLA PORTA BOZZOLO",
+    "lat": 45.906377,
+    "lng": 8.712415,
+    "url": "https://fondoambiente.it/luoghi/villa-della-porta-bozzolo",
+    "description": "Una \"villa di delizia\" a due passi dal Lago Maggiore",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79482,
+    "title": "VILLA E COLLEZIONE PANZA",
+    "lat": 45.8253522,
+    "lng": 8.8289574,
+    "url": "https://fondoambiente.it/luoghi/villa-e-collezione-panza",
+    "description": "Sul colle di Biumo a Varese, un’eccezionale collezione di arte contemporanea in una villa del Settecento",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79475,
+    "title": "MONASTERO DI TORBA",
+    "lat": 45.729612,
+    "lng": 8.863458,
+    "url": "https://fondoambiente.it/luoghi/monastero-di-torba",
+    "description": "Un angolo di Medioevo nel silenzio e nei boschi, a pochi chilometri da Varese",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79473,
+    "title": "VILLA FOGAZZARO ROI",
+    "lat": 46.021374,
+    "lng": 9.033138,
+    "url": "https://fondoambiente.it/luoghi/villa-fogazzaro-roi",
+    "description": "Un piccolo mondo antico affacciato sulla sponda italiana del lago di Lugano",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79487,
+    "title": "VILLA NECCHI CAMPIGLIO",
+    "lat": 45.4689844,
+    "lng": 9.202096,
+    "url": "https://fondoambiente.it/luoghi/villa-necchi-campiglio",
+    "description": "Un gioiello architettonico degli anni Trenta nel cuore di Milano",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86318,
+    "title": "PALAZZINA APPIANI",
+    "lat": 45.4749081,
+    "lng": 9.179077,
+    "url": "https://fondoambiente.it/luoghi/palazzina-appiani",
+    "description": "Il palco che Napoleone volle per sé nell’Arena del Parco Sempione",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79472,
+    "title": "VILLA DEL BALBIANELLO",
+    "lat": 45.9656144,
+    "lng": 9.20197,
+    "url": "https://fondoambiente.it/luoghi/villa-del-balbianello",
+    "description": "Cimeli di imprese e avventure, in una villa scenografica affacciata sul lago di Como.",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 102290,
+    "title": "PALAZZO MORONI",
+    "lat": 45.7036422,
+    "lng": 9.6688997,
+    "url": "https://fondoambiente.it/luoghi/palazzo-moroni",
+    "description": "Una dimora barocca, custode di capolavori e di un sorprendente giardino, nel cuore di Bergamo Alta",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86358,
+    "title": "ALPE PEDRORIA E ALPE MADRERA",
+    "lat": 46.0944681,
+    "lng": 9.6378742,
+    "url": "https://fondoambiente.it/luoghi/alpe-pedroria-e-alpe-madrera",
+    "description": "Un alpeggio con stalle e casere nello scenario incontaminato delle Alpi Orobie",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79441,
+    "title": "MULINO MAURIZIO GERVASONI",
+    "lat": 45.9522028,
+    "lng": 9.7323561,
+    "url": "https://fondoambiente.it/luoghi/mulino-maurizio-gervasoni",
+    "description": "Un mulino di fine Seicento, in un contesto paesaggistico unico",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79476,
+    "title": "CASTEL GRUMELLO",
+    "lat": 46.173638,
+    "lng": 9.898199,
+    "url": "https://fondoambiente.it/luoghi/castel-grumello",
+    "description": "Due castelli gemelli, con una vista unica sulla Valtellina",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 90908,
+    "title": "ANTICA PENSILINA DEL TRAM",
+    "lat": 45.846436,
+    "lng": 8.7973474,
+    "url": "https://fondoambiente.it/luoghi/antica-pensilina-del-tram",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79471,
+    "title": "TORRE DI VELATE",
+    "lat": 45.840296,
+    "lng": 8.792539,
+    "url": "https://fondoambiente.it/luoghi/torre-di-velate",
+    "description": "Una torre medievale tra le colline di Varese",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 88009,
+    "title": "CASA MACCHI",
+    "lat": 45.7652224,
+    "lng": 8.83143169,
+    "url": "https://fondoambiente.it/luoghi/casa-macchi",
+    "description": "Nel borgo di Morazzone, una casa di famiglia dove il tempo si è fermato",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86360,
+    "title": "VELARCA",
+    "lat": 45.9681975,
+    "lng": 9.1708005,
+    "url": "https://fondoambiente.it/luoghi/la-velarca",
+    "description": "Una casa su una barca",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 84041,
+    "title": "TORRE DEL SOCCORSO DETTA DEL BARBAROSSA",
+    "lat": 45.9695681,
+    "lng": 9.1708088,
+    "url": "https://fondoambiente.it/luoghi/torre-del-soccorso-detta-del-barbarossa-84041",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79474,
+    "title": "ANTICA EDICOLA DEI GIORNALI",
+    "lat": 45.15989,
+    "lng": 10.7927802,
+    "url": "https://fondoambiente.it/luoghi/antica-edicola-dei-giornali",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79489,
+    "title": "CASTELLO DI AVIO",
+    "lat": 45.74644,
+    "lng": 10.951792,
+    "url": "https://fondoambiente.it/luoghi/castello-di-avio",
+    "description": "Una roccaforte all’ingresso del Trentino",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 104133,
+    "title": "AULA DEL SIMONINO",
+    "lat": 46.0691178,
+    "lng": 11.1237796,
+    "url": "https://fondoambiente.it/luoghi/cappella-del-simonino",
+    "description": "Un luogo in cui ascoltare una storia del 1475, che ha molto da insegnare ai cittadini di oggi e di domani",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79481,
+    "title": "VILLA DEI VESCOVI",
+    "lat": 45.3427615,
+    "lng": 11.7108394,
+    "url": "https://fondoambiente.it/luoghi/villa-dei-vescovi",
+    "description": "Il Rinascimento sui Colli Euganei",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86934,
+    "title": "MONTE FONTANA SECCA",
+    "lat": 45.9227221,
+    "lng": 11.8077707,
+    "url": "https://fondoambiente.it/luoghi/monte-fontana-secca-e-col-de-spadarot",
+    "description": "Un alpeggio con malga sul Massiccio del Monte Grappa",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 106269,
+    "title": "MEMORIALE BRION",
+    "lat": 45.7560383,
+    "lng": 11.9227559,
+    "url": "https://fondoambiente.it/luoghi/memoriale-brion",
+    "description": "Un capolavoro di Carlo Scarpa in un camposanto di paese",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 80101,
+    "title": "NEGOZIO OLIVETTI",
+    "lat": 45.4341926,
+    "lng": 12.3375392,
+    "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+    "description": "Un'icona del Novecento in piazza San Marco",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 100781,
+    "title": "CASA BORTOLI",
+    "lat": 45.4320001,
+    "lng": 12.3342843,
+    "url": "https://fondoambiente.it/luoghi/casa-bortoli",
+    "description": "Un salotto veneziano con vista unica sul Canal Grande",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79467,
+    "title": "ANTICA BARBERIA GIACALONE",
+    "lat": 44.408079,
+    "lng": 8.928749,
+    "url": "https://fondoambiente.it/luoghi/antica-barberia-giacalone",
+    "description": "Una bottega Art Déco fra i caruggi del centro storico di Genova",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79468,
+    "title": "ABBAZIA DI SAN FRUTTUOSO",
+    "lat": 44.3164597,
+    "lng": 9.1751688,
+    "url": "https://fondoambiente.it/luoghi/abbazia-di-san-fruttuoso",
+    "description": "Un angolo di paradiso sul mare di Portofino",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79469,
+    "title": "CASA CARBONE",
+    "lat": 44.30979,
+    "lng": 9.344853,
+    "url": "https://fondoambiente.it/luoghi/casa-carbone",
+    "description": "Un piccolo mondo silenzioso sulla riviera ligure di Levante",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 15392,
+    "title": "PODERE CASE LOVARA",
+    "lat": 44.1449712,
+    "lng": 9.6282161,
+    "url": "https://fondoambiente.it/luoghi/podere-case-lovara",
+    "description": "Un podere agricolo a picco sul mare, incastonato nel Parco delle Cinque Terre",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 109408,
+    "title": "VILLA REZZOLA",
+    "lat": 44.0859211,
+    "lng": 9.9140622,
+    "url": "https://fondoambiente.it/luoghi/villa-rezzola",
+    "description": "Una straordinaria villa affacciata sul Golfo dei Poeti",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99044,
+    "title": "CASA E COLLEZIONE LAURA",
+    "lat": 43.8033328,
+    "lng": 7.7227388,
+    "url": "https://fondoambiente.it/luoghi/casa-e-collezione-laura",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99052,
+    "title": "AREE BOSCHIVE SUL MONTE DI PORTOFINO",
+    "lat": 44.3261111,
+    "lng": 9.1666667,
+    "url": "https://fondoambiente.it/luoghi/aree-boschive-sul-monte-di-portofino",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 80084,
+    "title": "TEATRINO DI VETRIANO",
+    "lat": 43.982544,
+    "lng": 10.471719,
+    "url": "https://fondoambiente.it/luoghi/teatrino-di-vetriano",
+    "description": "Il teatro storico pubblico più piccolo del mondo",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 23115,
+    "title": "PROMONTORIO E TORRE DI PUNTA PAGANA",
+    "lat": 44.33562612,
+    "lng": 9.22560623,
+    "url": "https://fondoambiente.it/luoghi/promontorio-e-torre-di-punta-pagana",
+    "description": "Una torre saracena sul mare di Rapallo",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86361,
+    "title": "TORRE E CASA CAMPATELLI",
+    "lat": 43.4666684,
+    "lng": 11.0430002,
+    "url": "https://fondoambiente.it/luoghi/torre-e-casa-campatelli",
+    "description": "Mille anni di storia in una casa torre di famiglia",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99049,
+    "title": "AREA RURALE A CETONA",
+    "lat": 42.9648629,
+    "lng": 11.9010076,
+    "url": "https://fondoambiente.it/luoghi/area-agricola-a-cetona",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99047,
+    "title": "AREA COSTIERA SULL'ISOLA DI CAPRAIA",
+    "lat": 43.0377826,
+    "lng": 9.8180732,
+    "url": "https://fondoambiente.it/luoghi/area-costiera-sull-isola-di-capraia",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79480,
+    "title": "BOSCO DI SAN FRANCESCO",
+    "lat": 43.0811972,
+    "lng": 12.6119672,
+    "url": "https://fondoambiente.it/luoghi/bosco-di-san-francesco",
+    "description": "L’altra metà di Assisi",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 18865,
+    "title": "ORTO SUL COLLE DELL'INFINITO",
+    "lat": 43.39799,
+    "lng": 13.5509375,
+    "url": "https://fondoambiente.it/luoghi/orto-sul-colle-dell-infinito",
+    "description": "Una \"visita guidata\" dentro la poesia \"L'Infinito\"",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79466,
+    "title": "VILLA GREGORIANA",
+    "lat": 41.96535,
+    "lng": 12.80167,
+    "url": "https://fondoambiente.it/luoghi/parco-villa-gregoriana",
+    "description": "Uno scenario unico fra i templi romani e il fragore delle cascate di Tivoli",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99048,
+    "title": "AREA COSTIERA SULL'ISOLA DI PONZA",
+    "lat": 40.89507,
+    "lng": 12.96614,
+    "url": "https://fondoambiente.it/luoghi/area-costiera-sull-isola-di-ponza",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79465,
+    "title": "BAIA DI IERANTO",
+    "lat": 40.5741855,
+    "lng": 14.3385181,
+    "url": "https://fondoambiente.it/luoghi/baia-di-ieranto",
+    "description": "La dimora delle sirene di fronte ai faraglioni di Capri",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99046,
+    "title": "AREA COSTIERA A SAN GIOVANNI A PIRO",
+    "lat": 40.0504791,
+    "lng": 15.4499353,
+    "url": "https://fondoambiente.it/luoghi/area-costiera-a-san-giovanni-a-piro",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79488,
+    "title": "ABBAZIA DI SANTA MARIA DI CERRATE",
+    "lat": 40.3905,
+    "lng": 18.3003,
+    "url": "https://fondoambiente.it/luoghi/abbazia-di-santa-maria-di-cerrate",
+    "description": "Il Salento ha un cuore millenario",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 86060,
+    "title": "PARCO SORGENTI FERRARELLE DI RIARDO",
+    "lat": 41.2632923,
+    "lng": 14.1511822,
+    "url": "https://fondoambiente.it/luoghi/parco-sorgenti-ferrarelle-di-riardo",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79766,
+    "title": "CASA NOHA",
+    "lat": 40.6667315,
+    "lng": 16.6128661,
+    "url": "https://fondoambiente.it/luoghi/casa-noha",
+    "description": "In un'antica dimora ti raccontiamo la storia di Matera",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 88007,
+    "title": "GIGANTI DELLA SILA E CASINO MOLLO",
+    "lat": 39.3858934,
+    "lng": 16.5429773,
+    "url": "https://fondoambiente.it/luoghi/i-giganti-della-sila",
+    "description": "Una riserva biogenetica con un casino di caccia seicentesco nel Parco Nazionale della Sila sull’Appennino calabrese",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 88008,
+    "title": "CASINO MOLLO",
+    "lat": 39.322632,
+    "lng": 16.474429,
+    "url": "https://fondoambiente.it/luoghi/casino-mollo",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79478,
+    "title": "GIARDINO DELLA KOLYMBETHRA E CASE MONTANA",
+    "lat": 37.292729,
+    "lng": 13.581008,
+    "url": "https://fondoambiente.it/luoghi/giardino-della-kolymbethra",
+    "description": "Un paradiso terrestre nel cuore della Valle dei Templi",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79479,
+    "title": "GIARDINO PANTESCO DONNAFUGATA",
+    "lat": 36.785262,
+    "lng": 11.9918779,
+    "url": "https://fondoambiente.it/luoghi/giardino-pantesco-donnafugata",
+    "description": "Il sorprendente microclima generato da un recinto di pietra lavica a Pantelleria",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 24295,
+    "title": "AREA COSTIERA A CALA JUNCO",
+    "lat": 38.4648,
+    "lng": 14.9543,
+    "url": "https://fondoambiente.it/luoghi/area-costiera-a-cala-junco",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 99045,
+    "title": "AREA COLLINARE SULL'ISOLA DI LEVANZO",
+    "lat": 37.9996877,
+    "lng": 12.3320708,
+    "url": "https://fondoambiente.it/luoghi/area-collinare-sull-isola-di-levanzo",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 80118,
+    "title": "BATTERIA MILITARE TALMONE",
+    "lat": 41.2048819,
+    "lng": 9.3379517,
+    "url": "https://fondoambiente.it/luoghi/batteria-militare-talmone",
+    "description": "Un rifugio di mare di fronte all'arcipelago della Maddalena",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 98249,
+    "title": "SALINE CONTI VECCHI",
+    "lat": 39.22423804,
+    "lng": 9.02462348,
+    "url": "https://fondoambiente.it/luoghi/saline-conti-vecchi",
+    "description": "Un viaggio alla scoperta dell'oro bianco, alle porte di Cagliari",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 87734,
+    "title": "BATTISTERO DI SAN GIOVANNI E PIEVE DI SAN LORENZO",
+    "lat": 45.5507256,
+    "lng": 7.8299687,
+    "url": "https://fondoambiente.it/luoghi/battistero-di-san-giovanni-e-pieve-di-san-lorenzo",
+    "description": "Una Pieve di montagna nel Canavese",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 87737,
+    "title": "AREA ARCHEOLOGICA DELLE TERME ROMANE",
+    "lat": 42.1133297,
+    "lng": 14.71163079,
+    "url": "https://fondoambiente.it/luoghi/area-archeologica-delle-terme-romane",
+    "description": "Un tuffo nell'antica Histonium",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 87257,
+    "title": "CHIESA DI SANTA MARGHERITA",
+    "lat": 41.239607,
+    "lng": 16.504272,
+    "url": "https://fondoambiente.it/luoghi/chiesa-di-santa-margherita-87257",
+    "description": "Un tesoro nascosto nel centro di Bisceglie",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 79929,
+    "title": "CHIESA DEI S.S. NICCOLÒ E CATALDO",
+    "lat": 40.214452,
+    "lng": 18.095449,
+    "url": "https://fondoambiente.it/luoghi/chiesa-dei-s-s-niccolo-e-cataldo",
+    "description": "Tra Romanico e Barocco nel cuore del Salento",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 87642,
+    "title": "PALAZZO SAN GIORGIO",
+    "lat": 44.409167,
+    "lng": 8.928717,
+    "url": "https://fondoambiente.it/luoghi/palazzo-san-giorgio",
+    "description": "Il primo edificio pubblico di Genova a due passi dal Molo Vecchio",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 90887,
+    "title": "QUADRERIA DI PALAZZO ROSSI POGGI MARSILI",
+    "lat": 44.4974227,
+    "lng": 11.3443119,
+    "url": "https://fondoambiente.it/luoghi/la-quadreria-di-palazzo-rossi-poggi-marsili",
+    "description": "Un patrimonio d’arte lasciato in eredità a Bologna",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 113674,
+    "title": "VILLA CAVICIANA",
+    "lat": 42.62935,
+    "lng": 11.861145,
+    "url": "https://fondoambiente.it/luoghi/villa-caviciana",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 94565,
+    "title": "CONVENTO DI SAN BERNARDINO - CASA OLIVETTI",
+    "lat": 45.458154,
+    "lng": 7.875024,
+    "url": "https://fondoambiente.it/luoghi/convento-di-san-bernardino-casa-olivetti",
+    "description": null,
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
     "id": 107266,
     "title": "LA TAVOLA DEI BRIGANTI",
     "lat": 42.1602107,
