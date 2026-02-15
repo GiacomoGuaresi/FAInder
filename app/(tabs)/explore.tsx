@@ -53,7 +53,7 @@ export default function TabTwoScreen() {
           mimeType
         }));
         
-        Alert.alert('Successo', 'Carta FAI caricata correttamente!');
+        Alert.alert('Successo', 'Tessera FAI caricata correttamente!');
       }
     } catch (error) {
       console.error('Error picking document:', error);
@@ -75,20 +75,20 @@ export default function TabTwoScreen() {
       setPdfUri(null);
       setMimeType(null);
       await AsyncStorage.removeItem(PDF_STORAGE_KEY);
-      Alert.alert('Successo', 'Carta FAI rimossa correttamente!');
+      Alert.alert('Successo', 'Tessera FAI rimossa correttamente!');
     } catch (error) {
       console.error('Error removing PDF:', error);
     }
   };
 
   return (
-    <View style={styles.container}>
-      <ThemedView style={styles.contentContainer}>
+    <ThemedView style={styles.container} lightColor="white" darkColor="white">
+      <ThemedView style={styles.contentContainer} lightColor="white" darkColor="white">
         {!pdfUri ? (
           <View style={styles.uploadContainer}>
             <IconSymbol name="doc.badge.plus" size={64} color="#e74f30" style={styles.uploadIcon} />
             <ThemedText style={styles.uploadText}>
-              Carica la tua carta FAI
+              Carica la tua tessera FAI
             </ThemedText>
             <ThemedText style={styles.uploadSubtext}>
               Seleziona il file PDF o l'immagine della tua tessera FAI
@@ -107,7 +107,7 @@ export default function TabTwoScreen() {
         ) : (
           <View style={styles.pdfContainer}>
             <View style={styles.pdfHeader}>
-              <ThemedText style={styles.pdfTitle}>La tua Carta FAI</ThemedText>
+              <ThemedText style={[styles.pdfTitle, { color: 'black' }]}>La tua Tessera FAI</ThemedText>
               <TouchableOpacity style={styles.removeButton} onPress={removePdf}>
                 <Ionicons name="trash" size={16} color="#e74f30" />
                 <ThemedText style={styles.removeButtonText}>Rimuovi</ThemedText>
@@ -174,7 +174,7 @@ export default function TabTwoScreen() {
           </TouchableOpacity>
         </TouchableOpacity>
       </Modal>
-    </View>
+    </ThemedView>
   );
 }
 

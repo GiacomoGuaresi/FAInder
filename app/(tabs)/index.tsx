@@ -75,8 +75,8 @@ const decodeHtmlEntities = (text: string): string => {
   return decoded;
 };
 
-// Funzione per tagliare testo a 500 caratteri
-const truncateText = (text: string, maxLength: number = 500): string => {
+// Funzione per tagliare testo a 200 caratteri
+const truncateText = (text: string, maxLength: number = 200): string => {
   if (text.length <= maxLength) {
     return text;
   }
@@ -694,6 +694,11 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
     await WebBrowser.openBrowserAsync(url);
   };
 
+  const openInGoogleMaps = async (lat: number, lng: number, title: string) => {
+    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(title)}`;
+    await WebBrowser.openBrowserAsync(googleMapsUrl);
+  };
+
   const searchLocation = async (query: string) => {
     if (!query.trim()) {
       setSearchResults([]);
@@ -1031,6 +1036,20 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
                   </View>
                 </TouchableOpacity>
               </View>
+              
+              <TouchableOpacity
+                style={[styles.modalButton, styles.mapsButtonFull]}
+                onPress={() => {
+                  if (selectedPoint) {
+                    openInGoogleMaps(selectedPoint.lat, selectedPoint.lng, selectedPoint.title);
+                  }
+                }}
+              >
+                <View style={styles.buttonContent}>
+                  <Ionicons name="map" size={16} color="white" />
+                  <Text style={styles.modalButtonText}>Mostra sulla mappa</Text>
+                </View>
+              </TouchableOpacity>
             </TouchableOpacity>
           </TouchableOpacity>
         </Modal>
@@ -1330,6 +1349,15 @@ const styles = StyleSheet.create({
   },
   visitButton: {
     backgroundColor: '#4CAF50',
+  },
+  mapsButton: {
+    backgroundColor: '#4285F4',
+  },
+  mapsButtonFull: {
+    backgroundColor: '#4285F4',
+    marginTop: 12,
+    width: '100%',
+    flex: undefined,
   },
   favoriteButton: {
     backgroundColor: '#FFD700',

@@ -14,7 +14,7 @@ FAInder include un'applicazione mobile nativa per iOS e Android che permette di:
 - **Esplorare la mappa** dei beni FAI con la propria posizione
 - **Tracciare i luoghi visitati** con un sistema di check-in
 - **Visualizzare i dettagli** di ogni bene e accedere alla pagina ufficiale FAI
-- **Consultare la propria "Carta FAI"** con le statistiche di progresso
+- **Consultare la propria "Tessera FAI"** con le statistiche di progresso
 
 L'app è sviluppata con React Native/Expo e offre un'esperienza utente ottimizzata per dispositivi mobili.
 
