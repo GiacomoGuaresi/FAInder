@@ -264,18 +264,6 @@ Non è garantita l’accuratezza, completezza o attualità delle informazioni.
 Per documentazione tecnica approfondita, consulta la cartella [`docs/`](./docs):
 
 - **[🚀 Sviluppo](./docs/DEVELOPMENT.md)** - Guida completa sviluppo app mobile
-- **[🔌 API & Dati](./docs/API.md)** - Documentazione API FAI e scraping
-- **[🤝 Contribuire](./docs/CONTRIBUTING.md)** - Guida contributi al progetto
-
----
-
-## �️ Tecnologie utilizzate
-
-### Backend e Dati
-- Python (scraping e normalizzazione dati)
-- GitHub Actions (aggiornamento automatico)
-- JSON / GeoJSON
-
 ### App Mobile
 - React Native con Expo
 - React Native Maps per la visualizzazione geografica

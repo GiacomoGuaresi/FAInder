@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Location from 'expo-location';
 import * as WebBrowser from 'expo-web-browser';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Modal, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Modal, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 import { ErrorBoundary } from '@/components/error-boundary';
@@ -103,6 +103,9 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
           padding: 0;
         }
         .leaflet-control-zoom {
+          display: none !important;
+        }
+        .leaflet-control-attribution {
           display: none !important;
         }
         .location-button {
@@ -459,6 +462,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
   const [searchLoading, setSearchLoading] = useState(false);
   const [showSearchResults, setShowSearchResults] = useState(false);
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const { availableCategories, setAvailableCategories, selectedCategories, toggleCategory } = useCategoryContext();
   const mapRef = useRef<WebView>(null);
 
@@ -769,6 +773,14 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
     }
   };
 
+  const openFilterModal = () => {
+    setIsFilterModalOpen(true);
+  };
+
+  const closeFilterModal = () => {
+    setIsFilterModalOpen(false);
+  };
+
   // Search only on enter and blur, not while typing
 
   useEffect(() => {
@@ -848,23 +860,48 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
           </View>
         </View>
 
-        <WebView
-          ref={mapRef}
-          style={styles.map}
-          source={{ html: generateMapHTML(getFilteredPoints(), visitedIds, favoritesIds, notInterestedIds, location || undefined) }}
-          onMessage={handleWebViewMessage}
-          javaScriptEnabled={true}
-          domStorageEnabled={true}
-          startInLoadingState={true}
-          key={`${getFilteredPoints().length}-${location?.coords.latitude}-${location?.coords.longitude}-${Array.from(selectedCategories).join(',')}`}
-          renderLoading={() => (
-            <View style={styles.center}>
-              <ActivityIndicator size="large" color="#007AFF" />
-              <Text style={styles.loadingText}>Caricamento mappa...</Text>
-            </View>
+        <View style={styles.mapContainer}>
+          <WebView
+            ref={mapRef}
+            style={styles.map}
+            source={{ html: generateMapHTML(getFilteredPoints(), visitedIds, favoritesIds, notInterestedIds, location || undefined) }}
+            onMessage={handleWebViewMessage}
+            javaScriptEnabled={true}
+            domStorageEnabled={true}
+            startInLoadingState={true}
+            key={`${getFilteredPoints().length}-${location?.coords.latitude}-${location?.coords.longitude}-${Array.from(selectedCategories).join(',')}`}
+            renderLoading={() => (
+              <View style={styles.center}>
+                <ActivityIndicator size="large" color="#e74f30" />
+                <Text style={styles.loadingText}>Caricamento punti FAI...</Text>
+                <Text style={styles.loadingSubtext}>Questo potrebbe richiedere qualche secondo</Text>
+              </View>
+            )}
+          />
+
+          {/* Filter Button - positioned relative to map container */}
+          {availableCategories.length > 0 && (
+            <TouchableOpacity 
+              style={[
+                styles.filterMapButton,
+                selectedCategories.size > 0 && styles.filterMapButtonActive
+              ]}
+              onPress={openFilterModal}
+            >
+              <Ionicons 
+                name="funnel" 
+                size={16} 
+                color={selectedCategories.size > 0 ? "white" : "#333"} 
+              />
+              {selectedCategories.size > 0 && (
+                <View style={styles.filterBadge}>
+                  <Text style={styles.filterBadgeText}>{selectedCategories.size}</Text>
+                </View>
+              )}
+            </TouchableOpacity>
           )}
-        />
-        
+        </View>
+
         <Modal
           visible={selectedPoint !== null}
           transparent={true}
@@ -998,11 +1035,88 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
           </TouchableOpacity>
         </Modal>
       </View>
+
+      {/* Filter Modal */}
+      <Modal
+        visible={isFilterModalOpen}
+        transparent={true}
+        animationType="fade"
+        onRequestClose={closeFilterModal}
+      >
+        <TouchableOpacity 
+          style={styles.filterModalOverlay} 
+          activeOpacity={1}
+          onPress={closeFilterModal}
+        >
+          <TouchableOpacity 
+            style={styles.filterModalContent}
+            activeOpacity={1}
+            onPress={(e) => e.stopPropagation()}
+          >
+            <View style={styles.filterModalHeader}>
+              <Text style={styles.filterModalTitle}>Filtra per Categoria</Text>
+              <TouchableOpacity onPress={closeFilterModal} style={styles.filterModalClose}>
+                <Ionicons name="close" size={24} color="#333333" />
+              </TouchableOpacity>
+            </View>
+            
+            <ScrollView style={styles.filterModalList} showsVerticalScrollIndicator={false}>
+              {availableCategories.map((category) => {
+                const isSelected = selectedCategories.has(category.id);
+                return (
+                  <TouchableOpacity
+                    key={category.id}
+                    style={styles.categoryItem}
+                    onPress={() => toggleCategory(category.id)}
+                  >
+                    <View style={[
+                      styles.categoryCheckbox,
+                      isSelected && styles.categoryCheckboxSelected
+                    ]}>
+                      {isSelected && <View style={styles.categoryCheckboxInner} />}
+                    </View>
+                    <Text style={styles.categoryText}>
+                      {category.name}
+                    </Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </ScrollView>
+            
+            <View style={styles.filterModalFooter}>
+              <TouchableOpacity 
+                onPress={() => {
+                  const { clearCategories } = useCategoryContext();
+                  clearCategories();
+                }} 
+                style={styles.clearFiltersButtonModal}
+                disabled={selectedCategories.size === 0}
+              >
+                <Ionicons 
+                  name="close-circle" 
+                  size={20} 
+                  color={selectedCategories.size > 0 ? "#e74f30" : "#ccc"} 
+                />
+              </TouchableOpacity>
+              <TouchableOpacity 
+                style={styles.applyFiltersButton}
+                onPress={closeFilterModal}
+              >
+                <Text style={styles.applyFiltersText}>Applica</Text>
+              </TouchableOpacity>
+            </View>
+          </TouchableOpacity>
+        </TouchableOpacity>
+      </Modal>
     </ErrorBoundary>
   );
 }
 
 const styles = StyleSheet.create({
+  mapContainer: {
+    flex: 1,
+    position: 'relative',
+  },
   map: { flex: 1 },
   center: { flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 },
   loadingText: {
@@ -1236,6 +1350,135 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 14,
   },
+  filterMapButton: {
+    position: 'absolute',
+    bottom: 20,
+    left: 16,
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 10,
+    margin: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
+    zIndex: 1000,
+    flexDirection: 'row',
+    width: 50,
+    height: 50,
+  },
+  filterMapButtonActive: {
+    backgroundColor: '#e74f30',
+  },
+  filterBadge: {
+    position: 'absolute',
+    top: -4,
+    right: -4,
+    backgroundColor: '#e74f30',
+    borderRadius: 8,
+    width: 14,
+    height: 14,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterBadgeText: {
+    color: 'white',
+    fontSize: 10,
+    fontWeight: '600',
+  },
+  filterModalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  filterModalContent: {
+    backgroundColor: 'white',
+    borderRadius: 16,
+    padding: 24,
+    width: '90%',
+    maxWidth: 320,
+    maxHeight: '80%',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 16,
+    elevation: 8,
+  },
+  filterModalHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  filterModalTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  filterModalClose: {
+    padding: 4,
+  },
+  filterModalList: {
+    maxHeight: 300,
+  },
+  filterModalFooter: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 16,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: '#f0f0f0',
+  },
+  clearFiltersButtonModal: {
+    padding: 8,
+  },
+  applyFiltersButton: {
+    backgroundColor: '#e74f30',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 8,
+  },
+  applyFiltersText: {
+    color: 'white',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  categoryItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 8,
+    paddingVertical: 4,
+  },
+  categoryCheckbox: {
+    width: 20,
+    height: 20,
+    borderRadius: 4,
+    borderWidth: 2,
+    borderColor: '#ccc',
+    marginRight: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  categoryCheckboxSelected: {
+    backgroundColor: '#e74f30',
+    borderColor: '#e74f30',
+  },
+  categoryCheckboxInner: {
+    width: 8,
+    height: 8,
+    borderRadius: 2,
+    backgroundColor: 'white',
+  },
+  categoryText: {
+    fontSize: 14,
+    color: '#333',
+    flex: 1,
+  },
   categoriesContainer: {
     width: '100%',
     marginTop: 12,
@@ -1262,41 +1505,5 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#666',
     fontWeight: '500',
-  },
-  filterMapButton: {
-    position: 'absolute',
-    bottom: 20,
-    left: 16,
-    backgroundColor: 'white',
-    borderRadius: 25,
-    width: 50,
-    height: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 4,
-    elevation: 3,
-    zIndex: 1000,
-  },
-  filterMapButtonActive: {
-    backgroundColor: '#e74f30',
-  },
-  filterBadge: {
-    position: 'absolute',
-    top: -5,
-    right: -5,
-    backgroundColor: '#e74f30',
-    borderRadius: 10,
-    width: 20,
-    height: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  filterBadgeText: {
-    color: 'white',
-    fontSize: 10,
-    fontWeight: '600',
   },
 });

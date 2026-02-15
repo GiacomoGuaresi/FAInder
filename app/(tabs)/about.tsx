@@ -108,6 +108,45 @@ export default function AboutScreen() {
         </View>
 
         <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Tecnologie Utilizzate</Text>
+          <View style={styles.techList}>
+            <View style={styles.techItem}>
+              <Ionicons name="map" size={16} color="#e74f30" style={styles.techIcon} />
+              <Text style={styles.techText}>Leaflet.js - Mappa interattiva</Text>
+            </View>
+            <View style={styles.techItem}>
+              <Ionicons name="layers" size={16} color="#e74f30" style={styles.techIcon} />
+              <Text style={styles.techText}>OpenStreetMap - Mappe libere</Text>
+            </View>
+            <View style={styles.techItem}>
+              <Ionicons name="grid" size={16} color="#e74f30" style={styles.techIcon} />
+              <Text style={styles.techText}>CartoDB - Tile server</Text>
+            </View>
+            <View style={styles.techItem}>
+              <Ionicons name="git-branch" size={16} color="#e74f30" style={styles.techIcon} />
+              <Text style={styles.techText}>MarkerCluster - Clustering marker</Text>
+            </View>
+            <View style={styles.techItem}>
+              <Ionicons name="phone-portrait" size={16} color="#e74f30" style={styles.techIcon} />
+              <Text style={styles.techText}>React Native - App mobile</Text>
+            </View>
+            <View style={styles.techItem}>
+              <Ionicons name="compass" size={16} color="#e74f30" style={styles.techIcon} />
+              <Text style={styles.techText}>Expo - Framework di sviluppo</Text>
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Ringraziamenti</Text>
+          <Text style={styles.sectionText}>
+            Un ringraziamento speciale a OpenStreetMap e alla community di contributori 
+            che rendono disponibili mappe libere e aperte a tutti. Grazie anche agli sviluppatori 
+            di Leaflet.js e delle librerie open source che rendono possibile questo progetto.
+          </Text>
+        </View>
+
+        <View style={styles.section}>
           <Text style={styles.sectionTitle}>Open Source</Text>
           <Text style={styles.sectionText}>
             Contribuisci allo sviluppo di FAInder! Il progetto è open source e accetta 
@@ -291,5 +330,21 @@ const styles = StyleSheet.create({
   },
   footerIcon: {
     marginRight: 8,
+  },
+  techList: {
+    gap: 10,
+  },
+  techItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  techIcon: {
+    marginRight: 10,
+  },
+  techText: {
+    fontSize: 14,
+    color: '#666',
+    flex: 1,
   },
 });
