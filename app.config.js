@@ -19,7 +19,8 @@ module.exports = {
     },
 
     ios: {
-      supportsTablet: true
+      supportsTablet: true,
+      bundleIdentifier: "com.jack-up98.fainder"
     },
 
     android: {
