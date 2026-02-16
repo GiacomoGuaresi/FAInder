@@ -36,6 +36,11 @@ const FAVORITES_STORAGE_KEY = 'fai_favorites_places';
 const NOT_INTERESTED_STORAGE_KEY = 'fai_not_interested_places';
 const CATEGORY_FILTERS_STORAGE_KEY = 'fai_category_filters';
 
+interface VisitedPlace {
+  id: number;
+  visitDate: string; // ISO date string
+}
+
 // Funzione per decodificare entità HTML
 const decodeHtmlEntities = (text: string): string => {
   const entityMap: { [key: string]: string } = {
@@ -83,7 +88,7 @@ const truncateText = (text: string, maxLength: number = 200): string => {
   return text.substring(0, maxLength).trim() + '...';
 };
 
-const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favoritesIds: Set<number>, notInterestedIds: Set<number>, userLocation?: Location.LocationObject) => {
+const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>, favoritesIds: Set<number>, notInterestedIds: Set<number>, userLocation?: Location.LocationObject) => {
   const userLat = userLocation?.coords.latitude ?? 45.4642;
   const userLng = userLocation?.coords.longitude ?? 9.19;
   
@@ -324,7 +329,11 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
               });
             } else if (data.type === 'setVisitedStatus') {
               // Update all markers with visited status
-              var visitedIds = new Set(data.data);
+              var visitedData = data.data;
+              var visitedIds = new Set();
+              visitedData.forEach(function(item) {
+                visitedIds.add(item.id);
+              });
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId) {
                   var isVisited = visitedIds.has(layer._faiPointId);
@@ -403,7 +412,11 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
               });
             } else if (data.type === 'setVisitedStatus') {
               // Update all markers with visited status
-              var visitedIds = new Set(data.data);
+              var visitedData = data.data;
+              var visitedIds = new Set();
+              visitedData.forEach(function(item) {
+                visitedIds.add(item.id);
+              });
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId) {
                   var isVisited = visitedIds.has(layer._faiPointId);
@@ -454,7 +467,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   const [locationLoading, setLocationLoading] = useState(true);
   const [pointsLoading, setPointsLoading] = useState(true);
   const [faiPoints, setFaiPoints] = useState<FaiPoint[]>([]);
-  const [visitedIds, setVisitedIds] = useState<Set<number>>(new Set());
+  const [visitedIds, setVisitedIds] = useState<Map<number, string>>(new Map());
   const [favoritesIds, setFavoritesIds] = useState<Set<number>>(new Set());
   const [notInterestedIds, setNotInterestedIds] = useState<Set<number>>(new Set());
   const [selectedPoint, setSelectedPoint] = useState<FaiPoint | null>(null);
@@ -539,7 +552,45 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
       try {
         const stored = await AsyncStorage.getItem(VISITED_STORAGE_KEY);
         if (stored) {
-          setVisitedIds(new Set(JSON.parse(stored)));
+          try {
+            const parsedData = JSON.parse(stored);
+            
+            // Verifica se i dati sono nel vecchio formato (array di ID) o nuovo (array di oggetti)
+            const needsMigration = Array.isArray(parsedData) && 
+              parsedData.length > 0 && 
+              typeof parsedData[0] === 'number';
+            
+            let processedData: VisitedPlace[];
+            
+            if (needsMigration) {
+              // Migrazione dal vecchio formato (array di ID) al nuovo
+              processedData = (parsedData as number[]).map(id => ({
+                id,
+                visitDate: new Date().toISOString() // Assegna data corrente
+              }));
+              
+              // Salva il nuovo formato
+              await AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(processedData));
+            } else {
+              // Verifica che le visite abbiano una data valida
+              processedData = (parsedData as VisitedPlace[]).map(item => ({
+                ...item,
+                visitDate: item.visitDate && item.visitDate !== '' ? item.visitDate : new Date().toISOString()
+              }));
+              
+              // Salva i dati corretti
+              await AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(processedData));
+            }
+            
+            const visitedMap = new Map<number, string>();
+            processedData.forEach(item => visitedMap.set(item.id, item.visitDate));
+            setVisitedIds(visitedMap);
+          } catch (parseError) {
+            console.error('Error parsing visited data:', parseError);
+            // Se c'è un errore nel parsing, resetta i dati
+            await AsyncStorage.removeItem(VISITED_STORAGE_KEY);
+            setVisitedIds(new Map());
+          }
         }
       } catch (error) {
         console.error('Error loading visited places:', error);
@@ -585,11 +636,11 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
 
   const toggleVisited = useCallback(async (id: number) => {
     setVisitedIds((prev) => {
-      const newSet = new Set(prev);
-      if (newSet.has(id)) {
-        newSet.delete(id);
+      const newMap = new Map(prev);
+      if (newMap.has(id)) {
+        newMap.delete(id);
       } else {
-        newSet.add(id);
+        newMap.set(id, new Date().toISOString());
       }
       
       // Send update message to WebView to change marker color
@@ -599,7 +650,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
             type: 'updateMarker',
             data: {
               id: id,
-              isVisited: newSet.has(id),
+              isVisited: newMap.has(id),
               isFavorite: favoritesIds.has(id),
               isNotInterested: notInterestedIds.has(id)
             }
@@ -623,8 +674,9 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
         }
       }
       
-      AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
-      return newSet;
+      const visitedArray: VisitedPlace[] = Array.from(newMap.entries()).map(([id, date]) => ({ id, visitDate: date }));
+      AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(visitedArray));
+      return newMap;
     });
   }, [faiPoints, favoritesIds, notInterestedIds]);
 

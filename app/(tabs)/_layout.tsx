@@ -274,6 +274,11 @@ export default function TabLayout() {
     router.push('/(tabs)/about');
   };
 
+  const navigateToStatistiche = () => {
+    toggleSidebar();
+    router.push('/(tabs)/statistiche');
+  };
+
   const openFaiWebsite = async () => {
     toggleSidebar();
     await WebBrowser.openBrowserAsync('https://www.fondoambiente.it/');
@@ -338,6 +343,13 @@ export default function TabLayout() {
           
           <View style={{ flex: 1 }} />
           
+          <TouchableOpacity 
+            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#444' }]}
+            onPress={navigateToStatistiche}
+          >
+            <Ionicons name="bar-chart-outline" size={20} color="#e74f30" style={styles.menuItemIcon} />
+            <Text style={styles.menuItemText}>Statistiche</Text>
+          </TouchableOpacity>
           <TouchableOpacity 
             style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#444' }]}
             onPress={navigateToAbout}
@@ -461,6 +473,24 @@ export default function TabLayout() {
                   <Ionicons name="arrow-back" size={24} color="#222" />
                 </TouchableOpacity>
                 <Text style={styles.propertiesHeaderTitle}>Tutti gli Altri Luoghi</Text>
+                <View style={styles.placeholder} />
+              </View>
+            ),
+          }}
+        />
+        <Tabs.Screen
+          name="statistiche"
+          options={{
+            title: 'Statistiche',
+            href: null, // Hide from tab bar, only accessible via sidebar
+            tabBarStyle: { display: 'none' }, // Hide tab bar on this screen
+            headerShown: true,
+            header: () => (
+              <View style={styles.propertiesHeader}>
+                <TouchableOpacity onPress={() => router.replace('/')} style={styles.backButton}>
+                  <Ionicons name="arrow-back" size={24} color="#222" />
+                </TouchableOpacity>
+                <Text style={styles.propertiesHeaderTitle}>Statistiche</Text>
                 <View style={styles.placeholder} />
               </View>
             ),

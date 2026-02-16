@@ -15,6 +15,11 @@ interface FaiPoint {
   description?: string;
 }
 
+interface VisitedPlace {
+  id: number;
+  visitDate: string; // ISO date string
+}
+
 const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/main/data/beni-fai.json';
 const VISITED_STORAGE_KEY = 'fai_visited_places';
 
@@ -68,7 +73,7 @@ const truncateText = (text: string, maxLength: number = 200): string => {
 export default function LuoghiVisitatiScreen() {
   const [loading, setLoading] = useState(true);
   const [faiPoints, setFaiPoints] = useState<FaiPoint[]>([]);
-  const [visitedIds, setVisitedIds] = useState<Set<number>>(new Set());
+  const [visitedIds, setVisitedIds] = useState<Map<number, string>>(new Map());
   const router = useRouter();
 
   useEffect(() => {
@@ -102,7 +107,10 @@ export default function LuoghiVisitatiScreen() {
           const visitedStored = await AsyncStorage.getItem(VISITED_STORAGE_KEY);
           
           if (visitedStored) {
-            setVisitedIds(new Set(JSON.parse(visitedStored)));
+            const visitedData: VisitedPlace[] = JSON.parse(visitedStored);
+            const visitedMap = new Map<number, string>();
+            visitedData.forEach(item => visitedMap.set(item.id, item.visitDate));
+            setVisitedIds(visitedMap);
           }
         } catch (error) {
           console.error('Error loading stored data:', error);
