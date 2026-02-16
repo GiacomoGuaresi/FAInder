@@ -199,7 +199,11 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>,
             var point = markersData[i];
             var color, opacity, size;
             
-            if (point.isFavorite) {
+            if (point.isVisited) {
+              color = '#4CAF50'; // Verde per visitati
+              opacity = 1;
+              size = 16; // Piccolo per visitati
+            } else if (point.isFavorite) {
               color = '#FFD700'; // Giallo per preferiti
               opacity = 1;
               size = 24;
@@ -207,10 +211,6 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>,
               color = '#222'; // Grigio scuro per non interessati
               opacity = 0.4;
               size = 16; // Piccolo per non interessati
-            } else if (point.isVisited) {
-              color = '#4CAF50'; // Verde per visitati
-              opacity = 1;
-              size = 16; // Piccolo per visitati
             } else {
               color = '#e74f30'; // Rosso per normali
               opacity = 1;
@@ -262,7 +262,11 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>,
           // Find and update marker color without reloading map
           var color, opacity, size;
           
-          if (isFavorite) {
+          if (isVisited) {
+            color = '#4CAF50'; // Verde per visitati
+            opacity = 1;
+            size = 16; // Più piccolo per visitati
+          } else if (isFavorite) {
             color = '#FFD700'; // Giallo per preferiti
             opacity = 1;
             size = 24;
@@ -270,10 +274,6 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>,
             color = '#222'; // Grigio scuro per non interessati
             opacity = 0.4;
             size = 24;
-          } else if (isVisited) {
-            color = '#4CAF50'; // Verde per visitati
-            opacity = 1;
-            size = 16; // Più piccolo per visitati
           } else {
             color = '#e74f30'; // Rosso per normali
             opacity = 1;
@@ -298,7 +298,11 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>,
               
               var color, opacity, size;
               
-              if (isFavorite) {
+              if (isVisited) {
+                color = '#4CAF50'; // Verde per visitati
+                opacity = 1;
+                size = 16; // Più piccolo per visitati
+              } else if (isFavorite) {
                 color = '#FFD700'; // Giallo per preferiti
                 opacity = 1;
                 size = 24;
@@ -306,101 +310,17 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>,
                 color = '#222'; // Grigio scuro per non interessati
                 opacity = 0.4;
                 size = 24;
-              } else if (isVisited) {
-                color = '#4CAF50'; // Verde per visitati
-                opacity = 1;
-                size = 16; // Più piccolo per visitati
               } else {
                 color = '#e74f30'; // Rosso per normali
                 opacity = 1;
                 size = 24;
               }
               
-              map.eachLayer(function(layer) {
-                if (layer._latlng && layer._faiPointId === pointId) {
-                  var newIcon = L.divIcon({
-                    html: '<div style="background-color: ' + color + '; opacity: ' + opacity + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 3px 6px rgba(0,0,0,0.4);"></div>',
-                    iconSize: [size, size],
-                    iconAnchor: [size/2, size],
-                    className: 'fai-marker'
-                  });
-                  layer.setIcon(newIcon);
-                }
-              });
-            } else if (data.type === 'setVisitedStatus') {
-              // Update all markers with visited status
-              var visitedData = data.data;
-              var visitedIds = new Set();
-              visitedData.forEach(function(item) {
-                visitedIds.add(item.id);
-              });
-              map.eachLayer(function(layer) {
-                if (layer._latlng && layer._faiPointId) {
-                  var isVisited = visitedIds.has(layer._faiPointId);
-                  var color, opacity, size;
-                  
-                  if (isVisited) {
-                    color = '#4CAF50'; // Verde per visitati
-                    opacity = 1;
-                    size = 16; // Più piccolo per visitati
-                  } else {
-                    color = '#e74f30'; // Rosso per normali
-                    opacity = 1;
-                    size = 24; // Grande per luoghi da visitare
-                  }
-                  // Update marker icon
-                  var newIcon = L.divIcon({
-                    html: '<div style="background-color: ' + color + '; opacity: ' + opacity + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 3px 6px rgba(0,0,0,0.4);"></div>',
-                    iconSize: [size, size],
-                    iconAnchor: [size/2, size],
-                    className: 'fai-marker'
-                  });
-                  layer.setIcon(newIcon);
-                }
-              });
-            } else if (data.type === 'updateMarkers') {
-              // Just update markers without changing view
-              console.log('Updating markers without recentering');
-            }
-          } catch (e) {
-            console.error('Error parsing message:', e);
-          }
-        });
-        
-        window.addEventListener('message', function(event) {
-          try {
-            var data = JSON.parse(event.data);
-            if (data.type === 'setCenter') {
-              map.setView([data.lat, data.lng], data.zoom || 15);
-            } else if (data.type === 'updateMarker') {
-              // Update specific marker without recentering
-              var pointId = data.data.id;
-              var isVisited = data.data.isVisited;
-              var isFavorite = data.data.isFavorite;
-              var isNotInterested = data.data.isNotInterested;
-              
-              var color, opacity, size;
-              
-              if (isFavorite) {
-                color = '#FFD700'; // Giallo per preferiti
-                opacity = 1;
-                size = 24;
-              } else if (isNotInterested) {
-                color = '#222'; // Grigio scuro per non interessati
-                opacity = 0.4;
-                size = 24;
-              } else if (isVisited) {
-                color = '#4CAF50'; // Verde per visitati
-                opacity = 1;
-                size = 16; // Più piccolo per visitati
-              } else {
-                color = '#e74f30'; // Rosso per normali
-                opacity = 1;
-                size = 24;
-              }
+              console.log('Updating marker ' + pointId + ': isVisited=' + isVisited + ', isFavorite=' + isFavorite + ', isNotInterested=' + isNotInterested + ', color=' + color);
               
               map.eachLayer(function(layer) {
                 if (layer._latlng && layer._faiPointId === pointId) {
+                  console.log('Found marker layer for point ' + pointId + ', updating icon');
                   var newIcon = L.divIcon({
                     html: '<div style="background-color: ' + color + '; opacity: ' + opacity + '; width: ' + size + 'px; height: ' + size + 'px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 3px 6px rgba(0,0,0,0.4);"></div>',
                     iconSize: [size, size],
@@ -467,7 +387,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   const [locationLoading, setLocationLoading] = useState(true);
   const [pointsLoading, setPointsLoading] = useState(true);
   const [faiPoints, setFaiPoints] = useState<FaiPoint[]>([]);
-  const [visitedIds, setVisitedIds] = useState<Map<number, string>>(new Map());
+  const [visitedIds, setVisitedIds] = useState<Set<number>>(new Set());
   const [favoritesIds, setFavoritesIds] = useState<Set<number>>(new Set());
   const [notInterestedIds, setNotInterestedIds] = useState<Set<number>>(new Set());
   const [selectedPoint, setSelectedPoint] = useState<FaiPoint | null>(null);
@@ -555,41 +475,33 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
           try {
             const parsedData = JSON.parse(stored);
             
-            // Verifica se i dati sono nel vecchio formato (array di ID) o nuovo (array di oggetti)
-            const needsMigration = Array.isArray(parsedData) && 
-              parsedData.length > 0 && 
-              typeof parsedData[0] === 'number';
+            // Handle different data formats - convert to Set
+            let ids: number[];
             
-            let processedData: VisitedPlace[];
-            
-            if (needsMigration) {
-              // Migrazione dal vecchio formato (array di ID) al nuovo
-              processedData = (parsedData as number[]).map(id => ({
-                id,
-                visitDate: new Date().toISOString() // Assegna data corrente
-              }));
-              
-              // Salva il nuovo formato
-              await AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(processedData));
+            if (Array.isArray(parsedData)) {
+              if (parsedData.length > 0 && typeof parsedData[0] === 'number') {
+                // Old format: array of numbers
+                ids = parsedData as number[];
+              } else if (typeof parsedData[0] === 'object' && parsedData[0].id) {
+                // New format: array of objects with id
+                ids = (parsedData as VisitedPlace[]).map(item => item.id);
+              } else {
+                ids = [];
+              }
             } else {
-              // Verifica che le visite abbiano una data valida
-              processedData = (parsedData as VisitedPlace[]).map(item => ({
-                ...item,
-                visitDate: item.visitDate && item.visitDate !== '' ? item.visitDate : new Date().toISOString()
-              }));
-              
-              // Salva i dati corretti
-              await AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(processedData));
+              ids = [];
             }
             
-            const visitedMap = new Map<number, string>();
-            processedData.forEach(item => visitedMap.set(item.id, item.visitDate));
-            setVisitedIds(visitedMap);
+            const visitedSet = new Set<number>(ids);
+            setVisitedIds(visitedSet);
+            
+            // Save in simple format for future
+            await AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(Array.from(visitedSet)));
           } catch (parseError) {
             console.error('Error parsing visited data:', parseError);
-            // Se c'è un errore nel parsing, resetta i dati
+            // If there's an error, reset data
             await AsyncStorage.removeItem(VISITED_STORAGE_KEY);
-            setVisitedIds(new Map());
+            setVisitedIds(new Set());
           }
         }
       } catch (error) {
@@ -635,50 +547,44 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   }, [faiPoints, selectedCategories]);
 
   const toggleVisited = useCallback(async (id: number) => {
+    console.log('toggleVisited called with id:', id);
     setVisitedIds((prev) => {
-      const newMap = new Map(prev);
-      if (newMap.has(id)) {
-        newMap.delete(id);
+      console.log('Previous visitedIds size:', prev.size);
+      const newSet = new Set(prev);
+      if (newSet.has(id)) {
+        newSet.delete(id);
+        console.log('Removing from visited');
       } else {
-        newMap.set(id, new Date().toISOString());
+        newSet.add(id);
+        console.log('Adding to visited');
       }
+      console.log('New visitedIds size:', newSet.size);
       
-      // Send update message to WebView to change marker color
+      // Save to storage first - EXACTLY like toggleFavorite
+      AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
+      
+      // Send update message to WebView to change marker color - EXACTLY like toggleFavorite
       if (mapRef.current) {
         try {
-          mapRef.current.postMessage(JSON.stringify({
+          const message = JSON.stringify({
             type: 'updateMarker',
             data: {
               id: id,
-              isVisited: newMap.has(id),
+              isVisited: newSet.has(id),
               isFavorite: favoritesIds.has(id),
               isNotInterested: notInterestedIds.has(id)
             }
-          }));
+          });
+          console.log('Sending updateMarker message:', message);
+          mapRef.current.postMessage(message);
         } catch (error) {
           console.error('Error sending message to WebView:', error);
         }
       }
       
-      // Find the point and center map on it
-      const point = faiPoints.find(p => p.id === id);
-      if (point && mapRef.current) {
-        try {
-          mapRef.current.postMessage(JSON.stringify({
-            type: 'setCenter',
-            lat: point.lat,
-            lng: point.lng
-          }));
-        } catch (error) {
-          console.error('Error sending center message to WebView:', error);
-        }
-      }
-      
-      const visitedArray: VisitedPlace[] = Array.from(newMap.entries()).map(([id, date]) => ({ id, visitDate: date }));
-      AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(visitedArray));
-      return newMap;
+      return newSet;
     });
-  }, [faiPoints, favoritesIds, notInterestedIds]);
+  }, [favoritesIds, notInterestedIds]);
 
   const toggleFavorite = useCallback(async (id: number) => {
     setFavoritesIds((prev) => {
@@ -688,6 +594,9 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
       } else {
         newSet.add(id);
       }
+      
+      // Save to storage first
+      AsyncStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
       
       // Send update message to WebView to change marker color
       if (mapRef.current) {
@@ -706,7 +615,6 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
         }
       }
       
-      AsyncStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
       return newSet;
     });
   }, [faiPoints, visitedIds, notInterestedIds]);
@@ -719,6 +627,9 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
       } else {
         newSet.add(id);
       }
+      
+      // Save to storage first
+      AsyncStorage.setItem(NOT_INTERESTED_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
       
       // Send update message to WebView to change marker color
       if (mapRef.current) {
@@ -737,7 +648,6 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
         }
       }
       
-      AsyncStorage.setItem(NOT_INTERESTED_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
       return newSet;
     });
   }, [faiPoints, visitedIds, favoritesIds]);
@@ -841,18 +751,26 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   // Search only on enter and blur, not while typing
 
   useEffect(() => {
-    // Send visited status to WebView after it loads
-    const timer = setTimeout(() => {
-      if (mapRef.current && visitedIds.size > 0) {
-        mapRef.current.postMessage(JSON.stringify({
-          type: 'setVisitedStatus',
-          data: Array.from(visitedIds)
-        }));
-      }
-    }, 2000); // Wait for map to load
-    
-    return () => clearTimeout(timer);
-  }, [visitedIds]);
+    // Force update ALL markers when visitedIds changes
+    if (mapRef.current && visitedIds.size > 0) {
+      // Send update for each visited point to force color refresh
+      visitedIds.forEach((id) => {
+        try {
+          mapRef.current?.postMessage(JSON.stringify({
+            type: 'updateMarker',
+            data: {
+              id: id,
+              isVisited: true,
+              isFavorite: favoritesIds.has(id),
+              isNotInterested: notInterestedIds.has(id)
+            }
+          }));
+        } catch (error) {
+          console.error('Error sending force update for visited marker:', error);
+        }
+      });
+    }
+  }, [visitedIds, favoritesIds, notInterestedIds]);
 
   // Auto-zoom to first search result
   useEffect(() => {
