@@ -13400,20 +13400,6 @@
     ]
   },
   {
-    "id": 119722,
-    "title": "ERBORISTERIA DR. D. MARTINI E S. VITALI",
-    "lat": 45.6989178,
-    "lng": 9.4143013,
-    "url": "https://fondoambiente.it/luoghi/erboristeria-dr-d-martini-e-s-vitali",
-    "description": "Per iscritti FAI riduzione del 10% per l&#39;acquisto dei prodotti presso l&#39;Erboristeria Merate DESCRIZIONE Dal 1996 portiamo avanti la tradizione in un punto vendita storico. Nell&rsquo;Erboristeria di Merate si trovano erbe sfuse per tisane personalizzate, t&egrave; provenienti da ogni parte del mondo, oli essenziali, idee regalo per ogni occasione, prodotti delle migliori marche, cosmetici e prodotti curativi a marchio &ldquo;L&rsquo;Erboristeria Merate&rdquo;, frutto di continue ricerche su materie prime di altissima qualit&agrave; e provata efficacia nel risolvere le pi&ugrave; svariate patologie. Siamo orgogliose di far parte della Comunit&agrave; Scientifica dei Fitopreparatori Italiani, che ci offre una continua formazione e un costante aggiornamento,&nbsp; fondamentali per curare con prodotti totalmente naturali che hanno alle spalle studi clinici pubblicati.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 99570,
     "title": "GELATERIA E ARTE MARIO SPINI",
     "lat": 45.6927052,
@@ -13476,6 +13462,20 @@
     "lng": 8.9078359,
     "url": "https://fondoambiente.it/luoghi/birrificio-di-legnano",
     "description": "Per Iscritti FAI riduzione del 10% per usufruire dei servizi offerti dal Birrificio di Legnano (MI) DESCRIZIONE Il Birrificio di Legnano pu&ograve; vantarsi di essere un micro-birrificio di successo della provincia lombarda, che conta da sola pi&ugrave; di 124 realt&agrave; brassicole. Il progetto nasce nel 2015 dall&#39;idea di due fratelli e alcuni amici, tutti appassionati ed esperti di birra, di dare alla citt&agrave; di Legnano il suo primo birrificio artigianale: un luogo d&#39;incontro fra gusto e divertimento. La location, situata nel pieno centro della citt&agrave;, &egrave; di una bellezza architettonica unica, a met&agrave; strada fra il recupero di una ex area industriale dismessa del 1900 e un restyling innovativo e contemporaneo. La mescita e la produzione (dalla fermentazione all&#39;imbottigliamento e infustamento) avvengono all&#39;interno del birrificio stesso, accanto al brew pub. Sono circa 15 referenze dei vari stili internazionali, dalla blanche alla indian pale, questo per dare l&#39;opportunit&agrave; ad ogni consumatore di scegliere in base alla propria preferenza. Allo stesso tempo sono tutte legate da tre fattori comuni che le contraddistinguono: qualit&agrave;, armonia e aromaticit&agrave;.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 119722,
+    "title": "ERBORISTERIA DR. D. MARTINI E S. VITALI",
+    "lat": 45.6989178,
+    "lng": 9.4143013,
+    "url": "https://fondoambiente.it/luoghi/erboristeria-dr-d-martini-e-s-vitali",
+    "description": "Per iscritti FAI riduzione del 10% per l&#39;acquisto dei prodotti presso l&#39;Erboristeria Merate DESCRIZIONE Dal 1996 portiamo avanti la tradizione in un punto vendita storico. Nell&rsquo;Erboristeria di Merate si trovano erbe sfuse per tisane personalizzate, t&egrave; provenienti da ogni parte del mondo, oli essenziali, idee regalo per ogni occasione, prodotti delle migliori marche, cosmetici e prodotti curativi a marchio &ldquo;L&rsquo;Erboristeria Merate&rdquo;, frutto di continue ricerche su materie prime di altissima qualit&agrave; e provata efficacia nel risolvere le pi&ugrave; svariate patologie. Siamo orgogliose di far parte della Comunit&agrave; Scientifica dei Fitopreparatori Italiani, che ci offre una continua formazione e un costante aggiornamento,&nbsp; fondamentali per curare con prodotti totalmente naturali che hanno alle spalle studi clinici pubblicati.",
     "categories": [
       {
         "id": 13,
