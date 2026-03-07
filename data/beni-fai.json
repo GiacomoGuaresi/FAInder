@@ -786,8 +786,8 @@
   {
     "id": 98249,
     "title": "FAI - SALINE CONTI VECCHI",
-    "lat": 39.22423804,
-    "lng": 9.02462348,
+    "lat": 39.2242535,
+    "lng": 9.0245837,
     "url": "https://fondoambiente.it/luoghi/saline-conti-vecchi",
     "description": "Un viaggio alla scoperta dell'oro bianco, alle porte di Cagliari",
     "categories": [
@@ -9692,20 +9692,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 119846,
-    "title": "SALONE DELLE FONTANE ROMA EUR",
-    "lat": 41.8375695,
-    "lng": 12.4690037,
-    "url": "https://fondoambiente.it/luoghi/salone-delle-fontane-eur",
-    "description": "PER ISCRITTI FAI RIDUZIONE DEL 25% PER I MIGLIORI VINI ITALIANI ALL&#39;EUR DAL 20 - 22 FEBBRAIO la convenzione include la&nbsp;degustazione illimitata&nbsp;di tutti i prodotti presenti ed include&nbsp;tutte&nbsp;le&nbsp;attivit&agrave; in programma. DESCRIZIONE Tre giorni di degustazioni illimitate, laboratori esclusivi, incontri con esperti, masterclass e degustazioni guidate da Luca Maroni, esperto di fama internazionale. L&rsquo;unico evento dedicato al vino&nbsp;che da decenni ti permette di&nbsp;degustare a Roma, senza contare i calici,&nbsp;centinaia di cantine italiane selezionate. Aziende che sanno esprimere nel bicchiere il gusto pi&ugrave; autentico del nostro incredibile territorio. Dal frutto nella vigna all&rsquo;elisir in bottiglia il viaggio &egrave; ricco di storia, conoscenza e bellezza: non ti resta che partire con noi in questo&nbsp;viaggio sensoriale alla scoperta dei tuoi vini preferiti! &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
