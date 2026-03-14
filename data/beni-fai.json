@@ -4762,20 +4762,6 @@
     ]
   },
   {
-    "id": 7911,
-    "title": "CHIESA DI SANTA LUCIELLA",
-    "lat": 40.8493298,
-    "lng": 14.2571419,
-    "url": "https://fondoambiente.it/luoghi/chiesa-di-santa-luciella",
-    "description": "Per iscritti FAI riduzione del 20% sul biglietto d&#39;ingresso per la chiesa di Santa Maria Luciella ai Librai a Napoli Santa Luciella&nbsp; ai Librai &egrave; una piccola chiesa nel cuore del centro antico di Napoli, situata nel vicolo che ai tempi dell&rsquo;antica Roma chiamavano &ldquo;vicus Cornelianus&rdquo; (oggi vico Santa Luciella) che collega San Biagio dei Librai a San Gregorio Armeno. La chiesa fu fondata poco prima del 1327 da Bartolomeo di Capua, giureconsulto e consigliere politico di Carlo II d&rsquo;Angi&ograve; e di Roberto I nonch&eacute; committente di alcuni importanti portali gotici per S. Lorenzo Maggiore e S. Domenico Maggiore e fondatore nel 1314 della chiesa di San Maria di Montevergine. Nella veduta del Baratta del 1629, la chiesa di Santa Luciella viene indicata come Cappella dell&rsquo;Arte dei Molinari o Mulinari (capostipiti mugnai o lavoranti presso un mulino); sar&agrave; poi presa in custodia dai pipernieri, antichi artisti che scolpivano le pietre dure. Questi, abituati a lavorare con scalpello e martello, temendo che le schegge, schizzando dalla pietra, potessero conficcarsi negli occhi, iniziarono a venerare Santa Lucia, la protettrice della vista, decidendo, dunque, di dedicarle questo luogo. Nel 18&deg;sec fu oggetto di un sostanziale rimaneggiamento e nel 1748 divenne sede dell&rsquo;Arciconfraternita dell&rsquo;Immacolata Concezione SS. Gioacchino e Carlo Borromeo. Santa Luciella, abbandonata da pi&ugrave; di 30 anni, &egrave; stata riaperta grazie alla tenacia ed al lavoro dell&rsquo;Associazione il 5 Aprile 2019. L&rsquo;Associazione Respiriamo Arte porta avanti un progetto che intende recuperare e valorizzare la chiesa sia da un punto di vista di sviluppo turistico con visite guidate ed eventi sia d&rsquo;inclusione sociale proponendo momenti aggregativi per le persone del quartiere, come scuola di canto, lezioni gratuite per i bambini dedite a temi fondamentali quali la legalit&agrave;, l&rsquo;educazione civica e l&lsquo;impegno sociale. &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 98689,
     "title": "CITTÀ DELLA SCIENZA",
     "lat": 40.8051799,
@@ -5304,6 +5290,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 7911,
+    "title": "CHIESA DI SANTA LUCIELLA",
+    "lat": 40.8493298,
+    "lng": 14.2571419,
+    "url": "https://fondoambiente.it/luoghi/chiesa-di-santa-luciella",
+    "description": "Per iscritti FAI riduzione del 20% sul biglietto d&#39;ingresso per la chiesa di Santa Maria Luciella ai Librai a Napoli Santa Luciella&nbsp; ai Librai &egrave; una piccola chiesa nel cuore del centro antico di Napoli, situata nel vicolo che ai tempi dell&rsquo;antica Roma chiamavano &ldquo;vicus Cornelianus&rdquo; (oggi vico Santa Luciella) che collega San Biagio dei Librai a San Gregorio Armeno. La chiesa fu fondata poco prima del 1327 da Bartolomeo di Capua, giureconsulto e consigliere politico di Carlo II d&rsquo;Angi&ograve; e di Roberto I nonch&eacute; committente di alcuni importanti portali gotici per S. Lorenzo Maggiore e S. Domenico Maggiore e fondatore nel 1314 della chiesa di San Maria di Montevergine. Nella veduta del Baratta del 1629, la chiesa di Santa Luciella viene indicata come Cappella dell&rsquo;Arte dei Molinari o Mulinari (capostipiti mugnai o lavoranti presso un mulino); sar&agrave; poi presa in custodia dai pipernieri, antichi artisti che scolpivano le pietre dure. Questi, abituati a lavorare con scalpello e martello, temendo che le schegge, schizzando dalla pietra, potessero conficcarsi negli occhi, iniziarono a venerare Santa Lucia, la protettrice della vista, decidendo, dunque, di dedicarle questo luogo. Nel 18&deg;sec fu oggetto di un sostanziale rimaneggiamento e nel 1748 divenne sede dell&rsquo;Arciconfraternita dell&rsquo;Immacolata Concezione SS. Gioacchino e Carlo Borromeo. Santa Luciella, abbandonata da pi&ugrave; di 30 anni, &egrave; stata riaperta grazie alla tenacia ed al lavoro dell&rsquo;Associazione il 5 Aprile 2019. L&rsquo;Associazione Respiriamo Arte porta avanti un progetto che intende recuperare e valorizzare la chiesa sia da un punto di vista di sviluppo turistico con visite guidate ed eventi sia d&rsquo;inclusione sociale proponendo momenti aggregativi per le persone del quartiere, come scuola di canto, lezioni gratuite per i bambini dedite a temi fondamentali quali la legalit&agrave;, l&rsquo;educazione civica e l&lsquo;impegno sociale. &nbsp; &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -20206,6 +20206,48 @@
     ]
   },
   {
+    "id": 120537,
+    "title": "LIBRERIA IL MERCANTE DI LIBRI",
+    "lat": 37.3105332,
+    "lng": 13.5804175,
+    "url": "https://fondoambiente.it/luoghi/libreria-il-mercante-di-libri",
+    "description": "Per iscritti FAI riduzione del 5% per gli acquisti di libri presso il Mercante di LIbri ad AgrigentoDESCRIZIONE Libreria indipendente: non una semplice Libreria ma un punto di ritrovo culturale al centro della via Atenea",
+    "categories": [
+      {
+        "id": 12,
+        "name": "Leggere"
+      }
+    ]
+  },
+  {
+    "id": 95457,
+    "title": "TEATRO COMUNALE \"LUIGI PIRANDELLO\"",
+    "lat": 37.3115396,
+    "lng": 13.5745391,
+    "url": "https://fondoambiente.it/luoghi/teatro-comunale-luigi-pirandello",
+    "description": "Per iscritti FAI riduzione del 20% per gli spettacoli in scena al Teatro Luigi Pirandello di Agrigento SCOPRI IL PROGRAMMA DESCRIZIONE Il Teatro Luigi Pirandello &egrave; uno dei luoghi culturali pi&ugrave; rappresentativi di Agrigento, custode di oltre un secolo di storia artistica. La sua costruzione fu deliberata dalla giunta municipale nel 1863 e i lavori iniziarono nel 1870, su progetto dell&rsquo;ingegnere Dionisio Sciascia e dell&rsquo;architetto Giovan Battista Filippo Basile, figura di spicco dell&rsquo;architettura teatrale italiana dell&rsquo;Ottocento. L&rsquo;edificio fu aperto al pubblico nel 1880 e, in occasione della visita della Regina Margherita nel 1881, venne intitolato alla sovrana. Solo nel 1946, in concomitanza con le celebrazioni per il decennale della morte del drammaturgo agrigentino, il teatro assunse l&rsquo;attuale nome in onore di Luigi Pirandello, Premio Nobel per la Letteratura. Accessibile dall&rsquo;atrio del Palazzo dei Giganti, sede del Comune, il teatro si presenta con un&rsquo;elegante facciata neoclassica a due ordini: colonne ioniche, ampie vetrate e medaglioni che ritraggono autori della tradizione teatrale. Il porticato ad arco ospita lo stemma cittadino, mentre all&rsquo;interno si incontrano lapidi commemorative dedicate a Pirandello, splendidi affreschi ottocenteschi e ricche decorazioni realizzate da artisti dell&rsquo;epoca. L&rsquo;atmosfera che si respira &egrave; quella dei grandi teatri storici, dove architettura e memoria si fondono in un insieme armonioso. Oggi il Teatro Luigi Pirandello &egrave; un polo culturale vivace e moderno, capace di accogliere un pubblico ampio e diversificato. La sua stagione artistica propone spettacoli di prosa, concerti sinfonici e cameristici, musical, danza, balletto, opere di teatro contemporaneo e rassegne dedicate alla letteratura e alla tradizione pirandelliana. Inoltre ospita eventi di rilievo nazionale e internazionale, festival, incontri culturali e momenti dedicati alla valorizzazione del patrimonio artistico siciliano. Questo mix di programmazioni lo rende un punto di riferimento imprescindibile per chi desidera vivere la cultura ad Agrigento in tutte le sue forme. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 120538,
+    "title": "TEATRO DELLA POSTA VECCHIA",
+    "lat": 37.3113843,
+    "lng": 13.5778376,
+    "url": "https://fondoambiente.it/luoghi/teatro-posta-vecchia",
+    "description": "Per iscritti FAI riduzione del 20% per gli spettacoli al Teatro della Posta Vecchia di Agrigento SCOPRI IL PROGRAMMA DESCRIZIONE Per la stagione&nbsp;2026/2027 rinnova il proprio cartellone nei titoli e negli artisti, ampliando il percorso tracciato negli anni precedenti e proponendo importanti novit&agrave;. Per&nbsp; quanto riguarda il Cabaret,&nbsp;&nbsp; il Teatro della Posta Vecchia garantir&agrave; sia la presenza di artisti di fama nazionale, gi&agrave; noti al grande pubblico, sia di giovani talenti emergenti con nuove e brillanti proposte. Per quanto riguarda la&nbsp; Prosa, il Teatro della Posta Vecchia&nbsp;offrir&agrave; al suo pubblico non solo&nbsp;la possibilit&agrave;&nbsp;di&nbsp; rivivere testi classici rappresentati da giovani compagnie, ma anche di scoprire&nbsp; intelligenti autori&nbsp; che affronteranno con lungimiranza argomenti di grande attualit&agrave;. &nbsp; Ampio spazio sar&agrave; dedicato al Teatro per Ragazzi: si prospettano incontri all&#39;insegna della fantasia con il mondo dell&#39;infanzia, rivolti sia alle scuole&nbsp;sia a quanti vogliono avvicinarsi maggiormente al mondo giovanile. Saranno proposti: spettacoli, laboratori di animazione, cinema, movimento e costruzione marionette.&nbsp;Inoltre, alla luce del crescente successo ottenuto&nbsp;dalle nostre attivit&agrave; culturali,&nbsp;da quest&#39;anno al Teatro della Posta Vecchia&nbsp;si &egrave;&nbsp;deciso di non programmare ulteriori corsi di recitazione, ma di realizzare spettacoli di&nbsp;propria produzione.&nbsp;Pertanto, tutti gli interessati, attori o aspiranti attori, potranno presentarsi in Teatro per un loro eventuale inserimento nei nostri progetti. Certi che il modo migliore di apprendere l&#39;arte dell&#39;attore o di qualunque altra disciplina inerente lo spettacolo sia quello di esercitarlo nella pratica. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 8458,
     "title": "CENTRO STORICO DI PALERMO",
     "lat": 38.118613,
@@ -20510,6 +20552,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40340,
+    "title": "TEATRO GRECO DI SIRACUSA",
+    "lat": 37.0752056,
+    "lng": 15.2775421,
+    "url": "https://fondoambiente.it/luoghi/teatro-greco-di-siracusa",
+    "description": "Per gli iscritti FAI riduzione fino al 15% sul prezzo dei biglietti, applicabile in tutte le date escluse quelle a prezzo unico, del Teatro Greco di Siracusa. Per usufruire della riduzione scrivere alla seguente email&nbsp;biglietteria@indafondazione.org&nbsp;&nbsp;inviando i dati della prenotazione e allegando la tessera FAI in corso di validit&agrave;. N:B&nbsp;La convenzione &egrave; valida per tutte le date escluse quelle a prezzo unico SCOPRI LA PROGRAMMAZIONE&nbsp; DESCRIZIONE&nbsp; Il Teatro Greco rappresenta il maggiore esempio dell&rsquo;architettura teatrale dell&rsquo;occidente greco. Ha la particolarit&agrave; di essere quasi interamente scavato nella roccia.Oltre che per le rappresentazioni, cos&igrave; com&rsquo;era costume per gli antichi greci, il teatro veniva usato per le assemblee popolari. Dopo essere stato adattato in epoca imperiale ai giochi circensi, il teatro cadde in abbandono. Nel XVI secolo, cos&igrave; come gli altri monumenti classici, fu depredato dalle maestranze spagnole di Carlo V che usarono la buona pietra gi&agrave; tagliata per erigere le fortificazioni di Ortigia. Altri guasti vennero dai mulini che erano stati impiantati nella cavea. Gli scavi, iniziati alla fine del Settecento e protrattisi per tutto il secolo successivo sono stati completati solo nella met&agrave; del Novecento. Pur nella diversit&agrave;, anche sostanziale, di opinioni degli studiosi sulla genesi del monumento, &egrave; generalmente accettato che la forma attuale risalirebbe all&rsquo;opera di ristrutturazione degli anni 238 &ndash; 215 a.C. sotto il regno di Ierone II. Il teatro si compone di tre parti: koilon (o c&agrave;vea), orchestra e scena. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -23988,6 +24044,20 @@
     "lng": 10.3931825,
     "url": "https://fondoambiente.it/luoghi/castello-di-ca-marcello-rocca-di-monselice",
     "description": "Per gli iscritti FAI riduzione&nbsp;del 20% sul prezzo del biglietto DESCRIZIONE A sovrastare Monselice, ai piedi del Colle della Rocca, si erge un complesso architettonico denominato Castello Cini che raggruppa in s&eacute; diverse tipologie di edifici. La parte pi&ugrave; antica risale al XI-XII secolo. A partire dal 1405, dopo l&rsquo;avvento della Serenissima Repubblica di Venezia, il complesso monselicense viene acquistato dall&rsquo;aristocratica famiglia veneziana dei Marcello che intraprende la costruzione di CA&rsquo; MARCELLO, palazzo di collegamento fra le preesistenti strutture. Nel 1935 la propriet&agrave; passa per via ereditaria al Conte Vittorio Cini, uomo di grande raffinatezza intellettuale, che intraprende un&rsquo;accurata ricerca d&rsquo;oggetti d&rsquo;arredamento (mobili, dipinti, tappeti, arazzi, ceramiche, strumenti musicali e stoffe) e di armi, ricreando all&rsquo;interno del castello l&rsquo;antica atmosfera medievale e rinascimentale che ancor oggi accoglie i visitatori nelle sale residenziali e nella vasta armeria. &nbsp; &nbsp; &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 120539,
+    "title": "METS - MUSEO ETNOGRAFICO TRENTINO SAN MICHELE",
+    "lat": 46.1942657,
+    "lng": 11.1314367,
+    "url": "https://fondoambiente.it/luoghi/mets-museo-etnografico-trentino-san-michele",
+    "description": "Per iscritti FAI biglietto ridotto per la visita al METS - Museo etnografico trentino San Michele DESCRIZIONE Il Museo illustra il sistema di sussistenza agrosilvopastorale delle valli del Trentino, le lavorazioni artigiane che lo contornano e le testimonianze dell&rsquo;arte e della devozione, della musica e del folklore. Il percorso &egrave; una lunga elica continua, che attraversa 43 sale suddivise in 25 sezioni su 5 livelli.&nbsp; &nbsp;",
     "categories": [
       {
         "id": 8,
