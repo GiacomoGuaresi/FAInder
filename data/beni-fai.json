@@ -6782,6 +6782,20 @@
     ]
   },
   {
+    "id": 30016,
+    "title": "CASTELLO DI GUIGLIA DETTO IL CONVENTINO",
+    "lat": 44.4284116,
+    "lng": 10.9543225,
+    "url": "https://fondoambiente.it/luoghi/castello-di-guiglia",
+    "description": "Per iscritti FAI biglietto ridotto per la visita al Castello di Guiglia (MO)Il castello sar&agrave; aperto dal 6 Aprile al 13 Settembre ( per via di successivi lavori in programma presumibilmente in autunno ) nei giorni festivi. DESCRIZIONE Il primo Castello costruito a Guiglia si trovava sulla&nbsp;collina di Montevallaro, appena fuori dal centro abitato attuale, e&nbsp;venne costruito nel 1227 probabilmente orientato verso il confine&nbsp;bolognese per controllare l&#39;arrivo di eventuali attacchi. Il Castello di Montevallaro venne costruito dai signori Da Guiglia che&nbsp;ebbero il comando sul territorio dal 1115 all&#39;inizio del Quattrocento. Montevallaro venne raso al suolo nell&#39;epico assedio del 1266, durante il&nbsp;quale sarebbe stato inventato il borlengo, per resistere alla fame con&nbsp;le poche provviste a disposizione. I Da Guiglia costruirono una nuova fortificazione rivolta verso la valle del Panaro, in posizione strategica sulla collina dove oggi ammiriamo il&nbsp;Castello. I primi documenti che attestano la presenza di questo edificio&nbsp;risalgono al 1309. Dopo un lungo avvicendarsi di famiglie, gli Este concessero il&nbsp;territorio di Guiglia a Francesco Montecuccoli nel 1630. I Montecuccoli&nbsp;erano senza dubbio la famiglia pi&ugrave; potente del Frignano che concentrava&nbsp;il proprio potere nel castello di Montecuccolo (Pavullo) e nella rocca&nbsp;di Montese. Dopo la fine rovinosa dei Montecuccoli, nel 1897 il Castello venne&nbsp;battuto all&#39;asta e acquistato da un&nbsp;ingegnere svizzero, Giovanni Beusch, per trasformarlo in uno&nbsp;stabilimento idro-elettro-terapico. Beusch aveva scoperto infatti una&nbsp;sorgente d&#39;acqua ferruginosa, chiamata ramencia, ai piedi della&nbsp;collina del castello a cui attribu&igrave; propriet&agrave; curative. Oltre a trasportare l&#39;acqua al castello con pompe idrauliche, a Beusch&nbsp;si deve una nuova trasformazione del castello in pieno stile liberty,&nbsp;visibile ancora oggi in alcuni arredi e ambienti del Castello. Nel 1946 il Castello riapr&igrave; le porte dopo la guerra e le due sale pi&ugrave;&nbsp;grandi del piano nobile vengono arredate per accogliere un casin&ograve; con&nbsp;tavoli da gioco per la roulette, il baccar&agrave;, le carte realizzati dalla&nbsp;prestigiosa casa milanese Ducrot. Solo pochissimi mesi dopo l&#39;apertura, viene imposta al Comune la&nbsp;chiusura del casin&ograve;. Ma all&#39;interno dell&#39;edificio continuer&agrave; ad essere&nbsp;presente un circolo per il gioco per alcuni decenni. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 118788,
     "title": "MUSEO DEL FUNGO PORCINO",
     "lat": 44.4895034,
@@ -8690,6 +8704,20 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 40125,
+    "title": "AUDITORIUM PARCO DELLA MUSICA",
+    "lat": 41.9288237,
+    "lng": 12.4744257,
+    "url": "https://fondoambiente.it/luoghi/auditorium-parco-della-musica",
+    "description": "Per iscritti al FAI tariffa agevolata per il Festival del Verde e del Paesaggio a Roma 10&ndash;12 aprile | Auditorium Parco della Musica, Roma DESCRIZIONE Il paesaggio non &egrave; uno scenario: &egrave; una relazione di cui prendersi cura. Dal 10 al 12 aprile 2026 torna a Roma il Festival del Verde e del Paesaggio, all&rsquo;Auditorium Parco della Musica Ennio Morricone. Il tema di quest&rsquo;anno, &ldquo;Fare parentele&rdquo;, invita a ripensare la relazione tra natura, citt&agrave; e comunit&agrave;, riconoscendo che il paesaggio non &egrave; qualcosa di distante ma una presenza che attraversa la vita quotidiana. Prendersi cura del paesaggio significa prendersi cura dei luoghi che abitiamo. Per tre giorni il Festival riunisce progettisti, studiosi, giardinieri, istituzioni culturali e cittadini per riflettere su nuovi modi di abitare il verde urbano e prendersi cura dei luoghi in cui viviamo.",
+    "categories": [
+      {
+        "id": 11,
+        "name": "Stare a contatto con la natura"
       }
     ]
   },
@@ -11324,6 +11352,20 @@
     ]
   },
   {
+    "id": 120544,
+    "title": "IL PESCEGATTO - RISTORANTE",
+    "lat": 44.273172,
+    "lng": 8.4359346,
+    "url": "https://fondoambiente.it/luoghi/il-pescegatto-ristorante",
+    "description": "Per iscritti FAI riduzione del 10% per i servizi offerti dal ristorante Il Pescegatto a Vado Ligure (SV) la riduzione si intende applicata escludendo altre promozioni in corso DESCRIZIONE Il ristorante Il Pescegatto propone solo pesce fresco, vino Ligure e prelibatezze della Liguria essendo ristorante Gourmet a km 0 &nbsp;",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
     "id": 41418,
     "title": "CASTELLO DI PADERNELLO",
     "lat": 45.3137561,
@@ -12580,6 +12622,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 120543,
+    "title": "LA VANTINIANA LIBRERIA",
+    "lat": 45.5672964,
+    "lng": 9.9960118,
+    "url": "https://fondoambiente.it/luoghi/la-vantiniana-libreria",
+    "description": "Per iscritti FAI 10% di riduzione presso La Vantiniana Libreria a Rovereto (BS)DESCRIZIONE La libreria Vantiniana apre nel 1985 dall&rsquo;idea di due amiche che scommettono sulla possibilit&agrave; di realizzare un sogno: una piccola libreria indipendente nel cuore del centro storico di Rovato. Tiziana lascia dopo 25 anni, Nora continua con l&rsquo;aiuto di Marica. La libreria propone novit&agrave; editoriali di narrativa e saggistica, manuali e testi tecnici, libri fotografici e fumetti, libri in lingua, testi scolastici, un accurato servizio di prenotazione e la possibilit&agrave; di ricercare libri esauriti o rari. Costante nel tempo &egrave; rimasta la nostra passione e attenzione all&rsquo;editoria per bambini e ragazzi e l&rsquo;entusiasmo nell&rsquo;organizzare e partecipare a eventi culturali del territorio.",
+    "categories": [
+      {
+        "id": 12,
+        "name": "Leggere"
       }
     ]
   },
@@ -14352,6 +14408,20 @@
     ]
   },
   {
+    "id": 88904,
+    "title": "TEATRO BELLONI",
+    "lat": 45.660916,
+    "lng": 9.129737,
+    "url": "https://fondoambiente.it/luoghi/teatro-belloni",
+    "description": "Per iscritti FAI riduzione del 10% per gli spettacoli in programma al Teatro Antonio Belloni a Barlassina (MB) DESCRIZIONE Concerti sinfonici, lirica e danza tra pareti e palchi decorati in piccola sala con soffitto a effetto cielo. SCOPRI IL PROGRAMMA",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 86414,
     "title": "ROSSINI ART SITE",
     "lat": 45.5845001,
@@ -15178,6 +15248,20 @@
       {
         "id": 12,
         "name": "Leggere"
+      }
+    ]
+  },
+  {
+    "id": 108736,
+    "title": "MUSEO DEL SERRONE, ORANGERIE",
+    "lat": 45.5229434,
+    "lng": 9.0449027,
+    "url": "https://fondoambiente.it/luoghi/serrone-oragerie",
+    "description": "Per iscritti FAI biglietto ridotto per la mostra SANDOKAN - la tigre ruggisce ancora presso l&#39;Orangerie della Reggia di Monza DAL 7 MARZO AL 28 GIUGNO 2026 DESCRIZIONE&nbsp; un viaggio di immersione totale nel Sud-est asiatico ottocentesco &ndash; reale e leggendario &ndash; attraverso Borneo, Malesia, India e Indonesia, cos&igrave; come li ha immaginati Emilio Salgari, lo scrittore che ha fatto sognare generazioni di lettori. Ideata e prodotta da Vertigo Syndrome e curata da Francesco Aquilanti e Loretta Paderni, l&rsquo;esposizione &egrave; concepita come una grande epopea visiva e sonora, capace di far dialogare la fantasia letteraria con materiali storici autentici, in un continuo gioco di rimandi tra invenzione narrativa e realt&agrave;. La mostra ha il patrocinio del Comune di Monza ed &egrave; stata realizzata grazie alla collaborazione attiva del Consorzio Villa Reale e Parco di Monza e di istituzioni e privati che hanno entusiasticamente aderito al progetto, mettendo a disposizione i loro preziosi oggetti, documenti, cimeli e soprattutto le loro competenze culturali. Tra questi il Museo delle Civilt&agrave; di Roma, la Fondazione Tancredi di Barolo, gli eredi Matania/Della Valle, la Cong Sa-Hugo Pratt proprerties, l&rsquo;Archivio Sarti, il Museo Stibbert di Firenze, la RAI, la Cineteca Nazionale e l&rsquo;Istituto Luce. ORARI dal marted&igrave; al venerd&igrave; dalle ore 10:00 alle ore 19:00 (ultimo ingresso un&rsquo;ora prima della chiusura) Sabato, domenica e festivi dalle ore 10:00 alle ore 20:00 (ultimo ingresso un&rsquo;ora prima della chiusura) Luned&igrave; chiuso",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -16478,6 +16562,20 @@
     ]
   },
   {
+    "id": 120542,
+    "title": "MUVES - MUSEO DELLE VESTIMENTA",
+    "lat": 41.4859577,
+    "lng": 14.5131886,
+    "url": "https://fondoambiente.it/luoghi/muves-museo-delle-vestimenta",
+    "description": "Per iscritti FAI riduzione per la visita al MUVES - Museo delle Vestimenta a Campobasso 10% di riduzione per la visita guidata 20% di riduzione per l&#39;ingresso&nbsp; DESCRIZIONE La Collezione Scasserra conta un numero considerevole di costumi interi e di singoli capi; nel Muves sono esposti 30 costumi femminili completi, oltre ad un centinaio di pezzi sciolti (copricapo, camice, maniche, corpetti, gonne, grembiuli, fazzoletti e accessori) che fanno bella mostra nelle sezioni monotematiche. Tutto il materiale &egrave; stato raccolto nei vari paesi molisani e anche in alcuni paesi campani come Gallo e Letino che fino al secondo conflitto mondiale facevano parte della provincia di Campobasso. L&rsquo;arco cronologico della datazione va dalla prima met&agrave; dell&rsquo;Ottocento fino agli anni Trenta del Novecento, ovvero, dal periodo di massimo utilizzo al periodo del declino. Si tratta di vestimenta e capi prevalentemente di uso nuziale o festivo; ci&ograve; giustifica la preziosit&agrave; delle stoffe, la ricercatezza dei ricami e lo sfarzo delle decorazioni in oro e argento. La maggior parte di questi costumi erano doni di nozze da parte degli sposi alle spose; le famiglie di pastori transumanti dell&rsquo;area del Matese manifestavano pubblicamente il loro benessere economico attraverso la suntuosit&agrave; dei costumi e dei gioielli che donavano alle novelle spose. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 100985,
     "title": "IL BUCANEVE - ALBERGO E RISTORANTE",
     "lat": 45.6624332,
@@ -16502,6 +16600,20 @@
       {
         "id": 12,
         "name": "Leggere"
+      }
+    ]
+  },
+  {
+    "id": 120541,
+    "title": "ANTICA TAVERNA DEL PRINCIPE",
+    "lat": 41.4140333,
+    "lng": 14.6573157,
+    "url": "https://fondoambiente.it/luoghi/antica-taverna-del-principe",
+    "description": "Per iscritti FAI riduzione del 10% per i servizi offerti dall'Antica Taverna del Principe - country house a Sepino (CB)servizi offerti ricettivit&agrave; in B&amp;B, ristorazione, organizzazione di eventi attenzione la riduzione viene applicata con prenotazione direttamente sui canali della struttura DESCRIZIONE La struttura risale, nella costruzione originaria, al 1720 e fa parte dei tenimenti di Anna Pignatelli, principessa di Sepino - rampolla del ramo pugliese della nobile Famiglia Pignatelli, proprietari in Molise anche del castello di Monteroduni - da cui il nome storico di &quot;Taverna del Principe&quot;, che richiama anche la sua iniziale destinazione come&nbsp;Taverna di posta per il cambio dei cavalli e il ristoro dei viaggiatori. Tra la fine del 1800 e i primi anni del 1900 la propriet&agrave; passa dalla famiglia Pignatelli ad un loro mezzadro di nome Amante Volpe. Nel 1910 la Taverna si trasforma in opificio industriale per la produzione di pasta alimentare. Nel 1925 passa ad una nuova propriet&agrave;, la famiglia Tiberio, e diventa un edificio rurale vero e proprio, &nbsp;viene dotato di una doppia corte contrapposta al corpo centrale del fabbricato, rendendolo unico nella tipologia rurale del Molise.Negli anni tra il 1930 e il 1940, in particolare un&#39;ala del fabbricato, &egrave; utilizzata come Scuola rurale e alloggio per il maestro. In questo stesso periodo anche la famiglia Tiberio, come tante famiglie italiane, vive la diaspora dovuta al fenomeno dell&#39;emigrazione dall&#39;Italia verso il continente americano, la Taverna quindi cade in uno stato di abbandono e rovina, durato decenni.&nbsp; Nel 2005 la famiglia Ialenti acquista la propriet&agrave;, fabbricato e terreno circostante, per farne la propria residenza, iniziando un lento e delicato lavoro di recupero dell&#39;immobile, dei materiali, delle suppellettili, dello spirito che pervade questo posto, per riportarlo alla sua funzione originaria legata all&#39;accoglienza e all&#39;ospitalit&agrave;, improntata al pi&ugrave; moderno concetto di ben-essere bio-psico-fisico. &nbsp;",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -20211,7 +20323,7 @@
     "lat": 37.3105332,
     "lng": 13.5804175,
     "url": "https://fondoambiente.it/luoghi/libreria-il-mercante-di-libri",
-    "description": "Per iscritti FAI riduzione del 5% per gli acquisti di libri presso il Mercante di LIbri ad AgrigentoDESCRIZIONE Libreria indipendente: non una semplice Libreria ma un punto di ritrovo culturale al centro della via Atenea",
+    "description": "Per iscritti FAI riduzione del 15% per gli acquisti di libri presso il Mercante di LIbri ad Agrigento DESCRIZIONE Libreria indipendente: non una semplice Libreria ma un punto di ritrovo culturale al centro della via Atenea",
     "categories": [
       {
         "id": 12,
@@ -20519,7 +20631,7 @@
     "lat": 37.8544263,
     "lng": 15.2021477,
     "url": "https://fondoambiente.it/luoghi/castello-di-taormina",
-    "description": "Per iscritti FAI biglietto ridotto per visitare il Castello di Taormina (ME) DESCRIZIONE Il Castello Arabo-Normanno di Taormina, maestosa fortezza dell&#39;XI secolo, domina il Monte Tauro a 397 metri, regalando una vista spettacolare&nbsp;sullo stretto di Messina, Taormina, Castelmola e l&rsquo;Etna. Raggiungibile tramite una scalinata nella roccia, offre ai visitatori un viaggio nel tempo con audioguida, mappe 3D e una pergamena ricordo di fine visita. Luogo di fascino senza tempo, accoglie matrimoni da sogno, eventi&nbsp;esclusivi e serate eleganti immerse in un&rsquo;atmosfera magica e suggestiva.",
+    "description": "Per iscritti FAI biglietto ridotto del 10% per visitare il Castello di Taormina (ME) DESCRIZIONE Il Castello di Taormina, conosciuto anche come Castello Arabo-Normanno, Castello Saraceno o Castello di Monte Tauro, si erge maestoso a 397 metri di altezza, regalando un panorama unico a 360 gradi. Da qui lo sguardo abbraccia lo Stretto di Messina, il versante ionico, la valle dell&rsquo;Alcantara, le pendici dell&rsquo;Etna e, verso ovest, la citt&agrave; di Catania e i Monti Peloritani. Proprio per la sua posizione privilegiata &egrave; soprannominato anche &ldquo;il Castello dei Quattro Panorami&rdquo;. Si raggiunge percorrendo una suggestiva scalinata panoramica scavata nella roccia che parte dalla chiesetta della Madonna della Rocca. La struttura, dalla caratteristica forma trapezoidale, conserva ancora le alte mura perimetrali, una torre di vedetta, una cisterna per l&rsquo;acqua piovana, un corridoio sotterraneo utilizzato per le scorte e due grotte visitabili. Una scenografica scalinata a ventaglio conduce al mastio, la parte pi&ugrave; alta del Castello. La visita permette di esplorare questi affascinanti spazi e di scoprire la storia e l&rsquo;architettura del sito grazie a strumenti innovativi. Con il biglietto d&rsquo;ingresso, al costo di 10 euro per una visita di circa 50 minuti, i visitatori riceveranno: Un&rsquo;audioguida digitale, fruibile direttamente dal proprio smartphone, collegata ai pannelli presenti nel percorso. Una mappa digitale interattiva, disponibile in pi&ugrave; lingue, con 21 punti di interesse. Il Castello &egrave; aperto tutti i giorni dalle 10:00 fino al tramonto. Gli orari di chiusura vengono modificati nel corso dell&rsquo;anno. Inoltre, il Castello di Taormina &egrave; disponibile tutto l&rsquo;anno come location unica per eventi privati, matrimoni, iniziative aziendali, servizi fotografici e cerimonie istituzionali.",
     "categories": [
       {
         "id": 8,
