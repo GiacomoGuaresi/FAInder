@@ -4034,6 +4034,20 @@
     ]
   },
   {
+    "id": 89654,
+    "title": "TOMBE ROMANE ",
+    "lat": 40.957985,
+    "lng": 14.5994488,
+    "url": "https://fondoambiente.it/luoghi/tombe-romane",
+    "description": "Per iscritti FAI biglietto ridotto del 30% per Area Archeologica della Necropoli Monumentale di Avella DESCRIZIONE Nell&rsquo;area archeologica circostante sono state rinvenute anche numerose tombe romane, appartenenti a necropoli che si sviluppavano lungo le antiche vie di accesso alla citt&agrave;. Le sepolture, risalenti a diverse fasi dell&rsquo;et&agrave; romana, testimoniano le pratiche funerarie dell&rsquo;epoca e restituiscono oggetti di corredo come ceramiche, lucerne e monete, preziosi&nbsp;per comprendere la vita quotidiana della comunit&agrave; antica. &nbsp; &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 114914,
     "title": "CINE TEATRO PARTENIO",
     "lat": 40.9144724,
@@ -4142,6 +4156,48 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 89653,
+    "title": "ANFITEATRO ROMANO",
+    "lat": 40.957985,
+    "lng": 14.5994488,
+    "url": "https://fondoambiente.it/luoghi/anfiteatro-romano-avella-89653",
+    "description": "Per iscritti FAI biglietto ridotto del 30% per la visita all'Anfiteatro Romano di Avella (AV)DESCRIZIONE L&rsquo;Anfiteatro romano di Avella, costruito tra la fine del I secolo a.C. e il I secolo d.C. La struttura, in opus reticulatum, rappresenta uno degli esempi meglio conservati di anfiteatro romano in&nbsp; Campania dopo quelli delle grandi citt&agrave;. Era destinato agli spettacoli pubblici, come combattimenti tra gladiatori e venationes (cacce con animali), e poteva accogliere diverse migliaia di spettatori provenienti dall&rsquo;intero territorio circostante.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 89655,
+    "title": "CASTELLO DI AVELLA",
+    "lat": 40.957985,
+    "lng": 14.5994488,
+    "url": "https://fondoambiente.it/luoghi/castello-avella",
+    "description": "Per iscritti FAI biglietto ridotto del 30% per la visita al Castello normanno di AvellaDESCRIZIONE A dominare il centro storico si trova infine il Castello Normanno di Avella, edificato probabilmente tra XI e XII secolo in epoca normanna su un&rsquo;altura strategica. La fortezza, con la sua cinta muraria e le torri, svolgeva una funzione difensiva e di controllo del territorio. Oggi rappresenta uno dei simboli del patrimonio storico della citt&agrave; e un punto panoramico privilegiato sulla valle circostante. Nel loro insieme, questi siti testimoniano la continuit&agrave; storica di Avella, dalla fase romana&nbsp;fino al Medioevo, rendendo il territorio un luogo di grande interesse archeologico e culturale. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 120254,
+    "title": "MIA – MUSEO IMMERSIVO E ARCHEOLOGICO DI AVELLA",
+    "lat": 40.960578,
+    "lng": 14.599804,
+    "url": "https://fondoambiente.it/luoghi/mia-–-museo-immersivo-e-archeologico-di-avella",
+    "description": "Per iscritti FAI biglietto ridotto del 30% MIA Avella - Museo Immersivo e Archeologico DESCRIZIONE I reperti provenienti dagli scavi del territorio sono oggi conservati nel Museo Immersivo Archeologico di Avella (MIA). Il museo utilizza tecnologie multimediali e ricostruzioni digitali per raccontare la storia dell&rsquo;antica Abella, offrendo ai visitatori un percorso che&nbsp;integra archeologia, narrazione storica e innovazione tecnologica. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -5616,6 +5672,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 109474,
+    "title": "MUSEO BOTTEGA DELLA TARSIA LIGNEA",
+    "lat": 40.6258448,
+    "lng": 14.3678064,
+    "url": "https://fondoambiente.it/luoghi/museobottega-della-tarsialignea-39681",
+    "description": "Per iscritti FAI riduzione del 20% per la visita al Museo Bottega della Tarsia Lignea a Sorrento (NA)DESCRIZIONE Il Museobottega della Tarsialignea (MUTA) nasce nel 1999 nel cuore di Sorrento con l&rsquo;obiettivo di valorizzare uno dei patrimoni pi&ugrave; distintivi del territorio: l&rsquo;arte dell&rsquo;intarsio ligneo. Ospitato nello storico Palazzo Pomarici Santomasi, il museo propone un percorso espositivo che intreccia collezioni, ambienti storici e testimonianze della cultura locale. Le opere e i materiali esposti raccontano lo sviluppo della tarsia sorrentina tra Ottocento e Novecento. Il percorso include anche testimonianze legate alla vita e alle tradizioni del territorio, come il costume locale, l&rsquo;agrumicoltura e il passaggio dei viaggiatori del Grand Tour. Accanto alla conservazione e allo studio delle collezioni, il MUTA promuove mostre, pubblicazioni e iniziative culturali che mettono in dialogo artigianato, design e creativit&agrave; contemporanea. Il museo offre inoltre visite guidate e laboratori esperienziali realizzati con artigiani locali, che permettono ai visitatori di conoscere da vicino tecniche e segreti della tarsia lignea, mantenendo viva una tradizione che continua a rinnovarsi nel presente. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -7104,20 +7174,6 @@
     ]
   },
   {
-    "id": 115983,
-    "title": "MUSEO CASA DELLE FARFALLE",
-    "lat": 44.2910183,
-    "lng": 12.2603273,
-    "url": "https://fondoambiente.it/luoghi/museo-casa-delle-farfalle",
-    "description": "Per Iscritti FAI biglietto ridotto di 2 euro per ingresso valido per l&#39;intera giornata&nbsp;presso Museo Casa delle Farfalle a Milano Marittima (RA) DESCRIZIONE Casa delle Farfalle &egrave; il luogo perfetto per trascorrere una giornata in famiglia dedicata alla biodiversit&agrave;. Una volta acquistato il biglietto si pu&ograve; rimanere all&#39;interno della struttura tutto il tempo desiderato.&nbsp;Generalmente &egrave; consigliato rimanere massimo 30 minuti all&#39;interno della Casa degli Insetti e della Serra Tropicale.&nbsp; Per vivere al meglio questa esperienza e apprezzarla appieno, consigliamo di visitare Casa delle Farfalle seguendo questo ordine: i fili invisibili della natura,&nbsp;un video di 10 minuti dedicato alla biodiversit&agrave;&nbsp;per entrare in punta di piedi nel misterioso mondo della natura. Un inizio poetico e suggestivo per grandi e piccoli; il giardino delle farfalle e il Bruco,&nbsp;un percorso botanico che racchiude, specie della pineta, piante adatte a favorire la biodiversit&agrave;, alcune installazioni vegetali, un hotel degli insetti e alcuni angoli nascosti dove sentirsi un tutt&rsquo;uno con la natura. Nel giardino puoi visitare il Bruco, una piccola serra costruita in collaborazione con l&#39;universit&agrave; di Bologna, per favorire la riproduzione delle farfalle locali; il mistero del bombo scomparso: nuovo percorso&nbsp;realizzato nel 2024&nbsp;dedicato ai pi&ugrave; piccoli. Una sorta di caccia al tesoro dedicata agli insetti e alla biodiversit&agrave;; la casa degli insetti, in cui puoi ammirare insetti dei tre ambienti: acqua, terra e aria, provenienti da tutto il mondo. Tante specie particolari come insetti stecco, insetti foglia, blatte giganti e molte altre! la serra tropicale,&nbsp;l&#39;attrazione principale di Casa delle Farfalle dove puoi camminare in un ambiente tropicale circondato da centinaia di farfalle colorate che volano libere. Nella serra di 500 mq la temperatura oscilla tra i 28 e i 30 &deg;C con un&rsquo;umidit&agrave; del 65-70%; shop tematico, in cui puoi acquistare&nbsp;libri dedicati alla biodiversit&agrave;, kit, accessori e attrezzi per costruire anche a casa un giardino delle farfalle.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 115987,
     "title": "TERME DI CERVIA",
     "lat": 44.2536427,
@@ -7310,6 +7366,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 115983,
+    "title": "MUSEO CASA DELLE FARFALLE",
+    "lat": 44.2910183,
+    "lng": 12.2603273,
+    "url": "https://fondoambiente.it/luoghi/museo-casa-delle-farfalle",
+    "description": "Per Iscritti FAI biglietto ridotto per ingresso valido per l&#39;intera giornata&nbsp;presso Museo Casa delle Farfalle a Milano Marittima (RA) DESCRIZIONE Casa delle Farfalle &egrave; il luogo perfetto per trascorrere una giornata in famiglia dedicata alla biodiversit&agrave;. Una volta acquistato il biglietto si pu&ograve; rimanere all&#39;interno della struttura tutto il tempo desiderato.&nbsp;Generalmente &egrave; consigliato rimanere massimo 30 minuti all&#39;interno della Casa degli Insetti e della Serra Tropicale.&nbsp; Per vivere al meglio questa esperienza e apprezzarla appieno, consigliamo di visitare Casa delle Farfalle seguendo questo ordine: i fili invisibili della natura,&nbsp;un video di 10 minuti dedicato alla biodiversit&agrave;&nbsp;per entrare in punta di piedi nel misterioso mondo della natura. Un inizio poetico e suggestivo per grandi e piccoli; il giardino delle farfalle e il Bruco,&nbsp;un percorso botanico che racchiude, specie della pineta, piante adatte a favorire la biodiversit&agrave;, alcune installazioni vegetali, un hotel degli insetti e alcuni angoli nascosti dove sentirsi un tutt&rsquo;uno con la natura. Nel giardino puoi visitare il Bruco, una piccola serra costruita in collaborazione con l&#39;universit&agrave; di Bologna, per favorire la riproduzione delle farfalle locali; il mistero del bombo scomparso: nuovo percorso&nbsp;realizzato nel 2024&nbsp;dedicato ai pi&ugrave; piccoli. Una sorta di caccia al tesoro dedicata agli insetti e alla biodiversit&agrave;; la casa degli insetti, in cui puoi ammirare insetti dei tre ambienti: acqua, terra e aria, provenienti da tutto il mondo. Tante specie particolari come insetti stecco, insetti foglia, blatte giganti e molte altre! la serra tropicale,&nbsp;l&#39;attrazione principale di Casa delle Farfalle dove puoi camminare in un ambiente tropicale circondato da centinaia di farfalle colorate che volano libere. Nella serra di 500 mq la temperatura oscilla tra i 28 e i 30 &deg;C con un&rsquo;umidit&agrave; del 65-70%; shop tematico, in cui puoi acquistare&nbsp;libri dedicati alla biodiversit&agrave;, kit, accessori e attrezzi per costruire anche a casa un giardino delle farfalle.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -13909,7 +13979,7 @@
     "lat": 45.4654219,
     "lng": 9.1859243,
     "url": "https://fondoambiente.it/luoghi/nexostudios-la-grande-arte-al-cinema",
-    "description": "Per gli iscritti FAI biglietto ridotto per gli spettacoli in programma Per usufuire della riduzione si potr&agrave; fare la prenotazione online ma pagare direttamente in cassa esibendo la tessera FAI in corso di validit&agrave; LE SALE DEL CIRCUITO THE SPACE NON ACCETTANO LE RIDUZIONI Dal 9 al 11 Marzo &ndash; Moulin Rouge &ndash; Nexo studios Back to Cult - https://www.nexostudios.it/movie/moulin-rouge/ Dal 16 al 18 Marzo - t&rsquo;s Never Over: Jeff Buckley - https://www.nexostudios.it/movie/its-never-over-jeff-buckley/ 25 e 28 Marzo - Bring Me The Horizon: L.I.V.E. in S&atilde;o Paulo (Live Immersive Virtual Experiment) - https://www.nexostudios.it/movie/bring-me-the-horizon-live/ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+    "description": "Per gli iscritti FAI biglietto ridotto per gli spettacoli in programma Per usufuire della riduzione si potr&agrave; fare la prenotazione online ma pagare direttamente in cassa esibendo la tessera FAI in corso di validit&agrave; LE SALE DEL CIRCUITO THE SPACE NON ACCETTANO LE RIDUZIONI 25 e 28 Marzo - Bring Me The Horizon: L.I.V.E. in S&atilde;o Paulo (Live Immersive Virtual Experiment) - https://www.nexostudios.it/movie/bring-me-the-horizon-live/ Dal 13 al 15 Aprile &ndash; Il silenzio degli innocenti &ndash; Nexo Studios Back to cult - https://www.nexostudios.it/movie/il-silenzio-degli-innocenti/ Dal 20 al 22 Aprile &ndash; Tab&ugrave;, Egon Schiele &ndash; Nexo Studios La Grande Arte al Cinema - https://www.nexostudios.it/movie/tabu-egon-schiele/ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -17532,6 +17602,20 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 120550,
+    "title": "FRUCH DRINK & FOOD",
+    "lat": 45.7615698,
+    "lng": 8.5589765,
+    "url": "https://fondoambiente.it/luoghi/fruch-drink-food",
+    "description": "Per iscritti FAI riduzione del 15% per i servizi del Fruch Drinks and Food ad Arona (NO)DESCRIZIONE Sulla passeggiata del lungolago di Arona &egrave; posizionata una statua tanto cara a tutti e la sua storia risale ad alcuni anni fa.&nbsp; La statua raffigura il Barcaiolo Gaudenzio Pizzetta tra gli ultimi che hanno solcato le acque del Lago Maggiore. L&rsquo;inaugurazione ufficiale della statua risale a domenica 29 Maggio 1977 e recentemente &egrave; stata restaurata e portata nuovamente allo splendore originale, grazie all&rsquo;intervento commissionato dal comune. L&rsquo;opera &egrave; stata realizzata in pietra e bronzo dello scultore Edmondo Poletti su commissione dell&rsquo;Azienda Autonoma di Soggiorno Aronese per commemorare l&rsquo;antico mestiere e chi lo svolgeva con tanta dedizione.&nbsp; Situato sulle rive pittoresche del Lago Maggiore, il nostro bar per gli aperitivi offre un&rsquo;esperienza unica che fonde la bellezza naturale dei dintorni con un&rsquo;atmosfera accogliente e rilassata. Lo spazio all&rsquo;aperto offre una vista mozzafiato sul lago, permettendo ai nostri ospiti di godersi il tramonto mentre sorseggiano i loro drink preferiti.&nbsp; &nbsp;",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
       }
     ]
   },
