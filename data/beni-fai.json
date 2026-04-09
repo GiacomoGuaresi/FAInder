@@ -20739,7 +20739,7 @@
     "lat": 37.5730812,
     "lng": 15.1250081,
     "url": "https://fondoambiente.it/luoghi/tenuta-carminello",
-    "description": "Per iscritti FAI riduzione del 10% per i servizi della Tenuta Carminiello a Valverde (CT)la riduzione si intende sul conto del men&ugrave; alla carta DESCRIZIONE Situata in una posizione incantevole, sospesa tra l&rsquo;Etna e il mare di Acitrezza,&nbsp;Tenuta Carminello&nbsp;&egrave; la cornice perfetta per ogni occasione. Che tu venga a cena con amici e familiari, o che voglia celebrare un evento speciale, qui troverai un&rsquo;esperienza autentica costruita attorno alla nostra filosofia: quella che chiamiamo &ldquo;la Via del Bosco&rdquo;. Una cucina naturale e mediterranea, specializzata in&nbsp;selvaggina e carni nobili del bosco. Scopri il nostro mondo e scegli il servizio pi&ugrave; adatto a te. &nbsp;",
+    "description": "Per iscritti FAI riduzione del 10% per i servizi della Tenuta Carminiello a Valverde (CT) la riduzione si intende sul conto del men&ugrave; alla carta DESCRIZIONE Situata in una posizione incantevole, sospesa tra l&rsquo;Etna e il mare di Acitrezza, la Tenuta Carminello&nbsp;&egrave; un luogo dove riscoprire antichi sapori dimenticati, in particolare selvaggina e carni nobili, senza dimenticare&nbsp; gli immancabili piatti della tradizione rivisitati in chiave contemporanea. &nbsp;",
     "categories": [
       {
         "id": 9,
@@ -26682,20 +26682,6 @@
     ]
   },
   {
-    "id": 40470,
-    "title": "PINACOTECA DI PALAZZO CHIERICATI",
-    "lat": 45.549024,
-    "lng": 11.54931,
-    "url": "https://fondoambiente.it/luoghi/musei-civici-vicenza-pinacoteca-di-palazzo-chiericati",
-    "description": "Per Iscritti FAI biglietto ridotto a 6 euro anzich&eacute; 8 euro per visitare il Museo Civico di Palazzo Chiericati. Biglietto cumulativo Vicenza Gold Card riduzione da 22 euro a 17 euro per la visita a 11 siti valida 12 giorni (escluso mostre nella Basilica Palladiana) Biglietto cumulativo Vicenza Silver Card riduzione da 16 euro a 14 euro per la visita a 4 siti a scelta valida 8 giorni (escluso mostre nella Basilica Palladiana) DESCRIZIONE Le collezioni permanenti del Museo Civico di Palazzo Chiericati propongono un viaggio cronologico che spazia dal Medioevo fino all&#39;Ottocento inoltrato, permettendo di esplorare l&#39;evoluzione artistica locale e nazionale. La struttura stessa del palazzo invita alla scoperta di un patrimonio non consueto. Nel piano interrato, frutto di un attento restauro, si possono vedere le fondamenta delle antiche &ldquo;casette Chiericati&rdquo; risalenti al XIV e XV secolo, oltre ad ambienti un tempo dedicati alla servit&ugrave; come cucine e cantine, dove sono ancora visibili il camino, il pozzo e la suggestiva scala delle botti. Sempre al piano interrato &egrave; inoltre visibile la roggia del Collo, ramo secondario del Bacchiglione coperto con volta a botte risalente al XIII secolo, che delimitava a ovest l&rsquo;area cosiddetta dell&rsquo;Isola, dove sorge Palazzo Chiericati Al piano terra si apre il percorso espositivo permanente con la&nbsp;grande sala con i sette lunettoni civici&nbsp;di Bassano, Maffei e Carpioni, dove si racconta il periodo d&rsquo;oro della citt&agrave; tra &rsquo;500 e &rsquo;600, sotto il dominio della Serenissima. L&rsquo;esposizione continua al primo piano con la sezione medievale, dove sono accolti i capolavori di&nbsp;Paolo Veneziano,&nbsp;Battista da Vicenza&nbsp;e&nbsp;Hans Memling; le sale dedicate a&nbsp;Bartolomeo Montagna&nbsp;e alla sua scuola; il grandioso ambiente che restituisce la decorazione della distrutta&nbsp;chiesa di S. Bartolomeo, con importanti pale d&rsquo;altare tra le quali spiccano quelle di Montagna,&nbsp;Cima da Conegliano&nbsp;e&nbsp;Giovanni Bonconsiglio. Al secondo piano sono raccolte le opere dei grandi maestri della pittura veneta del &rsquo;500: Bassano, Tintoretto, Veronese, oltre alle sculture di Sansovino, Vittoria e i cristalli di rocca di Valerio Belli. Nel Salone, che evoca l&rsquo;atmosfera di un&rsquo;ideale quadreria tra &rsquo;500 e &rsquo;600, trovano posto i grandi capolavori di Luca Giordano, Bellucci, Lazzarini. L&#39;attenzione al paesaggio e alla vita cittadina d&#39;epoca emerge nella Galleria dei Paesaggi e dei Capricci, che ospita le vedute di Cristoforo dall&#39;Acqua, restituendo il volto della Vicenza di quel tempo. Inoltre, l&#39;esperienza di visita si arricchisce nelle stanze del sottotetto, dove &egrave; allestito il lascito del marchese Giuseppe Roi, una personale raccolta di dipinti e incisioni che offre una visione intima e coerente di una casa-museo. Il museo offre anche una guida del Museo in CAA (Comunicazione aumentativa alternativa) e riproduzioni tattili in 3D. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 117476,
     "title": "VERONA FLOWER SHOW",
     "lat": 45.4379356,
@@ -27028,6 +27014,20 @@
       {
         "id": 14,
         "name": "Partecipare a corsi o escursioni"
+      }
+    ]
+  },
+  {
+    "id": 40470,
+    "title": "MUSEO CIVICO PALAZZO CHIERICATI",
+    "lat": 45.549024,
+    "lng": 11.54931,
+    "url": "https://fondoambiente.it/luoghi/musei-civici-vicenza-palazzo-chiericati",
+    "description": "Per Iscritti FAI biglietto ridotto a 6 euro anzich&eacute; 8 euro per visitare il Museo Civico di Palazzo Chiericati. Biglietto cumulativo Vicenza Gold Card riduzione da 22 euro a 17 euro per la visita a 11 siti valida 12 giorni (escluso mostre nella Basilica Palladiana) Biglietto cumulativo Vicenza Silver Card riduzione da 16 euro a 14 euro per la visita a 4 siti a scelta valida 8 giorni (escluso mostre nella Basilica Palladiana) DESCRIZIONE Le collezioni permanenti del Museo Civico di Palazzo Chiericati propongono un viaggio cronologico che spazia dal Medioevo fino all&#39;Ottocento inoltrato, permettendo di esplorare l&#39;evoluzione artistica locale e nazionale. La struttura stessa del palazzo invita alla scoperta di un patrimonio non consueto. Nel piano interrato, frutto di un attento restauro, si possono vedere le fondamenta delle antiche &ldquo;casette Chiericati&rdquo; risalenti al XIV e XV secolo, oltre ad ambienti un tempo dedicati alla servit&ugrave; come cucine e cantine, dove sono ancora visibili il camino, il pozzo e la suggestiva scala delle botti. Sempre al piano interrato &egrave; inoltre visibile la roggia del Collo, ramo secondario del Bacchiglione coperto con volta a botte risalente al XIII secolo, che delimitava a ovest l&rsquo;area cosiddetta dell&rsquo;Isola, dove sorge Palazzo Chiericati Al piano terra si apre il percorso espositivo permanente con la&nbsp;grande sala con i sette lunettoni civici&nbsp;di Bassano, Maffei e Carpioni, dove si racconta il periodo d&rsquo;oro della citt&agrave; tra &rsquo;500 e &rsquo;600, sotto il dominio della Serenissima. L&rsquo;esposizione continua al primo piano con la sezione medievale, dove sono accolti i capolavori di&nbsp;Paolo Veneziano,&nbsp;Battista da Vicenza&nbsp;e&nbsp;Hans Memling; le sale dedicate a&nbsp;Bartolomeo Montagna&nbsp;e alla sua scuola; il grandioso ambiente che restituisce la decorazione della distrutta&nbsp;chiesa di S. Bartolomeo, con importanti pale d&rsquo;altare tra le quali spiccano quelle di Montagna,&nbsp;Cima da Conegliano&nbsp;e&nbsp;Giovanni Bonconsiglio. Al secondo piano sono raccolte le opere dei grandi maestri della pittura veneta del &rsquo;500: Bassano, Tintoretto, Veronese, oltre alle sculture di Sansovino, Vittoria e i cristalli di rocca di Valerio Belli. Nel Salone, che evoca l&rsquo;atmosfera di un&rsquo;ideale quadreria tra &rsquo;500 e &rsquo;600, trovano posto i grandi capolavori di Luca Giordano, Bellucci, Lazzarini. L&#39;attenzione al paesaggio e alla vita cittadina d&#39;epoca emerge nella Galleria dei Paesaggi e dei Capricci, che ospita le vedute di Cristoforo dall&#39;Acqua, restituendo il volto della Vicenza di quel tempo. Inoltre, l&#39;esperienza di visita si arricchisce nelle stanze del sottotetto, dove &egrave; allestito il lascito del marchese Giuseppe Roi, una personale raccolta di dipinti e incisioni che offre una visione intima e coerente di una casa-museo. Il museo offre anche una guida del Museo in CAA (Comunicazione aumentativa alternativa) e riproduzioni tattili in 3D. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
