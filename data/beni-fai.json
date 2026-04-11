@@ -11884,6 +11884,20 @@
     ]
   },
   {
+    "id": 120616,
+    "title": "BORGO CAPIETAGLIO - CANTINA TELLURIT",
+    "lat": 45.7354929,
+    "lng": 9.5252386,
+    "url": "https://fondoambiente.it/luoghi/borgo-capietaglio-cantina-tellurit",
+    "description": "Per iscritti FAi riduzione del 10% per i servizi offerti dal Borgo Capietaglio Wine Resort a Pontida (BG) La riduzione si applica su tutti i servizi dalla ristorazione all&#39;hotel, esclusi gli eventi. DESCRIZIONE Nel cuore dei vigneti, il nostro Borgo &egrave; un&rsquo;oasi di pace dove il fascino rustico incontra l&rsquo;eleganza. Un agriturismo rustic chic immerso nella natura, dove ogni dettaglio &egrave; pensato per offrirvi un soggiorno autentico e raffinato, tra relax, buon vino e panorami mozzafiato.",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
     "id": 105877,
     "title": "LALIBRERIA",
     "lat": 45.6611897,
