@@ -18342,6 +18342,34 @@
     ]
   },
   {
+    "id": 120621,
+    "title": "AMA FACTORY",
+    "lat": 45.0819812,
+    "lng": 7.6787983,
+    "url": "https://fondoambiente.it/luoghi/ama-factory",
+    "description": "Per iscritti FAi riduzione del 20% sugli spettacoli di AMA FACTORY a Torino SCOPRI IL PROGRAMMA DESCRIZIONE A.M.A. Factory &egrave; un&rsquo;impresa culturale innovativa che nasce a luglio 2022 dalla visione di A.C.T.I. Teatri Indipendenti e Il Mulino di Amleto, due affermate realt&agrave; di teatro contemporaneo che uniscono le forze organizzative e progettuali per sostenere la ricerca, valorizzando la ricchezza artistica e la creativit&agrave;. &ldquo;Factory richiama l&rsquo;officina, il laboratorio, il cantiere creativo: &egrave; circolazione di idee e di scambio artistico. L&rsquo;acronimo A.M.A. indica i due gruppi all&rsquo;origine di questa visione: A.C.T.I. e Il Mulino di Amleto, ma genera anche un verbo di cui abbiamo bisogno pi&ugrave; che mai in questo periodo storico di conflitti e di muri. Un verbo-azione che vuole permeare l&rsquo;operato quotidiano della Factory: una struttura che punta a sostenere il coraggio nelle scelte artistiche, contribuire a un miglioramento del sistema, orientando cura e attenzione per &ldquo;nuove forme&rdquo; e linguaggi scenici.&rdquo; L&rsquo;impresa ha sede a San Pietro in Vincoli a Torino, e la sua direzione artistica &egrave; affidata a Beppe Rosso e Barbara Mazzi &amp; Marco Lorenzi.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 35511,
+    "title": "CITTA' DI TORINO",
+    "lat": 45.070312,
+    "lng": 7.68685649,
+    "url": "https://fondoambiente.it/luoghi/via-colli",
+    "description": "Per iscritti FAI riduzione del 10% sui biglietti di costo uguale o superiore a 15 &euro;, per gli spettacoli del TORINO JAZZ FESTIVAL DAL 25 APRILE AL 2 MAGGIO 2026 SCOPRI IL PROGRAMMA&nbsp;E LE SEDI MODALITA&#39; DI ACQUISTO presso l&rsquo;Info Point &ndash; Box Office della Fondazione per la Cultura Torino (piazza Palazzo di Citt&agrave; 5/A). Aperto dal marted&igrave; al sabato dalle 10.30 alle 18.00 e aperto tutti i giorni dal 22 aprile al 2 maggio. Online su SITO selezionare il biglietto con la riduzione &quot;CONVENZIONI&quot; inserire il codice FAI26 completare l&#39;acquisto DESCRIZIONE Anche quest&rsquo;anno il Torino Jazz Festival fa di Torino una delle capitali europee del jazz e della musica dal vivo. La quattordicesima edizione si sviluppa nell&rsquo;arco di otto giorni, preceduti da un&rsquo;anteprima ricca di iniziative che accompagneranno la citt&agrave; verso il cuore del festival. Il programma conferma la qualit&agrave; e l&rsquo;ambizione del progetto: produzioni originali, grandi nomi della scena internazionale e spazio ai talenti emergenti. Basta sfogliare il cartellone per rendersi conto della variet&agrave; e del livello delle proposte: in pochi giorni Torino accoglier&agrave; alcuni tra i migliori interpreti del jazz contemporaneo, offrendo al pubblico un&rsquo;esperienza artistica di altissimo profilo. Il festival si apre il 25 aprile, Festa della Liberazione, con un concerto tematico che vedr&agrave; la partecipazione di Moni Ovadia insieme a giovani talenti torinesi, a testimonianza di un legame profondo tra memoria, cultura e impegno civile. Il 30 aprile, in occasione dell&rsquo;International Jazz Day promosso dall&rsquo;UNESCO, il jazz torner&agrave; a intrecciarsi con le grandi questioni sociali del nostro tempo, riaffermando la sua vocazione universale. Un&rsquo;attenzione particolare &egrave; dedicata alle nuove generazioni: ragazze e ragazzi diventano protagonisti del festival attraverso progetti che li coinvolgono direttamente, valorizzando l&rsquo;energia e la creativit&agrave; dei jazzisti in erba della nostra citt&agrave;. Il Torino Jazz Festival si conferma inoltre sempre pi&ugrave; diffuso e inclusivo. Il jazz attraversa quartieri e comunit&agrave;, anima i locali cittadini, entra negli spazi sociali &ndash; dai luoghi di assistenza a quelli di detenzione, per gli anziani come per i bambini &ndash; e dialoga con altre arti, dal cinema alla letteratura musicale. &Egrave; un festival che appartiene a tutta la citt&agrave; e che contribuisce a rafforzare l&rsquo;identit&agrave; culturale di Torino. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 110836,
     "title": "B&B PALAZZO LUPICINI",
     "lat": 41.2657504,
