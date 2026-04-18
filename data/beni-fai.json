@@ -1162,20 +1162,6 @@
     ]
   },
   {
-    "id": 119720,
-    "title": "BOTTEGA ARTIGIANA DELLA CERAMICA DI GIOVANNA TASCA",
-    "lat": 42.3434409,
-    "lng": 14.1647988,
-    "url": "https://fondoambiente.it/luoghi/bottega-artigiana-della-ceramica-di-giovanna-tasca",
-    "description": "Per iscritti FAI riduzione del 10% per gli acquisti delle ceramiche artistiche Giovanna Tasca a Chieti DESCRIZIONE nell&#39;atelier di Giovannina Tasca si realizzano solo pezzi unici &quot;firmati&quot;, con decorazioni tipiche e tradizionali della maiolica di Rapino.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 101359,
     "title": "GALLERIA \"CORNICI DI NARDO\"",
     "lat": 42.365263,
@@ -1554,6 +1540,20 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 119720,
+    "title": "BOTTEGA ARTIGIANA DELLA CERAMICA DI GIOVANNA TASCA",
+    "lat": 42.2125908,
+    "lng": 14.1886664,
+    "url": "https://fondoambiente.it/luoghi/bottega-artigiana-della-ceramica-di-giovanna-tasca",
+    "description": "Per iscritti FAI riduzione del 10% per gli acquisti delle ceramiche artistiche Giovanna Tasca a Chieti DESCRIZIONE nell&#39;atelier di Giovannina Tasca si realizzano solo pezzi unici &quot;firmati&quot;, con decorazioni tipiche e tradizionali della maiolica di Rapino.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -9170,6 +9170,20 @@
     ]
   },
   {
+    "id": 10265,
+    "title": "PALAZZO COLONNA DETTO ROCCA COLONNA",
+    "lat": 42.1254301,
+    "lng": 12.4958599,
+    "url": "https://fondoambiente.it/luoghi/palazzo-colonna-castelnuovo-di-porto",
+    "description": "Per iscritti FAI riduzione del 20% per le attivit&agrave; svolte da Tessuti Sociali a Castelnuovo di Porto (RM) CORSI, EVENTI, MOSTRE E ATTIVITA&#39; DESCRIZIONE Tessuti Sociali nasce da un sogno semplice e potente: creare uno spazio dove ogni persona possa scoprire il piacere di fare con le mani, in un ambiente accogliente, umano e inclusivo. &iquest;Dal 2020 intrecciamo storie, fili e relazioni attraverso corsi, laboratori e attivit&agrave; aperte a tutti.&iquest; Crediamo che ogni essere umano abbia dentro di s&eacute; una creativit&agrave; unica, e che coltivarla sia un atto di cura verso s&eacute; stessi e verso il mondo. Ogni corso &egrave; un viaggio dentro di te: un intreccio di gesti, persone&nbsp;e bellezza da costruire insieme.",
+    "categories": [
+      {
+        "id": 14,
+        "name": "Partecipare a corsi o escursioni"
+      }
+    ]
+  },
+  {
     "id": 118862,
     "title": "BOTTEGA STORICA CAMICERIA BAZZOCCHI",
     "lat": 41.8977717,
@@ -9203,8 +9217,12 @@
     "lat": 41.89258721,
     "lng": 12.46641081,
     "url": "https://fondoambiente.it/luoghi/orto-botanico-di-roma",
-    "description": "Per iscritti FAI riduzione del 20% per la visita all&#39;Orto Botanico di Roma DESCRIZIONE L&#39;Orto botanico di Roma &egrave; situato alle pendici del Gianicolo, nell&#39;antico parco di villa Corsini, un tempo residenza di Cristina di Svezia. La struttura dipende dal Dipartimento di Biologia Ambientale dell&#39; Univesit&agrave; di Roma &quot;La Sapienza&quot; COSA VEDERE L&#39;Orto botanico di Roma ha attualmente un&#39;estensione di 12 ettari, in posizione riparata sul pendio del Gianicolo volto a nordest e assolata nella parte pianeggiante. L&#39;irrigazione e alcuni ruscelli dotati di colture acquatiche sono alimentati dal soprastante acquedotto dell&#39;Acqua Paola. L&#39;Orto (citiamo dal sito) ha funzioni didattiche, di educazione ambientale e di ricerca scientifica. Esso &egrave; sede di mostre, corsi, conferenze e simposi ed ha annualmente quasi centomila visitatori. L&#39;attivit&agrave; per le scuole &egrave; molto intensa con circa 250 visite guidate. L&#39;Orto inoltre &egrave; sede di ricerche altamente specializzate sull&#39;ecologia dell&#39;ambiente urbano. Il giardino ospita attualmente oltre 3000 specie vegetali. Si danno qui solo alcuni cenni sull&#39;organizzazione di massima delle zone espositive. &nbsp;",
+    "description": "Per iscritti FAI biglietto ridotto a 10 euro anzich&eacute; a 12 euro per partecipare a Era di Maggio all&#39;Orto Botanico di Roma Sabato 9 e domenica 10 maggio 2026 dalle 9:00 alle 18:30 DESCRIZIONE Festeggiamo la primavera con Era di Maggio nello splendido Orto Botanico di Roma. Quest&rsquo;anno il percorso celebra gli 800 anni dalla morte di San Francesco, guida ideale per riscoprire il legame profondo che unisce uomo e natura. Fiori, profumi e scorci suggestivi fanno da cornice a un&rsquo;esperienza che &egrave; insieme festa e incontro, e saranno proprio le piante ad accompagnarvi in un viaggio di scoperta e meraviglia. Arte, botanica, storia e musica si intrecciano lungo il percorso, con alcune visite guidate che si concluderanno a Palazzo Corsini, dove sar&agrave; esposto un prezioso manoscritto miniato del Trecento dedicato a San Francesco. Una festa di primavera unica, da vivere e condividere con tutta la famiglia. SCOPRI DI PIU&rsquo;",
     "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      },
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
@@ -9930,6 +9948,20 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 83573,
+    "title": "TEATRO DELLA COMETA",
+    "lat": 41.8935139,
+    "lng": 12.4814969,
+    "url": "https://fondoambiente.it/luoghi/teatro-della-cometa",
+    "description": "Per iscritti FAI riduzione del 5% per gli spettacoli presso il Teatro della Cometa a RomaSCOPRI IL PROGRAMMA DESCRIZIONE Situato nel cuore di Roma, il Teatro della Cometa &egrave; uno dei luoghi storici della scena culturale italiana. Fondato negli anni &rsquo;50, unisce eleganza, tradizione e innovazione, ospitando una programmazione di qualit&agrave; tra prosa, musica e nuove sperimentazioni. Un punto di riferimento per chi ama il teatro vissuto come esperienza culturale autentica, in uno spazio intimo e ricco di fascino.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -11604,34 +11636,6 @@
     ]
   },
   {
-    "id": 40005,
-    "title": "MUSEI  DEL CASTELLO: MUSEO DELLE ARMI LUIGI MARZOLI",
-    "lat": 45.5423801,
-    "lng": 10.2288577,
-    "url": "https://fondoambiente.it/luoghi/musei-del-castello-museo-delle-armi-luigi-marzoli",
-    "description": "Per gli iscritti FAI biglietto ridotto per il Museo delle Armi &quot;Luigi Marzoli&quot; e il Museo del Risorgimento Leonessa d&#39;Italia a Brescia &nbsp;Biglietto Musei dura fino al 31 agosto 2026 e consente di visitare i quattro musei del sistema civico bresciano: Museo di Santa Giulia, Pinacoteca Tosio Martinengo, Museo del Risorgimento Leonessa d&#39;Italia e Museo delle Armi Luigi Marzoli CLICCA QUI PER IL BIGLIETTO ONLINE DESCRIZIONE Il Museo delle Armi Luigi Marzoli ospita una delle pi&ugrave; pregiate raccolte europee di armature e armi antiche, che raccontano la lunghissima e prolifica tradizione armiera bresciana. Il Museo nasce grazie all&rsquo;acquisizione della collezione del cavaliere del lavoro Luigi Marzoli, brillante imprenditore palazzolese. Tra le numerose e importanti armi, sono di particolare rilevanza le armature bresciane cinquecentesche, specialmente i corsaletti da fante, e le armi da fuoco con le celeberrime canne gardonesi, produzioni che hanno reso Brescia rinomata nel mondo fin dal XVI secolo. &nbsp; Orari di visita Orario estivo (1 giugno &ndash; 30 settembre): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 19:00 Ultimo ingresso:&nbsp; 18.15 Orario invernale (1 ottobre &ndash; 31 maggio): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 18:00 Ultimo ingresso: 17.15 &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 40006,
-    "title": "MUSEI DEL CASTELLO: MUSEO DEL RISORGIMENTO",
-    "lat": 45.5423801,
-    "lng": 10.2288577,
-    "url": "https://fondoambiente.it/luoghi/musei-del-castello-museo-del-risorgimento",
-    "description": "Per gli iscritti FAI biglietto ridotto per il Museo del Risorgimento Leonessa d&#39;Italia e il Museo delle Armi &quot;Luigi Marzoli&quot;&nbsp; a Brescia Biglietto Musei dura fino al 31 agosto 2026 e consente di visitare i quattro musei del sistema civico bresciano: Museo di Santa Giulia, Pinacoteca Tosio Martinengo, Museo del Risorgimento Leonessa d&#39;Italia e Museo delle Armi Luigi Marzoli CLICCA QUI PER IL BIGLIETTO ONLINE DESCRIZIONE Il percorso incarna una nuova idea di museo storico, in cui la narrazione svolge un ruolo di primo piano e si spinge fino alla contemporaneit&agrave;. Il Museo alterna scala locale ed europea, racconto e analisi, oggetti e collezioni digitali, allo scopo di illustrare eventi, luoghi e protagonisti della storia risorgimentale in maniera innovativa e partecipativa. Una ricca collezione digitale accompagna e integra una narrazione che arriva sino ai nostri giorni. Orari di visita: Orario estivo (1 giugno &ndash; 30 settembre): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 19:00 Ultimo ingresso:&nbsp; 18.15 Orario invernale (1 ottobre &ndash; 31 maggio): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 18:00 Ultimo ingresso: 17.15 &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40008,
     "title": "MUSEO DI SANTA GIULIA",
     "lat": 45.5394205,
@@ -12146,6 +12150,34 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 40005,
+    "title": "MUSEI  DEL CASTELLO: MUSEO DELLE ARMI LUIGI MARZOLI",
+    "lat": 45.5423801,
+    "lng": 10.2288577,
+    "url": "https://fondoambiente.it/luoghi/musei-del-castello-museo-delle-armi-luigi-marzoli",
+    "description": "Per gli iscritti FAI biglietto ridotto per il Museo delle Armi &quot;Luigi Marzoli&quot; e il Museo del Risorgimento Leonessa d&#39;Italia a Brescia &nbsp;Biglietto Musei dura fino al 31 agosto 2026 e consente di visitare i quattro musei del sistema civico bresciano: Museo di Santa Giulia, Pinacoteca Tosio Martinengo, Museo del Risorgimento Leonessa d&#39;Italia e Museo delle Armi Luigi Marzoli CLICCA QUI PER IL BIGLIETTO ONLINE DESCRIZIONE Il Museo delle Armi Luigi Marzoli ospita una delle pi&ugrave; pregiate raccolte europee di armature e armi antiche, che raccontano la lunghissima e prolifica tradizione armiera bresciana. Il Museo nasce grazie all&rsquo;acquisizione della collezione del cavaliere del lavoro Luigi Marzoli, brillante imprenditore palazzolese. Tra le numerose e importanti armi, sono di particolare rilevanza le armature bresciane cinquecentesche, specialmente i corsaletti da fante, e le armi da fuoco con le celeberrime canne gardonesi, produzioni che hanno reso Brescia rinomata nel mondo fin dal XVI secolo. &nbsp; Orari di visita Orario estivo (1 giugno &ndash; 30 settembre): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 19:00 Ultimo ingresso:&nbsp; 18.15 Orario invernale (1 ottobre &ndash; 31 maggio): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 18:00 Ultimo ingresso: 17.15 &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40006,
+    "title": "MUSEI DEL CASTELLO: MUSEO DEL RISORGIMENTO",
+    "lat": 45.5423801,
+    "lng": 10.2288577,
+    "url": "https://fondoambiente.it/luoghi/musei-del-castello-museo-del-risorgimento",
+    "description": "Per gli iscritti FAI biglietto ridotto per il Museo del Risorgimento Leonessa d&#39;Italia e il Museo delle Armi &quot;Luigi Marzoli&quot;&nbsp; a Brescia Biglietto Musei dura fino al 31 agosto 2026 e consente di visitare i quattro musei del sistema civico bresciano: Museo di Santa Giulia, Pinacoteca Tosio Martinengo, Museo del Risorgimento Leonessa d&#39;Italia e Museo delle Armi Luigi Marzoli CLICCA QUI PER IL BIGLIETTO ONLINE DESCRIZIONE Il percorso incarna una nuova idea di museo storico, in cui la narrazione svolge un ruolo di primo piano e si spinge fino alla contemporaneit&agrave;. Il Museo alterna scala locale ed europea, racconto e analisi, oggetti e collezioni digitali, allo scopo di illustrare eventi, luoghi e protagonisti della storia risorgimentale in maniera innovativa e partecipativa. Una ricca collezione digitale accompagna e integra una narrazione che arriva sino ai nostri giorni. Orari di visita: Orario estivo (1 giugno &ndash; 30 settembre): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 19:00 Ultimo ingresso:&nbsp; 18.15 Orario invernale (1 ottobre &ndash; 31 maggio): Luned&igrave; (non festivi): Chiuso Marted&igrave;, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato, domenica: 10:00 &ndash; 18:00 Ultimo ingresso: 17.15 &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -14161,7 +14193,7 @@
     "lat": 45.5168261,
     "lng": 9.2143315,
     "url": "https://fondoambiente.it/luoghi/teatro-degli-arcimboldi",
-    "description": "Per gli iscritti FAI riduzione fino al 10% per le iniziative culturali e gli spettacoli in programma presso TAM- Teatro Arcimboldi di Milano. Per usufruire del benefit baster&agrave; recarsi presso il botteghino del TAM Teatro Arcimboldi ed esibire la propria tessera associativa in corso di validit&agrave;, previsto 1 biglietto per iscritto + accompagnatore riduzione speciale NEXT TO NORMAL dal&nbsp; dal 5 febbraio al 15 marzo 2026 &nbsp;biglietto ridotto 15% : &euro; 38,20 + prevendita CATS &ndash; MUSICAL&nbsp;Dal 27 gennaio al 1 febbraio 2026 POKER ROMAGNOLO - PROSA&nbsp;5 febbraio 2026, ore 21:00 VALERIO MASTANDREA &ndash; MIGLIORE &ndash; PROSA&nbsp;7 e 8 febbraio 2026 VOGLIO VEDERTI DANZARE &nbsp;&ndash; CONCERTO&nbsp;12 febbraio 2026 K POP &ndash; LE GUERRIERE&nbsp; - CONCERTO&nbsp;15 febbraio 2025 h 15.00 e h 18.00 FEDERICO BUFFA &ndash; OTTO INFINITO&nbsp; - PROSA&nbsp;2 e 23 marzo 2026, ore 21:00 VIVA EL FUTBOL &ndash; PROSA&nbsp;16 marzo 2026 MORRICONE FILM HISTORY 2025 - CONCERTO&nbsp;1 aprile 2026, ore 21:00 LES ETOILES &ndash; BALLETTO&nbsp;11 e 12 aprile 2026",
+    "description": "Per gli iscritti FAI riduzione fino al 10% per le iniziative culturali e gli spettacoli in programma presso TAM- Teatro Arcimboldi di Milano. Per usufruire del benefit baster&agrave; recarsi presso il botteghino del TAM Teatro Arcimboldi ed esibire la propria tessera associativa in corso di validit&agrave;, previsto 1 biglietto per iscritto + accompagnatore DIN DON DOWN - MUSICAL&nbsp;14, 15 aprile, 28, 29 e 30 maggio 2026 IL GIRO DEL MONDO IN 80 GIORNI&ndash; TAM KIDS&nbsp;19 aprile 2026 LA BELLA ADDORMENTATA &ndash; BALLETTO&nbsp;25 e 26 aprile 2026 MAKSIM Segmenti World Tour 3 maggio&nbsp; 2026 GRAN GAL&Agrave; AUB - Accademia Ucraina di Balletto 10 maggio 2026, ore 17:00 VALERIO LUNDINI &ndash; IL MANSPLAINING SPIEGATO A MIA FIGLIA 14 e 15 maggio 2026, ore 21.00&nbsp; THE NIGHT OF MUSICALS 17 maggio 2026, ore 20.00 LEGEND THE SHOW&nbsp; 19 maggio 2026 h 21.00 QUEEN RHAPSODY&nbsp;&nbsp;3 giugno 2026, ore 21:00 GENESIS - One night with the Orchestra 13 giugno 2026, ore 21:00 FRANCESCO DE CARLO - LIMBO&nbsp; 15 giugno 2026, ore 21:00 &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -18822,6 +18854,20 @@
     ]
   },
   {
+    "id": 79928,
+    "title": "CASTELLO CARLO V",
+    "lat": 40.3524263,
+    "lng": 18.1718987,
+    "url": "https://fondoambiente.it/luoghi/castello-carlo-v- lecce",
+    "description": "Per iscritti FAI riduzione 20% per la visita guidata&nbsp;al Castelo Carlo V di Lecce inoltre prevista una riduzione del 10% per la consumazione al Bar interno DESCRIZIONE Il Castello Carlo V di Lecce riprende forma in una nuova veste grazie ad un accordo di partenariato speciale pubblico - privato tra la Direzione Regionale Musei di Puglia e l&rsquo;associazione temporanea d&rsquo;impresa &ldquo;Open Castle&rdquo; con il contributo della Fondazione con il Sud: il castello si apre alla comunit&agrave; e ai visitatori con tour guidati, laboratori artistici ed artigianali, attivit&agrave; ed eventi per diventare un polo di attrazione e un punto di riferimento per cittadinanza e turisti con un&rsquo;area destinata ai bambini e ai ragazzi, un hub artistico e artigianale e un bar sociale finalizzato all&rsquo;inclusione di soggetti fragili. La lunga storia della struttura, dalla costruzione in et&agrave; normanna fino alla sua trasformazione in caserma alla fine dell&rsquo;Ottocento, cos&igrave; come le scoperte a seguito dei lavori di restauro e scavo archeologico degli ultimi decenni, hanno consentito di definirlo ancora di pi&ugrave; come un luogo simbolo della citt&agrave; di Lecce e di tutto il territorio salentino. Il Castello di Lecce &egrave; la struttura fortificata pi&ugrave; grande di Puglia. Denominato comunemente &ldquo;Castello Carlo V&rdquo;, esso ha origini ben pi&ugrave; antiche della ristrutturazione del XVI secolo, oggi visibile. &Egrave; sorto infatti come residenza dei Conti di Lecce, in et&agrave; normanna, nella met&agrave; del XII secolo, all&rsquo;epoca di Ruggero II d&rsquo;Altavilla e sub&igrave; numerose ristrutturazioni in et&agrave; federiciana e angioina. Qui alloggi&ograve; Maria d&rsquo;Enghien, contessa di Lecce, principessa di Taranto e regina di Napoli, lasciando il suo indelebile segno nella citt&agrave; e nel territorio. L&#39;attuale fortezza &egrave; opera dell&#39;Ingegnere Generale del Regno Giangiacomo dell&#39;Acaya, su committenza del Vicer&egrave; Don Pedro de Toledo, all&#39;interno del progetto di ristrutturazione difensiva del territorio promosso dall&#39;imperatore Carlo V. COSA VISITARE Il percorso di visita consente di scoprire le fasi pi&ugrave; antiche della struttura, messe in luce dalle recenti ricerche e scavi archeologici, di visitare suggestivi ambienti sotterranei e le importanti sale di rappresentanza al piano nobile. Il Castello, oltre ad ospitare mostre temporanee ed eventi, contiene al suo interno due importanti allestimenti: il Museo della Cartapesta, dove, attraverso l&rsquo;esposizione di importanti opere, viene raccontata la storia di questa tradizionale arte leccese e un allestimento specifico, grazie a due fedeli plastici ricostruttivi, che racconta la storia degli importanti edifici da spettacolo di et&agrave; romana di Lecce, il teatro e l&rsquo;anfiteatro, oggi pertinenti anch&rsquo;essi alla Direzione Regionale Musei nazionali Puglia",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 109952,
     "title": "FILIPPO DE RAHO - AGRI BIO RELAIS",
     "lat": 40.3694319,
@@ -19732,6 +19778,20 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 120637,
+    "title": "NOHASI PALACE HOTEL & SPA",
+    "lat": 40.1538542,
+    "lng": 18.164349,
+    "url": "https://fondoambiente.it/luoghi/nohasi-palace-hotel-spa",
+    "description": "Per iscritti FAI riduzione del 10% per i servizi offerti dal NOHASI PALACE HOTEL & SPA a Nohala riduzione viene applicata solo in caso di prenotazione attraverso i canali ufficiali della struttura DESCRIZIONE Nel cuore del Salento, a Noha, a pochi passi da Galatina, sorge Nohasi Palace Hotel, un&rsquo;elegante dimora di charme che custodisce secoli di storia. Il palazzo, appartenuto a nobili famiglie, &egrave; stato oggetto di un accurato intervento di restauro che ha saputo preservarne l&rsquo;autenticit&agrave; architettonica, restituendo nuova vita agli ambienti e integrando con discrezione comfort e servizi contemporanei. Varcando l&rsquo;ingresso della dimora si percepisce immediatamente il dialogo tra passato e presente: antiche mura, corti interne e luminose terrazze raccontano la storia del luogo, mentre l&rsquo;atmosfera intima e raffinata accoglie gli ospiti nel ritmo lento e armonioso della terra salentina. Nel giardino della struttura si conserva una suggestiva torre medievale, un tempo avamposto della signoria locale. L&rsquo;antico accesso, caratterizzato da un arco e dal ponte levatoio, ricorda la funzione difensiva che il complesso rivestiva nei secoli passati, aggiungendo fascino e valore storico all&rsquo;intera dimora. Tra gli ambienti pi&ugrave; affascinanti spicca lo storico frantoio ipogeo, che per lungo tempo fu tra i principali luoghi di produzione di olio lampante della zona. Questo suggestivo spazio sotterraneo, ancora oggi visitabile, rappresenta una preziosa testimonianza della tradizione olearia del territorio e consente agli ospiti di immergersi nella memoria produttiva e culturale del Salento. Le camere della dimora, curate con grande attenzione ai dettagli, offrono ambienti eleganti e silenziosi pensati per garantire comfort e armonia, accompagnando gli ospiti in momenti di riposo e benessere. A completare l&rsquo;esperienza di soggiorno vi &egrave; il centro benessere privato, un luogo raccolto e riservato dedicato al relax e alla rigenerazione, dove &egrave; possibile intraprendere percorsi di benessere e affidarsi alle mani esperte di professionisti del settore, lasciandosi alle spalle il ritmo frenetico della quotidianit&agrave;. All&rsquo;esterno, immersa nel profumo degli agrumi, la piscina con zona idromassaggio e musicoterapia subacquea diventa uno spazio di quiete e piacere, perfetto per godere della bellezza delle giornate salentine in un contesto elegante e curato. La tradizione del territorio trova espressione anche nella proposta gastronomica della dimora: il ristorante e la pizzeria offrono piatti che uniscono sapori autentici della cucina salentina a una visione contemporanea e raffinata della gastronomia, regalando agli ospiti momenti di convivialit&agrave; e scoperta. Visitare o soggiornare a Nohasi Palace significa dunque vivere un&rsquo;esperienza autentica, in cui storia, cultura e accoglienza si incontrano, raccontando l&rsquo;anima pi&ugrave; vera e affascinante del Salento. &nbsp;",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -26533,7 +26593,7 @@
     "lat": 45.667024,
     "lng": 12.1604882,
     "url": "https://fondoambiente.it/luoghi/festival-treviso-suona-jazz",
-    "description": "Per iscritti FAI biglietto ridotto per assistere al Festival Treviso Suona Jazz&nbsp;TREVISO SUONA JAZZ Per usufruire della riduzione si pu&ograve;: esibire la tessera FAI presso il negozio Mezzoforte cd, nostra biglietteria ufficiale (prevendita 1&euro;) inserire i codici promo sulla piattaforma Vivaticket.&nbsp;In questo caso bisogna cliccare direttamente su PROMO &nbsp;e inserire il codice promo al momento dell&#39;acquisto (prevendita 2&euro;) Collegandosi al seguente link possono trovare tutti i concerti: https://www.vivaticket.com/it/tour/treviso-suona-jazz-festival/2972 il codice sconto per il concerto di Giovanni Falzone a Casa Robegan &egrave; ROBEGAN il codice sconto per i concerti del festival &egrave; TSJF26 La riduzione: non &egrave; cumulabile con altre promozioni&nbsp; per quanto riguarda gli eventi presso il Teatro Comunale Mario Del Monaco: la riduzione sar&agrave; valida per gli acquisti effettuati presso le biglietterie del Teatro per quanto riguarda gli eventi presso le altre sedi (Auditorium Sant&rsquo;Artemio, Teatro La Stanza, Teatro delle Voci, Casa Robegan): gli acquisti vanno effettuati su VIVATICKET (per l&rsquo;edizione invernale digitando il codice promo &ldquo;WINTER&rdquo;; oppure, in alternativa previa mail di prenotazione a&nbsp;info@trevisosuonajazz.it , presso il negozio MEZZOFORTE di Treviso PROGRAMMA DEL FESTIVAL DESCRIZIONE&nbsp; Treviso Suona Jazz Festival, ideato e curato da Urbano Contemporaneo ETS sotto la direzione di Nicola Bortolanza, trasforma il centro storico di Treviso in un palcoscenico diffuso, dove la magia della musica jazz si fonde armoniosamente con il fascino dell&rsquo;arte e dell&rsquo;architettura. Grazie a una formula suggestiva e originale, il festival abbraccia non solo i luoghi d&rsquo;arte, ma anche spazi all&rsquo;aperto e attivit&agrave; produttive, valorizzando la citt&agrave; attraverso la qualit&agrave; delle proposte artistiche e una rete sinergica di collaborazioni con enti, aziende e associazioni. Per una settimana, la manifestazione anima palazzi storici, chiese, auditorium, teatri, locali del centro e sedi espositive, offrendo al pubblico performance di grandi nomi del panorama jazz internazionale e nazionale, accanto a giovani talenti emergenti. Un&rsquo;esperienza culturale di grande valore, pensata per il territorio e capace di creare nuove opportunit&agrave; di incontro e condivisione. Luoghi del Festival :&nbsp; Teatro Mario Del Monaco,&nbsp; Chiesa di Santa Caterina, Auditorium Sant&rsquo;Artemio, Auditorium Fondazione Benetton,&nbsp; Piazza Rinaldi Palazzo Giacomelli Loggia dei Cavalieri&nbsp; Chiesa di San Gaetano&nbsp; Chiesa di San Gregorio Teatro delle Voci Casa Robegan &nbsp;",
+    "description": "Per iscritti FAI biglietto ridotto per assistere al Festival Treviso Suona Jazz&nbsp;TREVISO SUONA JAZZ Per usufruire della riduzione si pu&ograve;: inserire i codici promo sulla piattaforma Vivaticket.&nbsp;In questo caso bisogna cliccare direttamente su PROMO &nbsp;e inserire il codice promo al momento dell&#39;acquisto (prevendita 2&euro;) Collegandosi al seguente link possono trovare tutti i concerti: https://www.vivaticket.com/it/tour/treviso-suona-jazz-festival/2972 il codice sconto per il concerto di Giovanni Falzone a Casa Robegan &egrave; ROBEGAN il codice sconto per i concerti del festival &egrave; TSJF26 La riduzione: non &egrave; cumulabile con altre promozioni&nbsp; per quanto riguarda gli eventi presso le altre sedi (Auditorium Sant&rsquo;Artemio, Teatro La Stanza, Teatro delle Voci, Casa Robegan): gli acquisti vanno effettuati su VIVATICKET (per l&rsquo;edizione invernale digitando il codice promo &ldquo;WINTER&rdquo;; oppure, in alternativa previa mail di prenotazione a&nbsp;info@trevisosuonajazz.it , presso il negozio MEZZOFORTE di Treviso PROGRAMMA DEL FESTIVAL DESCRIZIONE&nbsp; Treviso Suona Jazz Festival, ideato e curato da Urbano Contemporaneo ETS sotto la direzione di Nicola Bortolanza, trasforma il centro storico di Treviso in un palcoscenico diffuso, dove la magia della musica jazz si fonde armoniosamente con il fascino dell&rsquo;arte e dell&rsquo;architettura. Grazie a una formula suggestiva e originale, il festival abbraccia non solo i luoghi d&rsquo;arte, ma anche spazi all&rsquo;aperto e attivit&agrave; produttive, valorizzando la citt&agrave; attraverso la qualit&agrave; delle proposte artistiche e una rete sinergica di collaborazioni con enti, aziende e associazioni. Per una settimana, la manifestazione anima palazzi storici, chiese, auditorium, teatri, locali del centro e sedi espositive, offrendo al pubblico performance di grandi nomi del panorama jazz internazionale e nazionale, accanto a giovani talenti emergenti. Un&rsquo;esperienza culturale di grande valore, pensata per il territorio e capace di creare nuove opportunit&agrave; di incontro e condivisione. Luoghi del Festival :&nbsp; Teatro Mario Del Monaco,&nbsp; Chiesa di Santa Caterina, Auditorium Sant&rsquo;Artemio, Auditorium Fondazione Benetton,&nbsp; Piazza Rinaldi Palazzo Giacomelli Loggia dei Cavalieri&nbsp; Chiesa di San Gaetano&nbsp; Chiesa di San Gregorio Teatro delle Voci Casa Robegan &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -26561,7 +26621,7 @@
     "lat": 45.7775449,
     "lng": 11.7141739,
     "url": "https://fondoambiente.it/luoghi/wild-life-museum",
-    "description": "Per Iscritti FAI biglietto ridotto per visitare il Wild Life Museum a Bassano del Grappa (VI) DESCRIZIONE&nbsp; Fondazione Luca ha il piacere di presentare la collezione di esemplari conservati all&rsquo;interno della splendida villa Ca&rsquo; Erizzo Luca. Una visita guidata unica nel suo genere che far&agrave; vivere l&rsquo;emozione di ammirare a grandezza naturale animali provenienti da tutto il mondo. Percorrendo la storia, i luoghi e la passione per il regno animale e per la natura. Il museo naturalistico occupa 10 grandi locali con accesso e sala proiezione situati al piano terra, la parte espositiva si sviluppa negli antichi solai della villa. Tutte le sale sono organizzate per aree tematiche e divise tra i 5 continenti. Il museo organizza attivit&agrave; di educazione scientifica rivolte sia alle scuole che alla cittadinanza.",
+    "description": "Per Iscritti FAI biglietto ridotto a 7,00 euro anzich&eacute; 9,00 euro per visitare il Museo FINO AL 2 MAGGIO sar&agrave; ospitata la mostra&nbsp;Tra arte e natura compresa nel prezzo del biglietto DESCRIZIONE&nbsp; Nel cuore di Bassano del Grappa, all&#39;interno della cornice storica della quattrocentesca Villa Ca&#39; Erizzo Luca, &egrave; ospitato il Wild Life Museum. Questa istituzione ospita una delle collezioni naturalistiche pi&ugrave; ricche d&#39;Europa, con oltre mille esemplari tassidermizzati provenienti dai cinque continenti, dalle gelide distese dell&#39;Alaska fino alla torrida savana africana. Grazie all&#39;accurato lavoro di esperti del settore, ogni esemplare conserva un realismo sorprendente, offrendo l&#39;opportunit&agrave; unica di osservare da vicino dettagli anatomici e sfumature che in natura risulterebbero impossibili da cogliere. L&#39;intero percorso espositivo si fonda su un principio profondamente in sintonia con i valori di tutela ambientale e paesaggistica: la conoscenza intesa come primo passo fondamentale verso la conservazione. Il museo non si limita a essere un mero spazio espositivo, ma si propone come un vero e proprio strumento narrativo ideato per svelare la complessit&agrave; del mondo naturale. Attraverso l&#39;approfondimento dell&#39;ecologia, dell&#39;etologia e delle strategie di adattamento animale, l&#39;obiettivo &egrave; quello di sensibilizzare sull&#39;importanza vitale della tutela della biodiversit&agrave;. La proposta culturale si arricchisce di un&#39;ampia offerta di attivit&agrave; esperienziali volte a coinvolgere attivamente le persone che lo visitano. L&#39;esplorazione della natura passa attraverso percorsi guidati, laboratori e iniziative peculiari come le suggestive visite guidate notturne o gli incontri periodici del Club Artisti Naturalisti. La collezione zoologica si trasforma cos&igrave; in un laboratorio didattico e sensoriale attivo, capace di ispirare una profonda consapevolezza ambientale e di stimolare lo spirito critico. L&#39;impegno per la valorizzazione di questo luogo si inserisce inoltre in un contesto storico e architettonico di grande pregio. Il Wild Life Museum fa infatti capo alla Fondazione Luca, un&#39;istituzione culturale la cui missione primaria &egrave; la conservazione e la cura del patrimonio materiale e immateriale di Villa Ca&#39; Erizzo Luca, dei suoi giardini storici e del contiguo Museo Hemingway (vedi scheda dedicata). In questo luogo il valore storico-artistico e l&#39;indagine naturalistica si fondono armoniosamente, offrendo un&#39;occasione di arricchimento e di &quot;ozio operoso&quot; per chiunque concepisca la scoperta del territorio e dell&#39;ambiente come una via per coltivare le proprie passioni e la propria sensibilit&agrave; ecologica.",
     "categories": [
       {
         "id": 8,
@@ -26575,7 +26635,7 @@
     "lat": 45.357387,
     "lng": 11.372435,
     "url": "https://fondoambiente.it/luoghi/villa-pisani-bonetti",
-    "description": "Per gli iscritti FAI riduzione del 17% per la visita presso Villa Pisani Bonetti a Bagnolo di Lonigo (VI) LA VILLA E&#39; APERTA TUTTO L&#39;ANNO SU APPUNTAMENTO. &nbsp; La Villa Pisani di Bagnolo, progettata da Andrea Palladio fin dal 1541, data del ritorno dal suo primo viaggio a Roma, e costruita tra i 1544 e il 1545, &egrave; forse l&rsquo;opera pi&ugrave; rappresentativa del periodo giovanile della sua attivit&agrave;. Con essa inizia la gloriosa collaborazione del Palladio, con la Serenissima. L&rsquo;autore teneva in tanta stima questa sua opera e in tale considerazione il potere dei committenti, i Pisani, da aprire con essa la sezione dedicata alle &ldquo;Case di Villa&rdquo; nel suo famoso trattato: &ldquo;I Quattro Libri dell&rsquo;Architettura&rdquo;. (Venezia 1570). La Villa di Bagnolo, ispirata ai monumenti della antica Roma, in particolare agli edifici termali, ne ripeteva la monumentalit&agrave; e come tale ben si adattava a rappresentare l&rsquo;insediamento dei nuovi &ldquo;feudatari&rdquo; e l&rsquo;affermazione del potere di Venezia sulla terraferma. Secondo il progetto presentato sui Quattro Libri dell&rsquo;Architettura, l&rsquo;edificio avrebbe dovuto avere due facciate principali, delle quali quella verso il fiume, con i grandiosi fornici in bugnato rustico, si pu&ograve; tuttora ammirare nella sua integrit&agrave;. Un&rsquo;altra difformit&agrave;, rispetto al disegno del trattato palladiano, &egrave; costituita dalla mancata costruzione del porticato dorico che, partendo dai lati della Villa, avrebbe dovuto circondare il quadrilatero della corte rustica antistante. In suo luogo recentemente &egrave; stato piantato un viale di platani che ne restituisce, almeno visivamente, le proporzioni. Gli studiosi sono per&ograve; discordi nel ritenere certi i progetti rivisti dal Palladio in tarda et&agrave; per la stampa del suo trattato. La Villa &egrave; oggi in perfetto stato di conservazione grazie all&rsquo;opera dei proprietari precedenti ed attuali.",
+    "description": "Per gli iscritti FAI riduzione del 10% per la visita presso Villa Pisani Bonetti a Bagnolo di Lonigo (VI) LA VILLA E&#39; APERTA TUTTO L&#39;ANNO SU APPUNTAMENTO. DESCRIZIONE La Villa Pisani di Bagnolo, progettata da Andrea Palladio fin dal 1541, data del ritorno dal suo primo viaggio a Roma, e costruita tra i 1544 e il 1545, &egrave; forse l&rsquo;opera pi&ugrave; rappresentativa del periodo giovanile della sua attivit&agrave;. Con essa inizia la gloriosa collaborazione del Palladio, con la Serenissima. L&rsquo;autore teneva in tanta stima questa sua opera e in tale considerazione il potere dei committenti, i Pisani, da aprire con essa la sezione dedicata alle &ldquo;Case di Villa&rdquo; nel suo famoso trattato: &ldquo;I Quattro Libri dell&rsquo;Architettura&rdquo;. (Venezia 1570). La Villa di Bagnolo, ispirata ai monumenti della antica Roma, in particolare agli edifici termali, ne ripeteva la monumentalit&agrave; e come tale ben si adattava a rappresentare l&rsquo;insediamento dei nuovi &ldquo;feudatari&rdquo; e l&rsquo;affermazione del potere di Venezia sulla terraferma. Secondo il progetto presentato sui Quattro Libri dell&rsquo;Architettura, l&rsquo;edificio avrebbe dovuto avere due facciate principali, delle quali quella verso il fiume, con i grandiosi fornici in bugnato rustico, si pu&ograve; tuttora ammirare nella sua integrit&agrave;. Un&rsquo;altra difformit&agrave;, rispetto al disegno del trattato palladiano, &egrave; costituita dalla mancata costruzione del porticato dorico che, partendo dai lati della Villa, avrebbe dovuto circondare il quadrilatero della corte rustica antistante. In suo luogo recentemente &egrave; stato piantato un viale di platani che ne restituisce, almeno visivamente, le proporzioni. Gli studiosi sono per&ograve; discordi nel ritenere certi i progetti rivisti dal Palladio in tarda et&agrave; per la stampa del suo trattato. La Villa &egrave; oggi in perfetto stato di conservazione grazie all&rsquo;opera dei proprietari precedenti ed attuali.",
     "categories": [
       {
         "id": 8,
@@ -27060,6 +27120,34 @@
     ]
   },
   {
+    "id": 120639,
+    "title": "MUSEO NICOLIS",
+    "lat": 45.3681251,
+    "lng": 10.8643748,
+    "url": "https://fondoambiente.it/luoghi/museo-nicolis",
+    "description": "Per iscritti FAI riduzione per la visita al Museo Nicolis a Villafranca di VeronaBiglietto di ingresso al Museo: Adulti (oltre 17 anni) biglietto ridotto a &euro; 12,00 anzich&eacute; &euro; 14,00 Ragazzi (11~16 anni)biglietto ridotto FAI a &euro; 10,00 anzich&eacute; &euro; 12 00 Bambini (0~10 anni)biglietto ridotto FAI Gratuito anzich&eacute; &euro; 6,00 Gadget a marchio Museo Nicolis&nbsp;&nbsp; Riduzione 10% DESCRIZIONE Situato a Villafranca di Verona, in un territorio ricco di fascino a breve distanza dalle sponde del Lago di Garda, dalle citt&agrave; d&#39;arte di Verona e Mantova e dalle colline vitivinicole della Valpolicella, il Museo Nicolis rappresenta un tassello significativo nella narrazione della storia, della tecnologia e del design del XX secolo. La struttura si configura come un vero e proprio archivio del progresso tecnico e culturale del Novecento, custodendo le testimonianze dell&#39;ingegno umano in un contesto che dialoga attivamente con le eccellenze paesaggistiche ed enogastronomiche dell&#39;ambiente circostante. Le radici di questo &ldquo;Museo dell&rsquo;Auto, della Tecnica, della Meccanica&rdquo; si intrecciano profondamente con i principi della sostenibilit&agrave; e dell&#39;impegno per il recupero. Il fondatore, Luciano Nicolis, ha infatti trasposto la filosofia della propria attivit&agrave; imprenditoriale &mdash; un&#39;azienda pioniera nell&#39;economia circolare attraverso il recupero della carta da macero &mdash; in un vasto progetto di salvaguardia del patrimonio storico e industriale. La sua vocazione &egrave; stata fin dall&#39;inizio quella di rintracciare e restituire valore a oggetti dimenticati o abbandonati, restaurandoli con cura per tramandarne la memoria e la bellezza alla collettivit&agrave;. Il percorso espositivo si sviluppa su una superficie di 6.000 metri quadrati progettati all&#39;insegna della totale accessibilit&agrave;, presentandosi come uno spazio inclusivo, privo di barriere architettoniche e pensato per favorire il dialogo tra generazioni e sensibilit&agrave; diverse. Al suo interno, dieci collezioni tematiche offrono un&#39;esplorazione visiva e materica della creativit&agrave; umana attraverso centinaia di pezzi unici. Tra i reperti di maggiore rilevanza storico-artistica spiccano oltre duecento automobili d&#39;epoca di gloriosi marchi internazionali, rarit&agrave; assolute come il primo motore a scoppio a benzina &quot;Motrice Pia&quot; brevettato nel 1882, oltre a vaste e raffinate esposizioni di biciclette storiche, macchine fotografiche, macchine per scrivere e antichi strumenti musicali. Ad arricchire ulteriormente il valore culturale della struttura vi &egrave; un rigoroso Centro Documentazione, vero cuore pulsante della memoria del museo, che con il suo archivio storico e la sua biblioteca specializzata supporta la conservazione, la catalogazione e la ricerca. In questo modo, il complesso non si limita a celebrare l&#39;evoluzione estetica e meccanica della societ&agrave;, ma si pone come un vivace laboratorio di conoscenza, offrendo un&#39;esperienza immersiva che unisce la tutela della cultura d&#39;impresa italiana alla valorizzazione delle radici e delle tradizioni del territorio.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 88695,
+    "title": "MUSEO HEMINGWAY - VILLA CA ERIZZO",
+    "lat": 45.7771076,
+    "lng": 11.7345804,
+    "url": "https://fondoambiente.it/luoghi/museo-hemingway-villa-ca-erizzo",
+    "description": "Per Iscritti FAI biglietto ridotto a 7 euro anzich&eacute; 9 euro per visitare il&nbsp;Museo Hemingway DESCRIZIONE A Bassano del Grappa, proprio nel punto in cui il fiume Brenta lascia le montagne per aprirsi verso la pianura, sorge Villa Ca&rsquo; Erizzo Luca, un complesso architettonico di notevole pregio storico. Situata sulla riva orientale del fiume, nell&rsquo;antico e pittoresco quartiere di Margnan, questa dimora conserva intatta la sua originaria struttura quattrocentesca, impreziosita da successivi interventi settecenteschi e da affreschi esterni che testimoniano le sue nobili origini veneziane. Oltre al valore architettonico e paesaggistico, questo luogo custodisce un&rsquo;importante memoria storica per il Novecento. Durante la Grande Guerra, infatti, la villa divenne residenza della Sezione Uno delle ambulanze della Croce Rossa Americana, ospitando tra i volontari il giovane Ernest Hemingway. Proprio in questi spazi, dove lo scrittore visse nell&#39;autunno del 1918, &egrave; stato istituito il Museo Hemingway, l&rsquo;unico in Europa dedicato interamente alla figura del Premio Nobel statunitense. Il percorso espositivo si snoda attraverso cinque grandi locali della villa e offre una documentazione archivistica e fotografica inedita, focalizzata non solo sulla biografia dell&#39;autore, ma anche sulla testimonianza storica della partecipazione degli Stati Uniti al primo conflitto mondiale. Per chi &egrave; attento ai legami tra letteratura e territorio, il museo rappresenta una chiave di lettura fondamentale: il paesaggio visibile da Ca&#39; Erizzo &egrave; lo stesso descritto nell&#39;incipit di &quot;Addio alle armi&quot;, romanzo profondamente ispirato all&#39;esperienza veneta dell&#39;autore. Questo Museo opera, inoltre, come centro di ricerca, custodendo rare edizioni e riviste d&#39;epoca, al fine di valorizzare il profondo attaccamento che Hemingway mantenne per tutta la vita verso il Veneto e la sua natura. Il complesso monumentale di Ca&#39; Erizzo Luca ospita al suo interno anche il museo naturalistico &ldquo;Wild Life Museum&rdquo; anch&#39;esso visitabile usufruendo della convenzione.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 120394,
     "title": "SKILLCRAFT - INTERLINGUA FORMAZIONE THIENE",
     "lat": 45.7041517,
@@ -27070,6 +27158,20 @@
       {
         "id": 14,
         "name": "Partecipare a corsi o escursioni"
+      }
+    ]
+  },
+  {
+    "id": 40469,
+    "title": "VILLA FRACANZAN PIOVENE",
+    "lat": 45.3525706,
+    "lng": 11.4659228,
+    "url": "https://fondoambiente.it/luoghi/villa-fracanzan-piovene",
+    "description": "Per Iscritti e iscritte FAI biglietto ridotto a 9 euro anziché 12 euro per visitare Villa Fracanzan PioveneDESCRIZIONE Ai piedi dei verdi Colli Berici a sud di Vicenza, Villa Fracanzan Piovene rappresenta una meta di notevole interesse per chi desidera immergersi nella storia, nell&#39;arte e nel paesaggio veneto. Commissionata all&#39;inizio del Settecento all&#39;architetto Francesco Muttoni, questa imponente dimora costituisce un raro esempio di architettura barocca, capace di integrare sapientemente antiche preesistenze medievali in un vasto e suggestivo complesso.L&#39;attenzione alla natura e al paesaggio &egrave; uno degli aspetti pi&ugrave; affascinanti di questa tenuta. Davanti all&#39;edificio principale si apre un rigoglioso giardino all&#39;italiana, con siepi di bosso e tassi monumentali. Di importante valore storico e botanico &egrave; la presenza del &quot;brolo&quot;: un frutteto e orto coltivato. Il contesto paesaggistico si espande ulteriormente in grandi viali prospettici, impreziosito da due grandi peschiere e da uno scenografico anfiteatro collinare, progettato dal Muttoni come scenario naturale per rappresentazioni all&#39;aperto. Gli interni della villa offrono un viaggio negli stili di vita dei secoli passati. Le sale conservano arredi storici, letti a baldacchino e testimonianze come i cimeli del plebiscito del 1866. Di particolare rilevanza &egrave; la celebre cucina antica che custodisce una ricca collezione di utensili e rami, oltre a un pregevole acquaio cinquecentesco in marmo rosso opera del Farinati; un capolavoro che, secondo la leggenda, Napoleone Bonaparte avrebbe voluto portare con s&eacute; al Louvre. Le mura della villa hanno visto passare la grande storia europea, ospitando personalit&agrave; illustri del calibro di Elisabetta Caminer Turra, figura di spicco dell&#39;Illuminismo e prima donna giornalista del tempo, oltre a truppe militari dall&#39;epoca napoleonica fino alla Seconda Guerra Mondiale. Il fascino degli ambienti ha persino reso la villa un set cinematografico prediletto per pellicole firmate da grandi registi italiani, da Dino Risi a Gabriele Salvatores. Infine, questo luogo si distingue per il suo profondo legame con le tradizioni locali e la cultura rurale. Negli spazi della grande Barchessa prende vita il Museo &quot;Vita quotidiana e lavoro in villa&quot;, un percorso che documenta la civilt&agrave; contadina veneta. Attraverso la fedele ricostruzione dell&#39;abitazione del gastaldo &ndash; completa di cucina, telaio e locali per il bucato &ndash; e i granai ricchi di macchine agricole e utensili ottocenteschi, viene preservata la memoria del lavoro agricolo. All&#39;esterno, una rara collezione di antichi trattori e dei primi motori agricoli illustra l&#39;evoluzione e la meccanizzazione del lavoro nei campi nel corso dell&#39;ultimo secolo, offrendo uno spaccato autentico dello sviluppo del territorio.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
