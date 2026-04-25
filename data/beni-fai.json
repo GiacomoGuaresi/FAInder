@@ -6409,7 +6409,7 @@
     "lat": 44.0724793,
     "lng": 12.32477349,
     "url": "https://fondoambiente.it/luoghi/fondazione-tito-balestra-onlus-galleria-d-arte-moderna-e-contemporanea",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 29%) per la Fondazione Tito Balestra a Longiano. La Fondazione Tito Balestra (Longiano 1923-76) si &egrave; costituita per la donazione del patrimonio figurativo raccolto dallo stesso poeta (2.300 opere tra olii, disegni, sculture e incisioni) ed &egrave; per la sua entit&agrave; la pi&ugrave; consistente della regione nel settore dell&#39;arte contemporanea con opere del Novecento italiano. Per gli iscritti FAI: 5,00 Euro invece di 7,00",
+    "description": "Per iscritti Fai riduzione del biglietto di visita, 5 &euro; invece che 7 &euro;, per il Museo d&#39;Arte Moderna e Contemporanea - Fondazione Tito Balestra DESCRIZIONE La Fondazione Tito Balestra ha sede nel suggestivo Castello Malatestiano di Longiano ed &egrave; uno dei principali musei d&rsquo;arte moderna e contemporanea dell&rsquo;Emilia-Romagna. Nata dalla collezione del poeta e intellettuale Tito Balestra, custodisce opere del Novecento italiano e internazionale. All&rsquo;interno si possono visitare le sale espositive permanenti, dedicate a grandi artisti come Guttuso, De Pisis, Sironi e Maccari, oltre all&rsquo;archivio, alla biblioteca e alle mostre temporanee che arricchiscono l&rsquo;offerta culturale. &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -8784,6 +8784,20 @@
     "lng": 12.4637126,
     "url": "https://fondoambiente.it/luoghi/auditorium-conciliazione-",
     "description": "Per iscritti FAI riduzione del 20% per lo spettacolo SUPERMAGIC ELEMENTI 2026 presso l&#39;Auditorium della Concilazione a Roma DAL 22 GENNAIO ALL&#39;8 FEBBRAIO 2026 SUPERMAGIC ELEMENTI 2026 - Il pi&ugrave; grande spettacolo di magia d&#39;Europa con i migliori illusionisti del mondo. La 22&ordf; edizione dell&rsquo;imperdibile evento teatrale ti aspetta all&rsquo;AUDITORIUM DELLA CONCILIAZIONE dal 22 gennaio al 8 febbraio 2026 - acquisto degli spettacoli dal luned&igrave; al gioved&igrave; PROMOZIONE SPECIALE Segui le indicazioni per acquistare i biglietti a prezzo ridotto: 1 &bull; Vai qui https://bit.ly/SupermagicElementiPromo 2 &bull; Scegli il giorno che preferisci 3 &bull; Copia e inserisci il codice 20promosuper5 4 &bull; Acquista il tuo biglietto con la riduzione del 20% Questa offerta consente di acquistare il biglietto ridotto esclusivamente per gli spettacoli dal luned&igrave; al gioved&igrave; e per i settori selezionabili. Per acquistare i posti di Poltronissima Oro, Poltronissima Platino e Poltronissima Platino con l&#39;Esperienza VIP &egrave; necessario andare su TicketOne DESCRIZIONE I pi&ugrave; grandi campioni internazionali, illusionisti, prestigiatori, manipolatori e talenti magici provenienti da tutto il mondo, eccezionalmente riuniti, sullo stesso palco, per oltre 2 ore di grande magia dal vivo. Supermagic non &egrave; solo uno spettacolo, ma un&rsquo;esperienza pensata per risvegliare la capacit&agrave; di stupirsi negli adulti e per affascinare i pi&ugrave; piccoli, trasformando il teatro in un universo sospeso tra sogno e realt&agrave;, dove tutto &egrave; possibile.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 40125,
+    "title": "AUDITORIUM PARCO DELLA MUSICA",
+    "lat": 41.9288237,
+    "lng": 12.4744257,
+    "url": "https://fondoambiente.it/luoghi/auditorium-parco-della-musica",
+    "description": "L&rsquo;Accademia Nazionale di Santa Cecilia apre le sue porte al FAI per una serata speciale dedicata ai suoi iscritti: acquisto di biglietto in platea con il 58% di riduzione, 23 &euro; al posto di 56 &euro;. Venerd&igrave; 22 maggio&nbsp; - concerto -&nbsp; ore 20.00 - Sala Santa Cecilia Orchestra dell&rsquo;Accademia Nazionale di Santa Cecilia -&nbsp;Mozart Concerto per pianoforte n. 22 K482&nbsp;Strauss Sinfonia delle Alpi INOLTRE VISITA ESCLUSIVA AL MUSEO MUSA alle 18:40 per i&nbsp;primi 70 iscritti FAI&nbsp;che acquisteranno il biglietto avranno accesso esclusivo alla&nbsp;visita del Museo e della Collezione di Strumenti&nbsp;dell&rsquo;Accademia prima del concerto &nbsp; &nbsp; &nbsp; &nbsp; Modalit&agrave; di accredito per partecipare alla visita al MUSA :&nbsp; gli iscritti FAI&nbsp;dovranno: Inviare una mail a&nbsp;convenzioni@delegazionefairoma.org Allegare il biglietto acquistato Specificare nel corpo dell&rsquo;e-mail: Nome e Cognome, Fila e posto in sala Inviare&nbsp;entro mercoled&igrave; 20 maggio DESCRIZIONE EVENTO Orchestra&nbsp;dell&rsquo;Accademia Nazionale di Santa Cecilia direttore&nbsp;Semyon Bychkov pianoforte&nbsp;Emanuel Ax Mozart Concerto per pianoforte n. 22 K482 Strauss Sinfonia delle Alpi Emanuel Ax&nbsp;&egrave; un interprete raffinato a suo agio nel repertorio pianistico classico e in quello contemporaneo. Il suo tocco cristallino &egrave; quindi particolarmente indicato per uno dei concerti mozartiani pi&ugrave; brillanti, in cui il pianoforte dialoga con l&rsquo;orchestra in una serrata alternanza di melodia e passaggi virtuosistici. Nella seconda parte della serata la suggestiva Sinfonia delle Alpi&nbsp;nella quale Richard Strauss&nbsp;mette in musica l&rsquo;amore per la natura e per la bellezza delle Alpi bavaresi. Sul podio Semyon Bychkov&nbsp;uno dei giganti del podio, affezionato protagonista delle stagioni ceciliane.",
     "categories": [
       {
         "id": 10,
@@ -12580,20 +12594,6 @@
     "lng": 9.2366827,
     "url": "https://fondoambiente.it/luoghi/imbarcadero-lago-di-como",
     "description": "Per iscritti FAI riduzione del 10% per i servizi di trasporto privato de LA FLACA BOAT sul lago di Como Tour privati dal 1970, servizi di trasporto sul lago di Como: Wedding&nbsp; Giri turistici&nbsp; Photoshooting&nbsp; Aperitivo a bordo&nbsp; La barca pu&ograve; trasportare 6 pax + driver&nbsp; SCOPRI I SERVIZI",
-    "categories": [
-      {
-        "id": 14,
-        "name": "Partecipare a corsi o escursioni"
-      }
-    ]
-  },
-  {
-    "id": 98691,
-    "title": "NAUTIC PLANET",
-    "lat": 46.0207539,
-    "lng": 9.2422146,
-    "url": "https://fondoambiente.it/luoghi/nautic-planet",
-    "description": "Per gli iscritti FAI riduzione del 15% per i servizi di Nautic Planet a Menaggio (Como). DESCRIZIONE Nautic Planet offre la possibilit&agrave; di noleggiare imbarcazioni a Menaggio e Tremezzo. Dispone di barche a motore fino a 7 passeggeri, per la cui conduzione non &egrave; necessaria alcuna licenza. In alternativa si pu&ograve; noleggiare una barca da 11 posti con conducente. COSA OFFRE Acquisto tour e servizi di noleggio DOVE NOLEGGIARE TREMEZZINA &ndash; C/O IL BISBINO &nbsp;Statale Regina Km 28 | davanti Villa Carlotta, 22016, Tremezzo MENAGGIO &ndash; LUNGOLAGO &nbsp;Viale Benedetto Castelli, 9, 22017 Menaggio &nbsp;",
     "categories": [
       {
         "id": 14,
@@ -26644,6 +26644,20 @@
     ]
   },
   {
+    "id": 8660,
+    "title": "VILLA BEATRICE D'ESTE",
+    "lat": 45.2774998,
+    "lng": 11.6795212,
+    "url": "https://fondoambiente.it/luoghi/villa-beatrice-d-este",
+    "description": "Per Iscritti FAI biglietto ridotto a 2 &euro; anzich&eacute; 4 &euro; per la visita al Museo naturalistico di Villa Beatrice d&#39;Este a Baone (PD) DESCRIZIONE Immersa nella quiete dei Colli Euganei, sulla sommit&agrave; del Monte Gemola, Villa Beatrice d&rsquo;Este rappresenta un esempio significativo di stratificazione storica e recupero architettonico. Il complesso sorge sui resti di un antico insediamento monastico benedettino, fondato nel XIII secolo dalla beata Beatrice I d&rsquo;Este, nobildonna che scelse questo luogo di ritiro spirituale vivendovi fino al 1226. L&#39;identit&agrave; del sito &egrave; mutata nel corso dei secoli: dopo un periodo di abbandono seguito al trasferimento delle religiose nel 1576, la struttura fu acquisita nel 1657 dal mercante veneziano Francesco Ruberti, che ne trasform&ograve; le vestigia in una villa veneta, mantenendo per&ograve; inalterata la solennit&agrave; del luogo. Un ulteriore tassello architettonico si aggiunse all&#39;inizio del Novecento con la costruzione di una barchessa funzionale alle attivit&agrave; agricole. Grazie a un accurato restauro promosso dalla Provincia di Padova a partire dagli anni Settanta, oggi &egrave; possibile leggere chiaramente le tracce del preesistente monastero medievale all&rsquo;interno degli ambienti della villa, in un dialogo continuo tra sacro e profano. Oltre al valore storico-artistico, il sito si distingue per la sua vocazione scientifica e divulgativa: i locali della villa ospitano infatti il Museo Naturalistico provinciale, un percorso espositivo dedicato alla ricchezza della biodiversit&agrave; locale, che illustra gli aspetti vegetazionali e faunistici caratteristici del territorio euganeo e della pianura circostante. La posizione geografica privilegiata offre ai visitatori un ampio panorama che spazia dai rilievi collinari fino alle Prealpi, permettendo di coniugare la scoperta del patrimonio culturale con l&#39;immersione in un paesaggio di grande respiro. Il luogo, avvolto ancora oggi in un&rsquo;atmosfera di pace ereditata dalle sue origini cenobitiche, si propone come punto di incontro tra la tutela della memoria storica e l&#39;educazione ambientale.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 118416,
     "title": "CAFFÈ GELATERIA AL TODARO",
     "lat": 45.4237418,
@@ -26728,6 +26742,20 @@
     ]
   },
   {
+    "id": 120662,
+    "title": "MUSEO DI CAVA BOMBA",
+    "lat": 45.2726846,
+    "lng": 11.6538726,
+    "url": "https://fondoambiente.it/luoghi/museo-di-cava-bomba",
+    "description": "Per Iscritti FAI biglietto ridotto a 2 € anziché 4 € per visitare il Museo di Cava BombaDESCRIZIONE Immerso nella cornice paesaggistica dei Colli Euganei, il Museo geopaleontologico di Cava Bomba rappresenta un esempio significativo di recupero territoriale e valorizzazione del patrimonio di archeologia industriale. Il complesso museale sorge in un sito storicamente dedicato all&rsquo;estrazione e alla lavorazione della pietra, un&rsquo;attivit&agrave; che ha profondamente segnato l&rsquo;identit&agrave; produttiva locale e di tutti i Colli Euganei, fino alla seconda met&agrave; del Novecento. Oggetto di un attento restauro conservativo, il complesso ha mantenuto intatti i tre grandi forni per la produzione della calce, le bocche di carico e una porzione della ferrovia Decauville, elementi che permettono di leggere ancora oggi le dinamiche del lavoro del passato e le tecniche utilizzate tra la fine dell&#39;Ottocento e gli anni Sessanta. L&#39;offerta culturale si articola in percorsi espositivi che intrecciano la storia naturale con quella antropica, sottolineando le numerose trasformazioni che ha subito l&#39;ambiente naturale da parte dell&#39;uomo. Gli spazi interni ospitano tre sezioni principali: la sala geologica, che attraverso i fossili narra le trasformazioni avvenute nel territorio euganeo nel corso delle ere geologiche; la sala di mineralogia, che custodisce importanti collezioni locali e internazionali; e la suggestiva Sala Da Rio. Quest&#39;ultima, allestita con il fascino di una wunderkammer ottocentesca, preserva la collezione storica del conte e naturalista Nicol&ograve; Da Rio, offrendo una finestra sul collezionismo scientifico tra Settecento e Ottocento. L&#39;esperienza di visita si estende all&#39;esterno nel parco geologico, dove &egrave; possibile osservare le ricostruzioni a grandezza naturale di dinosauri e approfondire la conoscenza delle rocce locali. Il legame con la tradizione e la cultura materiale &egrave; ulteriormente rafforzato dalla presenza di una raccolta di attrezzi originali per l&#39;estrazione e la lavorazione della trachite e del calcare, testimonianza della fatica e della maestria degli scalpellini locali. Situato in una posizione strategica, il Museo &egrave; anche un buon punto di partenza per il sentiero escursionistico del Monte Cinto, ideale per chi desidera approfondire la conoscenza del paesaggio euganeo attraverso una prospettiva che unisce la tutela della memoria industriale alla divulgazione naturalistica.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 88626,
     "title": "PALLADIO MUSEUM",
     "lat": 45.5484837,
@@ -26794,6 +26822,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 120663,
+    "title": "ESAPOLIS",
+    "lat": 45.3974133,
+    "lng": 11.8313772,
+    "url": "https://fondoambiente.it/luoghi/esapolis",
+    "description": "Per Iscritti FAI biglietto ridotto a 10 € anziché 12 € per visitare Esapolis - Il Museo Interattivo degli Insetti a PadovaDESCRIZIONE Situato nel quartiere padovano di Brusegana, Esapolis si afferma nel panorama scientifico e culturale internazionale come il pi&ugrave; grande insettario d&rsquo;Europa. La struttura nasce dal recupero di un prestigioso edificio di inizio Novecento, storicamente sede della Stazione Bacologica Sperimentale fondata nel 1872, coniugando cos&igrave; la valorizzazione del patrimonio architettonico con l&#39;esplorazione naturalistica. Il percorso di visita si articola in diverse aree tematiche che guidano l&#39;esplorazione del &quot;MicroMegaMondo&quot;. Dalle prime sale dedicate a &quot;Insects &amp; friends&quot;, dove si analizzano le caratteristiche anatomiche che distinguono gli insetti dagli altri invertebrati, l&#39;itinerario approfondisce il secolare legame produttivo tra uomo e natura. Di particolare interesse storico &egrave; la sezione sui bachi da seta, che ripercorre il ciclo biologico e le tecniche di filatura attraverso macchinari d&#39;epoca, affiancata dall&#39;area dedicata alle api, dove &egrave; possibile osservare in sicurezza le dinamiche sociali dell&#39;alveare e comprendere i processi di elaborazione del miele. L&#39;approccio scientifico prosegue nella &quot;Stanza del naturalista&quot;, un viaggio nell&#39;evoluzione dell&#39;entomologia e nella curiosit&agrave; umana verso la natura attraverso i secoli, e nell&#39;area &quot;Aracnofobia&quot;, progettata per mostrare ragni vivi all&#39;interno di habitat fedelmente ricostruiti. A completare l&#39;offerta espositiva intervengono tecnologie immersive, come il cinema 4D e il teatro olografico, e spazi educativi come &quot;Insettolandia&quot;, pensati per avvicinare le nuove generazioni alla conoscenza dell&#39;ambiente attraverso il gioco. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
