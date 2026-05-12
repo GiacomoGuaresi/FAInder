@@ -21989,7 +21989,7 @@
     "lat": 43.0443444,
     "lng": 11.8137616,
     "url": "https://fondoambiente.it/luoghi/incontri-in-terra-di-siena-",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 20%) per il festival Incontri in Terra di Siena a Chianciano Terme.&nbsp;Incontri in terra di Siena mantiene al suo centro la musica da camera, con la partecipazione di artisti rinomati in tutto il mondo.&nbsp; &nbsp; Per gli iscritti FAI: 20,00 Euro invece di 25,00 &nbsp;",
+    "description": "Per gli iscritti FAI riduzione per il festival INCONTRI IN TERRA DI SIENA a Chianciano Terme DAL 23 LUGLIO AL 1 AGOSTO SCOPRI IL PROGRAMMA DEL FESTIVAL DESCRIZIONE Incontri in Terra di Siena &egrave; un&#39;associazione culturale con sede a Villa La foce in Val d&#39;Orcia, Toscana. Fu fondata nel 1988 dal violoncellista Antonio Lysy e sua madre Benedette Origo in memoria di Antonio Origo e sua moglie Iris, la nota scrittrice anglo-americana, che si dedicarono alla bonifica e allo sviluppio della Val d&#39;Orcia e della sua popolazione fin dal 1924. Fin dall&#39;inizio il festival ha mirato a trasmettere l&#39;apprezzamento della musica e dell&#39;arte, tramite concerti, incontri, mostre e diversi eventi culturali nelle tante localit&agrave; di eccezionale bellezza della zona, come Pienza, Montefollocino, Citt&agrave; della Pieve, Sarteano e Castiglioncello del Trinoro.",
     "categories": [
       {
         "id": 10,
@@ -27466,6 +27466,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 120720,
+    "title": "MEDITERRANEO CHAMBER MUSIC FESTIVAL",
+    "lat": 40.4390918,
+    "lng": 17.0944378,
+    "url": "https://fondoambiente.it/luoghi/mediterraneo-chamber-music-festival",
+    "description": "Per iscritti FAI riduzione del 30% per gli spettacoli del MEDITERRANEO CHAMBER MUSIC FESTIVAL21 al 30 giugno 2026DESCRIZIONE Il Festival si svolger&agrave; dal 21 al 30 giugno 2026, coinvolgendo i comuni di Pulsano, Taranto e Martina Franca. SCOPRI IL PROGRAMMA&nbsp; Il festival, col tema &quot;Bridge&quot;, celebra la connessione Nord-Sud con concerti ed eventi che fondono musica, cultura e paesaggio, tra cui una giornata speciale il 28 giugno a Masseria Cappella.&nbsp; MAIN SEASON &ndash; Concerti ad accesso a pagamento 21 giugno | Chiostro del Convento dei Padri Riformati, Pulsano Concerto di apertura: Suite Italienne &ndash; Musiche di Rota, Stravinsky, Respighi, Grieg, Brahms. 23 giugno | Chiostro del Convento dei Padri Riformati, Pulsano Notturno boreale &ndash; Musiche di Auerbach, Grieg, Bruch, Beethoven. 25 giugno | Taranto (sede in via di definizione) L&rsquo;eco di Vienna &ndash; Musiche di Mozart e Brahms. 30 giugno | Chiostro del Convento dei Padri Riformati, Pulsano Concerto finale &ndash; Musiche di Schumann, Liszt.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   }
