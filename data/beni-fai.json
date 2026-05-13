@@ -10400,20 +10400,6 @@
     ]
   },
   {
-    "id": 116922,
-    "title": "VILLA DURAZZO PARODI",
-    "lat": 44.42769412,
-    "lng": 8.8408181,
-    "url": "https://fondoambiente.it/luoghi/villa-durazzo-parodi",
-    "description": "Per gli iscritti FAI riduzione sul biglietto d&#39;ingresso per la visita a Villa Durazzo a Santa Margherita Ligure (GE) &nbsp;DESCRIZIONE:&nbsp; Villa Durazzo, edificata nel 1678 come residenza estiva della famiglia Durazzo, &egrave; una tipica villa genovese a pianta quadrata avvolta da uno splendido parco, noto per le sue collezioni di palme e di camelie. All&rsquo;inizio del &lsquo;900 la villa fu temporaneamente trasformata in Grand Hotel e ospit&ograve; illustri personaggi fra cui la regina Margherita di Savoia. Nel 1973 fu acquistata dal Comune di Santa Margherita Ligure. COSA VISITARE: Negli appartamenti del Piano Nobile (visitabili tutto l&rsquo;anno) si possono ammirare opere della Scuola Pittorica Genovese (sec. XVI, XVII e XVIII), affreschi e trompe-l&rsquo;oeil, arredi storici, lampadari di Murano, stucchi, pavimenti in maiolica e in graniglia genovese. Vi si trova anche il museo dedicato a Vittorio G. Rossi, giornalista e scrittore sanmargheritese, di viaggi e di mare. Il parco, a ingresso libero, per la sua bellezza, storia e originalit&agrave; dal 2006 &egrave; incluso nel circuito dei Grandi Giardini Italiani.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 88188,
     "title": "FESTIVAL VALLE CHRISTI",
     "lat": 44.3498211,
@@ -10774,6 +10760,20 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 40246,
+    "title": "VILLA DURAZZO",
+    "lat": 44.33178789,
+    "lng": 9.21036909,
+    "url": "https://fondoambiente.it/luoghi/villa-durazzo",
+    "description": "Per gli iscritti FAI riduzione sul biglietto d&#39;ingresso per la visita a Villa Durazzo a Santa Margherita Ligure (GE) &nbsp;DESCRIZIONE:&nbsp; Villa Durazzo, edificata nel 1678 come residenza estiva della famiglia Durazzo, &egrave; una tipica villa genovese a pianta quadrata avvolta da uno splendido parco, noto per le sue collezioni di palme e di camelie. All&rsquo;inizio del &lsquo;900 la villa fu temporaneamente trasformata in Grand Hotel e ospit&ograve; illustri personaggi fra cui la regina Margherita di Savoia. Nel 1973 fu acquistata dal Comune di Santa Margherita Ligure. COSA VISITARE: Negli appartamenti del Piano Nobile (visitabili tutto l&rsquo;anno) si possono ammirare opere della Scuola Pittorica Genovese (sec. XVI, XVII e XVIII), affreschi e trompe-l&rsquo;oeil, arredi storici, lampadari di Murano, stucchi, pavimenti in maiolica e in graniglia genovese. Vi si trova anche il museo dedicato a Vittorio G. Rossi, giornalista e scrittore sanmargheritese, di viaggi e di mare. Il parco, a ingresso libero, per la sua bellezza, storia e originalit&agrave; dal 2006 &egrave; incluso nel circuito dei Grandi Giardini Italiani.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -14758,20 +14758,6 @@
     "lng": 9.2759089,
     "url": "https://fondoambiente.it/luoghi/il-collezionista",
     "description": "Per iscritti FAI sconto del 10% per gli acquisti presso Il Collezionista di Monza",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 115568,
-    "title": "ISABELLA  FLOWER DESIGN",
-    "lat": 45.5828162,
-    "lng": 9.1940448,
-    "url": "https://fondoambiente.it/luoghi/isabella-flower-design",
-    "description": "Per Iscritti FAI riduzione del 10% per acquisto presso Isabella Flower Design a Monza DESCRIZIONE Isabella Flower Design offre a spose e wedding planner il servizio di allestimento floreale per matrimoni. L&rsquo;estro e la creativit&agrave; di Isabella unite alle indicazioni ed esigenze delle clienti saranno gli ingredienti perfetti per realizzare un allestimento floreale unico. Isabella Flower Design si occupa di tutto il percorso dal primo incontro al giorno delle Nozze.",
     "categories": [
       {
         "id": 13,
