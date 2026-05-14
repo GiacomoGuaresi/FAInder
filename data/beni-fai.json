@@ -2174,6 +2174,20 @@
     ]
   },
   {
+    "id": 17355,
+    "title": "PARCO PAESAGGISTICO LAURETUM",
+    "lat": 42.4302,
+    "lng": 13.9818,
+    "url": "https://fondoambiente.it/luoghi/parco-paesaggistico-lauretum",
+    "description": "Per iscritti FAI 20% di sconto per biglietti e visite guidate al Parco paesaggistico Lauretum a Loreto Apruino (PE) Il giardino &egrave; aperto al pubblico dal 1 aprile al 30 novembre esclusivamente con visite guidate su prenotazione per gruppi e singoli visitatori. &Egrave; il risultato di un importante progetto di recupero e riqualificazione di un vecchio giardino abbandonato. Si trova a pochi passi dalla Fontana Grande, storico monumento simbolo della cittadina di Loreto. Ospita una importante collezione botanica che vanta numerose specie esotiche, autoctone, acquatiche e officinali. Tutto il giardino &egrave; visitabile attraverso un articolato percorso che parte dal viale principale. &nbsp;",
+    "categories": [
+      {
+        "id": 11,
+        "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
     "id": 111396,
     "title": "IMAGO MUSEUM",
     "lat": 42.4696182,
@@ -4314,20 +4328,6 @@
     ]
   },
   {
-    "id": 119736,
-    "title": "AGRITURISMO LA TORRETTA BARONALE",
-    "lat": 41.120974,
-    "lng": 14.882683,
-    "url": "https://fondoambiente.it/luoghi/agriturismo-la-torretta-baronale",
-    "description": "Per iscritti FAI riduzione del 10% per i servizi dell&#39;agriturismo La Torretta Baronale a San Giovanni del Sannio (BN) La riduzione verr&agrave; applicata solo con prenotazione diretta presso la struttura e non attraverso intermediari DESCRIZIONE La struttura risale ai primi del XIX secolo e nasce come masseria dell&rsquo;azienda agricola dei baroni Bosco Lucarelli, adibita ad abitazione dei coloni che coltivavano la tenuta di San Giovanni a Morcopio. Ripresa in conduzione diretta la tenuta nel 1958, la masseria fu disabitata per molti anni finch&eacute; nel 2015 l&rsquo;attuale titolare, figlia della baronessa Bosco Lucarelli, decise di ristrutturarla completamente adibendola ad agriturismo ed a fabbricato centrale dell&rsquo;azienda agricola di sua propriet&agrave; che la circonda. &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
     "id": 116148,
     "title": "PACIFICO LIBRI",
     "lat": 41.0749652,
@@ -4366,6 +4366,20 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 119736,
+    "title": "AGRITURISMO LA TORRETTA BARONALE",
+    "lat": 41.120974,
+    "lng": 14.882683,
+    "url": "https://fondoambiente.it/luoghi/agriturismo-la-torretta-baronale",
+    "description": "Per iscritti FAI riduzione del 10% per i servizi dell&#39;agriturismo La Torretta Baronale a San Giovanni del Sannio (BN) La riduzione verr&agrave; applicata solo con prenotazione diretta presso la struttura e non attraverso intermediari DESCRIZIONE La struttura risale ai primi del XIX secolo e nasce come masseria dell&rsquo;azienda agricola dei baroni Bosco Lucarelli, adibita ad abitazione dei coloni che coltivavano la tenuta di San Giovanni a Morcopio. Ripresa in conduzione diretta la tenuta nel 1958, la masseria fu disabitata per molti anni finch&eacute; nel 2015 l&rsquo;attuale titolare, figlia della baronessa Bosco Lucarelli, decise di ristrutturarla completamente adibendola ad agriturismo ed a fabbricato centrale dell&rsquo;azienda agricola di sua propriet&agrave; che la circonda. &nbsp;",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -5457,7 +5471,7 @@
     "lat": 40.8143687,
     "lng": 14.3355034,
     "url": "https://fondoambiente.it/luoghi/vesuvioteatro",
-    "description": "Per iscritti FAI riduzione del 16% per gli spettacoli della rassegna &quot;Racconti per ricominciare - percorsi di teatro dal vivo&quot; L&rsquo;agevolazione sar&agrave; riconosciuta dietro presentazione della Tessera FAI fisica o digitale presso Botteghini e Punti Vendita all&rsquo;atto dell&rsquo;acquisto. Dove acquistare: on-line sul sito www.vesuvioteatro.org nei punti vendita autorizzati Azzurro Service consultabili al sito www.azzurroservice.net presso il botteghino del luogo di spettacolo a partire da un&#39;ora prima dell&#39;inizio, previa disponibilit&agrave; DESCRIZIONE Al via la sesta edizione di Racconti per Ricominciare, il Festival Nazionale di Teatro diffuso, itinerante ed ecosostenibile che dal 23 maggio all&rsquo;8 giugno 2025 animer&agrave; prestigiosi siti storici, artistici e paesaggistici della Campania. Con oltre dieci giornate di spettacoli, il programma offre un ampio panorama di spettacoli alla luce del tramonto, senza amplificazione sonora n&eacute; scenografie invasive, intrecciando la narrazione e la drammaturgia contemporanea con la bellezza senza tempo dei beni culturali della Campania. Ogni anno, durante i giorni del festival, magnifici siti storici, artistici e paesaggistici alcuni dei quali tutelati dall&rsquo;UNESCO&mdash; castelli, ville vesuviane, complessi monumentali, giardini e dimore storiche &mdash; si&nbsp; trasformano in palcoscenici naturali, offrendo al pubblico l&rsquo;esperienza unica di uno spettacolo immerso nella luce del tramonto e nel respiro del paesaggio. Lontano da allestimenti invasivi, Racconti per Ricominciare promuove un&rsquo;idea di sostenibilit&agrave; culturale che rispetta e valorizza l&rsquo;identit&agrave; dei luoghi, contribuendo concretamente alla loro riscoperta e tutela. Alcuni di questi beni, poco noti o normalmente non accessibili, si aprono eccezionalmente in occasione del festival, diventando attrattori di comunit&agrave; e destinazioni per un turismo colto e consapevole.&nbsp;",
+    "description": "Per iscritti FAI riduzione, 10&euro; invece che 12&euro;,&nbsp;per gli spettacoli della rassegna &quot;Racconti per ricominciare - percorsi di teatro dal vivo&quot; L&rsquo;agevolazione sar&agrave; riconosciuta dietro presentazione della Tessera FAI fisica o digitale presso Botteghini e Punti Vendita all&rsquo;atto dell&rsquo;acquisto. Dove acquistare: on-line sul sito www.vesuvioteatro.org nei punti vendita autorizzati Azzurro Service consultabili al sito www.azzurroservice.net presso il botteghino del luogo di spettacolo a partire da un&#39;ora prima dell&#39;inizio, previa disponibilit&agrave; DESCRIZIONE Dal 22 maggio al 7 giugno 2026 torna&nbsp;RACCONTI PER RICOMINCIARE, il green festival di teatro diffuso nei tesori della Campania. Ideato da Vesuvioteatro, il festival porta la drammaturgia contemporanea nei luoghi storici, artistici e paesaggistici della Campania, trasformandoli in spazi di incontro tra comunit&agrave;, memoria e immaginazione. Nato nel 2020 con il desiderio di restituire al pubblico l&rsquo;esperienza condivisa del teatro e la possibilit&agrave; di riabitare i luoghi della cultura, il festival ha costruito negli anni un percorso originale e riconoscibile: spettacoli itineranti al tramonto, nel rispetto dell&rsquo;ambiente e dell&rsquo;identit&agrave; dei siti ospitanti, senza allestimenti invasivi e in dialogo diretto con il paesaggio. In questo contesto si rinnova la collaborazione con il FAI, che condivide con Racconti per Ricominciare l&rsquo;attenzione per la valorizzazione del patrimonio culturale e per la sua restituzione viva e partecipata alle comunit&agrave;. Attraverso il teatro, i luoghi non sono soltanto scenografie, ma diventano parte attiva del racconto: spazi da attraversare, ascoltare, riscoprire. La partnership nasce dalla convinzione comune che la cultura possa essere uno strumento concreto di conoscenza, tutela e partecipazione, capace di generare nuove forme di relazione tra pubblico e territorio.",
     "categories": [
       {
         "id": 10,
@@ -7025,7 +7039,7 @@
     "lat": 44.8046478,
     "lng": 10.3328756,
     "url": "https://fondoambiente.it/luoghi/casa-della-musica",
-    "description": "Per gli iscritti FAI biglietto ridotto per gli spettacoli di&nbsp;Traiettorie 2025&nbsp;&ndash; XXXV Rassegna Internazionale di Musica Moderna e Contemporanea a Parma Riduzione di 5 euro sul costo del biglietto intero 16&nbsp;maggio&nbsp;- 19 novembre&nbsp;2025 La rassegna Traiettorie, nata nel 1991, &egrave; una delle principali realt&agrave; nazionali ed europee dedicate alla diffusione della musica del repertorio moderno e contemporaneo, al recupero del patrimonio storico dell&rsquo;avanguardia musicale italiana e internazionale, oltre che agli aspetti della ricerca scientifica e della sperimentazione. Per la sua trentacinquesima edizione la rassegna internazionale di musica moderna e contemporanea ospita a Parma un ricco cartellone che celebra sperimentazione e ricerca sonora, quest&rsquo;anno incentrata su tema del rapporto con le nuove tecnologie. Organizzata e promossa come sempre da Fondazione Prometeo, l&rsquo;edizione 2025 comprende diciassette concerti e avr&agrave; inizio il 16 maggio con una formula leggermente mutata rispetto a quella degli ultimi anni: se resta intatto il tradizionale blocco dei concerti autunnali, fra ottobre e novembre, la prima parte primaverile &egrave; questa volta concentrata in un densissimo fine settimana di musica, fra venerd&igrave; 16 e domenica 18 maggio, con ben nove concerti spalmati in diverse fasce orarie fra Casa della Musica e Casa del Suono che, insieme al Ridotto del Teatro Regio di Parma dove saranno ospitate tre serate fra ottobre e novembre, sono le location che ospitano i concerti di quest&rsquo;anno.",
+    "description": "Per gli iscritti FAI biglietto ridotto per gli spettacoli di&nbsp;Traiettorie 2026 &ndash; XXXVI Rassegna Internazionale di Musica Moderna e Contemporanea a Parma Riduzione di 5 euro sul costo del biglietto intero 9 - 23 maggio 2026 SCOPRI IL PROGRAMMA COMPLETO La rassegna Traiettorie, nata nel 1991, &egrave; una delle principali realt&agrave; nazionali ed europee dedicate alla diffusione della musica del repertorio moderno e contemporaneo, al recupero del patrimonio storico dell&rsquo;avanguardia musicale italiana e internazionale, oltre che agli aspetti della ricerca scientifica e della sperimentazione. Arrivata quest&rsquo;anno alla trentaseiesima edizione, la rassegna si svolger&agrave; dal 9 al 23 maggio 2026 con 17 concerti, configurandosi come un ampio progetto artistico e culturale dedicato alla riflessione sul linguaggio musicale del secondo Novecento e della contemporaneit&agrave;, con particolare attenzione alle linee di continuit&agrave;, alle fratture estetiche e alle prospettive di ricerca che hanno segnato la musica degli ultimi decenni. Fulcro simbolico e concettuale dell&rsquo;edizione sar&agrave; la figura di Morton Feldman, di cui nel 2026 ricorre il centenario della nascita. Inoltre, un asse centrale della programmazione sar&agrave; rappresentato dall&rsquo;attenzione rivolta alle tecnologie elettroniche e alla musica elettronica, sia nella forma dell&rsquo;elettronica dal vivo sia in quella acusmatica.",
     "categories": [
       {
         "id": 10,
@@ -12742,6 +12756,20 @@
     ]
   },
   {
+    "id": 113675,
+    "title": "LACMUS FESTIVAL",
+    "lat": 45.9821664,
+    "lng": 9.1852098,
+    "url": "https://fondoambiente.it/luoghi/lacmus-festival",
+    "description": "Per iscritti FAI riduzione del 20% per il LacMus Festival sulle sponde del lago di Como, Tremezzina DAL 6 AL19 LUGLIO&nbsp;SCOPRI IL PROGRAMMA E LE SEDI DESCRIZIONE Dieci anni. LacMus Festival ha gi&agrave; un passato, una storia, sue tradizioni, suoi ricordi. E questo traguardo &egrave; un evento da festeggiare. Come? Mantenendo la stessa qualit&agrave; elevata delle proposte musicali. In questo decennio, LacMus Festival si &egrave; dato una fisionomia originale, anzi unica: la musica pi&ugrave; sublime viene incorniciata in luoghi dall&rsquo;architettura altrettanto straordinaria, inseriti in un paesaggio che accoglie e unisce la contemplazione uditiva a quella visiva. Un simile gioco di scatole cinesi di bellezza non si ritrova in nessun altro festival al mondo. E dunque, il modo migliore per celebrare &egrave; conservare questa originalit&agrave;, questa unicit&agrave;, e continuare a esplorarla e approfondirla. Cos&igrave;, l&rsquo;edizione del decennale riallaccia i fili di tanti eventi&nbsp; che si sono succeduti in passato. Prendiamo ad esempio la Musical Meditation. &Egrave; una tradizione nata il primo giorno del primo anno, quando il pubblico pot&eacute; ascoltare la voce meravigliosa di Christiane Karg sotto le volte del Santuario della Madonna del Soccorso. L&rsquo;edizione del decennale torna nello stesso luogo con la stessa voce, con un programma di Lieder di Duparc, Wagner e Liszt, proprio per riallacciarsi idealmente a quel punto di inizio. L&rsquo;indomani, Louis Lortie esegue il non plus ultra del repertorio pianistico, l&rsquo;integrale degli Studi di Chopin: e anche quella delle integrali &egrave; una tradizione ormai radicata. L&rsquo;8 luglio torna il grande fisarmonicista francese Richard Galliano, l&rsquo;unico maestro del jazz finora ospitato da LacMus Festival, con le sue travolgenti improvvisazioni su repertorio sia di jazz, sia di tango e canzone francese. E a Villa Carlotta torna Johannes Brahms, che c&rsquo;era venuto di persona, nel 1884, e a cui &egrave; dedicato un concerto, tutto di musica da camera, proprio nel luogo dove aveva soggiornato. Un elemento che caratterizza a fondo l&rsquo;edizione del decennale &egrave; l&rsquo;arpa. Anneleen Lenaerts, dei Wiener Philharmoniker, accompagna la voce di Christiane Karg, poi Elisa Netzer dona un concerto nel parco davanti al lago e al sorgere del sole, e ancora Stefania Scapin, in duo con il flauto di Andrea Manco, porta a Villa L&agrave;rio quasi quattro secoli di musica per lo strumento. Ben tre i recital di grandi voci dell&rsquo;opera, protagonisti Ren&eacute; Barbera, Anna Pirozzi&nbsp; e Alessia Panza, quest&rsquo;ultima con l&rsquo;Orchestra Sinfonica di Milano, che ha anche un concerto tutto per s&eacute;, con Brahms e Liszt, in un programma quasi tutto ungherese. N&eacute; mancano la Musical Greenway, in giro per le bellezze lungo il lago, la serata con gli appassionati non professionisti di tutto il mondo in Vive les amateurs!, quest&rsquo;anno incentrata sulle musiche per cinema e teatro, e naturalmente lo spazio per i bambini. Sono tante le belle tradizioni che LacMus Festival ha saputo creare e sviluppare in questi dieci anni; e neanche una &egrave; andata perduta.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 111035,
     "title": "OSTERIA AL VECCHIO BACUCCO",
     "lat": 45.9698016,
@@ -12822,6 +12850,20 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 119994,
+    "title": "FRANTOIO MANESTRINI",
+    "lat": 45.5302081,
+    "lng": 10.5105586,
+    "url": "https://fondoambiente.it/luoghi/frantoio-manestrini",
+    "description": "Per iscritti FAI riduzione del 10% sugli acquisti presso il Frantoio ManestriniDESCRIZIONE Il Frantoio Manestrini &egrave; una realt&agrave; storica del Lago di Garda, dove la passione per l&#39;olivicoltura si tramanda da generazioni. La visita al frantoio permette di scoprire i segreti della premitura a freddo e di degustare un olio extravergine di oliva di altissima qualit&agrave;, espressione autentica del territorio di Soiano del Lago.&nbsp;",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -13228,6 +13270,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 80540,
+    "title": "CASTELLO DI VEZIO",
+    "lat": 46.0158066,
+    "lng": 9.2949157,
+    "url": "https://fondoambiente.it/luoghi/castello-di-vezio-perledo",
+    "description": "Per iscritti FAI riduzione sul biglietto d&#39;ingresso, 4 euro invece che 7 euro, al Castello di Vezio LA RIDUZIONE E&#39; APPLICATA SOLO NEI GIORNI FERIALI DESCRIZIONE Il Castello di Vezio, storica fortificazione di origine medievale situata sopra l&rsquo;abitato di Varenna, rappresenta uno dei punti panoramici pi&ugrave; suggestivi del Lago di Como e un significativo esempio di patrimonio architettonico e paesaggistico lombardo. La visita al Castello offre un articolato percorso tra torri, mura difensive e spazi espositivi, arricchito da installazioni, mostre temporanee e attivit&agrave; didattiche. Di particolare interesse sono le dimostrazioni di falconeria, che richiamano antiche pratiche storiche, e i numerosi punti di osservazione che permettono una lettura privilegiata del paesaggio lacustre e del contesto naturale circostante. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -26766,6 +26822,34 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 120741,
+    "title": "PALAZZO DEI GIURISTI",
+    "lat": 46.1381168,
+    "lng": 12.215551,
+    "url": "https://fondoambiente.it/luoghi/palazzo-dei-giuristi",
+    "description": "Per Iscritti FAI biglietto ridotto 5 euro anzich&eacute; 8 euro per visitare il Museo Archeologico Palazzo dei Giuristi Belluno Dal 1 aprile 2026 le collezioni archeologiche tornano visitabili ma solamente su prenotazione. Il biglietto si acquista a Palazzo Fulcis, ha validit&agrave; 7 giorni dalla data di emissione e consente la visita ad entrambe le sedi museali. DESCRIZIONE Nel cuore di Belluno, il Palazzo dei Giuristi rappresenta una pregevole testimonianza dell&#39;architettura e della storia civile della citt&agrave;. Eretto nel 1664 dal Collegio dei Giuristi, un&#39;istituzione nata nel 1491 per riunire i cittadini bellunesi laureati in diritto presso l&#39;Universit&agrave; di Padova, l&#39;edificio si distingue all&#39;esterno per una ricca sequenza di epigrafi dedicatorie e stemmi nobiliari. Questi ornamenti celebrano i benefattori &ndash; tra cui rettori veneti, vescovi e illustri cittadini &ndash; che nei secoli arricchirono il patrimonio del Collegio, permettendogli di esercitare essenziali funzioni di pubblica assistenza a favore delle categorie pi&ugrave; bisognose fino alla caduta della Repubblica di Venezia. Gi&agrave; sede del Museo civico a partire dal 1876, il piano terra del palazzo ospita oggi la sezione archeologica dei Musei Civici di Belluno. Il percorso espositivo racconta una storia millenaria che si intreccia indissolubilmente con la geografia e la natura dei luoghi. Situato nella media valle del Piave, il territorio bellunese ha infatti rappresentato per millenni un nodo strategico e vitale per i commerci e le comunicazioni tra l&#39;intima area alpina e l&#39;aperta pianura, favorendo uno sviluppo insediativo fortemente legato allo sfruttamento delle risorse locali. L&#39;allestimento documenta in due sale l&#39;evoluzione dell&#39;insediamento umano dal Paleolitico medio all&#39;Alto Medioevo, mettendo in luce il profondo legame tra le antiche comunit&agrave; e l&#39;ambiente circostante. Tra le testimonianze pi&ugrave; antiche e affascinanti si collocano i reperti preistorici del Campon di Monte Avena e la suggestiva sepoltura di un cacciatore rinvenuta in Val Cismon: risalente alla fine del Paleolitico Superiore, circa 12.000 anni fa, la fossa funeraria appare ritualmente ricoperta da pietre dipinte in ocra rossa. La centralit&agrave; geografica del territorio emerge poi con forza nei reperti dell&#39;Et&agrave; del Ferro, tra cui spiccano fibule, coltelli e oggetti in bronzo recuperati da una necropoli indagata gi&agrave; nell&#39;Ottocento nei pressi di Cavarzano. L&#39;antica Belunum, menzionata da Plinio il Vecchio ed elevata a municipium romano intorno alla met&agrave; del I secolo a.C., ha lasciato importanti tracce monumentali del suo florido passato. Le antiche radici economiche del territorio, da sempre legate alla cura e al governo del paesaggio boschivo, trovano un puntuale riscontro nel lapidario romano, oggi ospitato nell&#39;androne del vicino Auditorium Comunale: qui una base in pietra del Cansiglio ricorda il patrono del collegium dei dendrophori, l&#39;antica corporazione di artigiani preposti alla lavorazione e allo smercio del prezioso legname. Completano questo vasto quadro storico e culturale i ricchi corredi tombali di epoca longobarda provenienti da Mel e Sospirolo, reperti essenziali per comprendere il complesso assetto del territorio bellunese durante le vicende dell&#39;Alto Medioevo. La scoperta del Palazzo dei Giuristi, con la sua architettura seicentesca e i reperti in esso custoditi, si rivela uno strumento prezioso per approfondire la memoria, le dinamiche ambientali e le antiche tradizioni che hanno ininterrottamente forgiato il paesaggio e l&#39;identit&agrave; della valle del Piave. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 79554,
+    "title": "PALAZZO FULCIS",
+    "lat": 46.1400618,
+    "lng": 12.2149945,
+    "url": "https://fondoambiente.it/luoghi/palazzo-fulcis",
+    "description": "Per Iscritti FAI biglietto ridotto 7,5 euro anzich&eacute; 12 euro per visitare il Palazzo Fulcis, Belluno Con lo stesso biglietto &egrave; possibile visitare la collezione permanente di Palazzo Fulcis e la collezione archeologica presso Palazzo dei Giuristi. DESCRIZIONE Il percorso espositivo si distacca dalle tradizionali rassegne cronologiche o dalle gigantografie seriali per proporre una narrazione esperienziale dal tono intimo e confidenziale. Curata da Gianfranco Rosini, profondo conoscitore dell&#39;artista americano, la mostra presenta 117 opere provenienti dalla Rosini Gutman Collection, accompagnando il pubblico alla scoperta di dettagli e retroscena meno noti della Factory warholiana. L&#39;allestimento riserva una particolare attenzione al dialogo con l&#39;arte del passato e con la natura: tra i lavori esposti spiccano infatti un inedito omaggio al Rinascimento italiano, ispirato al &quot;San Giorgio e il Drago&quot; di Paolo Uccello, e il &quot;Kiku&quot;, un&#39;elegante composizione floreale dedicata al crisantemo, simbolo della Casa Imperiale giapponese. Un aspetto distintivo di questa iniziativa culturale, in profonda sintonia con i valori di cura, valorizzazione e impegno civico verso il patrimonio italiano, &egrave; il suo forte radicamento nel territorio locale. La realizzazione della mostra &egrave; infatti il frutto di una capillare operazione di &quot;mecenatismo contemporaneo&quot; che ha visto la partecipazione attiva di ventiquattro imprese bellunesi. Queste realt&agrave; hanno scelto di sostenere l&#39;esposizione riconoscendo nella diffusione della cultura e della bellezza un volano fondamentale per lo sviluppo sociale, per accrescere l&#39;attrattivit&agrave; del territorio e per generare un ecosistema in cui innovazione e valore condiviso possano convivere. L&#39;attenzione alla sostenibilit&agrave; sociale e all&#39;inclusivit&agrave; rappresenta un ulteriore pilastro dell&#39;evento. Il progetto &egrave; stato concepito con il chiaro obiettivo di abbattere le barriere e rendere l&#39;arte un bene fruibile da tutti, destinando parte dei contributi al finanziamento di percorsi guidati appositamente studiati e condotti da guide specializzate per accompagnare le persone con disabilit&agrave; visiva. L&#39;esposizione si configura cos&igrave; come un&#39;occasione di arricchimento culturale che va oltre il semplice godimento estetico. Unisce il prestigio internazionale di un&#39;ampia collezione d&#39;arte a un esempio virtuoso di coesione sociale, dimostrando come la tutela del patrimonio e la promozione culturale possano integrarsi attivamente con il senso di appartenenza a un territorio e la cura per la collettivit&agrave;.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
