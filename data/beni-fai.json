@@ -7370,20 +7370,6 @@
     ]
   },
   {
-    "id": 82688,
-    "title": "SCRIPTA MANEANT",
-    "lat": 44.7196099,
-    "lng": 10.6533876,
-    "url": "https://fondoambiente.it/luoghi/scripta-maneant",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI dello sconto del 10% per i volumi pubblicati da Scripta Maneant. I libri Scripta Maneant sono opere d&#39;arte dell&#39;editoria di pregio, scrigni pulsanti e preziosi che vengono scelti da coloro che cercano emozioni di profonda concentrazione e bellezza. &nbsp; Per gli iscritti FAI sconto del 10% per l&#39;acquisto delle opere presenti nel catalogo Scripta Maneant e Impronta d&#39;Artista &nbsp;",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
-      }
-    ]
-  },
-  {
     "id": 117575,
     "title": "ALBERGO REGGIO",
     "lat": 44.698485,
@@ -13704,20 +13690,6 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 80220,
-    "title": "SILVANA  EDITORIALE ",
-    "lat": 45.561122,
-    "lng": 9.2381754,
-    "url": "https://fondoambiente.it/luoghi/silvana-editoriale-",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI dello sconto del 10% per le pubblicazioni di Silvana Editoriale. Il catalogo della casa editrice spazia dalle monografie d&rsquo;arte ai cataloghi espositivi e museali, dal disegno alla fotografia, dal design alla storia e alla comunicazione, arricchendosi di duecento titoli ogni anno. Per gli iscritti FAI sconti fino al 10% sugli acquisti presso i bookshop gestiti dalla casa editrice",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
       }
     ]
   },
