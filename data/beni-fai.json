@@ -10298,6 +10298,34 @@
     ]
   },
   {
+    "id": 120884,
+    "title": "GLAM",
+    "lat": 41.9608262,
+    "lng": 12.7942733,
+    "url": "https://fondoambiente.it/luoghi/glam",
+    "description": "Per iscritti FAI riduzione del 10% sulle consumazioni al GLAM a Tivoli DESCRIZIONE GLAM&nbsp;&egrave; il luogo dove la giornata inizia e finisce con gusto. Situato in Piazza Garibaldi 12&nbsp;(la pizza principale a due passi da Villa d&rsquo;Este e a 10 minuti a piedi da Villa Gregoriana) &egrave; uno spazio contemporaneo e accogliente pensato per accompagnarti dal buongiorno alla buonanotte. La giornata comincia con colazioni fragranti, caffetteria e proposte dolci appena preparate. A pranzo e a cena la cucina propone piatti espressi della tradizione e non solo:&nbsp;primi e secondi preparati al momento, affiancati da pinse romane, burger, poke e insalatone freschi pensati per ogni momento della giornata. Nel pomeriggio &egrave; il luogo ideale per una pausa golosa o una merenda, mentre la sera GLAM&nbsp;si trasforma nel punto di ritrovo perfetto per aperitivi scenografici, drink e momenti da condividere&nbsp;nell&#39;ampio spazio esterno o nella saletta interna.&nbsp;A rendere l&rsquo;esperienza ancora pi&ugrave; speciale, il gelato artigianale di Luca Veralli, premiato dal Gambero Rosso. Un ambiente dinamico e contemporaneo, dove qualit&agrave;, creativit&agrave; e atmosfera si incontrano nel cuore della citt&agrave;. &nbsp;",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 120883,
+    "title": "PICCOLO GLAM",
+    "lat": 41.9644177,
+    "lng": 12.7967448,
+    "url": "https://fondoambiente.it/luoghi/piccolo-glam",
+    "description": "Per iscritti FAI 10% di riduzione sulla consumazione al PICCOLO GLAM TivoliDESCRIZIONE A 250 metri da Villa Gregoriana, nel cuore del centro storico di Tivoli, Piccolo Glam&nbsp;nasce nella suggestiva cornice di un palazzo cinquecentesco (Palazzo Boschi). Una brasserie contemporanea su misura per te, dove vivere un&rsquo;esperienza gastronomica informale e creativa: dalle insalatone e poke fai-da-te, composti al momento con ingredienti freschi e stagionali, ai burger con pane e carne artigianale, fino alle pinsette romane, proposte nelle versioni classiche della tradizione e in varianti gourmet. Il tutto accompagnato da scenografici aperitivi&nbsp;perfetti da condividere nel cuore della citt&agrave;, in una delle piazzette pi&ugrave; scenografiche. Durante la stagione fredda vi ospitiamo nella nostra serra urbana riscaldata mentre d&#39;estate lo spazio all&#39;aperto nell&#39;isola pedonale &egrave; perfetto per vivere la magia del centro storico. A rendere l&rsquo;esperienza ancora pi&ugrave; speciale, una sezione gelateria incastonata tra colonne dell&#39;Antica Roma dove gustare il gelato artigianale di Luca Veralli, premiato dal Gambero Rosso e gli amatissimi crepes, waffles e pancakes caldi. Disponibili opzioni gluten free.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 117569,
     "title": "NEGOZIO VIA GARIBALDI 12",
     "lat": 44.4139322,
@@ -11380,6 +11408,20 @@
     ]
   },
   {
+    "id": 120882,
+    "title": "SCUOLA DI CERAMICA TINO GAGGERO",
+    "lat": 44.3372268,
+    "lng": 8.5093517,
+    "url": "https://fondoambiente.it/luoghi/scuola-di-ceramica-tino-gaggero",
+    "description": "Per iscritti FAI riduzioni per i corsi presso la Scuola di Ceramica Tino Gaggero ad Albissola Superiore 5% di riduzione sui corsi da 27 ore (venerd&igrave; e sabato) 10% ri riduzione sulle esperienze ceramiche Taste My School DESCRIZIONE La Scuola Comunale di Ceramica di Albisola Superiore &egrave; il centro primario della localit&agrave; ligure per la promozione della cultura ceramica di Albisola.",
+    "categories": [
+      {
+        "id": 14,
+        "name": "Partecipare a corsi o escursioni"
+      }
+    ]
+  },
+  {
     "id": 118435,
     "title": "SPAZIO CAM",
     "lat": 45.6972688,
@@ -11567,7 +11609,7 @@
     "lat": 45.5393818,
     "lng": 10.2101179,
     "url": "https://fondoambiente.it/luoghi/amarcord-piadineria-artigianale",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI dello sconto del 10% per l&#39;acquisto di piade, piade farcite o bevande presso la bottega artigiana Amarcord. La bottega &egrave; infatti specializzata nella produzione artigianale della piadina riminese tradizionale. &nbsp; Per gli iscritti FAI: sconto del 10% sull&#39;acquisto di piade, piade farcite o bevande. &nbsp;",
+    "description": "Per gli iscritti FAI riduzione del 10% sull&#39;acquisto di piade, piade farcite o bevande. &nbsp;La bottega &egrave; infatti specializzata nella produzione artigianale della piadina riminese tradizionale. &nbsp;",
     "categories": [
       {
         "id": 13,
@@ -11932,20 +11974,6 @@
     "lng": 10.5634455,
     "url": "https://fondoambiente.it/luoghi/rocca-di-lonato-e-casa-museo-del-podesta",
     "description": "Per gli iscritti FAI biglietto ridotto 10 &euro; per la visita al Museo &quot;Casa del Podest&agrave;&quot; + Castello Rocca. DESCRIZIONE La Casa del Podest&agrave; sorse verso la met&agrave; del Quattrocento quale sede del rappresentante di Venezia, cui era demandato il controllo del territorio. Lonato fu sottoposta alla dominazione della Serenissima Repubblica di Venezia dal 1441 per oltre 350 anni, interrotti solamente dal breve governo del marchese Francesco Gonzaga (dal 1509 al 1516). Dopo che Napoleone cedette Venezia all&#39;Austria, la Casa del Podest&agrave; pass&ograve; prima di propriet&agrave; del demanio austriaco (che ne fece una caserma) ed in seguito al comune di Lonato che si disinteress&ograve; completamente dell&#39;edificio. Nel 1906 venne acquistata ad un&#39;asta pubblica dall&#39;allora avvocato e deputato liberale Ugo Da Como. Questi, consapevole dell&#39;importanza storica del luogo, la fece completamente &quot;restaurare&quot; dal maggiore architetto bresciano: Antonio Tagliaferri (1835-1909). L&#39;intento del committente era quello di restituire l&#39;antica dignit&agrave; all&#39;edificio veneto corredandolo di&nbsp;una serie di arredi adeguati che ne facessero una Casa-museo da abitare, secondo una moda molto diffusa tra &#39;800 e &#39;900. La casa venne abitata fino al 1941 da Ugo Da Como che mor&igrave; proprio a Lonato e dalla moglie Maria Glisenti che mor&igrave; nel 1944. L&#39;identit&agrave; di questa dimora borghese si &egrave; mantenuta inalterata sino ad oggi. La Casa del Podest&agrave; &egrave; una vera e propria &ldquo;casa Biblioteca&rdquo; che conserva una raccolta di circa 50.000 volumi che pu&ograve; essere annoverata tra le collezioni private pi&ugrave; importanti in Italia settentrionale. Fa parte di un complesso monumentale di straordinaria bellezza, dominato dalla grandiosa Rocca visconteo-veneta. Museo &quot;Casa del Podest&agrave;&quot; * Marzo - Ottobre: tutti i giorni, dalle 10 alle 18 (ultimo ingresso alle ore 17 - prenotazione obbligatoria) * Novembre - Febbraio: tutti i giorni, dalle 10 alle 18 (ultimo ingresso alle ore 17 - prenotazione obbligatoria) Castello Rocca * Marzo - Ottobre: tutti i giorni, dalle 10 alle 18 * Novembre - Febbraio: sabato e Domenica, dalle 10 al tramonto (altri giorni, per singoli e comitive, su richiesta) &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 40011,
-    "title": "MUSEI MAZZUCCHELLI FONDAZIONE GIACOMINI MEO  FIOROT",
-    "lat": 45.4891055,
-    "lng": 10.3479589,
-    "url": "https://fondoambiente.it/luoghi/musei-mazzucchelli-fondazione-giacomini-meo-fiorot",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 25%) per Palazzo Mazzucchelli a Mazzano (Brescia). I Musei ospitano varie collezioni: la Casa Museo Giammaria Mazzucchelli, il Museo della Moda e del Costume, il Museo del Vino e del Cavatappi e la Pinacoteca Giuseppe Alessandra, un deposito di opere riconducibili ad alcuni dei pi&ugrave; importanti pittori rinascimentali di area lombardo veneta, tra cui Carpaccio, Tintoretto e Tiziano. Per gli iscritti FAI: 6,00 Euro invece di 8,00",
     "categories": [
       {
         "id": 8,
@@ -12374,6 +12402,20 @@
     ]
   },
   {
+    "id": 120193,
+    "title": "CANTINA PERI BIGOGNO",
+    "lat": 45.4660664,
+    "lng": 10.2998527,
+    "url": "https://fondoambiente.it/luoghi/cantina-peri-bigogno",
+    "description": "Per iscritti FAI riduzione del 10% presso la Cantina Peri Bigogno a Castenedolo (BS)riduzione per gli acquisti di vini e spumanti in bottiglia presso il Wine - Shop di Castenedolo DESCRIZIONE Situata sulle colline di Castenedolo, la Cantina Peri Bigogno coniuga la cura artigianale della vigna con moderne tecniche di vinificazione. La realt&agrave; si distingue per la produzione di vini d&#39;eccellenza, dai fermi alle bollicine, offrendo un&#39;esperienza sensoriale che valorizza il patrimonio vitivinicolo locale.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 119453,
     "title": "CASTELVEDER FRANCIACORTA",
     "lat": 45.6284395,
@@ -12776,6 +12818,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 120877,
+    "title": "MUSEO O.R.M.A. (OFFICINA DELLE RADICI MUSEO ARCHEOLOGICO)",
+    "lat": 45.7761202,
+    "lng": 10.2347418,
+    "url": "https://fondoambiente.it/luoghi/museo-orma-officina-delle-radici-museo-archeologico",
+    "description": "Per iscritti FAI riduzione del 10% per la visita al Museo O.R.M.A Officina delle radici Museo ArcheologicoDESCRIZIONE Il Museo ORMA (Officina delle Risorse Minerarie e Ambientali) &egrave; uno scrigno di storia nel cuore della Valle Trompia. Attraverso un percorso espositivo accurato, il museo racconta il legame millenario tra l&#39;uomo, le miniere e l&#39;ambiente circostante, rappresentando una tappa fondamentale per comprendere l&#39;identit&agrave; del territorio bresciano. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -14259,7 +14315,7 @@
     "lat": 45.5168261,
     "lng": 9.2143315,
     "url": "https://fondoambiente.it/luoghi/teatro-degli-arcimboldi",
-    "description": "Per gli iscritti FAI riduzione fino al 10% per le iniziative culturali e gli spettacoli in programma presso TAM- Teatro Arcimboldi di Milano. Per usufruire del benefit baster&agrave; recarsi presso il botteghino del TAM Teatro Arcimboldi ed esibire la propria tessera associativa in corso di validit&agrave;, previsto 1 biglietto per iscritto + accompagnatore DIN DON DOWN - MUSICAL&nbsp;14, 15 aprile, 28, 29 e 30 maggio 2026 IL GIRO DEL MONDO IN 80 GIORNI&ndash; TAM KIDS&nbsp;19 aprile 2026 LA BELLA ADDORMENTATA &ndash; BALLETTO&nbsp;25 e 26 aprile 2026 MAKSIM Segmenti World Tour 3 maggio&nbsp; 2026 GRAN GAL&Agrave; AUB - Accademia Ucraina di Balletto 10 maggio 2026, ore 17:00 VALERIO LUNDINI &ndash; IL MANSPLAINING SPIEGATO A MIA FIGLIA 14 e 15 maggio 2026, ore 21.00&nbsp; THE NIGHT OF MUSICALS 17 maggio 2026, ore 20.00 LEGEND THE SHOW&nbsp; 19 maggio 2026 h 21.00 QUEEN RHAPSODY&nbsp;&nbsp;3 giugno 2026, ore 21:00 GENESIS - One night with the Orchestra 13 giugno 2026, ore 21:00 FRANCESCO DE CARLO - LIMBO&nbsp; 15 giugno 2026, ore 21:00 &nbsp;",
+    "description": "Per gli iscritti FAI riduzione fino al 10% per le iniziative culturali e gli spettacoli in programma presso TAM- Teatro Arcimboldi di Milano. Per usufruire del benefit baster&agrave; recarsi presso il botteghino del TAM Teatro Arcimboldi ed esibire la propria tessera associativa in corso di validit&agrave;, previsto 1 biglietto per iscritto + accompagnatore VALERIO LUNDINI &ndash; IL MANSPLAINING SPIEGATO A MIA FIGLIA 14 e 15 maggio 2026, ore 21.00&nbsp; THE NIGHT OF MUSICALS 17 maggio 2026, ore 20.00 LEGEND THE SHOW&nbsp; 19 maggio 2026 h 21.00 DIN DON DOWN - MUSICAL&nbsp;&nbsp;28, 29 e 30 maggio 2026 QUEEN RHAPSODY&nbsp;&nbsp;3 giugno 2026, ore 21:00 GIUSEPPE BRINDISI - Potresti essere tu - Il caso Garlasco &ndash;&nbsp;4 giugno 2026, ore 21:00 GENESIS - One night with the Orchestra 13 giugno 2026, ore 21:00 FRANCESCO DE CARLO - LIMBO&nbsp; 15 giugno 2026, ore 21:00 PINK FLOYD LEGEND &ndash; THE WALL &nbsp;25 settembre 2026 alle h 21.00 &Acirc;ME - Viaggio nell&#39;inferno di Dante 26 settembre 2026 alle h 21.00 &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -17020,6 +17076,34 @@
     ]
   },
   {
+    "id": 120878,
+    "title": "BIRRIFICIO FERMENTO",
+    "lat": 44.8957035,
+    "lng": 8.8483829,
+    "url": "https://fondoambiente.it/luoghi/birrificio-fermento",
+    "description": "Per iscritti FAI riduzione del 5% presso il Birrificio Fermento a TortonaDESCRIZIONE Fermento Srl &egrave; una birreria artigianale che nasce da una ricerca attenta e responsabile nella selezione dei luppoli, con l&rsquo;obiettivo di creare birre dal carattere distintivo attraverso processi produttivi a basso impatto ambientale. L&rsquo;attenzione alla qualit&agrave; si accompagna a una visione orientata alla sostenibilit&agrave;, che privilegia materie prime selezionate, filiere corte e pratiche consapevoli. Ogni produzione &egrave; identificata da un nome e da un&rsquo;immagine coordinata ispirata all&rsquo;estetica dei primi del Novecento, creando un dialogo tra tradizione, identit&agrave; e cultura del territorio. L&rsquo;attivit&agrave; &egrave; aperta al pubblico e offre uno spazio accogliente dove degustare le birre insieme a proposte gastronomiche basate su ingredienti locali, stagionali e, ove possibile, biologici, contribuendo alla riduzione delle emissioni legate al trasporto e sostenendo l&rsquo;economia locale.&nbsp; La sede si trova all&rsquo;interno di un&rsquo;antica struttura industriale, un tempo destinata all&rsquo;essiccazione del tabacco e alla produzione di sigari. Il progetto di recupero rappresenta un esempio concreto di rigenerazione sostenibile: il riuso dell&rsquo;edificio ha permesso di ridurre il consumo di suolo e di nuove risorse, preservando l&rsquo;involucro originario, i materiali storici e le caratteristiche architettoniche esistenti. Gli spazi interni sono stati reinterpretati con soluzioni progettuali attente all&rsquo;efficienza energetica, all&rsquo;uso di materiali durevoli e, dove possibile, riciclati o a basso impatto.&nbsp; L&rsquo;ambiente &egrave; pensato per favorire pratiche virtuose, come la riduzione degli sprechi, la gestione responsabile delle risorse idriche e l&rsquo;attenzione alla raccolta differenziata. Fermento si configura cos&igrave; come un luogo di incontro e aggregazione, in particolare per i giovani, dove la convivialit&agrave; si unisce a una cultura della sostenibilit&agrave;. Un progetto che intreccia rinascita architettonica, imprenditorialit&agrave; artigianale e impegno concreto verso un modello di sviluppo pi&ugrave; equilibrato e rispettoso dell&rsquo;ambiente.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 120879,
+    "title": "CANTINA DI TORTONA",
+    "lat": 44.8986094,
+    "lng": 8.85468,
+    "url": "https://fondoambiente.it/luoghi/cantina-di-tortona",
+    "description": "Per iscritti FAI riduzione del 10% sugli acquisti presso la Cantina di TortonaDESCRIZIONE Nel 1931, in piena Grande Depressione, trentotto viticoltori del territorio tortonese unirono le proprie forze fondando la cantina cooperativa. L&rsquo;obiettivo era ambizioso: contrastare la crisi agricola, valorizzare le uve e garantire ai produttori condizioni di vendita pi&ugrave; eque e sostenibili. La costituzione ufficiale avvenne il 12 settembre 1931, grazie anche al contributo dell&rsquo;enologo Romolo Vimercati, che guid&ograve; la cantina per trent&rsquo;anni, ponendo le basi della sua crescita. Fin dalle origini, la cantina ha rappresentato non solo una realt&agrave; economica, ma anche un progetto culturale legato alla tutela del territorio e alla comunit&agrave; agricola. A partire dagli anni &rsquo;60, l&rsquo;impegno si &egrave; concentrato sulla valorizzazione della qualit&agrave;, contribuendo al riconoscimento DOC dei vini locali, tra cui Barbera e Cortese dei Colli Tortonesi. Oggi la cantina continua a portare avanti la propria missione: produrre vini di eccellenza che esprimono l&rsquo;identit&agrave; dei Colli Tortonesi, valorizzando vitigni come Timorasso, Barbera, Croatina e Cortese, in perfetta armonia con il territorio &nbsp;",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 110648,
     "title": "CASA REGIS",
     "lat": 45.6515436,
@@ -18291,7 +18375,7 @@
     "lat": 45.0655603,
     "lng": 7.6845764,
     "url": "https://fondoambiente.it/luoghi/circolo-del-design",
-    "description": "PER ISCRITTI FAI BIGLIETTO RIDOTTO AL COSTO DI 2 &euro; ANZICHE&#39; 5 &euro;&nbsp;PER LE MOSTRE PRESSO IL CIRCOLO DEL DESIGN DI TORINO DESCRIZIONE Il Circolo del Design &egrave; un centro di produzione culturale che approfondisce i temi del design contemporaneo, promuove la sperimentazione, la ricerca e l&rsquo;innovazione e favorisce l&rsquo;incontro del design con il mondo culturale, produttivo, istituzionale e accademico. Persegue la sua mission attraverso la programmazione di attivit&agrave; culturali, di ricerca e di formazione, lo sviluppo di opportunit&agrave; professionali tra designer e aziende e la collaborazione con le istituzioni, il mondo culturale e accademico per la creazione di un sistema del design a servizio della comunit&agrave; e del territorio. Online e offline, ogni giorno progetta contenuti che sappiano ispirare e lo fa collaborando con professionisti, istituzioni, studenti e visionari appassionati e curiosi. ECAL A Typographic Atlas a cura di ECAL/Universit&agrave; di arte e design di Losanna, Svizzera 13 febbraio - 14 marzo 2026 Aperta dal luned&igrave; al sabato, H 14:00 - 19:00 Curata da ECAL &ndash; Universit&agrave; di Arte e Design di Losanna, la mostra ECAL A Typographic Atlas riunisce oltre 300 caratteri tipografici progettati da studenti e studentesse provenienti da tutto il mondo, sviluppati all&rsquo;interno dei programmi di Master in Type Design e Bachelor in Graphic Design. Pensata come un atlante tipografico accessibile la mostra rivela la ricchezza visiva, culturale e linguistica esplorata a ECAL: dalle forme sperimentali alle famiglie di caratteri pi&ugrave; funzionali, fino ai progetti multi-scrittura. L&rsquo;esposizione mette in luce come la tipografia plasmi la comunicazione di tutti i giorni e, allo stesso tempo, porta l&rsquo;attenzione sul lavoro spesso invisibile di chi progetta i caratteri. SCOPRI QUI",
+    "description": "PER ISCRITTI FAI BIGLIETTO RIDOTTO AL COSTO DI 2 &euro; ANZICHE&#39; 5 &euro;&nbsp;PER LE MOSTRE PRESSO IL CIRCOLO DEL DESIGN DI TORINO DESCRIZIONE Il Circolo del Design &egrave; un centro di produzione culturale che approfondisce i temi del design contemporaneo, promuove la sperimentazione, la ricerca e l&rsquo;innovazione e favorisce l&rsquo;incontro del design con il mondo culturale, produttivo, istituzionale e accademico. Persegue la sua mission attraverso la programmazione di attivit&agrave; culturali, di ricerca e di formazione, lo sviluppo di opportunit&agrave; professionali tra designer e aziende e la collaborazione con le istituzioni, il mondo culturale e accademico per la creazione di un sistema del design a servizio della comunit&agrave; e del territorio. Online e offline, ogni giorno progetta contenuti che sappiano ispirare e lo fa collaborando con professionisti, istituzioni, studenti e visionari appassionati e curiosi. L&rsquo;ingegnere e Margherita: la citt&agrave; del teatro infinito 21 maggio - 3 ottobre 2026 Luned&igrave; &ndash; sabato | 14.00-19.00 sabato 25 luglio, chiuso Circolo del Design La mostra celebra l&rsquo;esperienza teatrale degli anni Novanta a Torino, partendo dalla duplice rappresentazione de &ldquo;L&rsquo;affare Makropulos&rdquo; di Karel Capek, che Luca Ronconi porta in scena contemporaneamente in due teatri torinesi il 9 dicembre 1993. Al Teatro Carignano porta lo spettacolo in prosa con scene e costumi di Carlo Diappi e Mariangela Melato nei panni della protagonista, mentre al Teatro Regio l&rsquo;opera in tre atti presenta le scenografie di Margherita Palli e Raina Kabaivanska come interprete principale. A partire dalle figure della scenografa Margherita Palli e dell&rsquo;ingegner Silvano Cova, l&rsquo;allora direttore tecnico e degli allestimenti scenici del Teatro Regio, la mostra racconta come la magia del teatro prende forma nella relazione tra arte e tecnica. In mostra i materiali d&rsquo;archivio del Centro Studi del Teatro Stabile Torino e dell&rsquo;Archivio Storico del Teatro Regio Torino raccontano quell&rsquo;esperienza, affiancati dalle testimonianze delle persone che l&rsquo;hanno resa possibile. SCOPRI QUI",
     "categories": [
       {
         "id": 8,
@@ -20992,6 +21076,20 @@
     "lng": 15.2775421,
     "url": "https://fondoambiente.it/luoghi/teatro-greco-di-siracusa",
     "description": "Per gli iscritti FAI riduzione fino al 15% sul prezzo dei biglietti, applicabile in tutte le date escluse quelle a prezzo unico, del Teatro Greco di Siracusa. Per usufruire della riduzione scrivere alla seguente email&nbsp;biglietteria@indafondazione.org&nbsp;&nbsp;inviando i dati della prenotazione e allegando la tessera FAI in corso di validit&agrave;. N:B&nbsp;La convenzione &egrave; valida per tutte le date escluse quelle a prezzo unico SCOPRI LA PROGRAMMAZIONE&nbsp; DESCRIZIONE&nbsp; Il Teatro Greco rappresenta il maggiore esempio dell&rsquo;architettura teatrale dell&rsquo;occidente greco. Ha la particolarit&agrave; di essere quasi interamente scavato nella roccia.Oltre che per le rappresentazioni, cos&igrave; com&rsquo;era costume per gli antichi greci, il teatro veniva usato per le assemblee popolari. Dopo essere stato adattato in epoca imperiale ai giochi circensi, il teatro cadde in abbandono. Nel XVI secolo, cos&igrave; come gli altri monumenti classici, fu depredato dalle maestranze spagnole di Carlo V che usarono la buona pietra gi&agrave; tagliata per erigere le fortificazioni di Ortigia. Altri guasti vennero dai mulini che erano stati impiantati nella cavea. Gli scavi, iniziati alla fine del Settecento e protrattisi per tutto il secolo successivo sono stati completati solo nella met&agrave; del Novecento. Pur nella diversit&agrave;, anche sostanziale, di opinioni degli studiosi sulla genesi del monumento, &egrave; generalmente accettato che la forma attuale risalirebbe all&rsquo;opera di ristrutturazione degli anni 238 &ndash; 215 a.C. sotto il regno di Ierone II. Il teatro si compone di tre parti: koilon (o c&agrave;vea), orchestra e scena. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 3683,
+    "title": "TEATRO GRECO",
+    "lat": 37.5013,
+    "lng": 15.0742,
+    "url": "https://fondoambiente.it/luoghi/teatro-greco-catania",
+    "description": "Per iscritti FAI riduzione del 15% per gli spettacoli di AMENANOS FESTIVAL al Teatro Greco di Cataniafino a giugno 2026SCOPRI GLI SPETTACOLI IN PROGRAMMA DESCRIZIONE L&rsquo; Amenanos Festival (Ciclo di Rappresentazioni Classiche) &egrave; stato ideato con l&rsquo;intento di valorizzare un luogo assolutamente speciale come il Teatro Greco Romano di Catania, che per mille anni &egrave; rimasto nascosto perch&eacute; sepolto sotto le abitazioni. Dopo gli sbancamenti il teatro &egrave; stato recuperato alle rappresentazioni teatrali negli anni &lsquo;80 e &lsquo;90. Tuttavia &egrave; solo grazie all&rsquo;Amenanos Festival che dal 2019 si pu&ograve; assistere ad una programmazione organica di Rappresentazioni Classiche di altissimo livello riconosciute sia a livello nazionale che internazionale. Altro motivo fondamentale per la fondazione del Festival &egrave; stato il Teatro come inclusivit&agrave; e strumento didattico, un teatro &quot;aperto&quot; a tutti che garantisca qualit&agrave; ma al tempo stesso accessibile anche da un punto di vista economico e che sia da supporto alla Vostra professionalit&agrave; nel promuovere l&#39;Arte e la Cultura, ed &egrave; con questo chiaro principio che l&#39;Amenanos guarda con molta attenzione e con grande responsabilit&agrave; al mondo della Scuola. Non dimentichiamo che il teatro nell&rsquo;antica Grecia era un fenomeno &ldquo;popolare&rdquo;, in senso alto, &quot;agor&agrave;&quot;dove generare uno scambio culturale e di riflessione.",
     "categories": [
       {
         "id": 10,
@@ -27177,7 +27275,21 @@
     "lat": 45.4382305,
     "lng": 12.2560986,
     "url": "https://fondoambiente.it/luoghi/palazzo-diedo-berggruen",
-    "description": "Per gli iscritti FAI, biglietto d&rsquo;ingresso ridotto per le mostre al Palazzo Diedo &ndash; Berggruen Arts &amp; Culture, a Venezia. La riduzione sar&agrave; applicata direttamente alla biglietteria di Palazzo Diedo, previa esibizione della tessera FAI in corso di validit&agrave;. Il biglietto &egrave; valido anche per Casa Tre Orci, sede di mostre SCOPRI QUI&nbsp; DESCRIZIONE&nbsp; Istituito da Berggruen Arts &amp; Culture, fondazione benefica creata dal collezionista e filantropo Nicolas Berggruen, Palazzo Diedo si propone di approfondire il legame tra l&#39;arte contemporanea e il passato, e tra l&#39;Oriente e l&rsquo;Occidente. Ospiter&agrave; residenze d&#39;artista, mostre, eventi, film e performance su cinque diversi livelli con una superficie totale di 4.000 metri quadrati. Il Palazzo Diedo riapre le porte dopo oltre due anni di restauro che hanno riportato allo splendore i monumentali spazi decorati con affreschi e stucchi del &lsquo;700 e &lsquo;800 dopo un lungo abbandono.",
+    "description": "Per gli iscritti FAI, riduzione per visitare le mostre organizzate da Berggruen Arts &amp; Culture Venezia, presso il Palazzo Diedo e Casa Tre Oci. Il biglietto d&#39;ingresso ridotto potr&agrave; essere acquistato in loco/ online. Le due mostre hanno la medesima bigliettazione Il biglietto &egrave; valido anche per Casa Tre Orci, sede di mostre SCOPRI QUI&nbsp; DESCRIZIONE&nbsp; Istituito da Berggruen Arts &amp; Culture, fondazione benefica creata dal collezionista e filantropo Nicolas Berggruen, Palazzo Diedo si propone di approfondire il legame tra l&#39;arte contemporanea e il passato, e tra l&#39;Oriente e l&rsquo;Occidente. Ospiter&agrave; residenze d&#39;artista, mostre, eventi, film e performance su cinque diversi livelli con una superficie totale di 4.000 metri quadrati. Nel 2021, Nicolas Berggruen ha acquisito anche la Casa dei Tre Oci, a Venezia, per farne il centro europeo del&nbsp;Berggruen Institute, una casa delle idee e un luogo di dialogo globale che avr&agrave; un programma internazionale di summit, workshop, simposi e mostre. Scopri le mostre di Berggruen Arts &amp; Culture a Venezia: CASA TRE OCI The-exchange-value-of-language-has-fallen-to-zero Joseph Kosuth a cura di Mario Codognato e Adriana Rispoli Casa dei Tre Oci 28 marzo - 22 novembre 2026 PALAZZO DIEDO&nbsp; STRANGE RULES curato da Mat Dryhurst, Holly Herndon e Hans Ulrich Obrist con Adriana Rispoli Palazzo Diedo - Berggruen Arts &amp; Culture Venice 4 maggio - 22 novembre 2026 Unfinished Ceal Floyer a cura di Ann Gallagher e Jonathan Watkins Palazzo Diedo - Berggruen Arts &amp; Culture Venice 4 maggio - 22 novembre 2026",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 119259,
+    "title": "SMAC SAN MARCO ART CENTRE",
+    "lat": 45.43429,
+    "lng": 12.3379238,
+    "url": "https://fondoambiente.it/luoghi/smac-san-marco-art-centre",
+    "description": "Per iscritti FAI biglietto ridotto per la mostra ALIGHIERO BOETTI presso SMAC San Marco Art CentreDAL 7 MAGGIO AL 22 NOVEMBRE 2026DESCRIZIONE SMAC Venice &egrave; lieta di presentare Alighiero Boetti, un&rsquo;ampia retrospettiva dedicata al maestro italiano dell&rsquo;arte del dopoguerra (Torino, 1940 &ndash; Roma, 1994). A cura di Elena Geuna e sostenuta da &nbsp;Ben Brown Fine Arts, la mostra sar&agrave; visitabile dal 7 maggio al 22 novembre 2026, in concomitanza con la 61&ordf; Esposizione Internazionale d&rsquo;Arte della Biennale di Venezia. Il percorso di mostra sviluppato dalla curatrice riunisce circa ottanta opere distribuite in otto sale, offrendo un&rsquo;ampia ricognizione su uno degli artisti pi&ugrave; influenti del periodo del dopoguerra. Coprendo un arco temporale di pi&ugrave; di venticinque anni, dalla fine degli anni Sessanta ai primi anni Novanta, la mostra ripercorre l&rsquo;intera traiettoria artistica di Boetti e mette in luce l&rsquo;ampiezza e la complessit&agrave; della sua pratica.",
     "categories": [
       {
         "id": 8,
