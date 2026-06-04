@@ -10951,7 +10951,7 @@
     "lat": 44.30875,
     "lng": 8.48258,
     "url": "https://fondoambiente.it/luoghi/museo-d-arte-di-palazzo-gavotti",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 38%) alla Pinoteca e al Museo della Ceramica del Museo d&#39;Arte di Palazzo Gavotti a Savona. Situato nel cuore di Savona, il Museo di Palazzo Gavotti ospita straordinarie collezioni&nbsp; che offrono un itinerario a tutto tondo nella storia dell&#39;arte, dal Trecento ai giorni nostri, e ne fanno uno dei pi&ugrave; importanti complessi museali italiani. &nbsp; Per gli iscritti FA biglietto ridotto, 5 euro invece che 8 euro, per il Museo d&#39;Arte di Palazzo Gavotti &nbsp;",
+    "description": "Per gli iscritti FA biglietto ridotto per il Museo d&#39;Arte di Palazzo Gavotti La collezione della Pinacoteca Civica offre una testimonianza eccezionale dello sviluppo artistico a Savona e in Liguria dal XIV al XX secolo. Il percorso si sviluppa su due piani, nei quali le raccolte civiche dialogano con i luoghi e con il patrimonio della citt&agrave; &ndash; la cattedrale, gli oratori, i palazzi storici &ndash; testimoniando avvenimenti, incontri e rotte artistiche che hanno fatto la storia del territorio. Un itinerario espositivo a tutto tondo nella pittura e nella scultura dal Trecento ai giorni nostri che, grazie al collegamento con la collezione d&rsquo;arte contemporanea Milani/Cardazzo costituisce oggi uno dei pi&ugrave; originali patrimoni museali italiani. &nbsp; &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -11026,34 +11026,6 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 101546,
-    "title": "B&B LA TERRA DI MINGO",
-    "lat": 44.2575455,
-    "lng": 8.4028945,
-    "url": "https://fondoambiente.it/luoghi/bb-la-terra-di-mingo",
-    "description": "Per iscritti FAI sconto del 10% per il soggiorno presso il B&amp;B La Terra di Mingo a Vado Ligure. La struttura completamente ristrutturata, dispone di camere a tema del territorio savonese nello specifico: stanza del Porto dedicata al porto del capoluogo di Savona, camera Riviera dell&#39;Amore dedicata a Bergeggi e camera del paese dedicata a Quiliano e Sant&#39;Ermete. I mobili sono frutto di restauro creativo e tutti gli ambienti rispettano il principio di ecosostenibilit&agrave;.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 98260,
-    "title": "VAZE FREE TIME ",
-    "lat": 44.3594336,
-    "lng": 8.5773126,
-    "url": "https://fondoambiente.it/luoghi/vaze-free-time",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI dello sconto del 15% per le attivit&agrave; sportive e outdoor organizzate da Vaze Free Time a Varazze (Savona). &nbsp; Per gli iscritti FAI sconto del 15% per le attivit&agrave; sportive e outdoor &nbsp;",
-    "categories": [
-      {
-        "id": 14,
-        "name": "Partecipare a corsi o escursioni"
       }
     ]
   },
@@ -11572,6 +11544,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 103898,
+    "title": "MUSEO DELLA CERAMICA",
+    "lat": 44.3082692,
+    "lng": 8.4823013,
+    "url": "https://fondoambiente.it/luoghi/museo-della-ceramica",
+    "description": "Per iscritti FAI biglietto ridotto per il Museo della Ceramica a SavonaDESCRIZIONE Il Museo della Ceramica accompagna i visitatori in un affascinante viaggio attraverso quattro livelli espositivi, dove tradizione e contemporaneit&agrave; si incontrano. Le collezioni, acquisite nel tempo dalla Fondazione De Mari CR Savona, includono preziosi manufatti come i vasi dell&rsquo;antica farmacia Cavanna di Genova, i tesori della collezione Bixio e le straordinarie sculture di Arturo Martini. Accanto a questi, spiccano anche le raccolte del Comune di Savona, tra cui i raffinati vasi dell&rsquo;antico Ospedale San Paolo. Il percorso si apre inoltre al design e all&rsquo;arte contemporanea, con i prototipi creati da artisti e designer di fama internazionale nell&rsquo;ambito delle Biennali della Ceramica. A completare l&rsquo;esperienza, la suggestiva Quadrisfera*, un&rsquo;installazione multimediale ideata dal fisico e divulgatore scientifico Paco Lanciano, che immerge il pubblico in un racconto emozionante sulla storia e l&rsquo;evoluzione della ceramica ligure.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -22134,20 +22120,6 @@
     ]
   },
   {
-    "id": 81270,
-    "title": "INCONTRI IN TERRA DI SIENA ",
-    "lat": 43.0443444,
-    "lng": 11.8137616,
-    "url": "https://fondoambiente.it/luoghi/incontri-in-terra-di-siena-",
-    "description": "Per gli iscritti FAI riduzione per il festival INCONTRI IN TERRA DI SIENA a Chianciano Terme DAL 23 LUGLIO AL 1 AGOSTO SCOPRI IL PROGRAMMA DEL FESTIVAL DESCRIZIONE Incontri in Terra di Siena &egrave; un&#39;associazione culturale con sede a Villa La foce in Val d&#39;Orcia, Toscana. Fu fondata nel 1988 dal violoncellista Antonio Lysy e sua madre Benedette Origo in memoria di Antonio Origo e sua moglie Iris, la nota scrittrice anglo-americana, che si dedicarono alla bonifica e allo sviluppio della Val d&#39;Orcia e della sua popolazione fin dal 1924. Fin dall&#39;inizio il festival ha mirato a trasmettere l&#39;apprezzamento della musica e dell&#39;arte, tramite concerti, incontri, mostre e diversi eventi culturali nelle tante localit&agrave; di eccezionale bellezza della zona, come Pienza, Montefollocino, Citt&agrave; della Pieve, Sarteano e Castiglioncello del Trinoro.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 40369,
     "title": "CASTELLO DI BROLIO",
     "lat": 43.3817031,
@@ -27696,6 +27668,20 @@
     "lng": 17.0944378,
     "url": "https://fondoambiente.it/luoghi/mediterraneo-chamber-music-festival",
     "description": "Per iscritti FAI riduzione del 30% per gli spettacoli del MEDITERRANEO CHAMBER MUSIC FESTIVAL21 al 30 giugno 2026DESCRIZIONE Il Festival si svolger&agrave; dal 21 al 30 giugno 2026, coinvolgendo i comuni di Pulsano, Taranto e Martina Franca. SCOPRI IL PROGRAMMA&nbsp; Il festival, col tema &quot;Bridge&quot;, celebra la connessione Nord-Sud con concerti ed eventi che fondono musica, cultura e paesaggio, tra cui una giornata speciale il 28 giugno a Masseria Cappella.&nbsp; MAIN SEASON &ndash; Concerti ad accesso a pagamento 21 giugno | Chiostro del Convento dei Padri Riformati, Pulsano Concerto di apertura: Suite Italienne &ndash; Musiche di Rota, Stravinsky, Respighi, Grieg, Brahms. 23 giugno | Chiostro del Convento dei Padri Riformati, Pulsano Notturno boreale &ndash; Musiche di Auerbach, Grieg, Bruch, Beethoven. 25 giugno | Taranto (sede in via di definizione) L&rsquo;eco di Vienna &ndash; Musiche di Mozart e Brahms. 30 giugno | Chiostro del Convento dei Padri Riformati, Pulsano Concerto finale &ndash; Musiche di Schumann, Liszt.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 81270,
+    "title": "INCONTRI IN TERRA DI SIENA",
+    "lat": 43.0443444,
+    "lng": 11.8137616,
+    "url": "https://fondoambiente.it/luoghi/incontri-in-terra-di-siena-",
+    "description": "Per iscritti FAi riduzione del 25% per i concerti in programma a INCONTRI IN TERRA DI SIENA DAL 23 LUGLIO AL 1 AGOSTO SCOPRI IL PROGRAMMA COMPLETO DESCRIZIONE Oggi Incontri in Terra di Siena offre un&rsquo;esperienza culturale unica che unisce musica, arte, cultura e paesaggio attraverso un vivace programma di concerti, conferenze ed eventi speciali. Spettacoli di livello mondiale con artisti di fama internazionale si svolgono in alcuni dei paesaggi pi&ugrave; iconici della Toscana e in citt&agrave; storiche come Pienza, Montefollonico, Sarteano e Citt&agrave; della Pieve. Per la stagione 2026, dal 23 luglio al&nbsp;1&nbsp;agosto,&nbsp;il Direttore Artistico&nbsp;Alessio Bax&nbsp;ha programmato sei appuntamenti di musica da camera, portando sul palco prestigiosi interpreti da tutto il mondo. Per la serata dedicata ad un giovane talento della musica, accogliamo il giovane violista franco-olandese&nbsp;S&agrave;o Soulez Larivi&egrave;re&nbsp;come&nbsp;Artista Emergente 2026,mentre l&rsquo;Onorevole&nbsp;Kim Campbell&nbsp;parteciper&agrave; come Writer-in-Residence per il ciclo di conferenze&nbsp;&quot;Parlando&quot;.&nbsp; Il Festival si conclude il 1&deg; agosto a Villa La Foce con un emozionante tributo, visivo e musicale, alla memoria di&nbsp;Antonio e Alberto Lysy.&nbsp; Sul palco ex alunni, colleghi e amici ricordano i Lysy, padre e figlio, per una serata indimenticabile. Oleg Kaskiv, Vlad Stanculeasa, Ettore Causa, Silvia Simionescu, Niall Brown, Eduardo Vassallo e Ronan O&rsquo;Hora eseguiranno capolavori di Faur&eacute;,&nbsp;Kod&aacute;ly&nbsp;e Tchaikovsky. &nbsp;",
     "categories": [
       {
         "id": 10,
