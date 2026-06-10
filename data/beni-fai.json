@@ -24317,7 +24317,7 @@
     "lat": 45.2683764,
     "lng": 11.6862943,
     "url": "https://fondoambiente.it/luoghi/bb-i-grilli",
-    "description": "Per iscritti FAI 10% di riduzione per i servizi de I Grilli B&amp;B a Baone (PD) DESCRIZIONE ENTE Il bed and breakfast&nbsp;i grilli&nbsp;si trova nel&nbsp;Parco Regionale dei Colli Euganei. Dal recente restauro di una casa colonica tipica della campagna veneta, abbiamo ricavato&nbsp;spazi ampi e confortevoli dedicati all&#39;accoglienza e all&#39;ospitalit&agrave;.&nbsp;La struttura &egrave; situata a Valle San Giorgio, frazione del comune di Baone, e pur essendo immersa nell&#39;atmosfera collinare e rurale &egrave; molto vicina e ben collegata ai borghi ed alle ville della zona. COSA OFFRE Disponiamo di tre camere matrimoniali situate al piano terra dell&#39;edificio, con ingresso indipendente rivolto verso il giardino attrezzato e vista sulla valle. Le camere sono dotate di bagno privato con doccia, letto matrimoniale, armadio, comodini, poltroncine/sedie, zanzariere alle finestre, condizionatore inverter.",
+    "description": "Per iscritti FAI 5% di riduzione per i servizi de I Grilli B&amp;B a Baone (PD) DESCRIZIONE ENTE Il bed and breakfast&nbsp;i grilli&nbsp;si trova nel&nbsp;Parco Regionale dei Colli Euganei. Dal recente restauro di una casa colonica tipica della campagna veneta, abbiamo ricavato&nbsp;spazi ampi e confortevoli dedicati all&#39;accoglienza e all&#39;ospitalit&agrave;.&nbsp;La struttura &egrave; situata a Valle San Giorgio, frazione del comune di Baone, e pur essendo immersa nell&#39;atmosfera collinare e rurale &egrave; molto vicina e ben collegata ai borghi ed alle ville della zona. COSA OFFRE Disponiamo di tre camere matrimoniali situate al piano terra dell&#39;edificio, con ingresso indipendente rivolto verso il giardino attrezzato e vista sulla valle. Le camere sono dotate di bagno privato con doccia, letto matrimoniale, armadio, comodini, poltroncine/sedie, zanzariere alle finestre, condizionatore inverter.",
     "categories": [
       {
         "id": 9,
@@ -26706,6 +26706,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 16456,
+    "title": "ARENA DI VERONA",
+    "lat": 45.4351,
+    "lng": 10.9988,
+    "url": "https://fondoambiente.it/luoghi/arena-di-verona-verona-16456",
+    "description": "Per iscritti FAI biglietti ridotti per gli spettacoli all&#39;Arena di Verona - (sia per la Stagione Artistica al Teatro Filarmonico sia per il 102&deg; Arena Opera Festival) SCOPRI TUTTO IL TARIFFARIO COMPLETO COME ACCEDERE ALLA RIDUZIONE ogni singolo associato avr&agrave; diritto a due biglietti scontati per titolo d&#39;opera e dovr&agrave; inviare una mail a promozione@arenadiverona.it allegando la propria TESSERA FAI per ricevere i codici sconto e procedere con l&rsquo;acquisto dei biglietti direttamente online.&nbsp;In alternativa, potr&agrave; recarsi in biglietteria (quella centrale in via Dietro Anfiteatro 6/b, oppure presso quella in via Roma 1) sempre munito della propria tessera. DESCRIZIONE DELL&#39;ENTE L&#39;Arena di Verona &egrave; un anfiteatro romano situato nel centro storico di Verona. Si tratta di uno dei grandi fabbricati che hanno caratterizzato l&#39;architettura romana ed uno degli anfiteatri antichi giunto a noi con il miglior grado di conservazione, grazie ai sistematici restauri eseguiti fin dal Cinquecento; proprio per questo motivo, nonostante le numerose trasformazioni subite, esso consente al visitatore di poter facilmente comprendere la struttura di questo genere di edifici, rigorosamente soggetti alla funzione cui erano destinati ma dotati comunque di una essenziale bellezza. Durante i mesi estivi ospita il celebre festival lirico areniano, le cui stagioni si svolgono ininterrottamente dal 1913, mentre il resto dell&#39;anno &egrave; meta di molti cantanti e musicisti internazionali. COSA SI PUO&#39; VEDERE Scopri tutta la stagione 2026&nbsp;QUI &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
