@@ -2272,20 +2272,6 @@
     ]
   },
   {
-    "id": 82993,
-    "title": "BORGO DI ATRI",
-    "lat": 42.5788,
-    "lng": 13.9857,
-    "url": "https://fondoambiente.it/luoghi/borgo-di-atri",
-    "description": "Per iscritti FAI riduzione fino al 30% per gli spettacoli all&#39;interno del festival Concerti delle Abbazie Il festival rimane un punto di riferimento per tutte le comunit&agrave; locali dell&rsquo;entroterra teramano e rappresenta un momento di valorizzazione e riscoperta di siti generalmente esclusi dai percorsi turistici tradizionali e fortemente segnati da disastrosi eventi sismici SCOPRI IL PROGRAMMA .",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 40030,
     "title": "MUSEO DELLE TRADIZIONI E ARTI CONTADINE",
     "lat": 42.4761164,
@@ -2324,6 +2310,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 82993,
+    "title": "BORGO DI ATRI",
+    "lat": 42.5788,
+    "lng": 13.9857,
+    "url": "https://fondoambiente.it/luoghi/borgo-di-atri",
+    "description": "Per iscritti FAI riduzione fino al 30% per gli spettacoli all&#39;interno del festival Concerti delle Abbazie Il festival rimane un punto di riferimento per tutte le comunit&agrave; locali dell&rsquo;entroterra teramano e rappresenta un momento di valorizzazione e riscoperta di siti generalmente esclusi dai percorsi turistici tradizionali e fortemente segnati da disastrosi eventi sismici SCOPRI IL PROGRAMMA .",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -6418,20 +6418,6 @@
     ]
   },
   {
-    "id": 40079,
-    "title": "FONDAZIONE TITO BALESTRA ONLUS",
-    "lat": 44.0724793,
-    "lng": 12.32477349,
-    "url": "https://fondoambiente.it/luoghi/fondazione-tito-balestra-onlus-galleria-d-arte-moderna-e-contemporanea",
-    "description": "Per iscritti Fai riduzione del biglietto di visita, 5 &euro; invece che 7 &euro;, per il Museo d&#39;Arte Moderna e Contemporanea - Fondazione Tito Balestra DESCRIZIONE La Fondazione Tito Balestra ha sede nel suggestivo Castello Malatestiano di Longiano ed &egrave; uno dei principali musei d&rsquo;arte moderna e contemporanea dell&rsquo;Emilia-Romagna. Nata dalla collezione del poeta e intellettuale Tito Balestra, custodisce opere del Novecento italiano e internazionale. All&rsquo;interno si possono visitare le sale espositive permanenti, dedicate a grandi artisti come Guttuso, De Pisis, Sironi e Maccari, oltre all&rsquo;archivio, alla biblioteca e alle mostre temporanee che arricchiscono l&rsquo;offerta culturale. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 81382,
     "title": "MUSEO DEL DISCO D'EPOCA",
     "lat": 44.0385535,
@@ -6662,6 +6648,20 @@
     "lng": 10.818621,
     "url": "https://fondoambiente.it/luoghi/musei-del-duomo",
     "description": "Per iscritti FAI biglietto ridotto per visitare i Musei del Duomo a Modena DESCRIZIONE Il Duomo di Modena &egrave; considerato uno dei pi&ugrave; significativi esempi di Romanico. Esso si inserisce&nbsp;nell&rsquo;ambito di un nutrito gruppo di edifici religiosi del Medioevo europeo riconosciuti patrimonio&nbsp;dell&rsquo;umanit&agrave;. Il&nbsp;Museo del Duomo di Modena&nbsp;ospita opere che vanno dall&#39;XI secolo al XX secolo. Tra queste l&#39;altarolo portatile di San Geminiano, mirabile esempio di oreficeria romanica commissionato probabilmente da Matilde di Canossa&nbsp;nel 1106, in occasione della traslazione del Santo. Tra le testimonianze di XII e XIII secolo, vi &egrave; anche la&nbsp;Relatio de innovatione ecclesie Sancti Geminiani Mutinensis Presulis, codice manoscritto di inizio Duecento, trascrizione di un testo pi&ugrave; antico compilato dal canonico Aimone per descrivere i fatti relativi ai primissimi anni di costruzione del Duomo di Modena e alla traslazione del Santo",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40079,
+    "title": "FONDAZIONE TITO BALESTRA ETS",
+    "lat": 44.0724793,
+    "lng": 12.32477349,
+    "url": "https://fondoambiente.it/luoghi/fondazione-tito-balestra-onlus-galleria-d-arte-moderna-e-contemporanea",
+    "description": "Per iscritti Fai riduzione del biglietto di visita, 5 &euro; invece che 7 &euro;, per il Museo d&#39;Arte Moderna e Contemporanea - Fondazione Tito Balestra DESCRIZIONE La Fondazione Tito Balestra ha sede nel suggestivo Castello Malatestiano di Longiano ed &egrave; uno dei principali musei d&rsquo;arte moderna e contemporanea dell&rsquo;Emilia-Romagna. Nata dalla collezione del poeta e intellettuale Tito Balestra, custodisce opere del Novecento italiano e internazionale. All&rsquo;interno si possono visitare le sale espositive permanenti, dedicate a grandi artisti come Guttuso, De Pisis, Sironi e Maccari, oltre all&rsquo;archivio, alla biblioteca e alle mostre temporanee che arricchiscono l&rsquo;offerta culturale. &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -9627,7 +9627,7 @@
     "lat": 41.8825808,
     "lng": 12.4606557,
     "url": "https://fondoambiente.it/luoghi/teatro-vascello",
-    "description": "Per iscritti FAI riduzioni fino al 28% per la programmazione del Teatro Vascello a Roma Per usufruire dell&rsquo;agevolazione &egrave; necessario esibire, in biglietteria documentazione idonea ad attestare l&rsquo;appartenenza al cral o associazione (badge, tessera in corso di validit&agrave;) o dire il nome dell&rsquo;associazione. SCOPRI IL PROGRAMMA DI STAGIONE Prezzi in convenzione &euro; 18 a persona anzich&eacute; &euro; 25. Mentre per gruppi di almeno 10 persone &euro;16 a persona solo tramite pagamento anticipato non rimborsabile.&nbsp;Ridotto studenti, studenti universitari&nbsp;docenti e operatori esclusivamente di&nbsp;scuole di teatro, cinema e danza 16 euro anzich&eacute; &euro; 25 DESCRIZIONE&nbsp; Il&nbsp;Teatro Il Vascello&nbsp;pu&ograve; essere considerato come una tappa ulteriore del percorso artistico di&nbsp;Giancarlo Nanni&nbsp;e&nbsp;Manuela Kustermann&nbsp;e della&nbsp;Cooperativa La Fabbrica dell&rsquo;Attore&nbsp;da loro diretta. Bisogna risalire ai fermenti sociali e ai movimenti giovanili degli anni &rsquo;70, per capire e identificare il percorso. Dai problemi concreti, reali, quotidiani, vissuti come esperienze aggreganti, nasce il gruppo&nbsp;Space Re[v]action&nbsp;che crea la prima sede stabile: il&nbsp;Teatro La Fede, a via Portuense 78, dove attorno a Nanni e alla Kustermann si forma un gruppo di lavoro che spazia fra teatro, cinema, danza, musica e arti visive. Sono anni di grandi fermenti culturali e la compagnia viene ben presto considerata un punto di riferimento importante nella rivoluzione artistica di quegli anni.&nbsp; Da oltre 20 anni il Teatro Vascello d&agrave; vita a una importante rassegna di danza contemporanea, e ha svolto parecchi corsi di formazione e perfezionamento professionale: recitazione, danza, scrittura creativa per la drammaturgia, regia, videoteatro. In collaborazione con Caterina Inesi e Lucia Latour per la danza contemporanea; Sandra de Falco ed Enrico Arias per la prosa e drammaturgia contemporanea e il recitar cantando, Carla Calcaterra per il tango argentino. Di recente La Fabbrica dell&rsquo;Attore ha integrato le attivit&agrave; laboratoriali del gruppo&nbsp;Dynamis Teatro Indipendente&nbsp;di Andrea De Magistris, producendone anche gli spettacoli Ormai storica la collaborazione con la&nbsp;Fondazione Romaeuropa, che da oltre vent&rsquo;anni presenta al Teatro Vascello alcuni spettacoli del Romaeuropa Festival, manifestazione di respiro internazionale. Il Teatro Vascello presenta anche rassegne di nuovo cinema, di musica etnica e contemporanea, di arte contemporanea. Nel contesto di queste attivit&agrave; collaterali, ha ospitato compagnie di danza e teatro anche dal Tibet, dall&rsquo;India e dal Giappone. Aperto alla sperimentazione, si propone dunque come vetrina di esperienze artistiche che non trovano spazio nelle strutture pi&ugrave; istituzionali o nei teatri tradizionali. Viene anche rappresentato un congruo numero di spettacoli per bambini, (sia ospitalit&agrave; che produzione) dando vita cos&igrave; ad una stagione teatrale parallela che coinvolge anche le scuole. E&rsquo; altres&igrave; funzionante una&nbsp;biblioteca/videoteca&nbsp;specializzata, con i documenti raccolti da Giancarlo Nanni, Manuela Kustermann e dalla compagnia La Fabbrica dell&rsquo;Attore in oltre 40 anni di attivit&agrave;: consultabili pi&ugrave; di tremila libri, riviste, copioni, testi teatrali e lo storico archivio video del Teatro Vascello. &nbsp;",
+    "description": "Per iscritti FAI riduzioni fino al 28% per la programmazione del Teatro Vascello a Roma Per usufruire dell&rsquo;agevolazione &egrave; necessario esibire, in biglietteria documentazione idonea ad attestare l&rsquo;appartenenza al cral o associazione (badge, tessera in corso di validit&agrave;) o dire il nome dell&rsquo;associazione. &Egrave; possibile acquistare i biglietti, abbonamenti e card telefonicamente telefono 06 5881021- 065898031 o ONLINE SCOPRI IL PROGRAMMA DI STAGIONE Prezzi in convenzione &euro; 18 a persona anzich&eacute; &euro; 25. Mentre per gruppi di almeno 10 persone &euro;16 a persona solo tramite pagamento anticipato non rimborsabile.&nbsp;Ridotto studenti, studenti universitari&nbsp;docenti e operatori esclusivamente di&nbsp;scuole di teatro, cinema e danza 16 euro anzich&eacute; &euro; 25 DESCRIZIONE&nbsp; Il&nbsp;Teatro Il Vascello&nbsp;pu&ograve; essere considerato come una tappa ulteriore del percorso artistico di&nbsp;Giancarlo Nanni&nbsp;e&nbsp;Manuela Kustermann&nbsp;e della&nbsp;Cooperativa La Fabbrica dell&rsquo;Attore&nbsp;da loro diretta. Bisogna risalire ai fermenti sociali e ai movimenti giovanili degli anni &rsquo;70, per capire e identificare il percorso. Dai problemi concreti, reali, quotidiani, vissuti come esperienze aggreganti, nasce il gruppo&nbsp;Space Re[v]action&nbsp;che crea la prima sede stabile: il&nbsp;Teatro La Fede, a via Portuense 78, dove attorno a Nanni e alla Kustermann si forma un gruppo di lavoro che spazia fra teatro, cinema, danza, musica e arti visive. Sono anni di grandi fermenti culturali e la compagnia viene ben presto considerata un punto di riferimento importante nella rivoluzione artistica di quegli anni.&nbsp; Da oltre 20 anni il Teatro Vascello d&agrave; vita a una importante rassegna di danza contemporanea, e ha svolto parecchi corsi di formazione e perfezionamento professionale: recitazione, danza, scrittura creativa per la drammaturgia, regia, videoteatro. In collaborazione con Caterina Inesi e Lucia Latour per la danza contemporanea; Sandra de Falco ed Enrico Arias per la prosa e drammaturgia contemporanea e il recitar cantando, Carla Calcaterra per il tango argentino. Di recente La Fabbrica dell&rsquo;Attore ha integrato le attivit&agrave; laboratoriali del gruppo&nbsp;Dynamis Teatro Indipendente&nbsp;di Andrea De Magistris, producendone anche gli spettacoli Ormai storica la collaborazione con la&nbsp;Fondazione Romaeuropa, che da oltre vent&rsquo;anni presenta al Teatro Vascello alcuni spettacoli del Romaeuropa Festival, manifestazione di respiro internazionale. Il Teatro Vascello presenta anche rassegne di nuovo cinema, di musica etnica e contemporanea, di arte contemporanea. Nel contesto di queste attivit&agrave; collaterali, ha ospitato compagnie di danza e teatro anche dal Tibet, dall&rsquo;India e dal Giappone. Aperto alla sperimentazione, si propone dunque come vetrina di esperienze artistiche che non trovano spazio nelle strutture pi&ugrave; istituzionali o nei teatri tradizionali. Viene anche rappresentato un congruo numero di spettacoli per bambini, (sia ospitalit&agrave; che produzione) dando vita cos&igrave; ad una stagione teatrale parallela che coinvolge anche le scuole. . &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -9655,7 +9655,7 @@
     "lat": 41.8943547,
     "lng": 12.4774988,
     "url": "https://fondoambiente.it/luoghi/treccani-editore",
-    "description": "Per iscritti FAI riduzioni sull&#39;acquisto dei prodotti TRECCANI EMPORIUM sul SITO e negli store di Roma e Milano 5% di riduzione&nbsp;utilizzabile per la categoria Editoria - CODICE ONLINE 5FAI 20%&nbsp;di riduzione&nbsp;utilizzabile su tutto il catalogo, Editoria e sezione Promo escluse - CODICE ONLINE 20FAI DESCRIZIONE Scoprite tutte le anime che compongono e identificano la produzione della Treccani di oggi visitando i negozi di Roma, Milano, Trieste e il SITO. Oltre ai prodotti di cartotecnica e all&rsquo;oggettistica da scrivania, da viaggio e di uso quotidiano della linea Definizione, &egrave; possibile consultare e acquistare gli Annuari, i Vocabolari, ma anche i capolavori editoriali in edizione limitata delle Edizioni di Pregio (codici miniati, facsimili, riedizioni dei classici della letteratura, monografie dedicate ai grandi geni dell&rsquo;arte), senza dimenticare le pubblicazioni e i multipli d&rsquo;artista di Treccani Arte, il laboratorio creativo Bottega Treccani e i suoi oggetti di design frutto della collaborazione con artisti, artigiani e brand di fama internazionale. STORE ROMA STORE TRECCANI piazza della Enciclopedia Italiana n. 2 A / C 00186 Roma - 06 68982321 negozio.roma@treccani.it MILANO STORE TRECCANI c/o ADI Design Museum - Piazza Compasso d&#39;Oro, 1 20154 Milano negozio.milano@treccanireti.it",
+    "description": "Per iscritti FAI riduzioni sull&#39;acquisto dei prodotti TRECCANI EMPORIUM sul SITO e negli store di Roma e Milano 5% di riduzione&nbsp;utilizzabile per la categoria Editoria - CODICE ONLINE 5FAI 20%&nbsp;di riduzione&nbsp;utilizzabile su tutto il catalogo, Editoria e sezione Promo escluse - CODICE ONLINE 20FAI Per gli iscritti FAI promozione del 30% per l&rsquo;acquisto, direttamente presso STORE TRECCANI piazza della Enciclopedia Italiana n. 2 A / C 00186 Roma, dei seguenti volumi DIZIONARIO BIOGRAFICO E TEMATICO DELLE DONNE ITALIA MERAVIGLIOSA PALLADIO DESCRIZIONE Scoprite tutte le anime che compongono e identificano la produzione della Treccani di oggi visitando i negozi di Roma, Milano, Trieste e il SITO. Oltre ai prodotti di cartotecnica e all&rsquo;oggettistica da scrivania, da viaggio e di uso quotidiano della linea Definizione, &egrave; possibile consultare e acquistare gli Annuari, i Vocabolari, ma anche i capolavori editoriali in edizione limitata delle Edizioni di Pregio (codici miniati, facsimili, riedizioni dei classici della letteratura, monografie dedicate ai grandi geni dell&rsquo;arte), senza dimenticare le pubblicazioni e i multipli d&rsquo;artista di Treccani Arte, il laboratorio creativo Bottega Treccani e i suoi oggetti di design frutto della collaborazione con artisti, artigiani e brand di fama internazionale. STORE ROMA STORE TRECCANI piazza della Enciclopedia Italiana n. 2 A / C 00186 Roma - 06 68982321 negozio.roma@treccani.it MILANO STORE TRECCANI c/o ADI Design Museum - Piazza Compasso d&#39;Oro, 1 20154 Milano negozio.milano@treccanireti.it",
     "categories": [
       {
         "id": 12,
@@ -14343,7 +14343,7 @@
     "lat": 45.5168261,
     "lng": 9.2143315,
     "url": "https://fondoambiente.it/luoghi/teatro-degli-arcimboldi",
-    "description": "Per gli iscritti FAI riduzione fino al 10% per le iniziative culturali e gli spettacoli in programma presso TAM- Teatro Arcimboldi di Milano. Per usufruire del benefit baster&agrave; recarsi presso il botteghino del TAM Teatro Arcimboldi ed esibire la propria tessera associativa in corso di validit&agrave;, previsto 1 biglietto per iscritto + accompagnatore VALERIO LUNDINI &ndash; IL MANSPLAINING SPIEGATO A MIA FIGLIA 14 e 15 maggio 2026, ore 21.00&nbsp; THE NIGHT OF MUSICALS 17 maggio 2026, ore 20.00 LEGEND THE SHOW&nbsp; 19 maggio 2026 h 21.00 DIN DON DOWN - MUSICAL&nbsp;&nbsp;28, 29 e 30 maggio 2026 QUEEN RHAPSODY&nbsp;&nbsp;3 giugno 2026, ore 21:00 GIUSEPPE BRINDISI - Potresti essere tu - Il caso Garlasco &ndash;&nbsp;4 giugno 2026, ore 21:00 GENESIS - One night with the Orchestra 13 giugno 2026, ore 21:00 FRANCESCO DE CARLO - LIMBO&nbsp; 15 giugno 2026, ore 21:00 PINK FLOYD LEGEND &ndash; THE WALL &nbsp;25 settembre 2026 alle h 21.00 &Acirc;ME - Viaggio nell&#39;inferno di Dante 26 settembre 2026 alle h 21.00 &nbsp;",
+    "description": "Per gli iscritti FAI riduzione fino al 10% per le iniziative culturali e gli spettacoli in programma presso TAM- Teatro Arcimboldi di Milano. Per usufruire del benefit baster&agrave; recarsi presso il botteghino del TAM Teatro Arcimboldi ed esibire la propria tessera associativa in corso di validit&agrave;, previsto 1 biglietto per iscritto + accompagnatore GENESIS - One night with the Orchestra 13 giugno 2026, ore 21:00 FRANCESCO DE CARLO - LIMBO&nbsp; 15 giugno 2026, ore 21:00 PINK FLOYD LEGEND &ndash; THE WALL &nbsp;25 settembre 2026 alle h 21.00 &Acirc;ME - Viaggio nell&#39;inferno di Dante 26 settembre 2026 alle h 21.00 LEGEND - THE SHOW ORCHESTRA&nbsp;13 Ottobre 2026 h 21:00 GLORIA IL MUSICAL &ndash; MUSICAL&nbsp;23 ottobre - 1 novembre MACCIO CAPATONDA - SPETTACOLO TEATRALE 9 novembre 2026 h 21:00 &ndash; 3 Febbraio 2027 h 21:00 IL PRINCIPE D&rsquo;EGITTO &ndash; MUSICAL&nbsp;25 novembre &ndash; 13 dicembre 2026 &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -21826,6 +21826,20 @@
     ]
   },
   {
+    "id": 121018,
+    "title": "TEATRO AGRICANTUS",
+    "lat": 38.1295337,
+    "lng": 13.3477447,
+    "url": "https://fondoambiente.it/luoghi/teatro-agricantus",
+    "description": "Per iscritti FAi riduzioni presso il Teatro Agricantus a Palermoriduzione sui biglietti singoli, concerti e abbonamento SCOPRI I PROGRAMMI DESCRIZIONE La storia delle attivit&agrave; del Teatro CCPAgricantus ha inizio nel 1986, quando viene offerta, alle cooperative giovanili, la possibilit&agrave; di accedere ad un finanziamento regionale (legge n.37/1986). Da allora molta acqua &egrave; passata sotto i ponti: Il finanziamento si &egrave; svalutato e la nostra Societ&agrave; ha dovuto lavorare sodo per potere arrivare ugualmente al traguardo (raggiunto nel 1996). Il Teatro CCPAgricantus &ndash; ormai da tempo &ndash; &egrave; una realt&agrave; affermata del panorama culturale palermitano: sono molteplici le attivit&agrave; da noi prodotte e/o ospitate all&rsquo;interno di questo spazio polivalente, aperto alla citt&agrave; e quindi anche a soggetti diversi e molteplici, ma pur sempre compatibili con i nostri obiettivi. Il Teatro CCPAgricantus &egrave; formato da tre ambienti distinti: sala spettacoli / ristorazione / spazio visioni nel rispetto delle normative vigenti e con particolare cura della resa acustica, ponendoci dal punto di vista (anzi d&rsquo;ascolto!) sia dell&rsquo;artista che del pubblico. La programmazione artistica, con la sua oramai tradizionale partizione in due distinti appuntamenti &ldquo;cartellone estivo e invernale&rdquo;, privilegia il teatro identitario, contemporaneo, delle nuove generazioni, comico, d&rsquo;autore e sperimentale, organizzata talvolta in rassegne che perlustrano tutti i generi e coinvolgono realt&agrave; locali e nazionali tra le pi&ugrave; significative. Dal canto suo la musica, rifiutando ogni ottica commerciale, viene proposta nelle sue storiche rassegne privilegiando alcuni generi poco praticati, come quello etnico, l&rsquo;improvvisazione, non tralasciando mirate escursioni nei territori del jazz e della musica contemporanea. Altro motivo di non celato orgoglio &egrave; costituito dalla lunga esperienza del teatro per ragazzi, che, unito alla Scuola di Attori e alla Palestra delle Arti Teatrali, rappresenta una scommessa aperta con la cittadinanza e le istituzioni. Una particolare attenzione &egrave; rivolta alle arti visive e all&rsquo;opera dei pupi, con progetti ed eventi, mostre, convegni, serate particolari ad esse dedicate. Il Teatro CCPAgricantus &egrave;, inoltre, fornito di cucine, bagni, uffici e delle pi&ugrave; moderne misure di sicurezza. Nel Teatro CCPAgricantus abbiano, infine, abbattuto le barriere architettoniche per consentire l&rsquo;ingresso e la fruizione delle nostre attivit&agrave; anche ai disabili (scivoli lungo i camminamenti interni del locale, servizio di bagno H, ascensore e parcheggio auto H nei pressi dell&rsquo;entrata principale.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 104836,
     "title": "MUSEO VILLORESI",
     "lat": 43.7651202,
@@ -25936,6 +25950,20 @@
     ]
   },
   {
+    "id": 121019,
+    "title": "CANTINA SCACCIADIAVOLI",
+    "lat": 42.8938333,
+    "lng": 12.6453767,
+    "url": "https://fondoambiente.it/luoghi/cantina-scacciadiavoli",
+    "description": "Per iscritti FAi riduzione del 10% sull'acquisto di prodotti presso la Cantina ScacciadiavoliLa Cantina pi&ugrave; antica del territorio. A Montefalco dal 1884. Tutti i giorni visite e degustazioni",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 114798,
     "title": "LA FAGIANA - SOCIETÀ AGRICOLA",
     "lat": 45.5812424,
@@ -26715,7 +26743,7 @@
     "lat": 45.8888453,
     "lng": 12.2694758,
     "url": "https://fondoambiente.it/luoghi/teatro-accademia",
-    "description": "Per iscritti e iscritte FAI biglietto ridotto per gli eventi della Stagione Prosa 2026/2027 presso Teatro Accademia di Conegliano (TV) N.B. Per usufruire della riduzione potrete acquistare il biglietto: presso la biglietteria&nbsp;del Teatro Accademia; prenotando via WhatsApp al 328 3078981 e pagando con bonifico. Il biglietto sar&agrave; consegnato la sera dello spettacolo (previa verifica dell&#39;accredito). DESCRIZIONE Nel cuore della citt&agrave; di Conegliano sorge un luogo che intreccia storia e arte performativa. &Egrave; il Teatro Accademia, caratterizzato da una tipica architettura neoclassica. La sua grande facciata domina Piazza Cima, imponente su una scalinata ai cui lati posano due caratteristiche sfingi in pietra. L&#39;accesso avviene attraverso un portico centrale sporgente verso la piazza. La sua edificazione ha radici nel passato, iniziata sotto il dominio austriaco e conclusa nel 1868 su progetto dell&#39;architetto Andrea Scala. L&#39;inaugurazione nel settembre 1869 vide la rappresentazione de Il Conte Ory di Gioachino Rossini. Dal 1946 ha intrapreso anche attivit&agrave; cinematografica. Oggi, il teatro prosegue la sua vita culturale offrendo regolarmente una propria stagione teatrale, con spazio, ad esempio, per una stagione di prosa. Gli interni riservano la possibilit&agrave; di scoprire le sale, a volte ricche di pregevoli opere artistiche, e di percorrere gli spazi dalla platea alla galleria, fino al palcoscenico, offrendo un viaggio nella cultura e nell&#39;arte. Questa presenza nel tessuto cittadino rappresenta un punto di riferimento per l&#39;esperienza del patrimonio artistico legato alle arti performative. Attraverso i suoi canali vengono rese disponibili informazioni relative alla programmazione e indicazioni su come raggiungere la struttura. ACCESSIBILITA&#39; Per spettatori con difficolt&agrave; motorie vi &egrave; possibilit&agrave; di parcheggio in prossimit&agrave; della struttura con richiesta alla Polizia Locale di Conegliano per accesso zona ZTL e possibilit&agrave; di ingresso dalla porta laterale della Platea (via Pulzio Sbarra), con preavviso allo staff del Teatro. La platea &egrave; dotata di un bagno per disabili accessibile con montascale.",
+    "description": "Per iscritti e iscritte FAI biglietto ridotto per gli eventi della Stagione Prosa 2026/2028 presso Teatro Accademia di Conegliano (TV) N.B. Per usufruire della riduzione potrete acquistare il biglietto: presso la biglietteria&nbsp;del Teatro Accademia; prenotando via WhatsApp al 328 3078981 e pagando con bonifico. Il biglietto sar&agrave; consegnato la sera dello spettacolo (previa verifica dell&#39;accredito). DESCRIZIONE Nel cuore della citt&agrave; di Conegliano sorge un luogo che intreccia storia e arte performativa. &Egrave; il Teatro Accademia, caratterizzato da una tipica architettura neoclassica. La sua grande facciata domina Piazza Cima, imponente su una scalinata ai cui lati posano due caratteristiche sfingi in pietra. L&#39;accesso avviene attraverso un portico centrale sporgente verso la piazza. La sua edificazione ha radici nel passato, iniziata sotto il dominio austriaco e conclusa nel 1868 su progetto dell&#39;architetto Andrea Scala. L&#39;inaugurazione nel settembre 1869 vide la rappresentazione de Il Conte Ory di Gioachino Rossini. Dal 1946 ha intrapreso anche attivit&agrave; cinematografica. Oggi, il teatro prosegue la sua vita culturale offrendo regolarmente una propria stagione teatrale, con spazio, ad esempio, per una stagione di prosa. Gli interni riservano la possibilit&agrave; di scoprire le sale, a volte ricche di pregevoli opere artistiche, e di percorrere gli spazi dalla platea alla galleria, fino al palcoscenico, offrendo un viaggio nella cultura e nell&#39;arte. Questa presenza nel tessuto cittadino rappresenta un punto di riferimento per l&#39;esperienza del patrimonio artistico legato alle arti performative. Attraverso i suoi canali vengono rese disponibili informazioni relative alla programmazione e indicazioni su come raggiungere la struttura. ACCESSIBILITA&#39; Per spettatori con difficolt&agrave; motorie vi &egrave; possibilit&agrave; di parcheggio in prossimit&agrave; della struttura con richiesta alla Polizia Locale di Conegliano per accesso zona ZTL e possibilit&agrave; di ingresso dalla porta laterale della Platea (via Pulzio Sbarra), con preavviso allo staff del Teatro. La platea &egrave; dotata di un bagno per disabili accessibile con montascale.",
     "categories": [
       {
         "id": 10,
@@ -27462,6 +27490,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 118843,
+    "title": "ENTROTERRE FESTIVAL",
+    "lat": 44.6205653,
+    "lng": 10.9860875,
+    "url": "https://fondoambiente.it/luoghi/entroterre-festival",
+    "description": "Per iscritti FAI riduzione per gli spettacoli dell&#39;ENTROTERRE FESTIVAL DAL 17 LUGLIO AL 5 SETTEMBRE SCOPRI IL PROGRAMMA DI EVENTI DESCRIZIONE Entroterre Festival &egrave; molto pi&ugrave; di un festival: &egrave; un modo per gioire della cultura, immersi nella bellezza del nostro territorio, a contatto con gli artisti e le comunit&agrave; ospiti, un modo distinto di fruire l&rsquo;esperienza della performance dal vivo, che viene arricchita dai valori autentici delle comunit&agrave; ospitanti e dal loro incontro con Fondazione Entroterre. Oltre 70 eventi tra musica, teatro, danza e arti performative trasformano borghi e paesaggi da sogno in destinazioni da vivere, in Emilia-Romagna, Toscana e Lazio. Qui ogni spettacolo &egrave; l&rsquo;inizio di un percorso immersivo, pensato per connettere il pubblico con l&rsquo;anima dei luoghi. Dal primo click sul sito fino alla serata live, accompagniamo lo spettatore in un percorso ricco di scoperte, suggestioni e autenticit&agrave;. Affinch&eacute; il ricordo di ogni serata non svanisca all&rsquo;alba ma diventi esperienza di vita che lasci il segno. Entroterre &egrave; cultura che genera valore, ed emozione che incontra il territorio. Partecipare alla manifestazione significa immergersi in un programma ricco di esperienze autentiche, tra musica, spettacolo e valorizzazione dei territori, in una rete culturale che attraversa Emilia-Romagna, Toscana e Lazio. Entroterre Festival porta la grande musica nei luoghi pi&ugrave; suggestivi d&rsquo;Italia: piazze storiche, rocche, chiostri, arene naturali e borghi che diventano palcoscenici d&rsquo;eccezione per artisti di rilievo nazionale e internazionale. Un modo diverso di vivere lo spettacolo dal vivo, lontano dalla dimensione impersonale dei grandi stadi e pi&ugrave; vicino alla bellezza, all&rsquo;ascolto e all&rsquo;esperienza condivisa.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
