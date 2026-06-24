@@ -4127,11 +4127,15 @@
     "lat": 38.5783005,
     "lng": 16.3324483,
     "url": "https://fondoambiente.it/luoghi/parco-naturale-regionale-delle-serre",
-    "description": "Per iscritti FAI riduzione del 20% per i servizi di guida escursionistica nel Parco Nazionale delle Serre DESCRIZIONE L&rsquo;area del Parco delle Serre comprende i valori naturalistici, culturali storici e antropologici che concorrono a caratterizzare questo pezzo di Calabria. Il territorio di pertinenza del parco comprende le abetine tipiche, pure e miste dell&rsquo;abete bianco, le pinetine del pino laricio, le faggete, i castagneti, i pioppeti, i querceti nonch&eacute; l&rsquo;oasi del lago Angitola, riconosciuta come zona umida di valore internazionale. COSA VEDERE Scopri un territorio unico, dove la bellezza naturale incontra la storia e le tradizioni della Calabria. Il Parco delle Serre ti aspetta con i suoi sentieri, le sue foreste e la sua anima autentica. &nbsp;",
+    "description": "Per iscritti FAI riduzione del 20% per i servizi di guida escursionistica gestiti da&nbsp;APS GUIDE DELLE SERRE ONLUS nel Parco Nazionale delle Serre DESCRIZIONE L&rsquo;area del Parco delle Serre comprende i valori naturalistici, culturali storici e antropologici che concorrono a caratterizzare questo pezzo di Calabria. Il territorio di pertinenza del parco comprende le abetine tipiche, pure e miste dell&rsquo;abete bianco, le pinetine del pino laricio, le faggete, i castagneti, i pioppeti, i querceti nonch&eacute; l&rsquo;oasi del lago Angitola, riconosciuta come zona umida di valore internazionale. COSA OFFRONO Escursioni guidate Cammini Educazioni Ambientale",
     "categories": [
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      },
+      {
+        "id": 14,
+        "name": "Partecipare a corsi o escursioni"
       }
     ]
   },
@@ -14188,20 +14192,6 @@
     ]
   },
   {
-    "id": 41423,
-    "title": "MUSEO DELLA PERMANENTE ",
-    "lat": 45.4766103,
-    "lng": 9.1953404,
-    "url": "https://fondoambiente.it/luoghi/museo-della-permanente",
-    "description": "Per iscritti FAI ingresso omaggio alla mostra AMART che si terr&agrave; a Milano&nbsp; DESCRIZIONE ENTE Promossa dall&rsquo;Associazione Antiquari Milanesi, cornice della manifestazione sar&agrave; Palazzo della Permanente, gioiello in stile neoclassico dell&rsquo;architettura del capoluogo lombardo che ospita collezioni d&rsquo;arte tra le pi&ugrave; pregevoli. AMART vuole diventare il punto di riferimento per il mercato antiquario ed artistico italiano ed internazionale, il nucleo pulsante per riscoprire il valore e la bellezza dell&rsquo;arte in tutte le sue espressioni. SCOPRI IL PROGRAMMA AMART mette in mostra un&rsquo;importante selezione di dipinti, sculture, mobili, preziosi, argenti, tappeti e molti altri oggetti di altissimo pregio. Un&rsquo;occasione unica e speciale per scoprire da vicino tutto il piacere contemporaneo dell&rsquo;antiquariato.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 115339,
     "title": "NOTORIUS CINEMAS - MILANO MERLATA",
     "lat": 45.5142115,
@@ -17006,6 +16996,20 @@
     ]
   },
   {
+    "id": 121094,
+    "title": "AZIENDA AGRICOLA SIMONE CAPECCI",
+    "lat": 42.944111,
+    "lng": 13.7615958,
+    "url": "https://fondoambiente.it/luoghi/azienda-agricola-simone-capecci",
+    "description": "Per iscritti FAI riduzione del 5% per l'acquisto di prodotti presso l'Azienda Agricola Simone CapecciDESCRIZIONE Azienda Agricola Simone Capecci &egrave; una cantina marchigiana con sede a Ripatransone, in provincia di Ascoli Piceno, nella zona di San Savino. La storia familiare affonda le radici nella tradizione vitivinicola del territorio: l&rsquo;azienda viene fatta risalire agli inizi del Novecento e, nel tempo, ha evoluto la propria produzione fino all&rsquo;attuale identit&agrave; guidata da Simone Capecci. Oggi la realt&agrave; aziendale valorizza vitigni tipici del Piceno come Pecorino, Passerina, Montepulciano e Sangiovese, coltivati tra Contrada Santa Maria in Carro e l&rsquo;area di Acquaviva Picena. La cantina si distingue per un approccio produttivo attento alla qualit&agrave;, alla riconoscibilit&agrave; del territorio e alla sostenibilit&agrave;. La produzione &egrave; biologica e l&rsquo;azienda comunica una filosofia basata su vini &ldquo;buoni&rdquo; e rispettosi dell&rsquo;ambiente, pensati per essere piacevoli, autentici e legati alla convivialit&agrave;. Dal punto di vista tecnico, Simone Capecci adotta scelte di vinificazione precise, come la lavorazione in riduzione, la criomacerazione, l&rsquo;affinamento in vasche di cemento e la tecnica del cappello sommerso. Queste pratiche mirano a preservare aromi, freschezza e stabilit&agrave; del vino, unendo innovazione e tradizione enologica italiana. L&rsquo;Azienda Agricola Simone Capecci rappresenta quindi una realt&agrave; vitivinicola del Piceno capace di coniugare radici familiari, vitigni autoctoni, agricoltura biologica e ricerca tecnica, offrendo vini che raccontano il paesaggio collinare marchigiano e la passione di una famiglia per la propria terra.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 120993,
     "title": "LEGA NAVALE ITALIANA",
     "lat": 42.95083,
@@ -17016,6 +17020,48 @@
       {
         "id": 14,
         "name": "Partecipare a corsi o escursioni"
+      }
+    ]
+  },
+  {
+    "id": 121095,
+    "title": "APICOLTURA SCOCCIMARRA GIUSEPPE",
+    "lat": 42.9469592,
+    "lng": 13.8795205,
+    "url": "https://fondoambiente.it/luoghi/apicoltura-scoccimarra-giuseppe",
+    "description": "Per iscritti FAI riduzione del 10% per l&#39;acquisto di prodotti da A TUTTO MIELE a San Benedetto del Tronto DESCRIZIONE A Tutto Miele &egrave; un&rsquo;attivit&agrave; di apicoltura artigianale legata alla produzione e vendita di miele italiano di qualit&agrave;. L&rsquo;azienda propone mieli monoflora e millefiori, ottenuti seguendo le fioriture e i territori visitati dalle api: tra le variet&agrave; disponibili ci sono Sulla, Coriandolo, Girasole, Acacia, Castagno, Agrumi, Tiglio ed Eucalipto. Accanto al miele, l&rsquo;attivit&agrave; valorizza anche altri prodotti dell&rsquo;alveare, come polline, propoli, pappa reale e cera d&rsquo;api, con un&rsquo;attenzione particolare alla naturalit&agrave;, alla genuinit&agrave; e al rispetto delle api. L&rsquo;azienda cura alveari dislocati in diverse zone per ottenere mieli dalle caratteristiche organolettiche differenti, capaci di raccontare profumi, sapori e biodiversit&agrave; dei territori. La proposta comprende inoltre prodotti agricoli complementari, come olio extravergine di oliva pugliese e pasta semintegrale di grano duro Senatore Cappelli, ampliando l&rsquo;offerta verso un paniere di specialit&agrave; artigianali e genuine. In sintesi, A Tutto Miele si presenta come una realt&agrave; familiare e artigianale che unisce passione per l&rsquo;apicoltura, qualit&agrave; dei prodotti naturali e vendita diretta, anche online, di miele e specialit&agrave; legate al mondo delle api.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 121097,
+    "title": "HOTEL ARLECCHINO",
+    "lat": 42.9475823,
+    "lng": 13.881741,
+    "url": "https://fondoambiente.it/luoghi/hotel-arlecchino",
+    "description": "Per iscritti FAI riduzione del 10% per i servizi dell'Hotel Arlecchino a San Benedetto del Trontola riduzione si applica solo per le prenotazioni sui canali della struttura DESCRIZIONE Hotel Arlecchino &egrave; una struttura ricettiva situata a San Benedetto del Tronto, in una posizione privilegiata direttamente sul lungomare e in prossimit&agrave; del centro cittadino. Inserito nel cuore della Riviera delle Palme, l&rsquo;hotel beneficia di un contesto urbano vivace e fortemente legato al mare, dove la dimensione turistica si integra con la vita quotidiana della citt&agrave;. San Benedetto del Tronto &egrave; una delle localit&agrave; balneari pi&ugrave; rappresentative della costa marchigiana, caratterizzata da un ampio lungomare alberato, dalla presenza di palme, giardini, pista ciclabile, stabilimenti balneari, locali e spazi dedicati al tempo libero. In questo scenario, l&rsquo;Hotel Arlecchino si colloca in un punto strategico: vicino alla spiaggia, ma anche facilmente collegato al centro, alle aree pedonali, ai servizi cittadini e ai principali luoghi di interesse. La struttura si rivolge sia a una clientela turistica sia a ospiti che viaggiano per motivi di lavoro, offrendo un ambiente elegante, moderno e funzionale. Le camere, luminose e dotate di comfort, permettono di vivere il soggiorno in un&rsquo;atmosfera accogliente, con la possibilit&agrave; di godere della vicinanza al mare e, allo stesso tempo, della comodit&agrave; dei servizi urbani. La posizione dell&rsquo;Hotel Arlecchino rappresenta uno dei suoi principali punti di forza: consente agli ospiti di vivere San Benedetto del Tronto non solo come destinazione balneare, ma anche come citt&agrave; dinamica, ricca di eventi, ristorazione, percorsi ciclabili, passeggiate sul mare, cultura marinara e luoghi simbolici come il porto, il molo sud, la Palazzina Azzurra e il centro cittadino. L&rsquo;Hotel Arlecchino si presenta quindi come una struttura capace di coniugare ospitalit&agrave;, comfort e valorizzazione del territorio, offrendo un soggiorno immerso nel contesto autentico di San Benedetto del Tronto: una citt&agrave; di mare, accogliente e vivace, in cui turismo, tradizione e qualit&agrave; della vita si incontrano.",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 121096,
+    "title": "HOTEL PROGRESSO",
+    "lat": 42.9452825,
+    "lng": 13.8826186,
+    "url": "https://fondoambiente.it/luoghi/hotel-progresso",
+    "description": "Per iscritti FAI riduzione per i soggiorni presso Hotel Progesso a San Benedetto del Tronto5% o 10% a seconda della stagione, la riduzione verr&agrave; applicata solo sulle prenotazioni dirette con la struttura DESCRIZIONE L&rsquo;Hotel Progresso &egrave; una delle strutture simbolo di San Benedetto del Tronto e rappresenta un autentico pezzo di storia della citt&agrave;. Inaugurato il 15 luglio 1923 da Filippo Camiscioni e dalla moglie Maria Giostra, nacque come &ldquo;Hotel Progresso al Mare&rdquo; in una zona allora ancora poco urbanizzata, a sud del torrente Albula, direttamente affacciata sull&rsquo;arenile. Fu una scelta imprenditoriale coraggiosa e lungimirante: costruire un albergo sul lungomare significava anticipare lo sviluppo turistico di San Benedetto e contribuire alla trasformazione della citt&agrave; in una moderna localit&agrave; balneare. Fin dalla sua apertura, l&rsquo;hotel si distinse per eleganza, accoglienza e modernit&agrave;: disponeva di camere, sale da pranzo, salotti, bar, garage e servizi balneari, elementi innovativi per l&rsquo;epoca. Negli anni divenne un punto di riferimento per famiglie, viaggiatori, professionisti e personalit&agrave; provenienti non solo dalle Marche e dall&rsquo;Abruzzo, ma anche da citt&agrave; italiane ed estere. Il suo ristorante, legato alla tradizione marinara sambenedettese, contribu&igrave; a consolidarne la reputazione come luogo di buona cucina e ospitalit&agrave; familiare. Nel 1987 la gestione pass&ograve; alla famiglia Mancini, che ebbe il merito di ridare vitalit&agrave; alla struttura senza snaturarne l&rsquo;identit&agrave;. Gli interventi di miglioramento hanno aggiornato camere, sale comuni e servizi, preservando per&ograve; gli elementi storici originari, come pavimenti, stucchi, modanature, scala in marmo e ringhiere in ferro battuto. Oggi l&rsquo;Hotel Progresso conserva il fascino liberty degli alberghi di inizio Novecento, unendolo ai comfort richiesti dal turismo contemporaneo. La struttura dispone di camere nella parte storica e nella d&eacute;pendance, sale ristorante eleganti, terrazze affacciate sul lungomare, biblioteca, sala lettura, sale convegni, bar e spazi all&rsquo;aperto. Offre inoltre servizi come Wi-Fi, noleggio biciclette, deposito bagagli, lavanderia, spiaggia convenzionata e accorgimenti per una migliore accessibilit&agrave;. Il cuore dell&rsquo;hotel resta la cucina, curata con attenzione alla tradizione locale e al rapporto con il mare. L&rsquo;Hotel Progresso &egrave; quindi molto pi&ugrave; di un albergo: &egrave; una testimonianza viva dell&rsquo;evoluzione turistica di San Benedetto del Tronto, un luogo in cui memoria, eleganza e accoglienza si incontrano. Dopo oltre cento anni di attivit&agrave;, continua a rappresentare il legame tra la storia della citt&agrave;, la cultura dell&rsquo;ospitalit&agrave; e il fascino senza tempo del lungomare sambenedettese.",
+    "categories": [
+      {
+        "id": 9,
+        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -22506,20 +22552,6 @@
     ]
   },
   {
-    "id": 116757,
-    "title": "PALAZZO GUINIGI",
-    "lat": 43.8438092,
-    "lng": 10.5073859,
-    "url": "https://fondoambiente.it/luoghi/palazzo-guinigi",
-    "description": "Per iscritti FAI biglietto ridotto per la mostra FRIDA E MARILYN &ndash; VITE PARALLELE a Palazzo Guinigi, Lucca dal 26 febbraio al 2 giugno 2026 DESCRIZIONE La mostra &quot;FRIDA E MARILYN &ndash; VITE PARALLELE&quot; a cura di Vincenzo Sanfo e con un testo di Carolina Dema, attraverso oltre 100 fotografie e opere d&rsquo;arte esplora le somiglianze e le differenze tra queste due donne straordinarie, mettendo in evidenza le loro lotte, le loro passioni e le loro creazioni. Immortalate da grandi fotografi dell&rsquo;epoca come Nickolas Muray e Sam Shaw, la mostra offre un viaggio emozionante attraverso la vita di due donne che hanno saputo rompere gli schemi e lasciare un segno indelebile nella storia: si parte da immagini di entrambe bambine e si prosegue in un percorso di crescita e consapevolezza di s&eacute; in cui si pu&ograve; apprezzarne il profondo cambiamento non solo estetico, ma anche emotivo. Legate da destini apparentemente diversi si scoprono, invece, le profonde similitudini, segnate dagli amori tormentati alla profonda volont&agrave; di diventare madre ma che la vita ha loro negato sino ad un profondo impegno politico che le ha viste sempre in prima linea a difendere i propri ideali. Le due personalit&agrave; di Frida e Marilyn, pur essendo quasi coeve e vivendo in paesi diversi, hanno visto incrociarsi le loro vicende, in virt&ugrave; dell&rsquo;amicizia e della passione amorosa condivisa con il fotografo Nickolas Muray, che con Frida ebbe una lunga relazione e con Marilyn una relazione tenuta segreta sino alla sua morte e rivelata, con il ritrovamento di una fotografia con un&rsquo;appassionata dedica, dalla moglie di Muray. In mostra, oltre alle foto di Nickolas Muray si potranno vedere tra gli altri gli scatti di Guillermo Kahlo, Imogen Cunningham, Lucienne Bloch, Sam Sahw, Ed Feingersh che ci raccontano&nbsp; attraverso le loro immagini il pubblico e il privato di Frida e di Marilyn, i loro rapporti con personalit&agrave; importanti e ingombranti, come Diego Rivera noto ed impenitente donnaiolo per Frida e Joe Di Maggio o Arthur Miller, ma sopratutto John Fitzgerald Kennedy, notoriamente malato di sesso, per Marilyn. &nbsp; Foto di scena che ritraggono Marilyn con alcuni suoi compagni di lavoro come Laurence Olivier, Jackie Lemmon, Tony Curtis ma anche Groucho Marx o Gary Grant , si affiancano alle personalit&agrave; vicine a Frida che sono rappresentate nelle istantanee in mostra per far comprendere la ricchezza del loro percorso terreno.Un omaggio a due donne che hanno incarnato la creativit&agrave;, la passione e la determinazione, e che continuano a ispirare generazioni di artisti, registi e appassionati di arte e cinema. &quot;FRIDA E MARILYN &ndash; VITE PARALLELE&quot; &egrave; organizzata dalla Blu&amp;Blu Network in collaborazione con Art Book Web ed &egrave; patrocinata dal Comune di Lucca e sostenuta da RADIO BRUNO, emittente ufficiale della mostra che verr&agrave; inaugurata il 26 febbraio e rester&agrave; allestita fino a tutto il prossimo 2 giugno 2026, con apertura tutti i giorni, festivi inclusi, con orario continuato dalle ore 10,00 alle ore 19,00.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 89684,
     "title": "RELAIS CHIOSTRO - ANGHEL HOTEL",
     "lat": 43.0768054,
@@ -22652,20 +22684,6 @@
     "lng": 11.3887627,
     "url": "https://fondoambiente.it/luoghi/parco-delle-sculture-del-chianti",
     "description": "Per gli iscritti FAI biglietto ridotto del 10% per la visita al Parco delle Sculture del Chianti a Pievasciata (SI) Un parco dove il connubio fra le opere e gli alberi, i suoni, i colori, la luce e ogni altro elemento naturale &egrave; totale. Infatti qui l&#39;opera dell&#39;uomo non tende a prevaricare la natura, ma ad integrarla ed esaltarla. Il Parco Sculture del Chianti &egrave; una mostra permanente di installazioni e sculture contemporanee. La caratteristica principale del Parco &egrave; l&rsquo; integrazione tra arte e natura. Ogni artista ha visitato il bosco ed ha quindi fatto una proposta specifica per il luogo scelto. Il connubio fra le sculture ed il bosco, i suoni, i colori e la luce &egrave; totale. Sono stati scelti artisti provenienti da tutti e cinque i continenti e materiali diversi per dare al visitatore una panoramica sulla variet&agrave; e importanza dell&rsquo;arte contemporanea nel mondo di oggi. All&rsquo;interno del parco &egrave; stato creato un anfiteatro che offre ai visitatori un denso programma di concerti, in luglio e agosto. Arrivando al Parco potete anche vedere alcune opere del progetto Pievasciata B.A.C. Borgo d&rsquo;Arte Contemporanea",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 23088,
-    "title": "SIENA",
-    "lat": 43.321,
-    "lng": 11.3338,
-    "url": "https://fondoambiente.it/luoghi/siena-siena-23088",
-    "description": "Per gli iscritti FAI riduzione del 20 % sul prezzo del biglietto cumulativo di ingresso delle mostre del Siena Awards Festival che, per oltre un mese e mezzo, animeranno Siena ed il suo territorio. DAL 28&nbsp;SETTEMBRE AL 24&nbsp;NOVEMBRE 2024 Alcuni dei fotografi pi&ugrave; importanti del panorama internazionale offriranno un&rsquo;occasione unica per esplorare le loro retrospettive pi&ugrave; significative e i loro reportage pi&ugrave; recenti. In parallelo, rinomati fotogiornalisti si confronteranno su temi cruciali quali l&rsquo;impatto dei conflitti armati e delle guerre e l&rsquo;importanza del giornalismo investigativo. Saranno presentate storie e immagini pubblicate su alcune delle principali testate mondiali, tra cui National Geographic, The Washington Post, Stern, Geo e The New York Times. SCOPRI L&#39;EVENTO QUI Tutte le mostre del Siena Awards saranno aperte, dal 28&nbsp;settembre al 24&nbsp;novembre 2024 Venerd&igrave; dalle 15.00 alle 19.00 Week-End dalle 10.00 alle 19.00 Giorni festivi: 10:00-19:00 INGRESSO VALIDO PER LA VISITA DI TUTTE LE MOSTRE",
     "categories": [
       {
         "id": 8,
@@ -25178,20 +25196,6 @@
     "lng": 11.708008,
     "url": "https://fondoambiente.it/luoghi/villa-pisani-bolognesi-scalabrin",
     "description": "&nbsp; Per gli iscritti FAI biglietto ridotto a Villa Pisani Bolognesi Scalabrin La Villa &egrave; un sontuoso palazzo, ricco di saloni affrescati da Paolo Veronese. All&#39;inizio dell&#39;Ottocento, la Contessa Evelyn Van Millingen Pisani circond&ograve; la Villa di uno straordinario giardino &quot;all&#39;italiana&quot;, tuttora originale, ove alla tradizione italiana del giardino formale si fonde la cultura vittoriana del giardino inglese e del parco romantico. Vasi, fontane, statue e ogni altro elemento rendono questo giardino un &quot;paradiso&quot;.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 117326,
-    "title": "ARTE PADOVA",
-    "lat": 45.4132855,
-    "lng": 11.8882843,
-    "url": "https://fondoambiente.it/luoghi/arte-padova",
-    "description": "Per iscritti FAI riduzione sul biglietto d&#39;ingresso, 8 euro invece che 14 euro, per la mostra ARTEPADOVA BIGLIETTO DA ACQUISTARE IN LOCO DAL 14 AL 17 NOVEMBRE 2025 DESCRIZIONE Quattro giorni all&rsquo;insegna dell&rsquo;arte, con oltre&nbsp;15.000&nbsp;opere in mostra su&nbsp;28.000&nbsp;mq di superficie, oltre 300 espositori&nbsp;e una&nbsp;media di 26.000 visitatori&nbsp;all&rsquo;anno. ArtePadova&nbsp;non &egrave; solo un importante palcoscenico per artisti affermati o che si stanno affermando, ma anche per i talenti emergenti della sezione&nbsp;Contemporary Art Talent Show, riservata a gallerie, associazioni, artisti indipendenti e collettivi che presentino opere d&rsquo;arte accessibili.",
     "categories": [
       {
         "id": 8,
