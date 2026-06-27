@@ -1670,20 +1670,6 @@
     ]
   },
   {
-    "id": 116818,
-    "title": "CASTELLO ORSINI",
-    "lat": 42.0067814,
-    "lng": 13.3874921,
-    "url": "https://fondoambiente.it/luoghi/castello-orsini",
-    "description": "Per Iscritti FAI biglietto ridotto fino al 20% per assistere alla Stagione Teatrale&nbsp;Teatranti tra Tanti presso&nbsp;Castello Orsini &ndash; Avezzano (AQ) DESCRIZIONE La compagnia teatrale&nbsp;Teatranti Tra Tanti&nbsp;viene fondata nel 2008 a Massa d&rsquo;Albe in provincia dell&rsquo;Aquila. E&rsquo; un progetto completo che racchiude Innovazione artistica, Formazione Culturale e Sviluppo dell&rsquo;attivit&agrave; turistica &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 117133,
     "title": "TEATRO DEI MARSI",
     "lat": 42.0381698,
@@ -1722,20 +1708,6 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
-      }
-    ]
-  },
-  {
-    "id": 116010,
-    "title": "ASSOCIAZIONE CULTURALE MUNTAGNINJAZZ",
-    "lat": 42.0198625,
-    "lng": 13.8785949,
-    "url": "https://fondoambiente.it/luoghi/associazione-culturale-muntagninjazz",
-    "description": "Per Iscritti FAI riduzione del 20% per partecipare al Muntagninjazz Festival Il Festival si tiene dal 29&nbsp;Luglio al 21&nbsp;Agosto 2025&nbsp;e in diversi comuni in Abruzzo, scopri dove DESCRIZIONE Diciannovesima edizione di Muntagninjazz, il festival diffuso che trasforma l&rsquo;Abruzzo in un palcoscenico a cielo aperto, dove la musica incontra la natura, l&rsquo;arte dialoga con i borghi e le montagne diventano teatro di emozioni. Quest&rsquo;anno&nbsp;24 concerti,&nbsp;150 artisti&nbsp;e&nbsp;9 comuni&nbsp;coinvolti animeranno&nbsp;18 giorni&nbsp;di concerti, escursioni e incontri che sapranno stupire e coinvolgere tutte le generazioni. Il cuore pulsante dell&rsquo;evento sar&agrave;&nbsp;Sulmona, ma ogni angolo del territorio &mdash; dalla&nbsp;Valle Peligna&nbsp;all&rsquo;Alto Sangro, fino alla&nbsp;Valle del Sagittario&nbsp;&mdash; sar&agrave; protagonista con un programma ricco e variegato: dalle suggestive escursioni-concerto in alta quota, dove la musica si fonde con i paesaggi montani, agli spettacoli per bambini e famiglie, che portano il teatro in scena in luoghi inaspettati. E poi l&rsquo;attesissima &ldquo;Lunga Notte di Muntagninjazz&rdquo;, una maratona musicale fatta di concerti e momenti di condivisione. Muntagninjazz 2025 celebra il&nbsp;dialogo tra innovazione e tradizione, valorizzando le radici culturali del territorio e costruendo ponti tra generazioni. La scelta artistica intreccia linguaggi contemporanei e sonorit&agrave; popolari, promuovendo la ricchezza delle identit&agrave; locali e coinvolgendo realt&agrave; produttive, artistiche e turistiche che rendono questo festival una vera esperienza immersiva.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -2794,20 +2766,6 @@
     ]
   },
   {
-    "id": 90056,
-    "title": "STORICA CASA GROTTA DI VICO SOLITARIO ",
-    "lat": 40.6638152,
-    "lng": 16.6122658,
-    "url": "https://fondoambiente.it/luoghi/storica-casa-grotta-di-vico-solitario",
-    "description": "Per gli iscritti FAI riduzione del 30% sul prezzo del biglietto per la Storica Casa Grotta di Vico Solitario a Matera In questa antica abitazione, in parte scavata nella roccia, sono custoditi attrezzi, suppellettili, mobili autentici del periodo in cui essa era abitata, in modo da offrire ai visitatori l&#39;idea precisa di come era organizzata la vita familiare in molte case dei Sassi. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 103918,
     "title": "VINERIA AI PALMENTI",
     "lat": 40.6639753,
@@ -2846,6 +2804,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 90056,
+    "title": "STORICA CASA GROTTA DI VICO SOLITARIO",
+    "lat": 40.6638152,
+    "lng": 16.6122658,
+    "url": "https://fondoambiente.it/luoghi/storica-casa-grotta-di-vico-solitario",
+    "description": "Per gli iscritti FAI riduzione del 30% sul prezzo del biglietto per la Storica Casa Grotta di Vico Solitario a Matera In questa antica abitazione, in parte scavata nella roccia, sono custoditi attrezzi, suppellettili, mobili autentici del periodo in cui essa era abitata, in modo da offrire ai visitatori l&#39;idea precisa di come era organizzata la vita familiare in molte case dei Sassi. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -6062,20 +6034,6 @@
     ]
   },
   {
-    "id": 11080,
-    "title": "VILLA D'AYALA",
-    "lat": 40.7413148,
-    "lng": 15.270609,
-    "url": "https://fondoambiente.it/luoghi/villa-d-ayala",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 50%) per la visita a Villa D&#39;Ayala a Valva (Salerno). La Villa D&#39;Ayala era la residenza della contessa D&#39;Ayala ed un edificio in una architettura eclettica di gusto classico-barocco. Per gli iscritti FAI 50% di sconto sul prezzo del biglietto",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40064,
     "title": "ASSOCIAZIONE BOLOGNA FESTIVAL",
     "lat": 44.4992479,
@@ -6292,6 +6250,20 @@
     "lng": 11.3070383,
     "url": "https://fondoambiente.it/luoghi/fondazione-golinelli",
     "description": "Per iscritti FAI biglietto ridotto del 20% per le attivit&agrave; della Fondazione Opificio Golinelli a Bologna DESCRIZIONE Fondazione Golinelli, una istituzione filantropica privata totalmente operativa che si propone lo scopo di promuovere, in maniera integrata e coerente, attivit&agrave; di educazione, formazione, ricerca, trasferimento tecnologico, incubazione, accelerazione, venture capital, divulgazione e promozione delle Scienze e delle Arti. Fondazione Golinelli vuole favorire i processi volti al dialogo e alla contaminazione tra discipline diverse, avvicinando i cittadini e aiutando le nuove generazioni nella crescita consapevole e nell&rsquo;implementazione dei propri talenti e capacit&agrave; per lo sviluppo culturale e scientifico del Paese. Fondazione Golinelli sostiene attivit&agrave; di ricerca, realizza progetti di didattica informale e promuove incontri e dibattiti per migliorare il rapporto fra scienza e cittadini, con particolare attenzione ai giovani; realizza a livello nazionale numerose attivit&agrave; di didattica laboratoriale soprattutto nei settori tecnologico e scientifico, destinate a dirigenti scolastici, docenti e studenti delle scuole di ogni ordine e grado, con particolare attenzione all&rsquo;uso critico e responsabile della tecnologia. Ha lanciato OPUS 2065, un programma di sviluppo pluriennale i cui obiettivi principali sono la creazione di percorsi innovativi di formazione dei giovani e degli insegnanti, la ricerca interdisciplinare, il supporto di nuove attivit&agrave; imprenditoriali; ha avviato un importante programma di sviluppo e contaminazione reciproca tra arti, scienze e tecnologie che prevede la realizzazione di conferenze, seminari, esposizioni temporanee rivolti al pubblico, alle scuole, ai ricercatori. Fondazione Golinelli ha realizzato &ldquo;Opificio Golinelli&rdquo;, un ecosistema aperto di 14mila mq che integra in modo coerente le attivit&agrave; di Fondazione Golinelli di educazione, formazione, ricerca, trasferimento tecnologico, incubazione, accelerazione, venture capital, divulgazione e promozione delle scienze e delle arti. La struttura, che vanta circa 120.000 presenze l&rsquo;anno tra studenti, insegnanti e ricercatori, comprende oggi anche G-Factor, incubatore-acceleratore di Fondazione Golinelli, il Centro Arti e Scienze Golinelli, il laboratorio territoriale Opus Facere finanziato dal MIUR e il Competence Center Bi-Rex finanziato dal MISE. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 11080,
+    "title": "VILLA D'AYALA",
+    "lat": 40.7413148,
+    "lng": 15.270609,
+    "url": "https://fondoambiente.it/luoghi/villa-d-ayala",
+    "description": "Per gli iscritti FAI riduzione del 50% sul prezzo del biglietto La Villa D&#39;Ayala era la residenza della contessa D&#39;Ayala ed un edificio in una architettura eclettica di gusto classico-barocco. Questo elegante palazzo nobiliare del XVIII secolo &egrave; circondato da un vasto parco di circa 17 ettari, arricchito da statue, fontane e un labirinto di siepi. Al suo interno, si trovano un teatrino di verzura e un tempietto neoclassico. La villa &egrave; anche nota per essere stata la residenza della famiglia D&#39;Ayala-Valva e per aver ospitato il compositore Giacinto Scelsi. &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -6585,7 +6557,7 @@
     "lat": 44.6485019,
     "lng": 10.9212457,
     "url": "https://fondoambiente.it/luoghi/galleria-estense",
-    "description": "Per iscritti FAI biglietto ridotto del 15% per i siti museali delle Gallerie Estensi a Modena: Galleria Estense di Modena: 5 euro invece che 8 euro Pinacoteca Nazionale di Ferrara: 5 euro invece che 8 euro La Galleria Estense di Modena &egrave; una delle pi&ugrave; importanti e pi&ugrave; antiche Gallerie Nazionali d&#39;Italia. Le collezioni riflettono i poliedrici e raffinati gusti degli Este, indirizzati non solo alla pittura e alla scultura, ma anche verso le antichit&agrave; e le arti decorative, la grafica e la numismatica. Ad una ricchissima quadreria &ndash; che presenta soprattutto capolavori della pittura emiliana dal XIV al XVIII secolo, da Cosm&egrave; Tura al Correggio, dai Carracci a Guercino a Guido Reni &ndash; si aggiungono infatti un&#39;importante raccolta grafica (disegni, stampe, matrici silografiche), una sceltissima collezione di sculture antiche e moderne, una significativa selezione di arti decorative (metalli, vetri, avori, maioliche, ceramiche, mobili e arredi) e una delle pi&ugrave; cospicue raccolte numismatiche del mondo (monete antiche e moderne, medaglie e placchette, sigilli, coni e punzoni). La collezione arrivata fino a noi &egrave; il frutto di una storia di mecenatismo e acquisizioni iniziata a Ferrara e continuata con energia dopo il trasferimento della corte estense a Modena, alternate a perdite e dispersioni, come la vendita di cento dipinti nel 1746 all&#39;Elettore di Sassonia Augusto III (tuttora conservati a Dresda) e le spoliazioni napoleoniche. La Galleria venne lasciata in eredit&agrave; alla citt&agrave; dall&#39;ultimo duca, Francesco V d&#39;Austria-Este, e poi trasferita nell&#39;attuale sede del Palazzo dei Musei, dove ha riaccolto nel corso del Novecento alcune delle opere anticamente appartenenti al patrimonio estense.",
+    "description": "Per iscritti FAI biglietto ridotto del 15% per i siti museali delle Gallerie Estensi a Modena: Galleria Estense di Modena: 7 euro invece che 8 euro Pinacoteca Nazionale di Ferrara: 7 euro invece che 8 euro La Galleria Estense di Modena &egrave; una delle pi&ugrave; importanti e pi&ugrave; antiche Gallerie Nazionali d&#39;Italia. Le collezioni riflettono i poliedrici e raffinati gusti degli Este, indirizzati non solo alla pittura e alla scultura, ma anche verso le antichit&agrave; e le arti decorative, la grafica e la numismatica. Ad una ricchissima quadreria &ndash; che presenta soprattutto capolavori della pittura emiliana dal XIV al XVIII secolo, da Cosm&egrave; Tura al Correggio, dai Carracci a Guercino a Guido Reni &ndash; si aggiungono infatti un&#39;importante raccolta grafica (disegni, stampe, matrici silografiche), una sceltissima collezione di sculture antiche e moderne, una significativa selezione di arti decorative (metalli, vetri, avori, maioliche, ceramiche, mobili e arredi) e una delle pi&ugrave; cospicue raccolte numismatiche del mondo (monete antiche e moderne, medaglie e placchette, sigilli, coni e punzoni). La collezione arrivata fino a noi &egrave; il frutto di una storia di mecenatismo e acquisizioni iniziata a Ferrara e continuata con energia dopo il trasferimento della corte estense a Modena, alternate a perdite e dispersioni, come la vendita di cento dipinti nel 1746 all&#39;Elettore di Sassonia Augusto III (tuttora conservati a Dresda) e le spoliazioni napoleoniche. La Galleria venne lasciata in eredit&agrave; alla citt&agrave; dall&#39;ultimo duca, Francesco V d&#39;Austria-Este, e poi trasferita nell&#39;attuale sede del Palazzo dei Musei, dove ha riaccolto nel corso del Novecento alcune delle opere anticamente appartenenti al patrimonio estense.",
     "categories": [
       {
         "id": 8,
@@ -8912,20 +8884,6 @@
     ]
   },
   {
-    "id": 40125,
-    "title": "AUDITORIUM PARCO DELLA MUSICA",
-    "lat": 41.9288237,
-    "lng": 12.4744257,
-    "url": "https://fondoambiente.it/luoghi/auditorium-parco-della-musica",
-    "description": "L&rsquo;Accademia Nazionale di Santa Cecilia apre le sue porte al FAI per una serata speciale dedicata ai suoi iscritti: acquisto di biglietto in platea con il 50% di riduzione, 27 &euro; al posto di 56 &euro;. Venerd&igrave; 22 maggio&nbsp; - concerto -&nbsp; ore 20.00 - Sala Santa Cecilia Orchestra dell&rsquo;Accademia Nazionale di Santa Cecilia -&nbsp;Mozart Concerto per pianoforte n. 22 K482&nbsp;Strauss Sinfonia delle Alpi ACQUISTO DIRETTO QUI INOLTRE VISITA ESCLUSIVA AL MUSEO MUSA alle 18:40 per i&nbsp;primi 70 iscritti FAI&nbsp;che acquisteranno il biglietto avranno accesso esclusivo alla&nbsp;visita del Museo e della Collezione di Strumenti&nbsp;dell&rsquo;Accademia prima del concerto &nbsp; &nbsp; &nbsp; &nbsp; Modalit&agrave; di accredito per partecipare alla visita al MUSA :&nbsp; gli iscritti FAI&nbsp;dovranno: Inviare una mail a&nbsp;convenzioni@delegazionefairoma.org Allegare il biglietto acquistato Specificare nel corpo dell&rsquo;e-mail: Nome e Cognome, Fila e posto in sala Inviare&nbsp;entro mercoled&igrave; 20 maggio DESCRIZIONE EVENTO Orchestra&nbsp;dell&rsquo;Accademia Nazionale di Santa Cecilia direttore&nbsp;Semyon Bychkov pianoforte&nbsp;Emanuel Ax Mozart Concerto per pianoforte n. 22 K482 Strauss Sinfonia delle Alpi Emanuel Ax&nbsp;&egrave; un interprete raffinato a suo agio nel repertorio pianistico classico e in quello contemporaneo. Il suo tocco cristallino &egrave; quindi particolarmente indicato per uno dei concerti mozartiani pi&ugrave; brillanti, in cui il pianoforte dialoga con l&rsquo;orchestra in una serrata alternanza di melodia e passaggi virtuosistici. Nella seconda parte della serata la suggestiva Sinfonia delle Alpi&nbsp;nella quale Richard Strauss&nbsp;mette in musica l&rsquo;amore per la natura e per la bellezza delle Alpi bavaresi. Sul podio Semyon Bychkov&nbsp;uno dei giganti del podio, affezionato protagonista delle stagioni ceciliane.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 108525,
     "title": "BETTOJA HOTEL ATLANTICO",
     "lat": 41.9000555,
@@ -9146,20 +9104,6 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
-      }
-    ]
-  },
-  {
-    "id": 108027,
-    "title": "GIARDINI DI VILLA BORGHESE",
-    "lat": 41.914522,
-    "lng": 12.492537,
-    "url": "https://fondoambiente.it/luoghi/giardini-di-villa-borghese",
-    "description": "Per iscritti FAI riduzione del 20% per la programmazione cinematografica della Casa del Cinema all&#39;interno di Villa Borghese a Roma DESCRIZIONE ENTE La Casa del Cinema si trova a Roma, in largo Marcello Mastroianni 1, all&rsquo;interno di Villa Borghese e a pochi passi da via Veneto, uno dei luoghi simbolo del cinema italiano nel mondo. La Casa del Cinema &egrave; un luogo vivo e ricco di eventi, uno spazio dedicato al cinema, alla cultura e alla condivisione, fruibile ogni giorno per tutto l&rsquo;anno. Si sviluppa su una superficie di 2.500 metri quadrati ed accoglie tre sale cinematografiche di differenti capienze per un totale di oltre 220 posti: la Sala Cinecitt&agrave; (118 posti), la Sala Fellini (65 posti) e la Sala Gian Maria Volont&egrave; (46 posti). Nei mesi estivi, dispone di una grande arena cinematografica, il Teatro all&#39;aperto Ettore Scola (300 posti). Il Salotto Suso &egrave; destinato ad attivit&agrave; di networking, mentre gli spazi espositivi &quot;Sergio Amidei&quot; e &quot;Cesare Zavattini&quot; ospitano mostre dedicate prevalentemente al cinema e ai suoi protagonisti. Fra i servizi disponibil c&#39;&egrave; anche un&#39;area Caffetteria e Ristorante. COSA VEDERE Programmazione ricca e variegata: SCOPRI TUTTO IL CALENDARIO La biglietteria/infopoint&nbsp;della Casa del Cinema sar&agrave; aperta con i seguenti orari: &ndash; MAGGIO | Dal luned&igrave; al venerd&igrave;: 16-22 &ndash; Sabato: 14-22 &ndash; Domenica: 10-18 &ndash; GIUGNO | Dal luned&igrave; al venerd&igrave;: 17-22 &ndash; Sabato e domenica: 11-22",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -9692,20 +9636,6 @@
     "lng": 12.3005177,
     "url": "https://fondoambiente.it/luoghi/anfiteatro-romano-di-ostia-antica",
     "description": "Per iscritti FAI riduzione sugli spettacoli del TEATRO OSTIA ANTICA FESTIVAL 25 giugno &ndash; 18 luglio 2026 &nbsp; MODALITA&#39; DI RIDUZIONE: per accedere alla riduzione &egrave; necessario richiedere il biglietto ridotto scrivendo all&#39;indirizzo&nbsp;promozione@teatrodiroma.net, NON &egrave; possibile acquistarlo presso la biglietteria SCOPRI LA PROGRAMMAZIONE DESCRIZIONE Il Teatro di Roma torna in scena a Ostia Antica. Al via la seconda edizione del Teatro Ostia Antica Festival 2026. Il Senso del Passato. Nello straordinario scenario del Teatro Romano di Ostia un cartellone di respiro internazionale che intreccia la forza del mito classico con i linguaggi della contemporaneit&agrave;, offrendo uno sguardo sulle sfide del presente. Dalla tragedia greca alla danza d&rsquo;avanguardia, il Festival si distingue per l&rsquo;incontro tra tradizione e l&rsquo;innovazione della scena contemporanea, attraverso le creazioni di quattro maestri della scena nazionale e internazionale: Theodoros Terzopoulos, Asterios Peltekis, Angelin Preljocaj e Filippo Dini. &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 104866,
-    "title": "TEATRO SALA UMBERTO",
-    "lat": 41.903153,
-    "lng": 12.4819515,
-    "url": "https://fondoambiente.it/luoghi/teatro-sala-umberto",
-    "description": "Per iscritti FAI riduzione speciale per domenica 21 maggio alle 20:30, per solo 40 posti dello spettacolo MINCHIA SIGNOR TENENTE alla Sala Umberto di Roma Riduzione speciale: ridotto 30% su tutti i settori -&nbsp;Quantit&agrave; posti riservati: 40&nbsp; Poltronissima &euro; 17,50 anzich&eacute; &euro; 25,00&nbsp; Poltrona A &euro; 15,50 anzich&eacute; &euro; 22,00&nbsp; Poltrona B &euro; 12,50 anzich&eacute; &euro; 18,00 Modalit&agrave; di prenotazione Scrivere all&rsquo;indirizzo promozioni@salaumberto.com indicando &ldquo;Evento Speciale FAI&rdquo; con il dettaglio del numero di posti ed il settore scelto. La riduzione dedicata verr&agrave; applicata fino ad esaurimento posti nel settore richiesto. DESCRIZIONE Crediti: con Antonio Grosso | Adriano Aiello | Gaspare Di Stefano | Francesco Nannarelli | Delia Oddo | Antonello Pascale | Giuseppe Renzo | Franco Scascitelli | Mariano Viggiano |Martina Zuccarello e con Natale Russo&nbsp;&nbsp; scritto e diretto da Antonio Grosso 3atro Produzione Sinossi Una commedia travolgente e originale, che alterna momenti di leggerezza e riflessioni profonde sulla realt&agrave; della mafia. Minchia Signor Tenente esplora il concetto di libert&agrave; attraverso l&rsquo;amore, l&rsquo;amicizia e l&rsquo;onest&agrave;, raccontando una storia universale in cui ognuno pu&ograve; immedesimarsi.",
     "categories": [
       {
         "id": 10,
@@ -10820,20 +10750,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 88186,
-    "title": "FESTIVAL PAGANIANO DI CARRO",
-    "lat": 44.2731914,
-    "lng": 9.604491,
-    "url": "https://fondoambiente.it/luoghi/festival-paganiano-di-carro",
-    "description": "Per gli iscritti FAI riduzione del 20% per gli spettacoli del Festival Paganiano di Carro (SP) DESCRIZIONE Il Festival &egrave; nato nel luglio del 2002 con tre concerti eseguiti a &nbsp;Carro e si caratterizza per svolgersi&nbsp; in molti paesi &nbsp;della Val di Vara, un territorio di grande bellezza paesaggistica, oltre che in note mete turistiche &nbsp;della Riviera, quali Bonassola, Levanto, Framura. A Carro, paese di origine degli avi di Niccol&ograve; Paganini ogni anno vengono eseguiti tre concerti: il concerto inaugurale, quello di fine luglio e il concerto finale, rimane&nbsp; il riferimento principale del Festival. Organizzato dalla&nbsp;Societ&agrave; dei Concerti, il Festival &egrave; sostenuto dal MIC, la Regione Liguria la Fondazione Carispezia, dai Comuni che partecipano all&rsquo;iniziativa e dall&rsquo;Associazione Amici del Festival paganiniano di Carro. SCOPRI IL PROGRAMMA",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
