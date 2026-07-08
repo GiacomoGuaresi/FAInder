@@ -299,7 +299,7 @@
     "lat": 45.74644,
     "lng": 10.951792,
     "url": "https://fondoambiente.it/luoghi/castello-di-avio",
-    "description": "Una roccaforte all’ingresso del Trentino",
+    "description": "Torri, mura merlate e vivaci affreschi in una roccaforte all’ingresso del Trentino",
     "categories": [
       {
         "id": null,
@@ -10530,20 +10530,6 @@
     ]
   },
   {
-    "id": 113875,
-    "title": "CADIONI - BOUTIQUE EMPORIO",
-    "lat": 43.7793608,
-    "lng": 7.6639033,
-    "url": "https://fondoambiente.it/luoghi/cadioni-boutique-emporio",
-    "description": "Per iscritti FAI riduzione del 10% per gli acquisti presso Cadioni - Boutique Emporio a Bordighera (IM) DESCRIZIONE ENTE CADIONI nasce da un&#39;attenta ricerca e selezione di laboratori artigianali italiani della pelle. La Casa realizza borse e accessori esclusivi. COSA SI PUO&#39; ACQUISTARE Pelletterie, borse, accessori e profumi",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 95677,
     "title": "MUSEO BIBLIOTECA CLARENCE BICKNELL",
     "lat": 43.7823962,
@@ -10922,6 +10908,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 113875,
+    "title": "CADIONI - BOUTIQUE EMPORIO",
+    "lat": 43.7793608,
+    "lng": 7.6639033,
+    "url": "https://fondoambiente.it/luoghi/cadioni-boutique-emporio",
+    "description": "Per iscritti FAI riduzione del 10% per gli acquisti presso Cadioni - Boutique Emporio a Bordighera (IM) DESCRIZIONE ENTE CADIONI nasce da un&#39;attenta ricerca e selezione di laboratori artigianali italiani della pelle. La Casa realizza borse e accessori esclusivi. COSA SI PUO&#39; ACQUISTARE Pelletterie, borse, accessori e profumi",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -15876,20 +15876,6 @@
     ]
   },
   {
-    "id": 40263,
-    "title": "GROTTE DEL CANTINONE",
-    "lat": 43.486827,
-    "lng": 13.482765,
-    "url": "https://fondoambiente.it/luoghi/grotte-del-cantinone",
-    "description": "Per gli iscritti FAI riduzione del 20% sulla visita alle Grotte del Cantinone a Osimo (AN) &nbsp;Le grotte, sottostanti il Mercato Coperto ed il Convento di San Francesco, sono notevole interesse storico. In esse infatti sono stati trovati i resti di un abitato dell&rsquo;Et&agrave; del Ferro e alcuni reperti riferibili all&rsquo;et&agrave; del Bronzo. &nbsp; &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40264,
     "title": "MUSEO CIVICO E PALAZZO CAMPANA ",
     "lat": 43.486384,
@@ -16324,20 +16310,6 @@
     ]
   },
   {
-    "id": 118744,
-    "title": "ASCOLI PICENO",
-    "lat": 42.84775,
-    "lng": 13.5572351,
-    "url": "https://fondoambiente.it/luoghi/ascoli-piceno",
-    "description": "Per Iscritti FAI biglietto ridotto per assistere all&#39; Ascoli Piceno Festival DESCRIZIONE Il festival si aprir&agrave; il 5 ottobre al 30 novembre. Tutti i concerti saranno realizzati i gioved&igrave; alle ore 20:30 e le domeniche alle ore 18:00. Ascoli Piceno Festival &egrave; un nuovo progetto fortemente dinamico di cultura musicale, identificato da un proprio brand, che l&rsquo;associazione senza scopo di lucro mette a disposizione di Ascoli e del suo territorio. E&rsquo; la musica in tutte le sue declinazioni: da quella colta a quella popolare. E&rsquo; la musica, espressione di sentimenti profondi, che eleva lo spirito, sconfigge il disagio dell&rsquo;anima e aiuta a vivere meglio. PROGRAMMA 5 ottobre&nbsp; QUARTETTO EOS&nbsp;E IL ROMANTICISMO 9 ottobre&nbsp; DALL&rsquo;OPERA AL ROCK LINGUAGGI DIVERSI&nbsp;TRIO DANTE 16 ottobre&nbsp; UN PASSO OLTRE I PIRENEI LA VOCE DELLE DONNE 19 ottobre&nbsp; BEGINNINGS YOUNG STARS&nbsp;TRIO CLARA 23 ottobre FROM PARIS TO NEW YORK LINGUAGGI DIVERSI&nbsp;DUO DI BACCO-MAZZOCCANTE 26 ottobre ENRICO DINDO&nbsp;PER MICHAEL 30 ottoobre I COLORI DELLO SWING&nbsp;LINGUAGGI DIVERSI 2 novembre&nbsp;ANDREI IONI A&nbsp;PER MICHAEL 6 novembre&nbsp;IL MANDOLINO CLASSICO 9 novembre&nbsp;GLI ENIGMI DEL CUORE&nbsp;LA VOCE DELLE DONNE 13 novembre&nbsp;TRIO CHIMERA&nbsp;YOUNG STAR 16 novembre&nbsp;SHOSTAKOVICH 50 20 novembre&nbsp;AMORI SOSPESI&nbsp;LINGUAGGI DIVERSI 23 novembre&nbsp;MOZART - SALIERI&nbsp;TRA LEGGENDA E VERITA&#39; 27 novembre LA MUSICA E&#39; UNA COSA MERAVIGLIOSA L. V. Beethoven:&nbsp;Concerto per violino e orchestra 30 novembre COMPOSITRICI E COMPOSITORI A CONFRONTO&nbsp;LA VOCE DELLE DONNE",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 40274,
     "title": "CASTELLO PALLOTTA",
     "lat": 43.1367651,
@@ -16455,7 +16427,21 @@
     "lat": 43.1923,
     "lng": 13.3739,
     "url": "https://fondoambiente.it/luoghi/parco-archeologico-urbisaglia",
-    "description": "Per iscritti FAI biglietto ridotto, 4 euro invece che 5 euro, per la visita al Parco Archeologico di Urbisaglia (MC) - compresa Abbazia di Fiastra II Parco Archeologico di Urbs Salvia si sviluppa per circa 40 ettari ed &egrave; il pi&ugrave; importante e spettacolare delle Marche. Il percorso di visita, che si snoda in gradevoli sentieri scendendo attraverso un comodo tracciato di circa un chilometro, consente di cogliere nella sua interezza la struttura di una tipica citt&agrave; romana.&nbsp;Nel punto pi&ugrave; alto &egrave; collocato il&nbsp;Serbatoio&nbsp;dell&rsquo;acquedotto, due gallerie parallele che rifornivano d&rsquo;acqua la citt&agrave; sottostante. Pi&ugrave; in basso il&nbsp;Teatro, uno dei pi&ugrave; grandi d&rsquo;Italia e l&rsquo;unico che conservi consistenti tracce di intonaco dipinto. Fu edificato in laterizi all&rsquo;inizio del I sec. d.C. Il sottostante &ldquo;Edificio a nicchioni&rdquo; fungeva da scenografico raccordo dei vari livelli della citt&agrave;, cio&egrave; fra il sovrastante pianoro del teatro e il foro.&nbsp;Ai piedi della collina sorge la maestosa area sacra, costituita da un tempio minore e da un grande&nbsp;Tempio con criptoportico, corridoio sotterraneo dove si possono ammirare pregevoli affreschi con iconografie legate alla propaganda augustea e deliziosi riquadri con scene di animali intervallate da maschere lunari. Al di fuori dell&rsquo;imponente&nbsp;Cinta muraria, alta in alcuni punti fino a cinque metri, si trova l&#39;Anfiteatro, fatto costruire da Lucio Flavio Silva Nonio Basso alla fine del I sec. d.C.&nbsp;Nei pressi dell&rsquo;Anfiteatro sorgono due imponenti Monumenti funerari. La visita al&nbsp;Museo Archeologico&nbsp;Statale permette infine di avere uno sguardo d&rsquo;insieme sulla civilizzazione romana del sito.",
+    "description": "Per iscritti FAI biglietto ridotto, 4 euro invece che 5 euro, per la visita al&nbsp;Parco Archeologico Urbs Salvia a&nbsp;Urbisaglia (MC) - compresa Abbazia di Fiastra DESCRIZIONE II Parco Archeologico di Urbs Salvia si sviluppa per circa 40 ettari ed &egrave; il pi&ugrave; importante e spettacolare delle Marche. Il percorso di visita, che si snoda in gradevoli sentieri scendendo attraverso un comodo tracciato di circa un chilometro, consente di cogliere nella sua interezza la struttura di una tipica citt&agrave; romana.&nbsp;Nel punto pi&ugrave; alto &egrave; collocato il&nbsp;Serbatoio&nbsp;dell&rsquo;acquedotto, due gallerie parallele che rifornivano d&rsquo;acqua la citt&agrave; sottostante. Pi&ugrave; in basso il&nbsp;Teatro, uno dei pi&ugrave; grandi d&rsquo;Italia e l&rsquo;unico che conservi consistenti tracce di intonaco dipinto. Fu edificato in laterizi all&rsquo;inizio del I sec. d.C. Il sottostante &ldquo;Edificio a nicchioni&rdquo; fungeva da scenografico raccordo dei vari livelli della citt&agrave;, cio&egrave; fra il sovrastante pianoro del teatro e il foro.&nbsp;Ai piedi della collina sorge la maestosa area sacra, costituita da un tempio minore e da un grande&nbsp;Tempio con criptoportico, corridoio sotterraneo dove si possono ammirare pregevoli affreschi con iconografie legate alla propaganda augustea e deliziosi riquadri con scene di animali intervallate da maschere lunari. Al di fuori dell&rsquo;imponente&nbsp;Cinta muraria, alta in alcuni punti fino a cinque metri, si trova l&#39;Anfiteatro, fatto costruire da Lucio Flavio Silva Nonio Basso alla fine del I sec. d.C.&nbsp;Nei pressi dell&rsquo;Anfiteatro sorgono due imponenti Monumenti funerari. La visita al&nbsp;Museo Archeologico&nbsp;Statale permette infine di avere uno sguardo d&rsquo;insieme sulla civilizzazione romana del sito.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40263,
+    "title": "GROTTE DEL CANTINONE",
+    "lat": 43.486827,
+    "lng": 13.482765,
+    "url": "https://fondoambiente.it/luoghi/grotte-del-cantinone",
+    "description": "Per gli iscritti FAI riduzione del 20% sulla visita alle Grotte del Cantinone a Osimo (AN) &nbsp;Le grotte, sottostanti il Mercato Coperto ed il Convento di San Francesco, sono notevole interesse storico. In esse infatti sono stati trovati i resti di un abitato dell&rsquo;Et&agrave; del Ferro e alcuni reperti riferibili all&rsquo;et&agrave; del Bronzo. &nbsp; &nbsp; &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -16652,20 +16638,6 @@
     "lng": 12.8208677,
     "url": "https://fondoambiente.it/luoghi/museo-dei-bronzi-dorati-e-della-citta-di-pergola",
     "description": "Per Iscritti FAI biglietto ridotto a 6 euro anzich&eacute; 7 euro per l&#39;ingresso al Museo dei Bronzi Dorati e della Citt&agrave; di Pergola DESCRIZIONE Inaugurato il 9 ottobre 1999, il Museo dei Bronzi Dorati e della Citt&agrave; di Pergola ha sede nell&rsquo;ex convento di San Giacomo, contemporaneo o di poco successivo all&rsquo;attigua e omonima chiesa romanico-gotica del XIII secolo. I primi documenti che lo riguardano risalgono al 1390, quando viene citato in un atto testamentario. Nato come convento di suore agostiniane, nei primi anni del XVII secolo diventa monastero di clausura, adeguandosi alle nuove esigenze di vita religiosa. Nel 1862, dopo l&rsquo;Unita d&rsquo;Italia e in seguito alla soppressione degli ordini monastici, le monache lasciano la struttura, che viene utilizzata prima come orfanotrofio, poi come ospizio e infine come scuola. Attualmente una parte dell&rsquo;edificio e sede del liceo scientifico &ldquo;Giacomo Torelli&rdquo;, sezione staccata di Fano. Rimaneggiato pi&ugrave; volte nel corso dei secoli, le ultime modifiche risalgono alla prima meta del Novecento: della costruzione originaria rimangono alcune tracce nella parte sud e nelle arcate del cortile interno del liceo, un tempo probabilmente unito all&rsquo;attuale chiostro, attorno a cui si articola l&rsquo;intero percorso espositivo del museo.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 40278,
-    "title": "MUSEI CIVICI",
-    "lat": 43.91116,
-    "lng": 12.91327,
-    "url": "https://fondoambiente.it/luoghi/musei-civici",
-    "description": "Per gli iscritti FAI biglietto cumulativo 11 euro invece di 13 euro,&nbsp; mentre il biglietto BASE che consente l&#39;accesso a due sedi 8 euro invece che 12 euro - lo sconto vale anche per l&rsquo;ingresso alle mostre temporanee. Riduzione del 10% per gli acquisti al bookshop. SEDI PESARO MUSEI Palazzo Mosca - Musei Civici - Piazza Mosca 29 Il museo della citt&agrave; che ospita mostre temporanee e conserva importanti collezioni. Dalla Sala Bellini con l&#39;Incoronazione della Vergine, sommo esempio del Rinascimento, si prosegue con sculture, arti applicate, maioliche del Ducato di Urbino, opere di soggetto sacro e profano dal XVI al XVIII secolo, tra cui la Caduta dei Giganti di Guido Reni, e nature morte del Sei e Settecento. Museo Nazionale Rossini - Via G. Passeri 72 Il museo ha sede in Palazzo Montani Antaldi e racconta la grandezza dell&rsquo;artista e l&rsquo;attualit&agrave; di Gioachino Rossini. Un percorso scandito in dieci sale, suddivise in due Atti e un Intermezzo come un&rsquo;opera lirica, metafora della sua vita. Le tappe biografiche e la documentazione delle opere sono ambientati di volta in volta nel contesto storico, tra luoghi e personaggi, grazie a supporti multimediali e interattivi. Ospita eventi e mostre dedicate alla musica di tutti i tempi, alla sua storia e al suono. Casa Rossini - Via Rossini 34 La casa natale di Gioachino Rossini. Le collezioni ne documentano vita e opere attraverso stampe, incisioni, litografie, ritratti, caricature e mostre tematiche approfondiscono vari temi. Sala audio e video e tecnologie multimediali permettono di consultare l&#39;importante patrimonio in modo accattivante. Al piano terra ad accogliere il visitatore uno Store tutto dedicato al Cigno. Domus - Area Archeologica di Via dell&#39;Abbondanza - Via dell&#39;Abbondanza 21 La Domus di Pesaro &egrave; un esempio di abitazione signorile della prima et&agrave; imperiale romana, riccamente decorata. Sono esposti ceramiche, lucerne e oggetti della vita quotidiana e spicca la testa di un piccolo Eros dormiente in terracotta. Grande impatto &egrave; affidato al percorso virtuale, vero e proprio unicum nelle Marche. Area Archeologica e Antiquarium di Colombarone - Strada San Cristoforo 136 Area archeologica immersa nel verde del Parco San Bartolo da cui sono emerse una villa tardoantica con pregiati mosaici, la basilica cristiana di S. Cristoforo ad Aquilam, circondata da un&rsquo;area cimiteriale, e una pieve. Il piccolo Antiquarium racconta la storia degli scavi ed espone i reperti rinvenuti nei molti anni di ricerche. Centro Arti Visive Pescheria - Corso XI Settembre 184 Da antica pescheria a spazio espositivo, l&#39;edificio a loggiato del primo Ottocento, con soffitto a trabeazioni in legno, e l&#39;adiacente chiesa seicentesca del Suffragio, dal 1996 sono sede del Centro Arti Visive Pescheria, la cui finalit&agrave; &egrave; di promuovere mostre di arte contemporanea e design.",
     "categories": [
       {
         "id": 8,
@@ -17118,6 +17090,20 @@
     "lng": 14.5131886,
     "url": "https://fondoambiente.it/luoghi/muves-museo-delle-vestimenta",
     "description": "Per iscritti FAI riduzione per la visita al MUVES - Museo delle Vestimenta a Campobasso 10% di riduzione per la visita guidata 20% di riduzione per l&#39;ingresso&nbsp; DESCRIZIONE La Collezione Scasserra conta un numero considerevole di costumi interi e di singoli capi; nel Muves sono esposti 30 costumi femminili completi, oltre ad un centinaio di pezzi sciolti (copricapo, camice, maniche, corpetti, gonne, grembiuli, fazzoletti e accessori) che fanno bella mostra nelle sezioni monotematiche. Tutto il materiale &egrave; stato raccolto nei vari paesi molisani e anche in alcuni paesi campani come Gallo e Letino che fino al secondo conflitto mondiale facevano parte della provincia di Campobasso. L&rsquo;arco cronologico della datazione va dalla prima met&agrave; dell&rsquo;Ottocento fino agli anni Trenta del Novecento, ovvero, dal periodo di massimo utilizzo al periodo del declino. Si tratta di vestimenta e capi prevalentemente di uso nuziale o festivo; ci&ograve; giustifica la preziosit&agrave; delle stoffe, la ricercatezza dei ricami e lo sfarzo delle decorazioni in oro e argento. La maggior parte di questi costumi erano doni di nozze da parte degli sposi alle spose; le famiglie di pastori transumanti dell&rsquo;area del Matese manifestavano pubblicamente il loro benessere economico attraverso la suntuosit&agrave; dei costumi e dei gioielli che donavano alle novelle spose. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40278,
+    "title": "MUSEI CIVICI",
+    "lat": 43.91116,
+    "lng": 12.91327,
+    "url": "https://fondoambiente.it/luoghi/musei-civici",
+    "description": "Per gli iscritti FAI biglietto cumulativo 11 euro invece di 13 euro,&nbsp; mentre il biglietto BASE che consente l&#39;accesso a due sedi 8 euro invece che 12 euro - lo sconto vale anche per l&rsquo;ingresso alle mostre temporanee. Riduzione del 10% per gli acquisti al bookshop. SEDI PESARO MUSEI Palazzo Mosca - Musei Civici - Piazza Mosca 29 Il museo della citt&agrave; che ospita mostre temporanee e conserva importanti collezioni. Dalla Sala Bellini con l&#39;Incoronazione della Vergine, sommo esempio del Rinascimento, si prosegue con sculture, arti applicate, maioliche del Ducato di Urbino, opere di soggetto sacro e profano dal XVI al XVIII secolo, tra cui la Caduta dei Giganti di Guido Reni, e nature morte del Sei e Settecento. Museo Nazionale Rossini - Via G. Passeri 72 Il museo ha sede in Palazzo Montani Antaldi e racconta la grandezza dell&rsquo;artista e l&rsquo;attualit&agrave; di Gioachino Rossini. Un percorso scandito in dieci sale, suddivise in due Atti e un Intermezzo come un&rsquo;opera lirica, metafora della sua vita. Le tappe biografiche e la documentazione delle opere sono ambientati di volta in volta nel contesto storico, tra luoghi e personaggi, grazie a supporti multimediali e interattivi. Ospita eventi e mostre dedicate alla musica di tutti i tempi, alla sua storia e al suono. Casa Rossini - Via Rossini 34 La casa natale di Gioachino Rossini. Le collezioni ne documentano vita e opere attraverso stampe, incisioni, litografie, ritratti, caricature e mostre tematiche approfondiscono vari temi. Sala audio e video e tecnologie multimediali permettono di consultare l&#39;importante patrimonio in modo accattivante. Al piano terra ad accogliere il visitatore uno Store tutto dedicato al Cigno. Domus - Area Archeologica di Via dell&#39;Abbondanza - Via dell&#39;Abbondanza 21 La Domus di Pesaro &egrave; un esempio di abitazione signorile della prima et&agrave; imperiale romana, riccamente decorata. Sono esposti ceramiche, lucerne e oggetti della vita quotidiana e spicca la testa di un piccolo Eros dormiente in terracotta. Grande impatto &egrave; affidato al percorso virtuale, vero e proprio unicum nelle Marche. Area Archeologica e Antiquarium di Colombarone - Strada San Cristoforo 136 Area archeologica immersa nel verde del Parco San Bartolo da cui sono emerse una villa tardoantica con pregiati mosaici, la basilica cristiana di S. Cristoforo ad Aquilam, circondata da un&rsquo;area cimiteriale, e una pieve. Il piccolo Antiquarium racconta la storia degli scavi ed espone i reperti rinvenuti nei molti anni di ricerche. Centro Arti Visive Pescheria - Corso XI Settembre 184 Da antica pescheria a spazio espositivo, l&#39;edificio a loggiato del primo Ottocento, con soffitto a trabeazioni in legno, e l&#39;adiacente chiesa seicentesca del Suffragio, dal 1996 sono sede del Centro Arti Visive Pescheria, la cui finalit&agrave; &egrave; di promuovere mostre di arte contemporanea e design.",
     "categories": [
       {
         "id": 8,
@@ -20444,20 +20430,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 79972,
-    "title": "FARM CULTURAL PARK",
-    "lat": 37.313558,
-    "lng": 13.6583313,
-    "url": "https://fondoambiente.it/luoghi/farm-cultural-park",
-    "description": "Per iscritti FAI riduzione del 30% per i servizi offerti dal Farm Cultural Park di Favara (AG) Il Farm Cultural Park &egrave; un complesso museale di arte contemporanea che si sviluppa in una zona del centro storico di Favara chiamata dei &quot;Sette Cortili&quot;, dove si svolgono mostre, convegni, sperimentazioni culturali che nel tempo sono diventati uno dei grandi attrattori culturali del territorio. Prima di FARM Favara era un piccolo centro rurale con uno straordinario centro storico abbandonato, testimonianza di un passato glorioso ma con un presente inadeguato. FARM che Maurizio Carta ha definito &ldquo;un acceleratore di particelle culturali&rdquo; ha trasformato i Sette Cortili in una galleria d&rsquo;arte, in residenze d&rsquo;artista, in luoghi dove il cibo diventa cultura del territorio. Sono spazi per la socialit&agrave; e l&rsquo;abitare temporaneo, spazi che ospitano conferenze e concerti, con un giardino segreto e un tetto &ldquo;commestibile&rdquo;. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
       }
     ]
   },
