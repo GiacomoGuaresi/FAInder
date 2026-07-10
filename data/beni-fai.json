@@ -425,7 +425,7 @@
     "lat": 44.30979,
     "lng": 9.344853,
     "url": "https://fondoambiente.it/luoghi/casa-carbone",
-    "description": "Un piccolo mondo silenzioso sulla riviera ligure di Levante",
+    "description": "Un piccolo mondo silenzioso sulla riviera ligure di Levante.",
     "categories": [
       {
         "id": null,
@@ -3400,20 +3400,6 @@
     "lng": 16.6356968,
     "url": "https://fondoambiente.it/luoghi/museo-diocesano-e-del-codex-purpureus-rossanensis",
     "description": "Per gli iscritti FAI biglietto ridotto del 20% per la visita al Museo Diocesano e del Codex di Corigliano-Rossano DESCRIZIONE Il Museo Diocesano di Rossano custodisce il Codex Purpureus Rossanensis, uno dei pi&ugrave; antichi evangeliari esistenti. &Egrave; un capolavoro bizantino con 188 fogli di pergamena, arricchiti da quattordici miniature che illustrano i momenti pi&ugrave; significativi della vita e della predicazione di Cristo. Risale al V-VI secolo e probabilmente proviene da Antiochia o Cesarea. Vi &egrave; trascritto l&rsquo;intero Vangelo secondo Matteo e quasi tutto quello di Marco, in greco. L&rsquo;aggettivo Purpureus deriva dal colore con cui &egrave; tinta la pergamena. &Egrave; uno degli otto beni italiani che fanno parte del Registro Memoria del Mondo dell&rsquo;UNESCO, un programma volto a individuare, e tutelare, archivi e documenti storici.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 3586,
-    "title": "ABBAZIA FLORENSE",
-    "lat": 39.252824,
-    "lng": 16.7010417,
-    "url": "https://fondoambiente.it/luoghi/abbazia-florense-gioacchino-da-fiore",
-    "description": "Per iscritti FAI riduzione di 1 &euro; sul biglietto per la visita del complesso badiale di San Giovanni in Fiore (CS) DESCRIZIONE L&rsquo;Abbazia di San Giovanni in Fiore &egrave; uno degli edifici religiosi pi&ugrave; importanti della Calabria. Fu costruito dall&rsquo;abate Gioacchino da Fiore che vi fond&ograve; l&rsquo;ordine florense, riconosciuto da papa Celestino III nel 1196. Nel 1214 un incendio distrusse gli edifici del monastero che furono ricostruiti, e ampliati, nell&rsquo;anno successivo. Alla chiesa, romanica, si accede da un portale gotico. L&rsquo;unica navata &egrave; austera, in pietra, priva di decorazioni. L&rsquo;altare barocco &egrave; illuminato da quattro suggestivi rosoni. Adiacente all&rsquo;Abbazia si trova il Museo Demologico dell&rsquo;Economia del Lavoro e della Storia Sociale Silana, uno dei musei etnografici pi&ugrave; interessanti della Regione.",
     "categories": [
       {
         "id": 8,
