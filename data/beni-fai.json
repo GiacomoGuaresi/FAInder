@@ -4873,7 +4873,7 @@
     "lat": 40.8051799,
     "lng": 14.1743041,
     "url": "https://fondoambiente.it/luoghi/citta-della-scienza-98689",
-    "description": "Per iscritti FAI riduzione fino al 20% per l&#39;offerta della Citt&agrave; della Scienza di Napoli 8 euro per l&rsquo;ingresso intero al Museo al posto di un listino ufficiale di 10 euro 7 euro per l&rsquo;ingresso ridotto al Museo al posto di un listino ufficiale di 8 euro L&rsquo;ingresso ridotto verr&agrave; applicato ai minori (da 3 ai 17 anni) e over 65 12 euro per il biglietto integrato (Museo + Planetario) al posto di un listino ufficiale di 15 euro 10 euro per il biglietto integrato ridotto (Museo + Planetario Live) al posto di un listino ufficiale di 14&nbsp;euro 8 euro per il biglietto integrato ridotto (Museo + Planetario) al posto di un listino ufficiale di 10 euro 10 euro per il biglietto integrato ridotto (Museo + Planetario Live) al posto di un listino ufficiale di 12 euro 15 euro per il biglietto per l&rsquo;evento denominato &ldquo;Appuntamento in Via Lattea&rdquo; al posto di un listino ufficiale di 20 euro &nbsp; Tutte le visite guidate o ulteriori ingressi o ulteriori attivit&agrave; in altre sezioni del Science Centre o eventuali biglietti per eventi o iniziative speciali in genere non sono oggetto di questo accordo di convenzione. La riduzione non &egrave; cumulabile con altre promozioni in corso. DESCRIZIONE Il Science Centre di Citt&agrave; della Scienza &egrave; il primo museo scientifico interattivo italiano. Un luogo di sperimentazione, apprendimento, divertimento, incontro e dialogo costruttivo con la scienza e la tecnologia. I science centre, molto diffusi in tutto il mondo, sono luoghi di visita, educazione scientifica, turismo culturale, la cui filosofia &egrave; basata sull&rsquo;interattivit&agrave; e la sperimentazione diretta dei fenomeni naturali e delle tecnologie. &nbsp;",
+    "description": "Per iscritti FAI riduzione fino al 20% per l&#39;offerta della Citt&agrave; della Scienza di Napoli 8 euro per l&rsquo;ingresso intero al Museo al posto di un listino ufficiale di 10 euro 7 euro per l&rsquo;ingresso ridotto al Museo al posto di un listino ufficiale di 8 euro L&rsquo;ingresso ridotto verr&agrave; applicato ai minori (da 3 ai 17 anni) e over 65 12 euro per il biglietto integrato (Museo + Planetario) al posto di un listino ufficiale di 15 euro 10 euro per il biglietto integrato ridotto (Museo + Planetario Live) al posto di un listino ufficiale di 14&nbsp;euro 8 euro per il biglietto integrato ridotto (Museo + Planetario) al posto di un listino ufficiale di 10 euro 10 euro per il biglietto integrato ridotto (Museo + Planetario Live) al posto di un listino ufficiale di 12 euro 18 euro per il biglietto per l&rsquo;evento denominato &ldquo;Appuntamento in Via Lattea&rdquo; al posto di un listino ufficiale di 20 euro Tutte le visite guidate o ulteriori ingressi o ulteriori attivit&agrave; in altre sezioni del Science Centre o eventuali biglietti per eventi o iniziative speciali in genere non sono oggetto di questo accordo di convenzione. La riduzione non &egrave; cumulabile con altre promozioni in corso. DESCRIZIONE Il Science Centre di Citt&agrave; della Scienza &egrave; il primo museo scientifico interattivo italiano. Un luogo di sperimentazione, apprendimento, divertimento, incontro e dialogo costruttivo con la scienza e la tecnologia. I science centre, molto diffusi in tutto il mondo, sono luoghi di visita, educazione scientifica, turismo culturale, la cui filosofia &egrave; basata sull&rsquo;interattivit&agrave; e la sperimentazione diretta dei fenomeni naturali e delle tecnologie. &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -22776,20 +22776,6 @@
     ]
   },
   {
-    "id": 98978,
-    "title": "MUSEO MERCANTILE",
-    "lat": 46.499573,
-    "lng": 11.3541934,
-    "url": "https://fondoambiente.it/luoghi/museo-mercantile",
-    "description": "&nbsp; Per gli iscritti FAI biglietto ridotto per il Museo Mercantile di Bolzano. Unico palazzo rinascimentale - barocco inserito nell&#39;angusta architettura dei Portici. Vi si pu&ograve; ammirare una raccolta di quadri e mobili d&#39;epoca barocca a testimonianza della prosperit&agrave; dell&#39;anima commerciale bolzanina. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40370,
     "title": "MUSEION",
     "lat": 46.497428,
@@ -24846,6 +24832,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 98978,
+    "title": "MUSEO MERCANTILE",
+    "lat": 46.499573,
+    "lng": 11.3541934,
+    "url": "https://fondoambiente.it/luoghi/museo-mercantile",
+    "description": "&nbsp; Per gli iscritti FAI biglietto ridotto per il Museo Mercantile di Bolzano. Unico palazzo rinascimentale - barocco inserito nell&#39;angusta architettura dei Portici. Vi si pu&ograve; ammirare una raccolta di quadri e mobili d&#39;epoca barocca a testimonianza della prosperit&agrave; dell&#39;anima commerciale bolzanina. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
