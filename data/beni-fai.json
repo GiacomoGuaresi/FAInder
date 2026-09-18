@@ -215,7 +215,7 @@
     "lat": 45.846436,
     "lng": 8.7973474,
     "url": "https://fondoambiente.it/luoghi/antica-pensilina-del-tram",
-    "description": null,
+    "description": "Una storica pensilina ai piedi del Sacro Monte",
     "categories": [
       {
         "id": null,
@@ -285,7 +285,7 @@
     "lat": 45.15989,
     "lng": 10.7927802,
     "url": "https://fondoambiente.it/luoghi/antica-edicola-dei-giornali",
-    "description": null,
+    "description": "Un elegante chiosco ottocentesco, che custodisce la memoria della vita quotidiana e dell’informazione cittadina",
     "categories": [
       {
         "id": null,
@@ -691,7 +691,7 @@
     "lat": 39.3858934,
     "lng": 16.5429773,
     "url": "https://fondoambiente.it/luoghi/i-giganti-della-sila",
-    "description": "Una riserva biogenetica con un casino di caccia seicentesco nel Parco Nazionale della Sila sull’Appennino calabrese",
+    "description": "Un casino di caccia secentesco in una riserva biogenetica",
     "categories": [
       {
         "id": null,
@@ -747,7 +747,7 @@
     "lat": 38.4648,
     "lng": 14.9543,
     "url": "https://fondoambiente.it/luoghi/area-costiera-a-cala-junco",
-    "description": null,
+    "description": "Una delle spiagge più belle dell’isola di Panarea",
     "categories": [
       {
         "id": null,
