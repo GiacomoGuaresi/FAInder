@@ -271,7 +271,7 @@
     "lat": 45.9695681,
     "lng": 9.1708088,
     "url": "https://fondoambiente.it/luoghi/torre-del-soccorso-detta-del-barbarossa-84041",
-    "description": null,
+    "description": "Una sentinella del tempo affacciata sul lago di Como.",
     "categories": [
       {
         "id": null,
@@ -481,7 +481,7 @@
     "lat": 44.3261111,
     "lng": 9.1666667,
     "url": "https://fondoambiente.it/luoghi/aree-boschive-sul-monte-di-portofino",
-    "description": null,
+    "description": "Boschi e biodiversità nel Parco di Portofino",
     "categories": [
       {
         "id": null,
@@ -537,7 +537,7 @@
     "lat": 42.9648629,
     "lng": 11.9010076,
     "url": "https://fondoambiente.it/luoghi/area-agricola-a-cetona",
-    "description": null,
+    "description": "Un’area agricola nel paesaggio di Valle Pinciole, sulle colline di Cetona.",
     "categories": [
       {
         "id": null,
@@ -551,7 +551,7 @@
     "lat": 43.0377826,
     "lng": 9.8180732,
     "url": "https://fondoambiente.it/luoghi/area-costiera-sull-isola-di-capraia",
-    "description": null,
+    "description": "Uno dei paesaggi più suggestivi del Mediterraneo",
     "categories": [
       {
         "id": null,
@@ -607,7 +607,7 @@
     "lat": 40.89507,
     "lng": 12.96614,
     "url": "https://fondoambiente.it/luoghi/area-costiera-sull-isola-di-ponza",
-    "description": null,
+    "description": "Un angolo di natura selvaggia nel cuore dell’arcipelago ponziano",
     "categories": [
       {
         "id": null,
@@ -635,7 +635,7 @@
     "lat": 40.0504791,
     "lng": 15.4499353,
     "url": "https://fondoambiente.it/luoghi/area-costiera-a-san-giovanni-a-piro",
-    "description": null,
+    "description": "Un lecceto spontaneo immerso nel Parco Nazionale del Cilento",
     "categories": [
       {
         "id": null,
@@ -13166,6 +13166,20 @@
     ]
   },
   {
+    "id": 121991,
+    "title": "VILLA FRANZINI",
+    "lat": 45.5319511,
+    "lng": 10.3637634,
+    "url": "https://fondoambiente.it/luoghi/villa-franzini",
+    "description": "Per iscritti FAI riduzione del 10% per la visita a Villa Franzini a Nuvolara (BS) Apertura ed orari su richiesta/prenotazione&nbsp; DESCRIZIONE La visita ha inizio nel maestoso parco di Villa Franzini, alla scoperta di misteri e leggende che intrecciano questo luogo a vicende lontane nel tempo. Il percorso conduce fino al monumentale Taxodium distichum, punto d&rsquo;incontro simbolico tra la storia pi&ugrave; antica e quella pi&ugrave; recente della Villa, che regala al paesaggio un&rsquo;atmosfera suggestiva e senza tempo. La visita prosegue poi negli interni della dimora settecentesca, attraversando la magnifica galleria lunga 42 metri, che custodisce la preziosa collezione di ventagli Magda Sapada, oggi tra le pi&ugrave; grandi d&rsquo;Italia.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 86387,
     "title": "CONSORZIO NAVIGARE L'ADDA",
     "lat": 45.1863068,
@@ -24592,20 +24606,6 @@
     "lng": 7.6938048,
     "url": "https://fondoambiente.it/luoghi/castello-di-verres",
     "description": "Per gli iscritti FAI biglietto ridotto per il Castello di Verr&eacute;s (Aosta). Il castello, con la sua essenzialit&agrave;, sottolinea il suo carattere prettamente militare. L&#39;imponenza dello scalone nel cortile interno - impostato su archi rampanti policentrici - e la decorazione delle finestre, delle porte e delle mensole dei camini monumentali, denunciano l&#39;eccellenza delle maestranze chiamate ad operare nel cas &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 40415,
-    "title": "MUSEO CIVICO BELLUNO",
-    "lat": 46.1384073,
-    "lng": 12.2180366,
-    "url": "https://fondoambiente.it/luoghi/museo-civico-belluno",
-    "description": "Il Museo civico prese spunto dalla donazione avvenuta nel 1872 della pinacoteca di Antonio Giampiccoli, alla quale si aggiunsero quella di Florio Miari; i materiali scientifici del gabinetto provinciale naturalistico ed industriale; quelli donati dal geologo Tomaso Antonio Catullo; la collezione dell&rsquo;ornitologo Doglioni e quella del botanico Sandi. &nbsp; Per gli iscritti FAI: 3,00 Euro invece di 5,00 &nbsp;",
     "categories": [
       {
         "id": 8,
