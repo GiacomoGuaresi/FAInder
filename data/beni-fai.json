@@ -910,6 +910,48 @@
     ]
   },
   {
+    "id": 99050,
+    "title": "CASA CRESPI E COLLEZIONE BAGUTTA",
+    "lat": 45.4696998,
+    "lng": 9.2002587,
+    "url": "https://fondoambiente.it/luoghi/casa-crespi",
+    "description": "Una dimora e una collezione, due racconti della Milano colta del Novecento.",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 122103,
+    "title": "CASA E TENUTA PEREGO",
+    "lat": 45.3637,
+    "lng": 8.8098,
+    "url": "https://fondoambiente.it/luoghi/casa-e-tenuta-perego",
+    "description": "Una raffinata dimora di campagna, espressione del gusto e dell’arte dell’abitare di Filippo Perego.",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
+    "id": 114818,
+    "title": "CASA LIVIO",
+    "lat": 45.46226,
+    "lng": 9.168,
+    "url": "https://fondoambiente.it/luoghi/casa-livio",
+    "description": "Una casa e una raccolta d’arte, testimonianza di due secoli di gusto e cultura milanese.",
+    "categories": [
+      {
+        "id": null,
+        "name": "Bene FAI"
+      }
+    ]
+  },
+  {
     "id": 107266,
     "title": "LA TAVOLA DEI BRIGANTI",
     "lat": 42.1602107,
@@ -9220,6 +9262,20 @@
     ]
   },
   {
+    "id": 108027,
+    "title": "GIARDINI DI VILLA BORGHESE",
+    "lat": 41.914522,
+    "lng": 12.492537,
+    "url": "https://fondoambiente.it/luoghi/giardini-di-villa-borghese",
+    "description": "Per iscritti FAI riduzione del 20% per la programmazione cinematografica della Casa del Cinema all&#39;interno di Villa Borghese a Roma DESCRIZIONE ENTE La Casa del Cinema si trova a Roma, in largo Marcello Mastroianni 1, all&rsquo;interno di Villa Borghese e a pochi passi da via Veneto, uno dei luoghi simbolo del cinema italiano nel mondo.&nbsp;La Casa del Cinema &egrave; un luogo vivo e ricco di eventi, uno spazio dedicato al cinema, alla cultura e alla condivisione, fruibile ogni giorno per tutto l&rsquo;anno. Si sviluppa su una superficie di 2.500 metri quadrati ed accoglie tre sale cinematografiche di differenti capienze per un totale di oltre 220 posti: la Sala Cinecitt&agrave; (118 posti), la Sala Fellini (65 posti) e la Sala Gian Maria Volont&egrave; (46 posti). Nei mesi estivi, dispone di una grande arena cinematografica, il Teatro all&#39;aperto Ettore Scola (300 posti). Il Salotto Suso &egrave; destinato ad attivit&agrave; di networking, mentre gli spazi espositivi &quot;Sergio Amidei&quot; e &quot;Cesare Zavattini&quot; ospitano mostre dedicate prevalentemente al cinema e ai suoi protagonisti. Fra i servizi disponibil c&#39;&egrave; anche un&#39;area Caffetteria e Ristorante. Programmazione ricca e variegata: SCOPRI TUTTO IL CALENDARIO La biglietteria/infopoint della Casa del Cinema &egrave; aperto dal luned&igrave; alla domenica dalle ore 10 alle ore 22.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 91201,
     "title": "I CASALI DEL PINO",
     "lat": 41.9983,
@@ -14627,7 +14683,7 @@
     "lat": 45.4565787,
     "lng": 9.1952755,
     "url": "https://fondoambiente.it/luoghi/teatro-carcano",
-    "description": "Per gli iscritti FAI riduzioni sui&nbsp;biglietti degli spettacoli della stagione 2026/27 - prezzo variabile a seconda dello spettacolo e della tipologia di seduta al Teatro Carcano a Milano. SPETTACOLI PROSA E DANZA STAGIONE 2026/27 In tutti i settori RID. CONVENZIONATI&nbsp;&euro; 20 invece di Poltronissima Intero &euro; 38- Ridotto under 30 / over 65 &euro; 27 - Ridotto under 18 &euro; 19 Poltrona/Balconata Intero &euro; 30 - Ridotto under 30 / over 65 &euro; 24 - Ridotto under 18 &euro; 19 SCOPRI LA STAGIONE&nbsp;2026/27&nbsp;QUI DESCRIZIONE Tra i teatri pi&ugrave; antichi di Milano (1803), il Carcano ha ospitato le prime di capolavori dell&rsquo;opera lirica e della prosa. Oggi &egrave; cuore di un ambizioso progetto votato alla partecipazione civile e alla divulgazione culturale sotto la direzione artistica di Lella Costa e Serena Sinigaglia. Sono ESCLUSI dalla Convenzione: gli eventi della rassegna FOLLOW THE MONDAY alcuni eventi della rassegna AL CARCANO IN P&Egrave; gli spettacoli della rassegna I FANTAWEEKEND lo spettacolo &ldquo;FRANCESCO&rdquo; &nbsp;lo spettacolo &ldquo;IL PICCOLO PRINCIPE&rdquo; &nbsp;lo spettacolo &ldquo;C&rsquo;&Egrave; CHI DICE NO: RENZO, LUCIA, I GIOVANI&rdquo; &nbsp;lo spettacolo &ldquo;LA NOTTE DEL GOSPEL&rdquo; lo spettacolo &ldquo;GIOELE DIX LATE NIGHT SHOW&rdquo; (31 dicembre 2026) lo spettacolo &ldquo;IL RAGAZZO DAI PANTALONI ROSA&rdquo; SONO ESCLUSI I PACCHETTI ABBONAMENTO CHE POTETE CONSULTARE QUI BIGLIETTERIA Tel. 02-55181362, interno 1 | info@teatrocarcano.com La tariffa ridotta per convenzioni si applica a chi esibisce al botteghino al momento dell&rsquo;acquisto un documento in corso di validit&agrave; che attesti l&rsquo;iscrizione ad una delle realt&agrave; convenzionate, unitamente ad un documento di identit&agrave;.",
+    "description": "Per gli iscritti FAI riduzioni sui&nbsp;biglietti degli spettacoli della stagione 2026/27 - prezzo variabile a seconda dello spettacolo e della tipologia di seduta al Teatro Carcano a Milano. SPETTACOLI PROSA E DANZA STAGIONE 2026/27 In tutti i settori RID. CONVENZIONATI&nbsp;&euro; 20 invece di Poltronissima Intero &euro; 38- Ridotto under 30 / over 65 &euro; 27 - Ridotto under 18 &euro; 19 Poltrona/Balconata Intero &euro; 30 - Ridotto under 30 / over 65 &euro; 24 - Ridotto under 18 &euro; 19 SCOPRI LA STAGIONE&nbsp;2026/27&nbsp;QUI Spettacoli ottobre 2026 Prezzo in convenzione &euro; 20&nbsp;invece di &euro; 38/&euro; 30 DAL 15 AL 18 OTTOBRE 2026 INTELLETTO D&#39;AMORE - Dante e le donne scritto da Gabriele Vacis e Lella Costa con Lella Costa DAL 22 AL 25 OTTOBRE QUESTIONI DI CUORE dall&rsquo;omonimo libro di Natalia Aspesi con Lella Costa Prezzo in promozione &euro; 15 invece di &euro; 25 LUNEDI&#39; 19 OTTOBRE&nbsp; A VOLTE TI AMO di e con Matteo Lancini LUNEDI&#39; 26 OTTOBRE Nelson Mandela e la lotta all&rsquo;Apartheid. La &ldquo;Carta della libert&agrave;&rdquo; sudafricana di e con Paolo Colombo Prezzo in promozione &euro; 11 invece di &euro; 15 FATATEATRO SABATO 17 OTTOBRE&nbsp;PINOCCHIO DESCRIZIONE Tra i teatri pi&ugrave; antichi di Milano (1803), il Carcano ha ospitato le prime di capolavori dell&rsquo;opera lirica e della prosa. Oggi &egrave; cuore di un ambizioso progetto votato alla partecipazione civile e alla divulgazione culturale sotto la direzione artistica di Lella Costa e Serena Sinigaglia. Sono ESCLUSI dalla Convenzione: gli eventi della rassegna FOLLOW THE MONDAY alcuni eventi della rassegna AL CARCANO IN P&Egrave; gli spettacoli della rassegna I FANTAWEEKEND lo spettacolo &ldquo;FRANCESCO&rdquo; &nbsp;lo spettacolo &ldquo;IL PICCOLO PRINCIPE&rdquo; &nbsp;lo spettacolo &ldquo;C&rsquo;&Egrave; CHI DICE NO: RENZO, LUCIA, I GIOVANI&rdquo; &nbsp;lo spettacolo &ldquo;LA NOTTE DEL GOSPEL&rdquo; lo spettacolo &ldquo;GIOELE DIX LATE NIGHT SHOW&rdquo; (31 dicembre 2026) lo spettacolo &ldquo;IL RAGAZZO DAI PANTALONI ROSA&rdquo; SONO ESCLUSI I PACCHETTI ABBONAMENTO CHE POTETE CONSULTARE QUI BIGLIETTERIA Tel. 02-55181362, interno 1 | info@teatrocarcano.com La tariffa ridotta per convenzioni si applica a chi esibisce al botteghino al momento dell&rsquo;acquisto un documento in corso di validit&agrave; che attesti l&rsquo;iscrizione ad una delle realt&agrave; convenzionate, unitamente ad un documento di identit&agrave;.",
     "categories": [
       {
         "id": 10,
