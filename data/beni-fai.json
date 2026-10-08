@@ -2202,6 +2202,20 @@
     ]
   },
   {
+    "id": 121196,
+    "title": "TENUTA TRE GEMME",
+    "lat": 42.34537293,
+    "lng": 13.97551992,
+    "url": "https://fondoambiente.it/luoghi/tenuta-tre-gemme",
+    "description": "Per iscritti FAI riduzione del 10% per l'acquisto di vini presso la Tenuta Tre GemmeDESCRIZIONE Tra le dolci colline della Terra dei Vestini, nel cuore dell&rsquo;Abruzzo pi&ugrave; autentico, Tenuta Tre Gemme &egrave; il luogo ideale per chi desidera vivere un&rsquo;esperienza che unisce vino, territorio e ospitalit&agrave;. Immersa in oltre 70 ettari di vigneti biologici tra Catignano e Civitaquana, la tenuta sorge in una posizione privilegiata, a met&agrave; strada tra il Mare Adriatico e i massicci del Gran Sasso e della Maiella, un contesto naturale che regala ai suoi vini carattere, eleganza e identit&agrave;. Nata dalla passione della famiglia Perrucci e oggi guidata da una nuova generazione di donne che ha saputo coniugare tradizione e innovazione, Tenuta Tre Gemme &egrave; una delle realt&agrave; vitivinicole private pi&ugrave; importanti della regione. Qui ogni bottiglia racconta una storia fatta di cura, ricerca e profondo rispetto per il territorio, valorizzando vitigni simbolo dell&rsquo;enologia abruzzese come Montepulciano, Pecorino, Passerina e Cerasuolo. Ma Tenuta Tre Gemme &egrave; molto pi&ugrave; di una cantina. &Egrave; una destinazione da vivere lentamente, passeggiando tra i filari, visitando gli ambienti di produzione, partecipando a degustazioni guidate e lasciandosi conquistare dai profumi e dai sapori di una terra generosa. Gli ospiti possono inoltre soggiornare nelle eleganti suite affacciate sui vigneti e godere di spazi pensati per il relax e il benessere, tra paesaggi suggestivi e atmosfere autentiche. &nbsp;",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 17355,
     "title": "PARCO PAESAGGISTICO LAURETUM",
     "lat": 42.4302,
@@ -4052,20 +4066,6 @@
     ]
   },
   {
-    "id": 14533,
-    "title": "CHIESETTA DI PIEDIGROTTA",
-    "lat": 38.74207786,
-    "lng": 16.17488266,
-    "url": "https://fondoambiente.it/luoghi/chiesetta-madonna-di-piedigrotta",
-    "description": "Per iscritti FAI ingresso libero alla Chiesa di Piedigrotta a Pizzo Calabro (VV) DESCRIZIONE La&nbsp;chiesetta di Piedigrotta&nbsp;&egrave; &nbsp;interamente scavata nelle rocce tufacee, situato un chilometro a nord di&nbsp;Pizzo, in localit&agrave; &quot;La Madonnella&quot;. Al suo interno sono presenti diversi gruppi&nbsp;scultorei&nbsp;che l&#39;arredano, anch&#39;essi in tufo. La chiesa &egrave; contigua alla spiaggia, ed essendo esposta a ponente, ne risulta molto suggestiva la visita pomeridiana, quando i raggi del sole penetrano nelle profondit&agrave; delle grotte mettendo in risalto le colorazioni dei&nbsp;sali minerali&nbsp;che ricoprono le pareti.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 117544,
     "title": "BOUTIQUE D'AGUÌ",
     "lat": 38.6756185,
@@ -4234,6 +4234,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 14533,
+    "title": "CHIESETTA DI PIEDIGROTTA",
+    "lat": 38.74207786,
+    "lng": 16.17488266,
+    "url": "https://fondoambiente.it/luoghi/chiesetta-madonna-di-piedigrotta",
+    "description": "Per iscritti FAI ingresso libero alla Chiesa di Piedigrotta a Pizzo Calabro (VV) DESCRIZIONE La&nbsp;chiesetta di Piedigrotta&nbsp;&egrave; &nbsp;interamente scavata nelle rocce tufacee, situato un chilometro a nord di&nbsp;Pizzo, in localit&agrave; &quot;La Madonnella&quot;. Al suo interno sono presenti diversi gruppi&nbsp;scultorei&nbsp;che l&#39;arredano, anch&#39;essi in tufo. La chiesa &egrave; contigua alla spiaggia, ed essendo esposta a ponente, ne risulta molto suggestiva la visita pomeridiana, quando i raggi del sole penetrano nelle profondit&agrave; delle grotte mettendo in risalto le colorazioni dei&nbsp;sali minerali&nbsp;che ricoprono le pareti.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -5806,6 +5820,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40048,
+    "title": "TEATRO NUOVO",
+    "lat": 40.8424501,
+    "lng": 14.247682,
+    "url": "https://fondoambiente.it/luoghi/teatro-nuovo",
+    "description": "Per Iscritti FAI riduzioni sugli abbonamenti e spettacoli in programmazione al Teatro Pubblico Campano &nbsp;abbonamento platea &euro; 315,00 &nbsp;abbonamento galleria &euro; 255,00 &nbsp;biglietti singolo spettacolo riduzione &euro; 5,00 SCOPRI LE SEDI E LA PROGRAMMAZIONE DESCRIZIONE Il Teatro Pubblico Campano (TPC) &egrave; un circuito di programmazione teatrale multidisciplinare che opera nella regione Campania. Riconosciuto dal Ministero della Cultura e dalla Regione,&nbsp;&nbsp;&egrave; un&rsquo;associazione fondata con l&rsquo;intento di promuovere la cultura dello spettacolo dal vivo in tutte le sue forme in particolare nella prosa, nella danza e nella musica. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -10498,20 +10526,6 @@
     ]
   },
   {
-    "id": 41414,
-    "title": "MUSEO DIOCESANO",
-    "lat": 44.4078814,
-    "lng": 8.9318211,
-    "url": "https://fondoambiente.it/luoghi/museo-diocesano-genova",
-    "description": "Per gli iscritti FAI biglietto ridotto, 6&euro; invece che 8 &euro;, per la visita al Museo Diocesano di Genova - biglietto valido anche per la visita al Museo del Tesoro di San Lorenzo &nbsp;Impreziosito da reperti archeologici, solai affrescati e scultorei, il museo ospita il ciclo dei Blu di Genova e il Polittico di S. Bartolomeo di Barnaba da Modena. luned&igrave; 10-13 e 14-18, marted&igrave; CHIUSO, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato e domenica 14-18",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40241,
     "title": "PALAZZO DUCALE",
     "lat": 44.4072072,
@@ -11082,6 +11096,20 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 41414,
+    "title": "MUSEO DIOCESANO",
+    "lat": 44.4078814,
+    "lng": 8.9318211,
+    "url": "https://fondoambiente.it/luoghi/museo-diocesano-genova",
+    "description": "Per gli iscritti FAI biglietto ridotto, 6&euro; invece che 8 &euro;, per la visita al Museo Diocesano di Genova - biglietto valido anche per la visita al Museo del Tesoro di San Lorenzo &nbsp;Impreziosito da reperti archeologici, solai affrescati e scultorei, il museo ospita il ciclo dei Blu di Genova e il Polittico di S. Bartolomeo di Barnaba da Modena. luned&igrave; 10-13 e 14-18, marted&igrave; CHIUSO, mercoled&igrave;, gioved&igrave;, venerd&igrave;, sabato e domenica 14-18",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
