@@ -17434,20 +17434,6 @@
     ]
   },
   {
-    "id": 88243,
-    "title": "PALAZZO GROMO LOSA ",
-    "lat": 45.56385,
-    "lng": 8.04596,
-    "url": "https://fondoambiente.it/luoghi/palazzo-gromo-losa",
-    "description": "Per gli iscritti FAI biglieto ridotto per le mostre presso Palazzo Gromo Losa a Biella Gratuit&agrave; per gli under 25 e per la visita al giardino Il Palazzo &egrave; stato completamente restaurato&nbsp;e presentato al pubblico nel settembre 2012, in occasione del ventennale dell&#39;Ente. Oggi il Palazzo &egrave;&nbsp;messo a disposizione della collettivit&agrave; come spazio di particolare valore storico-artistico adatto per ospitare attivit&agrave; culturali e sociali di diversa natura, in particolare&nbsp;viene utilizzato, in collaborazione con gli enti e le associazioni che vi hanno sede, per perseguire una duplice mission sociale e culturale. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 119719,
     "title": "PICCOLO MUSEO OCCHI A CANDELA",
     "lat": 41.6010678,
@@ -18264,6 +18250,20 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 88243,
+    "title": "PALAZZO GROMO LOSA",
+    "lat": 45.56385,
+    "lng": 8.04596,
+    "url": "https://fondoambiente.it/luoghi/palazzo-gromo-losa",
+    "description": "Per gli iscritti FAI biglieto ridotto per le mostre presso Palazzo Gromo Losa a Biella Gratuit&agrave; per gli under 25 e per la visita al giardino Il Palazzo &egrave; stato completamente restaurato&nbsp;e presentato al pubblico nel settembre 2012, in occasione del ventennale dell&#39;Ente. Oggi il Palazzo &egrave;&nbsp;messo a disposizione della collettivit&agrave; come spazio di particolare valore storico-artistico adatto per ospitare attivit&agrave; culturali e sociali di diversa natura, in particolare&nbsp;viene utilizzato, in collaborazione con gli enti e le associazioni che vi hanno sede, per perseguire una duplice mission sociale e culturale. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -23526,20 +23526,6 @@
     ]
   },
   {
-    "id": 40382,
-    "title": "MUSEO DIOCESANO TRIDENTINO",
-    "lat": 46.06715,
-    "lng": 11.12177,
-    "url": "https://fondoambiente.it/luoghi/museo-diocesano-tridentino",
-    "description": "Per gli iscritti FAI biglietto ridotto a 5 &euro; per la visita al Museo Diocesano Tridentino di Trento Il museo presenta opere d&#39;arte sacra e offre un&rsquo;esauriente panoramica della produzione locale dal Medio Evo al Neoclassicismo; la sezione relativa alla scultura lignea presenta sculture e Fl&uuml;gelalt&auml;re realizzati dalle pi&ugrave; importanti botteghe operanti nella diocesi tra XIV e&nbsp; XVI secolo.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 84256,
     "title": "MUSEO DIOCESANO CATTEDRALE DI SAN RUFINO",
     "lat": 43.0708589,
@@ -26750,6 +26736,20 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 40382,
+    "title": "MUSEO DIOCESANO TRIDENTINO",
+    "lat": 46.06715,
+    "lng": 11.12177,
+    "url": "https://fondoambiente.it/luoghi/museo-diocesano-tridentino",
+    "description": "Per gli iscritti FAI biglietto ridotto a 5 &euro; per la visita al Museo Diocesano Tridentino di Trento Il museo presenta opere d&#39;arte sacra e offre un&rsquo;esauriente panoramica della produzione locale dal Medio Evo al Neoclassicismo; la sezione relativa alla scultura lignea presenta sculture e Fl&uuml;gelalt&auml;re realizzati dalle pi&ugrave; importanti botteghe operanti nella diocesi tra XIV e&nbsp; XVI secolo.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
