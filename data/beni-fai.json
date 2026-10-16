@@ -4686,6 +4686,20 @@
     ]
   },
   {
+    "id": 122193,
+    "title": "TEATRO COMUNALE PARRAVANO",
+    "lat": 41.0745302,
+    "lng": 14.326265,
+    "url": "https://fondoambiente.it/luoghi/teatro-comunale-parravano",
+    "description": "Per iscritti FAI biglietti ridotti per gli spettacoli presso il Teatro Comunale Parravano a Caserta riduzione abbonamento plate&nbsp;315 euro &nbsp;anzich&eacute; 330 riduzione abbonamento galleria 255 euro azich&egrave; 270 euro riduzione di 5 &euro; in meno sul singolo biglietto dello spettacolo SCOPRI LA PROGRAMMAZIONE IN CORSO DESCRIZIONE Nel cuore di Caserta, il Teatro Comunale Parravano rappresenta uno dei pi&ugrave; importanti poli culturali della citt&agrave; e un punto di riferimento per gli amanti dello spettacolo dal vivo. Un luogo in cui arte, emozione e intrattenimento si incontrano, dando vita a una stagione ricca di appuntamenti capaci di coinvolgere pubblici diversi e di offrire esperienze culturali di grande qualit&agrave;. Con una programmazione che spazia dalla prosa ai musical, dalla musica alla danza, fino agli spettacoli di intrattenimento e ai grandi protagonisti della scena italiana, il Teatro Parravano propone ogni anno un calendario ricco e variegato, in grado di coniugare tradizione e contemporaneit&agrave;. Sul suo palcoscenico si alternano artisti affermati, produzioni di successo e nuove proposte, contribuendo a rendere il teatro un luogo vivo, dinamico e in costante dialogo con il pubblico. Elegante e accogliente, il Parravano offre agli spettatori l&rsquo;opportunit&agrave; di vivere da vicino la magia dello spettacolo dal vivo, in un ambiente pensato per valorizzare ogni rappresentazione e trasformare ogni serata in un&rsquo;esperienza memorabile. Che si tratti di una commedia brillante, di un intenso spettacolo di prosa, di un concerto o di una grande produzione musicale, ogni appuntamento &egrave; un invito a lasciarsi sorprendere dalla forza delle arti performative. Parte integrante della vita culturale del territorio, il Teatro Comunale Parravano contribuisce alla diffusione della cultura e alla valorizzazione dello spettacolo come strumento di crescita, incontro e condivisione. Un luogo dove le storie prendono vita e dove il pubblico pu&ograve; riscoprire il piacere di emozionarsi insieme. &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 116160,
     "title": "VILLA SIGNORINI",
     "lat": 40.8176158,
@@ -5834,20 +5848,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 40048,
-    "title": "TEATRO NUOVO",
-    "lat": 40.8424501,
-    "lng": 14.247682,
-    "url": "https://fondoambiente.it/luoghi/teatro-nuovo",
-    "description": "Per Iscritti FAI riduzioni sugli abbonamenti e spettacoli in programmazione al Teatro Pubblico Campano &nbsp;abbonamento platea &euro; 315,00 &nbsp;abbonamento galleria &euro; 255,00 &nbsp;biglietti singolo spettacolo riduzione &euro; 5,00 SCOPRI LE SEDI E LA PROGRAMMAZIONE DESCRIZIONE Il Teatro Pubblico Campano (TPC) &egrave; un circuito di programmazione teatrale multidisciplinare che opera nella regione Campania. Riconosciuto dal Ministero della Cultura e dalla Regione,&nbsp;&nbsp;&egrave; un&rsquo;associazione fondata con l&rsquo;intento di promuovere la cultura dello spettacolo dal vivo in tutte le sue forme in particolare nella prosa, nella danza e nella musica. &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
