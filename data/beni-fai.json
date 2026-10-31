@@ -7647,7 +7647,7 @@
     "lat": 45.9575287,
     "lng": 13.5163553,
     "url": "https://fondoambiente.it/luoghi/russiz-superiore",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI dello sconto del 10% al Relais Russiz Superiore di Capriva del Friuli (Gorizia). &nbsp; Per gli iscritti FAI 10% di sconto per il soggiorno di una notte per due persone &nbsp;",
+    "description": "Per gli iscritti FAI 10% di riduzione per il soggiorno di una notte per due persone &nbsp;",
     "categories": [
       {
         "id": 9,
@@ -17806,6 +17806,20 @@
     ]
   },
   {
+    "id": 8118,
+    "title": "CASTELLO SFORZESCO",
+    "lat": 45.4415,
+    "lng": 8.6179,
+    "url": "https://fondoambiente.it/luoghi/castello-sforzesco-novara",
+    "description": "Per iscritti FAI riduzione per la visita alla mostra Hayez Boldini Casorati. Moda e costume nella società moderna presso il Castello di NovaraDal 30 Ottobre 2026 al 04 Aprile 2027DESCRIZIONE Articolata in otto sezioni che si susseguiranno l&rsquo;un l&rsquo;altra attraversando le antiche sale del Castello Visconteo Sforzesco, la mostra si propone di illustrare la storia della moda, l&rsquo;evoluzione del gusto e del costume in un periodo di tempo compreso fra i primissimi anni dell&rsquo;Ottocento e gli anni venti del Novecento. Straordinari capolavori della pittura italiana, opere accuratamente scelte e provenienti da prestigiose raccolte, pubbliche e private, saranno affiancati da abiti e accessori di moda provenienti dalle Collezioni Civiche milanesi e conservate a Palazzo Morando¿Costume Moda Immagine nonch&eacute; da collezioni private. Un serrato dialogo tra dipinti e oggetti d&rsquo;uso, oggi considerati anch&rsquo;essi e a pieno titolo rare e preziose opere d&rsquo;arte, aiuter&agrave; il visitatore moderno a comprendere pi&ugrave; a fondo la vita quotidiana di uomini e donne appartenenti a quel tempo, un tempo molto vicino al nostro ma sotto certi aspetti lontanissimo.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 41401,
     "title": "GALLERIA GIANNONI",
     "lat": 45.4461183,
@@ -22154,20 +22168,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 40349,
-    "title": "GIARDINI DI VILLA GAMBERAIA",
-    "lat": 43.7817409,
-    "lng": 11.3262062,
-    "url": "https://fondoambiente.it/luoghi/giardini-di-villa-gamberaia",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 20%) per i Giardini di Villa Gamberaia a Settignano (Firenze). Questo magnifico giardino all&rsquo;italiana, ricco di statue, fontane, giochi d&rsquo;acqua, fa parte del famoso complesso architettonico, posto sulla collina di Settignano, di cui si ha notizia fin dal secolo XIV. &nbsp; Per gli iscritti FAI sconto del 20% sul prezzo del biglietto &nbsp;",
-    "categories": [
-      {
-        "id": 11,
-        "name": "Stare a contatto con la natura"
       }
     ]
   },
