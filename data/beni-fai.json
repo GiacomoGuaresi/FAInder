@@ -1274,96 +1274,12 @@
     ]
   },
   {
-    "id": 109478,
-    "title": "AGRITURISMO CANILORO",
-    "lat": 42.1766403,
-    "lng": 14.3998247,
-    "url": "https://fondoambiente.it/luoghi/agriturismo-caniloro",
-    "description": "Per iscritti FAI riduzione del 10% per i servizi offerti dall&#39;Agriturismo Caniloro a Lanciano (CH)",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110225,
-    "title": "GALLERIA D'ARTE - LA NUOVA FORMA",
-    "lat": 42.2281617,
-    "lng": 14.3932707,
-    "url": "https://fondoambiente.it/luoghi/galleria-d-arte-la-nuova-forma",
-    "description": "Per iscritti FAI riduzione del 20% presso la Galleria d&#39;Arte - La Nuova Forma a Lanciano (CH) La galleria La Nuova Forma &eacute; stata fondata 25 anni fa a Lanciano, una fiorente citt&aacute;, nota sin dal primo medioevo per le sue fiere &egrave; annoverata come uno dei pi&uacute; grandi crocevia commerciali e culturali del centro-sud Italia. Nel 2007 Lorenzo Pincelli e Patrizia Testa hanno rilevato l&rsquo;attivit&aacute; con una nuova filosofia di gestione ed un progetto di restyling dei locali per organizzare eventi ed incontri con i migliori artisti italiani ed internazionali. Da quel momento il susseguirsi di mostre personali: Bruno Donzelli, Pino Procopio, Alberto Sughi, Mark Kostabi, Giampaolo Talani, Francesco Musante, Athos Faccincani, solo per citarne alcuni. Grazie all&rsquo;attivit&aacute; storica di Lorenzo Pincelli come editore, sono state realizzate con Musante, Procopio, Sughi, Talani, Nespolo, Kostabi, Tommaso Cascella e tanti altri, in esclusiva per la galleria, bellissime edizioni di grafica d&rsquo;autore che hanno permesso ad un pubblico giovane di avvicinarsi all&rsquo;arte. Inoltre grande attenzione e ricerca &eacute; rivolta alla scultura presente in galleria insieme ad una vasta collezione di oggettistica d&rsquo;autore.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 114683,
     "title": "HOTEL VILLA MEDICI",
     "lat": 42.2644119,
     "lng": 14.4324159,
     "url": "https://fondoambiente.it/luoghi/hotel-villa-medici",
     "description": "Per gli iscritti FAI riduzione 20% sui servizi offerti dall&#39;Hotel Villa Medici di Lanciano DESCRIZIONE Situato a 10 minuti di auto da Lanciano e a solo 1 km dall&#39;autostrada A14, l&#39;Hotel Villa Medici offre una piscina all&#39;aperto e una zona relax con piscina coperta, sauna e area massaggi. A vostra disposizione un ristorante alla carta con piatti locali e specialit&agrave; tradizionali.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110215,
-    "title": "LOCANDA CORONA DI FERRO",
-    "lat": 42.2357435,
-    "lng": 14.3866774,
-    "url": "https://fondoambiente.it/luoghi/locanda-corona-di-ferro",
-    "description": "Per gli iscritti FAI riduzione del 20% per la consumazione presso Locanda Corona di Ferro a Lanciano (CH) DESCRIZIONE A due passi dal Santuario del Miracolo Eucauristico, il ristorante &egrave; ospitato all&#39;interno di una struttura elegante caratterizzata da archi e affreschi. Dal 2011 &egrave; stato rilevato dallo chef Giovanni Magnacca, allievo della celebre scuola di Villa Santa Maria (Ch), patria dei cuochi. In cucina propone antipasti tradizionali e di ricerca, primi e secondi fra carne e pesce, oltre a pane e dessert fatti in casa. D&#39;estate ha il giardino esterno.&nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110231,
-    "title": "NATURAL BISTROT",
-    "lat": 42.2289759,
-    "lng": 14.3887875,
-    "url": "https://fondoambiente.it/luoghi/natural-bistrot",
-    "description": "Per iscriti FAI riduzione del 15% per i servizi del Natural Bistrot a Lanciano (CH) Natural Bistrot&nbsp;&egrave; una Caffettiera, Pasticceria, Brunch, con prodotti esclusivamente SENZA GLUTINE e SENZA LATTOSIO propone ai suoi clienti una vasta scelta &nbsp;di delizie salutari&nbsp;BUONI per TUTTI.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110232,
-    "title": "RISTORANTE AI VECCHI SAPORI",
-    "lat": 42.2292899,
-    "lng": 14.3891218,
-    "url": "https://fondoambiente.it/luoghi/ristorante-ai-vecchi-sapori",
-    "description": "Per iscritti FAI riduzione del 20% per la consumazione presso il ristorante Ai Vecchi Sapori a Lanciano (CH) &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110233,
-    "title": "RISTORANTE LA TORRE",
-    "lat": 42.2320025,
-    "lng": 14.3903848,
-    "url": "https://fondoambiente.it/luoghi/ristorante-la-torre",
-    "description": "Per iscritti FAI riduzione del 20% per le consumazioni presso ristorante La Torre a Lanciano (CH)",
     "categories": [
       {
         "id": 9,
@@ -1652,20 +1568,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 107733,
-    "title": "BORGO DI TORNARECCIO",
-    "lat": 42.0369638,
-    "lng": 14.4147229,
-    "url": "https://fondoambiente.it/luoghi/borgo-di-tornareccio",
-    "description": "Per iscritti FAI riduzione del 20% per la visita guidata alla rassegna diffusa di mosaici &quot;Un mosaico per Tornareccio&quot; (CH) Ben 93 mosaici, 226 artisti coinvolti, 12 curatori e una collaborazione consolidata con Ravenna, la capitale mondiale dell&#39;arte musiva. Tutto questo &egrave; il museo a cielo aperto di Tornareccio, fatto di splendide opere che colorano le vie e le piazze: sono installate sulle facciate delle case e raffigurano bozzetti di numerosi autori che, a partire dal 2006, hanno partecipato alla raseegna d&rsquo;arte contemporanea &quot;Un Mosaico per Tornareccio&quot;. &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -1960,20 +1862,6 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 118225,
-    "title": "B&B IL GIULLARE",
-    "lat": 42.0442352,
-    "lng": 13.8922717,
-    "url": "https://fondoambiente.it/luoghi/bb-il-giullare",
-    "description": "Per iscritti FAI riduzione del 15% per soggiornare presso il&nbsp;B&amp;B Il Giullare a Sulmona (AQ) DESCRIZIONE Il Giullare, nella suggestiva atmosfera di un antico e tranquillo vicoletto situato nel cuore della Citt&agrave; di Sulmona, mette a disposizione dei propri ospiti una casa con tutti i comfort: riscaldamento autonomo, asciugacapelli e kit cortesia. Soggiorno gratuito per bambini di et&agrave; inferiore a tre anni. Animali ammessi ma di piccola taglia. &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -2430,20 +2318,6 @@
     ]
   },
   {
-    "id": 108638,
-    "title": "BOTTEGANTICA ANTIQUARIATO",
-    "lat": 42.6610701,
-    "lng": 13.6986183,
-    "url": "https://fondoambiente.it/luoghi/bottegantica-antiquariato",
-    "description": "Per iscritti FAI dal 10% al 20% di riduzione suglia articoli in vendita presso la Bottegantica Antiquariato, Numismatica e Filatelia a Teramo. Nasce negli anni &rsquo;60 da una brillante idea di Michele Provvidenza che decide di trasformare la sua passione per il francobollo in una vera attivit&agrave; commerciale. In breve tempo lo Studio Filatelico Teramano, per gli alti contenuti di professionalit&agrave; espressi, diventa un punto di riferimento per i numerosi appassionati del settore, soprattutto per importanti e qualificati collezionisti dell&rsquo;intero territorio regionale. Cresciuta in un ambiente cos&igrave; particolare, sar&agrave; la figlia Gabriella ad ereditare la passione paterna e ad assumere agli inizi degli anni &rsquo;80 la titolarit&agrave; dell&rsquo;azienda. Rappresenta da subito una rarit&agrave; a livello nazionale il suo essere donna esperta di filatelia e numismatica in una realt&agrave; che notoriamente sembrava essere riservata agli uomini. Agli inizi degli anni &rsquo;90, dalla passione per l&rsquo;arte e l&rsquo;antiquariato, condivisa con il marito, nasce Bottegantica che affiancher&agrave; ai francobolli e alle monete da collezione mobili, stampe e oggetti d&rsquo;epoca. Di particolare rilievo, all&rsquo;interno della vasta scelta di oggetti d&rsquo;epoca, sono la raffinata collezione di porcellane inglesi di fine &lsquo;800 e la rara collezione di vasi di opaline policrome di epoca Vittoriana. Nel settore &ldquo;stampa antiche&rdquo; si pregia di presentare una raccolta unica di esemplari originali di notissimi incisori italiani ed europei risalenti alle epoche comprese tra il &lsquo;400 e il &lsquo;700. Tra i vari nomi spiccano&nbsp; Della Bella, Castiglione, Fautin Lator, Fragonard e Durer. Riguardo il &ldquo;mobile&rdquo;, da sempre Bottegantica esprime una particolare cura e ricerca per il mobile italiano di pregio del &lsquo;700 e &lsquo;800. Ne sono testimonianza l&rsquo;attuale presenza in negozio di una elegante credenza cappuccina a doppia anta in noce massello di manifattura lombarda e di un raro esemplare di canterano umbro in noce massello prima patina filettato e decorato ad intarsi floreali risalente alla prima met&agrave; del 700. L&rsquo;amore per la propria citt&agrave; ha portato la titolare a riservare una particolare cura e ricerca di tutto ci&ograve; che potesse testimoniare l&rsquo;antica bellezza di Teramo. Cos&igrave; &egrave; nata un&rsquo;interessante collezione di cartoline risalenti alla fine dell&rsquo;Ottocento e primi del Novecento, una raccolta di documenti e carte intestate di attivit&agrave; commerciali dell&rsquo;epoca e bozzetti e stampe del noto pittore Gennaro della Monica. &nbsp;",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 102854,
     "title": "SOCIETÀ DELLA MUSICA E DEL TEATRO PRIMO RICCITELLI",
     "lat": 42.6596458,
@@ -2500,20 +2374,6 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 111085,
-    "title": "B&B PIANO PIANO ROOMS",
-    "lat": 40.6661224,
-    "lng": 16.6061637,
-    "url": "https://fondoambiente.it/luoghi/bb-piano-piano-rooms",
-    "description": "Per iscritti FAI fino al 30&amp; di riduzione per i servizi offerti dal B&amp;B&nbsp; Piano Piano Rooms Matera Piano Piano non &egrave; solo un invito a rallentare i ritmi frenetici della vita, Piano Piano &egrave; la cura riservata ad ogni dettaglio delle nostre suite, per creare degli ambienti&nbsp;pieni&nbsp;di fascino e fuori dal tempo ... proprio come i Sassi di Matera!",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -2636,20 +2496,6 @@
     "lng": 16.511438,
     "url": "https://fondoambiente.it/luoghi/libreria-di-giulio",
     "description": "Per Iscritti FAI riduzione del 10% per l&#39;acquisto di libri presso la Libreria di Giulio a Matera. La riduzione non &egrave; applicabile sui le uscite letterarie degli ultimi 6 mesi, sui libri scolastici, universitari e la cancelleria. La riduzione, inoltre, non &egrave; cumulabile con altre offerte in corso DESCRIZIONE La Libreria di Giulio&nbsp;offre&nbsp;un vasto assortimento di narrativa e cultura generale, ma anche di libri universitari e per ragazzi",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
-      }
-    ]
-  },
-  {
-    "id": 109419,
-    "title": "LIBRERIA THE SASSI BOOK STORE",
-    "lat": 40.663004,
-    "lng": 16.6078524,
-    "url": "https://fondoambiente.it/luoghi/libreria-the-sassi-book-store",
-    "description": "Per gli iscritti FAI riduzione del 10% per l&#39;acquisto dei libri ed. Giannatelli e 5% per tutte le altre pubblicazioni presso la Libreria The Sassi Book Store a Matera",
     "categories": [
       {
         "id": 12,
@@ -2850,20 +2696,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 113793,
-    "title": "PIANELLE RESORT",
-    "lat": 40.6648764,
-    "lng": 16.6116684,
-    "url": "https://fondoambiente.it/luoghi/pianelle-resort",
-    "description": "Per iscritti FAI riduzione del 10% per i servizi offerti dal Pianelle Resort a Matera DESCRIZIONE DELL&#39;ENTE Albergo diffuso nel cuore dei Sassi di Matera: l&rsquo;idea che ha ispirato il progetto e l&rsquo;entusiasmo che ne ha animato la realizzazione ruota attorno al recupero delle componenti del paesaggio culturale dei Sassi ed al loro riuso in chiave contemporanea.&nbsp; La morfologia del comparto urbano ricorda la forma di un ferro di cavallo e si articola su tre livelli intorno a tre corti/vicinato, che costituiscono la matrice di aggregazione degli ambienti. L&rsquo;insieme &egrave; un contrappunto di pieni e di vuoti, di scavato e di costruito, mille metri quadri di storie che documentano l&rsquo;abitare e il lavoro, un racconto dell&rsquo;esistenza dell&rsquo;uomo nei secoli. COSA SI PUO&#39; FARE Bellezza, stile ed armonia con la natura si integrano perfettamente nel Pianelle Resort offrendo agli ospiti esperienze uniche ed indimenticabili. Seguendo la numerazione dei civici storici del Rione Pianelle dal quale l&rsquo;albergo diffuso trae il nome, le camere del Pianelle Resort sono articolate su tre livelli ed hanno tutte ingresso indipendente. Fedele alla memoria dei luoghi, il design delle camere &egrave; minimale e sobrio in simbiosi con la suggestione delle ambientazioni, in parte costruite in parte scavate nel tufo.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -3496,34 +3328,6 @@
     ]
   },
   {
-    "id": 40022,
-    "title": "ASSOCIAZIONE MUSICALE \"ORFEO STILLO\"",
-    "lat": 39.3610442,
-    "lng": 16.0378736,
-    "url": "https://fondoambiente.it/luoghi/associazione-musicale-orfeo-stillo",
-    "description": "Per gli iscritti FAI 20% di sconto sulla stagione concertistica L&rsquo; Associazione&nbsp;in questi anni ha organizzato&nbsp;ben 32 Stagioni Concertistiche ovvero oltre 700 concerti, ospitando artisti di fama nazionale ed internazionale",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 110989,
-    "title": "VISIT PAPASIDERO - VACANZE SUL POLLINO - AGRITURISMO B&B- AGRICAMPEGGIO - RAFTING ED ESCURSIONI SUL FIUME LAO",
-    "lat": 39.87178,
-    "lng": 15.9049704,
-    "url": "https://fondoambiente.it/luoghi/visit-papasidero-vacanze-sul-pollino-agriturismo-bb-rafting-sul-fiume-lao",
-    "description": "Per gli iscritti FAI 20% di riduzione per i servizi offerti dall&#39;associazione Visit Papasidero - Vacanze sul Pollino - Agriturismo B&amp;B- Agricampeggio - Rafting ed Escursioni sul Fiume Lao a Papasidero (CS) La filosofia fondamentale di Visit Papasidero ha alla base tutto cio` che c&rsquo;e` di autentico, caratteri- stico e culturale nel nostro territorio. La Valle del Fiume Lao e` un sistema di accoglienza territoriale caratterizzato da &ldquo;un&rsquo;apertura naturale&rdquo; nei confronti di chi viaggia. L&rsquo;esperienza che coinvolge l&rsquo;enogastronomia, l&rsquo;artigianato, la cultura e l&rsquo;arte del territorio che si visita e` per noi un tassello fondamentale. L&rsquo;Ospitalita` dell&#39; Associazione Turistica sara` un&rsquo;esperienza autentica e non convenzionale che coinvolgera` i viaggiatori nella vera essenza del vivere calabrese, proprio come se vi abitassero da sempre. Ospitano in strutture che si trovano nel centro storico, in montagna e piu` a valle fino al mare. Coinvolgiono le aziende e le associazioni sportive che lavorano da anni nella valle del Fiume Lao. L&rsquo; obiettivo principale e` diffondere la promozione culturale dei saperi che hanno fatto la storia del nostro paese. Coinvolgere gli artigiani e tutte le attivita` locali del nostro territorio, e` fondamentale per esprimere al meglio l&#39;identita`.",
-    "categories": [
-      {
-        "id": 14,
-        "name": "Partecipare a corsi o escursioni"
-      }
-    ]
-  },
-  {
     "id": 105976,
     "title": "TENUTA BOCCHINERI",
     "lat": 39.18723581,
@@ -3614,34 +3418,6 @@
     "lng": 16.5094283,
     "url": "https://fondoambiente.it/luoghi/pub-il-brillo-parlante",
     "description": "Per iscritti FAI riduzione&nbsp;del 10% per consumazioni presso la Griglieria&nbsp;Il Brillo Parlante a Lorica (CS) DESCRIZIONE Il Brillo Parlante si trova sulle rive del Lago Arvo in un locale di legno in stile montanaro: carne alla brace, birre artigianali ed eventi di musica dal vivo.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 111054,
-    "title": "VILLA CRAWFORD",
-    "lat": 39.849018,
-    "lng": 15.7903299,
-    "url": "https://fondoambiente.it/luoghi/villa-crawford",
-    "description": "Per iscritti FAI 15% di riduzione sui servizi offerti da Villa Crawford B&amp;B San Nicola Arcella (CS) A Villa Crawford il blu del mare e del cielo di San Nicola Arcella &egrave; interrotto solo dalla spiaggia e le sue suggestive calette, il celebre Arcomagno e la storica Torre Crawford, di fronte l&rsquo;isola Dino e sullo sfondo l&rsquo;abbraccio del Golfo di Policastro lungo la Riviera dei Cedri. Tutte le camere di Villa Crawford offrono una spettacolare vista mare. Impreziosite da finiture di pregio e arredi di design, sono dotate di ogni comfort.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 111055,
-    "title": "VILLA GIORDANELLI SCALEA",
-    "lat": 39.8124211,
-    "lng": 15.7917079,
-    "url": "https://fondoambiente.it/luoghi/villa-giordanelli-scalea",
-    "description": "Per iscritti FAI riduzione del 15% per i servizi offerti da Villa Giordanelli B&amp;B a Scalea (CS) Villa Giordanelli sorge nel cuore di Scalea, la perla della Riviera dei Cedri. Bastano pochi passi per raggiungere le ampie spiagge dal mare cristallino, con grotte incantate e suggestive calette, cos&igrave; come il centro storico medievale, affascinante e ricco, e la Torre Talao simbolo della citt&agrave;. Con le sue stanze nobiliari e il parco lussureggiante, l&rsquo;invitante terrazzo e le sale ricche di storia e di storie, &egrave; il luogo ideale per vivere un&rsquo;esperienza indimenticabile in un ambiente esclusivo e stimolante. Tutte le camere di offrono un&rsquo;esperienza unica: pavimenti di antico pregio, alti soffitti, eleganti finiture si coniugano con arredi di design e moderne comodit&agrave;.",
     "categories": [
       {
         "id": 9,
@@ -3996,20 +3772,6 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
-      }
-    ]
-  },
-  {
-    "id": 111398,
-    "title": "GRAND HOTEL EXCELSIOR REGGIO CALABRIA",
-    "lat": 38.1139186,
-    "lng": 15.6511544,
-    "url": "https://fondoambiente.it/luoghi/grand-hotel-excelsior-reggio-calabria",
-    "description": "Per iscritti FAI riduzione del 10% per i serrvizi alberghieri del Grand Hotel Excelsior, Reggio Calabria &nbsp; Il Grand Hotel Excelsior sorge nel centro storico e commerciale di Reggio Calabria, nello splendido scenario naturale dello Stretto di Messina. La struttura &egrave; collocata a pochi passi dal Museo Archeologico Nazionale di Reggio Calabria, che ospita i famosi Bronzi di Riace, a brevissima distanza dal mare e dallo splendido Lungomare Italo Falcomat&agrave; denominato &quot;Il pi&ugrave; bel chilometro d&rsquo;Italia&quot;. Grazie alla sua posizione centrale, le maggiori attrazioni turistiche sono tutte facilmente raggiungibili a piedi: il Duomo, la Pinacoteca, Il Teatro Cilea, la Chiesa di San Giorgio, Villa Zerbi, Il Castello Aragonese e la Chiesa degli Ottimati. Gli ospiti si troveranno anche ad un passo dal Corso Garibaldi, il percorso principale per fare shopping o, semplicemente, per una piacevole passeggiata. L&rsquo;Hotel offre un Roof Garden panoramico dal quale, in giornate di cielo sereno, &egrave; possibile avere una visione esclusiva dello Stretto e persino della cima del vulcano Etna. Allo stesso piano &egrave; situato l&rsquo;esclusivo Ristorante Gal&agrave; che vi delizier&agrave; con le specialit&agrave; del territorio e con la preparazione di piatti eleganti e raffinati. Il Grand Hotel Excelsior dispone di 84 camere, tutte eleganti e confortevoli, la maggior parte con balcone e vista mare. Tra queste, 4 sono Junior Suite e 4 Suite Executive e tutte sono caratterizzate da un&#39;ampia zona living. Le camere sono parzialmente ristrutturate e offrono un arredamento in stile moderno.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -4868,34 +4630,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 113574,
-    "title": "BOUTIQUE HOTEL METRO 900 MERGELLINA",
-    "lat": 40.8317604,
-    "lng": 14.2192925,
-    "url": "https://fondoambiente.it/luoghi/boutique-hotel-metro-900-mergellina",
-    "description": "Per iscritti FAI riduzione dell&#39;8% per i servizi di soggiorno offerti da Boutique Hotel Metro 900 Mergellina Napoli Situato nel quartiere Chiaia, Metro 900 occupa l&rsquo;ala di uno dei palazzi pi&ugrave; prestigiosi della cultura architettonica partenopea, al cui interno si trova anche la storica stazione di Mergellina, punto di snodo per raggiungere i principali luoghi simbolo della citt&agrave;. Bastano infatti poche fermate per trovarvi nel cuore del centro storico di Napoli, ricco di edifici ed opere di grande valore rinomati in tutto il mondo: dalla maestosa Piazza del Plebiscito al Palazzo Reale, dall&rsquo;imponente Maschio Angioino al Museo Archeologico, passando tra i suggestivi vicoli come Spaccanapoli e San Gregorio Armeno, patria dei maestri presepisti. Sono molti gli aspetti che possono rendere una vacanza unica e diversa dalle altre: uno di questi, &egrave; sicuramente soggiornare in un ambiente che vi accolga con cortesia, gusto e professionalit&agrave;, senza lasciare nulla al caso.&nbsp; &Egrave; ci&ograve; che fa Metro 900, un Boutique Hotel dove potrete immergervi in un&rsquo;atmosfera avvolgente e rilassante all&rsquo;interno di un ambiente elegante, dove ogni dettaglio comunica bellezza.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 113576,
-    "title": "CARUSO PLACE - BOUTIQUE & WELLNESS SUITES",
-    "lat": 40.8385248,
-    "lng": 14.2482912,
-    "url": "https://fondoambiente.it/luoghi/caruso-place-boutique-wellness-suites",
-    "description": "Per iscritti FAI riduzione del 5% per i servizi offerti dal CARUSO PLACE Boutique &amp; Wellness Suites a Napoli CARUSO PLACE Boutique &amp; Wellness Suites, accoglie i suoi ospiti in una atmosfera di charme, nel cuore di Napoli a pochi passi dal Palazzo Reale e dal Teatro S. Carlo, di fronte alla Galleria Umberto I. I proprietari, operatori del settore turistico e alberghiero hanno considerato tutte le esigenze dei viaggiatori, dando vita ad un hotel di design, dove l&rsquo; amore per il turismo, il desiderio di relax e la tradizione napoletana trovano una perfetta sintesi tra classico e moderno. La struttura &egrave; situata nelle antiche mura dello storico Palazzo Berio (Luigi Vanvitelli 1700/1773) offre 10 spaziose camere, di cui 7 Suites dotate di ogni comfort moderno ed un accogliente lounge dove rilassarsi davanti al camino, cullati dalle note di una antica melodia napoletana. Nella location armonicamente convivono materiali raffinati e dettagli di stile iconici del gusto napoletano. &nbsp; &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -5954,20 +5688,6 @@
     ]
   },
   {
-    "id": 99138,
-    "title": "CERTOSA DI SAN LORENZO",
-    "lat": 40.3379,
-    "lng": 15.6559,
-    "url": "https://fondoambiente.it/luoghi/certosa-di-san-lorenzo-padula-99138",
-    "description": "Per iscritti FAI riduzione del 20% per&nbsp; il biglietto integrato che comprende i 3 musei Civici di Padula e la Certosa di San Lorenzo, 8 euro invece che 10 euro. DESCRIZIONE DELL&#39;ENTE La costruzione della certosa, uno dei monasteri pi&ugrave; grandi d&rsquo;europa con una superficie totale che supera i 50.000 metri quadri, &egrave; promossa e finanziata a partire dal 1306 da Tommaso Sanseverino, conte di Marsico, sul nucleo originario di una gr&agrave;ncia antica &ndash; una struttura con funzione di azienda agricola, in genere collegata alle abbazie benedettine &ndash; acquistata dall&rsquo;abbazia di Montevergine gi&agrave; dedicata a san Lorenzo. La costruzione del complesso segue lo schema consolidato dell&rsquo;ordine fondato nel 1084 da san brunone di colonia, in Francia, basato sulla netta distinzione di due grandi aree funzionali: casa bassa&nbsp;[domus inferior] che comprendeva i luoghi di lavoro &ndash; depositi, granai, stalle, lavanderie&nbsp; e la&nbsp;casa alta&nbsp;[domus superior], nettamente separata dalla prima, zona di residenza dei padri, regno del silenzio, della meditazione e della clausura. il parco recintato, l&rsquo;orto comune del complesso di oltre 20 ettari, &egrave; coltivato a vite e cereali, con siepi e alberi da frutto e slarghi circolari delimitati da felci, allori e cipressi. COSA SI PUO&#39; VISITARE La corte esterna &egrave; costituita da un grande cortile rettangolare intorno al quale erano ospitate buona parte delle attivit&agrave; produttive. Il chiostro della Foresteria, tardomanierista, &egrave; composto da un portico con fontana al centro e da un loggiato dal quale si eleva la torre dell&#39;orologio. La loggia &egrave; ornata con pitture seicentesche. La Chiesa &egrave; decorata con stucchi dorati di gusto settecentesco che vanno a sovrapporsi ad una struttura sicuramente trecentesca. Accanto alla serie di suggestive cappelle laterali, si trovano la Sala del Capitolo, ricca di stucchi settecenteschi, e la Cappella dei Tesoro, che costituiva una sorta di cassaforte dove probabilmente veniva custodito e protetto il ricchissimo arredo della chiesa. La cucina era probabilmente un refettorio riadattato. Affreschi un po&#39; offuscati dal tempo e dai fumi della cucina decorano la volta a botte.Il refettorio &egrave; una sala costruita nei primi decenni dei XVIII sec. di forma rettangolare. Il chiostro dei procuratori, &egrave; composto da un portico al piano terra e da un corridoio finestrato al piano superiore: qui erano gli alloggi dei procuratori, mentre in basso era situato il refettorio dei monaci conversi.La Biblioteca, un vasto ambiente che conserva il pavimento maiolicato e le decorazioni del soffitto, custodiva decine di migliaia tra libri, codici miniati, manoscritti, di cui in Certosa resta oggi solo una piccolissima parte, circa duemila volumi. Varcata la soglia, ci si trova di fronte alla scala elicoidale che conduce dolcemente all&#39;antisala della biblioteca. Il chiostro grande, con i suoi quasi quindicimila metri quadrati di superficie, risulta essere tra i maggiori in Europa: si sviluppa su due livelli ed al centro &egrave; collocata una bella fontana a forma di coppa, realizzata in pietra e datata al 1640. Lo scalone ellittico unisce i due livelli dei chiostro grande.La Certosa di San Lorenzo accoglie, in alcune delle suggestive celle monacali, la collezione di arte contemporanea, raccolta nel triennio 2002-2004, grazie alle tre edizioni della rassegna internazionale &quot;Le Opere e i Giorni&quot;, ideata e curata da Achille Bonito Oliva. La triennale ha visto la partecipazione di artisti di fama internazionale e la realizzazione di opere ispirate ai seguenti temi: il Verbo, il Precetto e la Vanitas. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 103278,
     "title": "MUSEO CIVICO MULTIMEDIALE",
     "lat": 40.34104,
@@ -5996,20 +5716,6 @@
     ]
   },
   {
-    "id": 99739,
-    "title": "MUSEO SPELEO ARCHEOLOGICO",
-    "lat": 40.543602,
-    "lng": 15.4515195,
-    "url": "https://fondoambiente.it/luoghi/-museo-speleo-archeologico-",
-    "description": "Per iscritti FAI 15% di riduzione per la visita al Museo&nbsp;Speleo Archeologico a Pertosa (SA) Potrai visitare anche: Museo del Suolo Grotte&nbsp;&nbsp;di Pertosa - Auletta&nbsp; DESCRIZIONE Un&rsquo;esposizione unica al mondo che racconta del passato delle Grotte di Pertosa-Auletta, quando la cavit&agrave; ospitava un abitato su palafitta ed era ritenuta un luogo sacro. Un&nbsp;viaggio attraverso i millenni,&nbsp;alla scoperta delle&nbsp;antiche frequentazioni umane della cavit&agrave;, guidato da plastici ricostruttivi a grandezza naturale, reperti archeologici, tavole interattive, video e pannelli esplicativi. Un allestimento capace di raccontare il passato, con metodi moderni.&nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 103919,
     "title": "HOTEL MARULIVO",
     "lat": 40.1089,
@@ -6034,20 +5740,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 118472,
-    "title": "MUSEO DEL SUOLO",
-    "lat": 40.535127,
-    "lng": 15.4464122,
-    "url": "https://fondoambiente.it/luoghi/museo-del-suolo",
-    "description": "Per iscritti FAI 15% di riduzione per la visita al Museo del Suolo a Pertosa (SA) Potrai visitare anche: Grotte di Pertosa - Auletta&nbsp; Museo Speleo Archeologico&nbsp; DESCRIZIONE Una struttura museale&nbsp;unica in Italia&nbsp;e con pochi omologhi nel resto del mondo, inaugurata il 22 aprile 2016, nel giorno in cui le Nazioni Unite celebrano la Terra e che&nbsp;che propone un singolare itinerario di conoscenza dedicato alla terra, e pi&ugrave; precisamente a ci&ograve; che avviene in quei tre metri, fondamentali per la vita sul nostro pianeta, che dalla superficie si portano in basso.&nbsp;Sotto i nostri piedi c&rsquo;&egrave; una tumultuosa attivit&agrave;, chimica, fisica e biologica, da cui dipende il paesaggio che abitiamo, il cibo di cui ci nutriamo, la nostra stessa sopravvivenza sul pianeta. ORARI Le visite al Museo del Suolo sono guidate e hanno inizio alle ore 11.30, alle ore 14.00, alle ore 15.30 e alle ore 17.00 (luned&igrave; chiuso).",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -6090,20 +5782,6 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 110914,
-    "title": "AZIENDA AGRICOLA E LOCANDA SAN FANTINO - AGRITOURISM, B&B IN CILENTO",
-    "lat": 40.0515998,
-    "lng": 15.4496707,
-    "url": "https://fondoambiente.it/luoghi/azienda-agricola-e-locanda-san-fantino-agritourism-bb-in-cilento",
-    "description": "Per iscritti FAI riduzione del 20% per prodotti in vendita (vino e gin del Cilento) e pernottamento al B&amp;B presso la Locanda San Fantino a San Giovanni a Piro (SA) Ospitata in un casale seicentesco situato a San Giovanni a Piro (SA), la Locanda San Fantino offre una vista sul Mar Tirreno, una piscina all&#39;aperto e sistemazioni in stile rustico.&nbsp;La proprieta` si trova nel Parco Nazionale del Cilento e dispone di circa 30 ettari divisi in 5 diversi poderi, a poca distanza gli uni dagli altri, con un antico palazzo di campagna, una grande fattoria ed altri 8 fabbricati di varie dimensioni che saranno tutti ristrutturati negli anni a venire.Il podere principale, San Fantino, e` situato ai margini del paese medioevale di San Giovanni a Piro; i 5 ettari comprendono una vecchia fattoria di 500mq che e` stata trasformata in una Locanda con 7 stanze da letto, un grande salotto/stanza da pranzo ed una piscina. Il palazzo di campagna di 850mq fu costruito alla fine del 1600 ed e` uno dei pochi esempi rimasti dove strutture agricole e residenziali convivono sotto lo stesso tetto; e` intatto da almeno 2 secoli. &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -6702,20 +6380,6 @@
     "lng": 10.9212457,
     "url": "https://fondoambiente.it/luoghi/galleria-estense",
     "description": "Per iscritti FAI biglietto ridotto del 15% per i siti museali delle Gallerie Estensi a Modena: Galleria Estense di Modena: 7 euro invece che 8 euro Pinacoteca Nazionale di Ferrara: 7 euro invece che 8 euro La Galleria Estense di Modena &egrave; una delle pi&ugrave; importanti e pi&ugrave; antiche Gallerie Nazionali d&#39;Italia. Le collezioni riflettono i poliedrici e raffinati gusti degli Este, indirizzati non solo alla pittura e alla scultura, ma anche verso le antichit&agrave; e le arti decorative, la grafica e la numismatica. Ad una ricchissima quadreria &ndash; che presenta soprattutto capolavori della pittura emiliana dal XIV al XVIII secolo, da Cosm&egrave; Tura al Correggio, dai Carracci a Guercino a Guido Reni &ndash; si aggiungono infatti un&#39;importante raccolta grafica (disegni, stampe, matrici silografiche), una sceltissima collezione di sculture antiche e moderne, una significativa selezione di arti decorative (metalli, vetri, avori, maioliche, ceramiche, mobili e arredi) e una delle pi&ugrave; cospicue raccolte numismatiche del mondo (monete antiche e moderne, medaglie e placchette, sigilli, coni e punzoni). La collezione arrivata fino a noi &egrave; il frutto di una storia di mecenatismo e acquisizioni iniziata a Ferrara e continuata con energia dopo il trasferimento della corte estense a Modena, alternate a perdite e dispersioni, come la vendita di cento dipinti nel 1746 all&#39;Elettore di Sassonia Augusto III (tuttora conservati a Dresda) e le spoliazioni napoleoniche. La Galleria venne lasciata in eredit&agrave; alla citt&agrave; dall&#39;ultimo duca, Francesco V d&#39;Austria-Este, e poi trasferita nell&#39;attuale sede del Palazzo dei Musei, dove ha riaccolto nel corso del Novecento alcune delle opere anticamente appartenenti al patrimonio estense.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 113560,
-    "title": "MODENA FIERE",
-    "lat": 44.654054,
-    "lng": 10.85818,
-    "url": "https://fondoambiente.it/luoghi/modena-fiere",
-    "description": "Per iscritti FAI biglietto ridotto per la mostra Modenantiquaria presso Modena Fiere Dall&#39;11 al 19 febbraio 2023 Modenantiquaria, patrocinata da Associazione Antiquari d&#39;Italia e FIMA, &egrave; la manifestazione di riferimento per chi ricerca l&#39;eccellenza di alto antiquariato; un crocevia unico dove collezionisti, appassionati e mercanti d&rsquo;arte si incontrano alla ricerca di preziosi capolavori. La mostra, giunta alla sua XXVI edizione, &egrave; il connubio perfetto tra arte, passione ed affari, nonch&eacute; una vetrina esemplare per le pi&ugrave; illustri gallerie del settore che spesso espongono opere anche inedite. Modenantiquaria: la bellezza della storia, il prestigio della tradizione. All&#39;interno del contesto di Modenantiquaria sar&agrave; possibile partecipare a PETRA dove le pi&ugrave; importanti gallerie offrono ai visitatori soluzioni personalizzate di exterior design, capaci di trasformare qualsiasi spazio in un ambiente unico ed originale, e SCULPTURA; collezionisti d&#39;arte, designer ed esperti alla ricerca del pezzo unico hanno qui modo di confrontarsi con le tendenze del momento. 9 giorni di bellezza ed eventi di qualit&agrave; 15.000 mq di area espositiva 500 mq di giardini all&rsquo;italiana 2.800 mq di verde scenografico 35.000 visitatori 150+ gallerie",
     "categories": [
       {
         "id": 8,
@@ -7345,11 +7009,11 @@
     "lat": 44.9338889,
     "lng": 9.6741667,
     "url": "https://fondoambiente.it/luoghi/grazzano-visconti",
-    "description": "Per gli iscritti FAI biglietto ridotto per la visita per il Castello e parco di Grazzano Visconti (PC) biglietto ridotto per la visita al Castello (13,00 &euro;) biglietto ridotto per la visita al Parco (8,00&euro;) biglietto ridotto per visita cumulativa Castello + Parco (20,00&euro;) Il castello di Grazzano Visconti &egrave; stato, nel tempo, una fortezza e un bastione di difesa, ma anche una casa. Una casa dove hanno vissuto tante persone, alcune anche molto note. Una visita guidata alla scoperta delle tracce che queste persone hanno lasciato nel castello vi far&agrave; conoscere le loro storie e vedere con i loro occhi le stanze dove hanno vissuto, agito e sognato.",
+    "description": "Per iscritti FAI biglietto ridotto, 8 &euro; invece che 10 &euro;, per VERDE GRAZZANO presso il Borgo e Castello di Grazzano (PC) 26 E 27 SETTEMBRE 2026 ll biglietto pu&ograve; essere acquistato on line o presso la biglietteria locale nei giorni dell&rsquo;evento. &Egrave; obbligatorio presentare la tessera FAI: all&rsquo;ingresso della manifestazione, in caso di biglietto acquistato ONLINE in biglietteria, al momento dell&rsquo;acquisto in loco. DESCRIZIONE La delegazione FAI di Piacenza si occuper&agrave; di tenere alcune visite&nbsp;botaniche accompagnate al meraviglioso parco del castello A Verde Grazzano sono in programma momenti di approfondimento per conoscere meglio il verde e la sua cura, ma anche per riflettere sull&rsquo;impatto positivo della natura sull&rsquo;uomo, il suo benessere e la sua creativit&agrave;. SCOPRI IL PROGRAMMA",
     "categories": [
       {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
+        "id": 11,
+        "name": "Stare a contatto con la natura"
       }
     ]
   },
@@ -7950,20 +7614,6 @@
     ]
   },
   {
-    "id": 109479,
-    "title": "AZIENDA VITIVINICOLA BULFON",
-    "lat": 46.1710448,
-    "lng": 12.9227941,
-    "url": "https://fondoambiente.it/luoghi/azienda-vitivinicola-bulfon",
-    "description": "Per iscritti FAI riduzione del 10% per gli acquisti presso l&#39;azienda I vini di Emilio Bulfon a Pinzano al Tagliamento (PN) L&rsquo;azienda vitivinicola&nbsp;I vini di Emilio Bulfon,&nbsp;nota in regione per aver riscoperto, recuperato e valorizzato antiche variet&agrave; autoctone di vitigni del territorio del Friuli occidentale (Ucelut, Piculit-Neri, Sciaglin, Forgiarin),&nbsp;si trova nell&rsquo;area pedemontana della provincia di Pordenone, immersa tra boschi, colline e le rive del fiume Tagliamento, uno dei pi&ugrave; antichi corsi d&rsquo;acqua d&rsquo;Europa. Si estende con i suoi vigneti nel territorio che comprende i comuni di Castelnovo del Friuli e Pinzano al Tagliamento, su una superficie, in parte collinare, di 15,90 ettari, di cui 11 coltivati a vigneto esclusivamente di variet&agrave; autoctone friulane recuperate. L&rsquo;azienda si propone di coniugare le innovazioni tecnologiche in campo enologico con la valorizzazione del territorio: immersa nel verde, dispone di una moderna cantina, un punto vendita, un&rsquo;ampia sala degustazione con una raccolta etnografica ed offre anche un alloggio agrituristico con 4 camere e piscina, accreditato dall&rsquo;ERSA con 5 girasoli. Dal 2006 l&rsquo;azienda, qualificata anche come Fattoria Didattica, intende promuovere non solo i vini, ma anche il ricco patrimonio di storia ed arte del territorio. Non a caso sia il logo dell&rsquo;azienda che l&rsquo;ormai inconfondibile etichetta dei vini traggono spunto da un affresco di epoca medievale, presente nella Chiesa di Santa Maria dei Battuti di Valeriano, raffigurante &ldquo;L&rsquo;Ultima Cena&rdquo;. All&rsquo;enoturista in visita viene offerta la possibilit&agrave; di essere accompagnato nei vari vigneti terrazzati dell&rsquo;azienda e di fare escursioni in bicicletta in collina, ma anche di visitare le chiese locali che conservano importanti opere quali gli affreschi del Pordenone, il castello dei conti Savorgnan, il sacrario austroungarico, il ponte di Pinzano sul Tagliamento e un ambiente naturalistico rimasto sinora fortunatamente incontaminato.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 117186,
     "title": "TEATRO COMUNALE DI POLCENIGO",
     "lat": 46.042686,
@@ -8090,34 +7740,6 @@
     ]
   },
   {
-    "id": 109423,
-    "title": "TENUTA VISTORTA",
-    "lat": 45.936452,
-    "lng": 12.4713888,
-    "url": "https://fondoambiente.it/luoghi/tenuta-vistorta",
-    "description": "Per iscritti FAI 10% di riduzione per l&#39;acquisto dei prodotti della Tenuta Vistorta a Sacile (PN) Vistorta &egrave; un piccolo borgo nel Friuli occidentale e sede della propriet&agrave; agricola della famiglia Brandolini dal 1872.&nbsp; Al centro del borgo si trova la tenuta, nella quale una stupenda villa si affaccia su 7 ettari di parco all&rsquo;inglese. Al suo interno alberi centenari sono affiancati da rare essenze, insieme alla serra delle orchidee. In origine la cantina era ospitata nella barchessa adiacente alla villa, dove tutt&#39;ora sono conservate le botti e gli strumenti di un passato glorioso. Attualmente &egrave; accolta nella barchessa settecentesca di Cordignano dove, con l&rsquo;ausilio di semplici ed essenziali impianti di vinificazione, viene esaltato quello che la natura ha sapientemente costruito nel vigneto. L&rsquo;azienda agricola fu tra le primissime realt&agrave; di produzione vinicola a piantare il Merlot dopo il flagello della fillossera. Dagli anni Ottanta &egrave; Brandino Brandolini d&rsquo;Adda a portare avanti l&#39;azienda e a salvaguardare le centenarie viti di Merlot, affiancate ora da nuovi vigneti, dal 2008 a conduzione biologica, che producono un frutto raffinato e dalle caratteristiche uniche.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 109868,
-    "title": "AZIENDA AGRICOLA  LE QUATTRO STAGIONI ORTO NATURALE",
-    "lat": 46.0513258,
-    "lng": 12.6861439,
-    "url": "https://fondoambiente.it/luoghi/azienda-agricola-le-quattro-stagioni-orto-naturale",
-    "description": "Per iscritti FAI riduzioni 10% sull&#39;acquisto di prodotti presso l&#39;azienda Agricola Le Quattro Stagioni a San Quirico (PN) &nbsp; Un&rsquo;azienda agricola a conduzione familiare specializzata nella produzione e vendita di frutta e verdura. Dal 1998 coltiviamo in modo naturale rispettando il ritmo stagionale. Il nostro punto vendita, aperto tutto l&rsquo;anno, &egrave; a diretto contatto con le coltivazioni per offrire ogni giorno freschezza, qualit&agrave; e trasparenza. Ci troviamo a San Foca di San Quirino a ridosso del meraviglioso ecosistema dei Magredi del Friuli Venezia Giulia. Le nostre terre sono magre, sassose, dure e difficili per praticare orticoltura eppure ci offrono prodotti con gusto intenso e sapore unico.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 111839,
     "title": "AZIENDA AGRICOLA BAGNAROL",
     "lat": 45.9312825,
@@ -8198,20 +7820,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 109869,
-    "title": "DISTILLERIA PAGURA",
-    "lat": 45.9675728,
-    "lng": 12.7952677,
-    "url": "https://fondoambiente.it/luoghi/distilleri-pagura",
-    "description": "Per iscritti FAI riduzione del 10% per l&#39;acquisto di prodotti presso la Distilleria Pagura a Castions (PN) La distilleria Pagura vanta in Friuli Venezia Giulia le origini pi&ugrave; antiche. Fondata nel 1879 a Castions di Zoppola con il nome di &quot;Sgnaperie&quot;, si trasferisce agli inizi del &lsquo;900 nell&rsquo;attuale sede dove, pur ampliando le capacit&agrave; produttive, rimane un&rsquo;azienda a conduzione familiare. Le caratteristiche del vecchio alambicco non sono state modificate, sicch&egrave; ancor oggi viene usato l&rsquo;antico metodo di distillazione a vapore con metodo discontinuo a caldaiette in rame: un caso di longevit&agrave; unico per un impianto di distillazione di tipo industriale e l&rsquo;unica tecnica di distillazione che consente di esaltare il sapore e gli odori delle vinacce di partenza.&nbsp; Attualmente, in Italia, solo il 10% della grappa &egrave; prodotta usando questo antico metodo. L&rsquo; azienda accoglie gli ospiti per visite, degustazioni e acquisti direttamente in distilleria. &nbsp;",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -10008,20 +9616,6 @@
     ]
   },
   {
-    "id": 108828,
-    "title": "HOTEL CRISTALLO RELAIS",
-    "lat": 41.9516405,
-    "lng": 12.7659875,
-    "url": "https://fondoambiente.it/luoghi/hotel-cristallo-relais",
-    "description": "Per gli iscritti FAI riduzione del 10% sui servizi offerti dall&#39;Hotel Cristallo Relais a Tivoli (RM) L&#39;Hotel Cristallo Relais si trova a Villa Adriana - Tivoli, a 1,7 km dall&#39;uscita dell&#39;autostrada A14 e vicino allo snodo autostradale A1. Il centro di Tivoli, cos&igrave; come Villa Gregoriana , distano circa 7 km, l&#39;ideale per un soggiorno tra relax, cultura e divertimento. Il centro di Roma &egrave; invece raggiungibile in 30 minuti circa. La struttura dispone di 42 camere dotate di Smart Tv e Sky, parcheggio privato (spazio anche per Bus) ed un ristorante interno che propone piatti della tradizione locale e nazionale; la struttura &egrave; dotata anche di un bar.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
     "id": 107847,
     "title": "RISTORANTE PARCO LAGHI DEI REALI",
     "lat": 41.9633675,
@@ -10194,20 +9788,6 @@
     ]
   },
   {
-    "id": 119690,
-    "title": "TEATRO GRECO DI ROMA",
-    "lat": 41.9367705,
-    "lng": 12.5100148,
-    "url": "https://fondoambiente.it/luoghi/teatro-greco-di-roma",
-    "description": "Per iscritti FAI riduzione del 20% per gli spettacoli al Teatro Greco di Roma &nbsp;Abbonamenti: riduzione del 20% circa dal prezzo intero; Biglietti: riduzione del 20% circa dal prezzo intero per gli spettacoli della stagione teatrale; &nbsp;Le riduzioni sono valide esclusivamente previa prenotazione con l&rsquo;Ufficio Promozione -&nbsp;tel. e whatsapp 377 3941825 promozione@teatrodellacittadiroma.it sono esclusi dalla convenzione il 31 dicembre, i festivi e prefestivi;&nbsp; SCOPRI IL PROGRAMMA DESCRIZIONE Il Teatro Greco, fondato nel 1996 da Renato Greco e Maria Teresa Dal Medico, nasce come luogo dedicato all&rsquo;arte in tutte le sue forme. La sua particolare architettura, ispirata alla cavea dei teatri dell&rsquo;antica Grecia, e la sua versatilit&agrave; tecnologica lo rendono uno spazio ideale per accogliere prosa, danza, musica e grandi eventi culturali. OGGI IL TEATRO GRECO VIVE UNA NUOVA VITA. Sotto la nuova gestione del Teatro della Citt&agrave; di Roma &ndash; Teatro d&rsquo;Italia si propone come una vera e propria casa della grande prosa classica e contemporanea, ospitando alcuni tra i pi&ugrave; importanti nomi del teatro italiano e internazionale. Un nuovo capitolo che, nel segno della qualit&agrave; e della passione, riporta il Teatro Greco al centro della scena culturale della citt&agrave;. Nasce il Teatro della Citt&agrave; di Roma &ndash; Teatro d&rsquo;Italia, un progetto promosso da United Artists che inaugura una nuova stagione culturale per la Capitale. La stagione 2025/26 prender&agrave; vita al Teatro Greco, con una programmazione che abbraccia prosa, musica, danza e sperimentazione. L&rsquo;apertura sar&agrave; dedicata a celebrare gli 89 anni del Maestro Eugenio Barba, ultimo grande protagonista del Novecento teatrale, con un progetto speciale che incarna la visione artistica del nuovo teatro.italiano e internazionale. Un nuovo capitolo che, nel segno della qualit&agrave; e della passione, riporta il Teatro Greco al centro della scena culturale della citt&agrave;. &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 100813,
     "title": "TEATRO DELL'UNIONE DI VITERBO",
     "lat": 42.4208704,
@@ -10358,20 +9938,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 110017,
-    "title": "CONVENTO DI SANT'ANNA DEI FRATI CARMELITANI SCALZI",
-    "lat": 44.4156121,
-    "lng": 8.9367232,
-    "url": "https://fondoambiente.it/luoghi/convento-di-sant-anna-dei-frati-carmelitani-scalzi",
-    "description": "Per iscritti FAI riduzione del 10% per gli acquisti in loco presso l&#39;Antica Farmacia Sant&#39;Anna di Genova Per acquistare dal nostro sito&nbsp;erboristeriadeifrati.it, approfittando della riduzione del 10% &egrave; necessario effettuare la registrazione&nbsp;come Iscritto FAI, allegando un&#39;immagine della tessera associativa &iquest;(solo il lato con i dati personali). L&#39;iscrizione non &egrave; istantanea perch&eacute; sottoposta a verifica dei vostri dati associativi.&nbsp;Gli acquisti saranno possibili non appena riceverete la nostra mail di approvazione. L&rsquo;Antica Farmacia di Sant&rsquo;Anna si trova nell&rsquo;omonima piazzetta, nel quartiere di Castelletto, presso il convento dei Frati Carmelitani Scalzi di Genova. Il convento &egrave; situato sulla sommit&agrave; del poggio di Bachernia, da cui si gode di una splendida vista sul porto e sulla citt&agrave; vecchia. Vi si arriva facilmente dalla centralissima Piazza Corvetto. E&rsquo; un luogo unico, appartato e poco conosciuto dai genovesi, ancora intatto dai primi del &lsquo;600. In questo contesto si apre anche la biblioteca storica che raccoglie volumi antichi, erbari e saggi di botanica con preziose miniature, testi teologici e biblici di preziosa fattura, molti in edizione originale. Il vero gioiello &egrave; per&ograve; l&rsquo;Antica Farmacia del Convento, alla quale si accede passando attraverso un antico portale barocco. Tra manuali, strumenti antichi, preziosi vasellami, sono esposti, in pregiate boiserie in noce, i nostri preparati. Un putto ligneo reca il motto della farmacia:&nbsp; &ldquo;Nos medicinam paramus, Deus dat nobis salutem&rdquo;. La Farmacia &egrave; censita tra le botteghe storiche del Comune di Genova. &Egrave; la pi&ugrave; antica bottega di Genova che non ha mai cambiato proprietario.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -11654,20 +11220,6 @@
     ]
   },
   {
-    "id": 81748,
-    "title": "GALLERIA DELL’ACCADEMIA TADINI E CAPPELLA TADINI",
-    "lat": 45.814575,
-    "lng": 10.073063,
-    "url": "https://fondoambiente.it/luoghi/galleria-dell-accademia-tadini-e-cappella-tadini",
-    "description": "Per gli iscritti FAI biglietto ridotto, 10 euro invece che 14 euro per la visita alla Galleria dell&#39;Accademia di belle Arti Tadini a Bergamo. DESCRIZIONE La collezione raccolta dal conte Luigi Tadini rispecchia la variet&agrave; di interessi di un aristocratico. Cuore della collezione sono le opere di Antonio Canova, cui si aggiunsero nel tempo quelle dello scultore Giovanni Maria Benzoni, uno dei protagonisti della scultura dell&rsquo;Ottocento italiano &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 120882,
     "title": "SCUOLA DI CERAMICA TINO GAGGERO",
     "lat": 44.3372268,
@@ -12214,20 +11766,6 @@
     ]
   },
   {
-    "id": 108632,
-    "title": "B&B TORRE DE SALIS",
-    "lat": 45.5782427,
-    "lng": 10.1487893,
-    "url": "https://fondoambiente.it/luoghi/bb-torre-de-salis",
-    "description": "Per gli iscritti FAI riduzione del 10% per i servizi offerti dal B&amp;B Torre de Salis a Gussago (BS) APPASSIONANTE COME UN&rsquo;AVVENTURA, INTERESSANTE COME UN MUSEO, ACCOGLIENTE COME UNA CASA. Nell&rsquo;anno del Signore 1087 il nobile Oddone de Salis , discendente da un casato che traeva il suo nome da uno storico insediamento longobardo, donava ai monaci del Monastero di Pontida numerosi suoi beni e propriet&agrave;, mantenendo per se&rsquo; il suo castello eretto nella localit&agrave; di Sale: questa antica casa-torre ha attraversato i secoli e gli avvenimenti storici, ha visto passare tra le sue mura, costruite nel X secolo, uomini e donne di ogni epoca ed offre ancora oggi, con l&rsquo;appassionata e amorosa conservazione degli attuali proprietari, il senso di protezione, il calore ed il fascino emanato dalle sue pietre millenarie.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
     "id": 100962,
     "title": "JAZZ ON THE ROAD",
     "lat": 45.6142989,
@@ -12616,20 +12154,6 @@
       {
         "id": 14,
         "name": "Partecipare a corsi o escursioni"
-      }
-    ]
-  },
-  {
-    "id": 111037,
-    "title": "AMARO SETA",
-    "lat": 45.8116435,
-    "lng": 9.0735403,
-    "url": "https://fondoambiente.it/luoghi/amaro-seta",
-    "description": "Per iscritti FAI riduzione del 10% per l&#39;acquisto di Amaro Seta - L&#39;Amaro del Lago di Como L&rsquo;inconfondibile anima di Amaro Seta vive nella sapiente lavorazione delle more di gelso, albero sacro all&rsquo;industria serica comasca, le cui foglie costituiscono l&rsquo;unico nutrimento del baco. Quando il gusto morbido e delicato di questo frutto prezioso incontra le note limpide e ferme di zafferano e arancia amara, nasce un amaro unico dal sapore raffinato. I toni bilanciati ed eleganti di Amaro Seta sfuggono ad ogni tentativo di classificazione: dolce ma non eccessivo, deciso ma non prepotente, Amaro Seta &egrave; l&rsquo;amaro sopra le righe. Amaro Seta &egrave; la storia di un viaggio millenario che dall&rsquo;estremo oriente ci porta lungo le sponde del lago di Como, raccogliendo con s&eacute; i pensieri rivoluzionari, le idee, le innovazioni, le arti e le culture sedimentate lungo le vie del commercio della seta. Ultimo avamposto di questo viaggio &egrave; indubbiamente il distretto lariano. L&rsquo;arte serica comasca ha origini antiche e ha lasciato nel territorio un patrimonio artistico e tecnico di rilievo. Amaro Seta celebra ed epiloga questa veste attraverso un oggetto emblematico: una bottiglia avvolta dalla natura comasca.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -13242,20 +12766,6 @@
     "lng": 9.9922617,
     "url": "https://fondoambiente.it/luoghi/sistema-museale-della-citta-di-cremona-museo-civico-della-civilta-contadina-cascina-il-cambonino-vecchio",
     "description": "Ingresso gratuito per iscritto FAI e accompagnatore per il Museo Civico della Civilt&agrave; Contadina a Cremona. La collocazione del Museo della Civilt&agrave;&nbsp; Contadina di Cremona -inaugurato nel 1978- nella cascina il &quot;Cambonino Vecchio&quot;, da sempre costituisce un elemento fondamentale nella scelta della tipologia delle collezioni esposte e dell&#39;ordinamento seguito nel loro allestimento. La stalla antica &egrave; la testimonianza pi&ugrave; remota della cascina. E&#39; costituita da sei campate sostenute da archi a tutto sesto e da cinque colonnine centrali, il pavimento &egrave; in mattoni di cotto e sulle lettiere originali sono state ricostruite le mangiatoie. Annesse vi sono le porcilaie di allevamento, e tre porcili da ingrasso, con sovrapposti tre pollai. All&#39;interno della stalla sono esposti alcuni oggetti relativi ai lavori legati all&#39;allevamento. La &quot;bugadera&quot; (locale adibito a lavanderia) presenta all&#39;interno due fornelli in muratura entro cui erano poste le caldaie metalliche per la bollitura dell&#39;acqua. L&#39;annerimento del soffitto e delle pareti, conservato nell&#39;allestimento, deriva dal fumo dei fornelli. L&#39;antica stalla dei cavalli con soffitto ad archi e volte sostenuto da una colonna centrale &egrave; stata di recente destinata all&#39;allestimento dell&#39;esposizione di materiali della Lattoneria di Piazzi Ernesto - partner privilegiato del Museo Cambonino. In una delle case dei contadini &egrave; stato ricreato l&#39;ambiente domestico, un&#39;altra ospita la sede della &quot;Cucina cremonese&quot;. La casa del fattore: si riconosce dal campaniletto posto in cima al tetto. Al primo piano vi sono la sala della Musica, realizzata da Piazzi Sponsor e la sede del Gruppo dialettale &quot;El Zac&quot;. A piano terra si trova la scuola di cucina per bambini &quot;Cookids - imparare cucinando&quot;, realizzata in collaborazione con la Provincia di Cremona; a fianco &egrave; stato di recente inaugurato il nuovo spazio espositivo &quot;Terra Fiume&quot;, realizzato da da Comune di Cremona e Famiglia Ghizzoni in sinergia con Rotary del Po, dedicato alla pesca professionale sul Po. La casa padronale ha la porta centrale che immette nel bocchirale, un ampio corridoio adibito a &quot;sala di rappresentanza&quot; che oggi, con le stanze limitrofe, viene utilizzato per attivit&agrave;&nbsp; didattiche e mostre temporanee. Il barchessale, sotto il quale sono ordinate diverse tipologie di macchine agricole, presenta la tipica grigliatura a gelosia che consentiva la perfetta areazione della corte, in mezzo alla quale si trovava l&#39;aia, utilizzata per l&#39;essiccazione dei cereali. La stalla nuova, il cui accesso &egrave; consentito attraverso un vano adibito al ricovero dei cavalli, &egrave; costituita da sette campate, con volte a padiglione formanti anche il pavimento del fienile soprastante. L&#39;allestimento proposto presenta oggetti relativi alla cura dei cavalli, ed una sequenza di attrezzi utilizzati per il lavoro nei campi, in tutte le fasi dall&#39;aratura alla cernita delle sementi. Sotto il portico antistante sono ordinate diverse tipologie di carri e mezzi di trasporto. L&#39;Oratorio della Beata Vergine di Caravaggio presenta due ingressi, uno accessibile dall&#39;interno l&#39;altro esterno attiguo al portone principale della cascina ed ospita ancora oggi alcune delle tradizionali funzioni mariane serali del &quot;Mese di Maggio&quot;. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 82916,
-    "title": "MUSEO DEL VIOLINO",
-    "lat": 45.131533,
-    "lng": 10.0222956,
-    "url": "https://fondoambiente.it/luoghi/museo-del-violino",
-    "description": "Per gli iscritti FAI biglietto ridotto a 9&nbsp;euro per la visita al Museo del Violino di Cremona DESCRIZIONE&nbsp; Dal 1976 la&nbsp;Fondazione Museo del Violino Antonio Stradivari&nbsp;&ndash; gi&agrave;&nbsp;Ente Triennale&nbsp;&ndash; tutela e promuove il valore della liuteria cremonese, classica e contemporanea, attraverso concorsi, mostre, convegni, pubblicazioni, audizioni con strumenti storici e concerti in&nbsp;Audutorium Giovanni Arvedi. La capacit&agrave; unica di creare strumenti ad arco di raffinata fattura &egrave; alla base di quell&rsquo;identit&agrave; cittadina che, nel solco di una tradizione di eccellenze alto-artigianali, affonda le proprie radici nel tardo Rinascimento e nei primi secoli dell&rsquo;et&agrave; moderna per giungere intatta fino ad oggi. Il costante impegno di ricerca e riscoperta dei grandi maestri del passato e della loro opera si traduce, quotidianamente, nella gestione e organizzazione del Museo del Violino e, ogni anno, in autunno, nell&rsquo;allestimento di mostre di liuteria storica capaci di catalizzare, grazie al rilievo dei contenuti scientifici e a proposte spesso inedite, l&rsquo;attenzione internazionale. Gli eredi dei grandi Maestri sono gli artigiani di oggi. La Fondazione organizza, dal 1976, il Concorso Triennale Internazionale &ldquo;Antonio Stradivari&rdquo;, momento di confronto privilegiato tra i migliori costruttori di tutto il mondo, tanto da esser definito, non a caso, l&rsquo;Olimpiade della Liuteria. Dal 2009 la Fondazione ha anche promosso il progetto&nbsp;&ldquo;friends of Stradivari&rdquo;,&nbsp;network mondiale tra quanti possiedono, studiano, utilizzano strumenti della liuteria classica cremonese o ne sono semplicemente appassionati. &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -13908,20 +13418,6 @@
     ]
   },
   {
-    "id": 111038,
-    "title": "RISTORANTE E LIBRERIA MUTTY",
-    "lat": 45.3877163,
-    "lng": 10.486225,
-    "url": "https://fondoambiente.it/luoghi/ristorante-e-libreria-mutty",
-    "description": "Per iscritti FAI riduzione del 5% per i servizi offerti dal Ristorante e LIbreria Mutty a Castiglione delle Stiviere (MN) &nbsp; Mutty &egrave; una libreria che propone un&#39;attenta selezione di libri di editori indipendenti italiani e stranieri e edizioni d&#39;artista, con una vocazione per il libro illustrato per bambini. Mutty &egrave; uno spazio mostre di illustrazione, grafica e opere su carta, in stretta relazione con i libri e gli artisti della libreria. E&#39; anche un luogo del fare e della formazione: propone e cura un proprio calendario di workshop e corsi per adulti e bambini. Mutty &egrave; una cucina naturale e vegetariana. Un luogo della convivialit&agrave; che crea piatti pensati per offrire i migliori prodotti a corto raggio e nel rispetto della loro stagionalit&agrave;.",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
-      }
-    ]
-  },
-  {
     "id": 119106,
     "title": "AZIENDA AGRICOLA LA COSTA",
     "lat": 45.7251632,
@@ -13936,48 +13432,6 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 109467,
-    "title": "ASSOCIAZIONE CULTURALE POMPONAZZO",
-    "lat": 45.1624054,
-    "lng": 10.7886266,
-    "url": "https://fondoambiente.it/luoghi/associazione-culturale-pomponazzo",
-    "description": "Per iscritti FAI sconto del 10% sugli spettacoli organizzati dalla Associazione Culturale &ldquo;Pietro Pomponazzo&rdquo;. L&rsquo;Associazione Culturale &ldquo;Pietro Pomponazzo&rdquo; nasce nel gennaio del 1999 dalla collaborazione della Schola Cantorum &ldquo;Pietro Pomponazzo&rdquo; con l&rsquo;omonima Scuola Elementare di Mantova (ora Istituto Comprensivo MN 1 &ldquo;Luisa Levi&rdquo;) per promuovere ed attuare iniziative di carattere musicale, culturale, educativo, artistico e sociale, con particolare attenzione ai giovani ed al mondo della Scuola. L&rsquo;Associazione di volontariato organizza e coordina le attivit&agrave; del coro polifonico di adulti Schola Cantorum &quot;P. Pomponazzo&quot; e del coro di voci bianche &quot;Voci in Festa Citt&agrave; di Mantova&quot;, fondato nel 2008. Effettua studi sulle connessioni tra la storia musicale locale e quella nazionale ed europea. Ricerca ed attua collegamenti tra la musica e la storia generale; in particolar modo si &egrave; occupata delle ricerche sulle partiture dell&#39;archivio musicale della Comunit&agrave; Ebraica di Mantova, in accordo con la Comunit&agrave; stessa. Gli studi svolti confluiscono in mostre dedicate a cura dell&rsquo;Associazione. Tramite l&rsquo;iniziativa &ldquo;In viaggio per la Musica&rdquo; organizza e aderisce a scambi culturali con realt&agrave; musicali in Italia e in Europa favorendo altres&igrave; la visita e il soggiorno a Mantova di nutriti gruppi di giovani e di adulti. Organizza concerti, rassegne musicali ed eventi sul territorio mantovano e non solo ed &egrave; frequentemente coinvolta da Enti pubblici e privati in particolari occasioni quali Celebrazioni Istituzionali, Celebrazioni del Giorno della Memoria, Festa della Musica.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 109929,
-    "title": "ASSOCIAZIONE DISTRETTO CULTURALE LE REGGE DEI GONZAGA",
-    "lat": 45.1574561,
-    "lng": 10.7927687,
-    "url": "https://fondoambiente.it/luoghi/associazione-distretto-culturale-le-regge-dei-gonzaga",
-    "description": "Per gli Iscritti FAI riduzione del 20% per le iniziative organizzate dall&rsquo; Associazione Distretto Culturale Le Regge dei Gonzaga. L&rsquo;Associazione Distretto culturale Le Regge dei Gonzaga nasce nel 2011 su iniziativa del Comune di Mantova, della Provincia e di altri 12 Comuni; rappresenta un modello di sviluppo territoriale, in cui la finalit&agrave; prima &egrave; la valorizzazione dei beni culturali, sia materiali che immateriali, attraverso un sistema organizzato, territorialmente delimitato, di integrazione tra le istituzioni e le infrastrutture da una parte e le organizzazioni che erogano servizi e i settori produttivi dall&rsquo;altra. Il Distretto culturale investe pertanto sulla creazione di una rete che vede come assi strategici per lo sviluppo locale e turistico la promozione della tradizione culturale ed artistica, la conservazione dei beni architettonici e la filiera del gusto. Tre sono gli obiettivi principali dell&rsquo;Associazione: promuovere un sistema di offerta culturale che trovi le sue radici nella dinastia dei Gonzaga e che sappia essere rispettoso della tradizione, ma allo stesso tempo innovativo, in grado di rispondere con efficacia ed efficienza alla domanda turistica; qualificare il sistema della conservazione attraverso la diffusione di strumenti e procedure che coinvolgano i ceti professionali e le imprese del settore; sviluppare la rete del gusto e della produzione agroalimentare, degli agriturismi e della ristorazione d&rsquo;eccellenza come elemento distintivo dell&rsquo;identit&agrave; locale. Per fare questo l&rsquo;Associazione propone itinerari alla scoperta del territorio, convegni e rassegne tra cui spicca &ldquo;Il Gusto del Bello&rdquo;, una serie di esperienze tematiche presso i 12 Comuni coinvolti nel Distretto in cui la visita ai luoghi d&rsquo;interesse culturale &egrave; arricchita da degustazioni a cura degli operatori della rete Ea(s)t Lombardy.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 109466,
-    "title": "ASSOCIAZIONE L'ORFEO",
-    "lat": 45.154542,
-    "lng": 10.7918704,
-    "url": "https://fondoambiente.it/luoghi/associazione-l-orfeo",
-    "description": "Per iscritti FAI sconto del 10% sugli spettacoli organizzati dall&#39;Associazione Culturale &quot;L&#39;Orfeo&quot;. L&rsquo;Associazione si propone di diffondere il repertorio musicale e teatrale in particolar modo del secolo XVII, XVIII, XIX. Organizza manifestazioni musicali e culturali tra cui rassegne, festival, conferenze, convegni e concorsi tra cui spicca il Concorso internazionale &ldquo;Giovani talenti per la lirica&rdquo; - Premio Ettore Campogalliani, giunto alla terza edizione, che coinvolge giovani studenti di canto da tutto il mondo. Molte le collaborazioni messe in atto con associazioni italiane, enti pubblici, fondazioni e artisti di fama internazionale. Le produzioni artistiche si svolgono sempre in luoghi particolarmente significativi e suggestivi come palazzi rinascimentali e teatri storici che permettano di creare collegamenti diretti tra la musica e gli spazi realizzati per ascoltarla; ne sono esempio l&rsquo;Orfeo, Favola in musica di Claudio Monteverdi nella Palazzina di Caccia gonzaghesca di Bosco Fontana o l&rsquo;Orlando Furioso, su musiche di Antonio Vivaldi e testi poetici di Ludovico Ariosto presso il Teatro Bibiena di Mantova. Tra le attivit&agrave; collaterali curate dall&rsquo;Associazione sono da ricordare anche corsi di educazione ed insegnamento musicale e di danza rinascimentale.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -14094,40 +13548,12 @@
     ]
   },
   {
-    "id": 102585,
-    "title": "PALAZZO DELLA RAGIONE",
-    "lat": 45.158355,
-    "lng": 10.7942971,
-    "url": "https://fondoambiente.it/luoghi/palazzo-della-ragione",
-    "description": "Per gli iscritti FAI biglietto ridotto, 1,50 euro invece che 3 euro, per la visita al Palazzo della Ragione di Mantova Il Palazzo della Ragione fa parte di quel nucleo di edifici cittadini sorti in epoca medioevale. Citato pi&ugrave; volte in documenti dell&#39;epoca come Palatium Novum del Comune, il palazzo venne edificato intorno all&#39;XI-XII secolo per assolvere alle funzioni civili pubbliche e destinato ad accogliere le assemblee e le adunanze cittadine o, in caso di cattivo tempo, il mercato che si teneva nella piazza sottostante. L&#39;edificio fu pi&ugrave; volte oggetto di modifiche, fin dalla met&agrave; del XIII secolo; nel XV secolo vennero eretti i portici e nel 1472 fu innalzata la Torre dell&#39;Orologio, realizzata su disegno di Luca Fancelli. L&#39;anno dopo la Torre fu arricchita da un pubblico orologio ideato dal matematico ed astrologo Bartolomeo Manfredi. L&#39;orologio dava conto delle ore del vulgo, delle posizioni dei pianeti, del crescere e del calare del giorno, dei segni zodiacali, delle fasi lunari, dei giorni favorevoli per far salassi, seminare, partire per viaggi e di altre cose &quot;uteli in questo mondo&quot;. L&#39;orologio funzion&ograve; sicuramente fino agli inizi del Settecento ma in seguito fu trasformato in un normale meccanismo per il sole e per i minuti.&nbsp;Nel 1700, su progetto dell&#39;architetto Doricilio Moscatelli, sulla facciata prospiciente Piazza Erbe, furono chiuse le trifore duecentesche ed aperte ampie e luminose finestre. Nella prima met&agrave; del &#39;900, il palazzo fu riportato alla sua struttura originaria dall&#39;architetto mantovano Aldo Andreani, eliminando le sovrapposizioni barocche. Adibito per secoli all&#39;amministrazione della giustizia, dal 1997 &egrave; divenuto prestigiosa sede espositiva del Comune di Mantova, ospitando numerose ed importanti mostre d&#39;arte. Nell&#39;ampio salone, di imponenti volumetrie, sono visibili sulle pareti di testa i resti di notevoli affreschi che raffigurano episodi bellici databili intorno alla fine del XII secolo, oltre a personaggi tratti dalla storia sacra a firma del parmense Grisopolo e databili alla prima met&agrave; del duecento.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40163,
     "title": "PALAZZO TE",
     "lat": 45.1477793,
     "lng": 10.7857689,
     "url": "https://fondoambiente.it/luoghi/palazzo-te",
     "description": "Per iscritti FAI biglietto ridotto , 11 € invece che 15 €, per la visita a Palazzo Te a Mantova, Il biglietto di Palazzo Te consente anche l&rsquo;ingresso al Museo MACA e al Tempio Leon Battista Alberti DESCRIZIONE Visitare Palazzo Te significa immergersi in uno dei capolavori pi&ugrave; straordinari del Rinascimento italiano. Situato alle porte del centro storico di Mantova, questo palazzo nobile fu progettato da Giulio Romano, allievo di Raffaello, come luogo di svago e rappresentanza per Federico II Gonzaga. Gli ambienti sorprendono per la ricchezza decorativa e l&rsquo;inventiva artistica: affreschi spettacolari, giochi prospettici e scenografie illusionistiche trasformano ogni sala in un&rsquo;esperienza immersiva. Dalla celebre Sala dei Giganti, che avvolge il visitatore in un vortice travolgente di immagini, alla raffinata Sala di Amore e Psiche, Palazzo Te racconta mito, potere e bellezza con uno stile unico e inconfondibile. Circondato da un ampio giardino, il complesso invita a una visita lenta e contemplativa, ideale per scoprire uno dei luoghi simbolo della cultura rinascimentale europea. Palazzo Te non &egrave; solo un museo, ma un&rsquo;esperienza che unisce arte, storia e meraviglia, lasciando un ricordo indelebile a ogni visitatore.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 31440,
-    "title": "TEATRO SCIENTIFICO DEL BIBIENA",
-    "lat": 45.1581849,
-    "lng": 10.7748,
-    "url": "https://fondoambiente.it/luoghi/teatro-scientifico-del-bibiena",
-    "description": "Per gli iscritti FAI biglietto ridotto, 1,50 euro invece che 3 euro, per il Teatro scientifico Bibiena a Mantova Costruito tra il 1767 e il 1769, il teatro fu progettato dal parmense Antonio Galli Bibiena su commissione del rettore dell&#39;Accademia dei Timidi, conte Carlo Ottavio di Colloredo, con la finalit&agrave; di ospitare principalmente adunanze scientifiche, ma aperto anche a recite e concerti. Il teatro, non pi&ugrave; a gradinata come quelli rinascimentali, presenta una pianta a forma di campana ed &egrave; disposto su pi&ugrave; ordini di palchetti lignei, secondo il genere di struttura inventato nel Seicento e che ormai imperava. Con vivacit&agrave; prodigiosa pari alle risorse dell&#39;estro, l&#39;architetto Bibiena ademp&igrave; in soli due anni all&#39;obbligo che nel 1767 aveva contratto coi Timidi: ide&ograve; lo speciale teatro, ne diresse i lavori di fabbrica ed infine, con abilit&agrave; di pittore oltre che di architetto, affresc&ograve; personalmente gli interni dei numerosi palchetti con figurazioni monocrome, anch&#39;esse documento prezioso dell&#39;attivit&agrave; artistica dell&#39;insigne maestro. La classica facciata fu invece realizzata da Giuseppe Piermarini da cui trae il nome il salone posto al primo piano del teatro.&nbsp;Lo &ldquo;scientifico&rdquo;, finito di tutto punto, il 3 dicembre 1769 poteva essere ufficialmente inaugurato: risultava essere un gioiello squisito per gli equilibri fra movimento ed eleganza e una delle formulazioni architettoniche pi&ugrave; significative del tardo Settecento europeo. Poco pi&ugrave; di un mese dopo l&#39;inaugurazione, il 16 gennaio 1770 il giovane Wolfgang Amadeus Mozart, appena quattordicenne, giunto a Mantova durante la sua prima tourn&eacute;e italiana, vi tenne, assieme al padre Leopold, un memorabile concerto. Tuttora il teatro viene utilizzato per ospitare rassegne musicali, concerti e convegni di alto livello .",
     "categories": [
       {
         "id": 8,
@@ -14618,20 +14044,6 @@
     "lng": 9.1920381,
     "url": "https://fondoambiente.it/luoghi/festival-milano-musica",
     "description": "Per gli iscritti FAI riduzioni per partecipare al Festival Milano Musica DAL 26 APRILE A 6 GIUGNO 2026 MODALITA&#39; che esibendo la tessera FAI&nbsp;presso la Biglietteria di Milano Musica: &bull; Abbonamento data fissa a 10 concerti, di cui alcuni con date e orari a scelta: &euro; 100&nbsp;(anzich&eacute; &euro; 130) con posto assegnato in platea o palco al Teatro alla Scala e programma di sala in omaggio: &bull; Abbonamento libero a 10 concerti a scelta: &euro; 100&nbsp;(anzich&eacute; &euro; 130)&nbsp;di cui fissi solo i due concerti al Teatro alla Scala (28 aprile e 18 maggio), programma di sala in omaggio. &bull; Biglietti per i concerti al Teatro alla Scala (28 aprile e 18 maggio): riduzioni del 15%&nbsp;per i posti in platea e palco, sulle tariffe intere da &euro; 40 e &euro; 20 (per l&rsquo;acquisto di massimo 2 biglietti). Platea e palchi I&ndash;IV ordine (prima fila): &euro; 34 (anzich&eacute; &euro; 40) Palchi I&ndash;IV ordine (posti n. 3,4,5,6): &euro; 17 (anzich&eacute; &euro; 20) PROGRAMMA COMPLETO SCOPRI I LUOGHI DEI CONCERTI l 35&deg; Festival Milano Musica Lontananze creative, diversamente dall&rsquo;edizione monografica dedicata a Francesco Filidei nel 2025, torna a una costellazione di concerti che &ndash; omaggiando due protagonisti diversissimi come Morton Feldman e Gy&ouml;rgy Kurt&aacute;g, entrambi nati nel 1926, ed entrambi legati anche a testi di Samuel Beckett &ndash; confronta le sperimentazioni e le costruzioni di nuove dimensioni di ascolto delle successive generazioni. Nell&rsquo;apertissima situazione di oggi il tema della potenzialit&agrave; creativa della lontananza pu&ograve; essere inteso in modi diversi: dall&rsquo;interesse per la scoperta di altre culture e di nuove tecnologie all&rsquo;accostamento di repertori e autori che sperimentano rare intonazioni microtonali e che esplorano le possibilit&agrave; sonore ed espressive di nuovi strumenti acustici ed elettrici.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 82840,
-    "title": "SERATE MUSICALI - MILANO",
-    "lat": 45.4792679,
-    "lng": 9.2079526,
-    "url": "https://fondoambiente.it/luoghi/serate-musicali-milano",
-    "description": "Per gli iscritti al FAI: sconto del 30% sui biglietti e sugli abbonamenti&nbsp; per i concerti a Serate Musicali. DESCRIZIONE:&nbsp; Fondate nel 1971, le&nbsp;Serate Musicali&nbsp;in 50 anni vantano un Albo d&rsquo;Oro di Artisti storici e di orchestre, definito &ldquo;senza paragoni&rdquo;, almeno in Italia e nella II&deg; met&agrave; del secolo ventesimo, in quanto non vi &egrave; artista storico che non abbiano ospitato, sovente recuperando artisti che ormai evitavano Milano e l&rsquo;Italia &nbsp; &nbsp; &nbsp; &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -15224,20 +14636,6 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 115904,
-    "title": "ARC GALLERY ARTE CONTEMPORANEA",
-    "lat": 45.5855575,
-    "lng": 9.2530408,
-    "url": "https://fondoambiente.it/luoghi/arc-gallery-arte-contemporanea",
-    "description": "Per Iscritti FAI riduzione del 10% per assistere alle mostre promosse dalla galleria d&#39;arte contemporanea a Monza&nbsp; DESCRIZIONE Nel nuovo spazio&nbsp;espositivo ARCgallery, la galleria d&rsquo;arte contemporanea fondata nel 2015 da Antonella Giovenzana&nbsp;racconta e presenta l&rsquo;arte contemporanea con la selettivit&agrave; dei contenuti, il valore artistico e la ricercatezza estetica.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -16524,20 +15922,6 @@
     ]
   },
   {
-    "id": 109480,
-    "title": "ASSOCIAZIONE CULTURALE BELVEDERE E FOTOTECA DI ALTIDONA",
-    "lat": 43.1097414,
-    "lng": 13.7992563,
-    "url": "https://fondoambiente.it/luoghi/associazione-culturale-belvedere-e-fototeca-di-altidona",
-    "description": "Per iscritti FAI riduzione del 20% per i seguenti servizi su prenotazione: &nbsp; visita guidata, esposizione di archivi fotografici, Servizio di catalogazione Servizio di elaborazione fotografica, corsi di fotografia. &nbsp;",
-    "categories": [
-      {
-        "id": 14,
-        "name": "Partecipare a corsi o escursioni"
-      }
-    ]
-  },
-  {
     "id": 40273,
     "title": "CATTEDRALE - MUSEO DIOCESANO E ORATORIO DI SANTA MONICA",
     "lat": 43.1609436,
@@ -16608,20 +15992,6 @@
     ]
   },
   {
-    "id": 95874,
-    "title": "PALAZZO VINCI GIGLIUCCI",
-    "lat": 43.1605467,
-    "lng": 13.7144326,
-    "url": "https://fondoambiente.it/luoghi/palazzo-vinci-gigliucci",
-    "description": "Per gli iscritti FAI riduzione del 10% per il soggiorno presso Palazzo Vinci Giugliucci a Fermo. Palazzo Vinci- Gigliucci custodisce tra le sue mura una storia antichissima. Il primo nucleo del palazzo nasce nel XV secolo quando il parroco dell&rsquo;adiacente chiesa di San Michele Arcangelo (1251 d.C), la seconda chiesa pi&ugrave; importante dell&rsquo;archidiocesi dopo la Cattedrale Metropolitana, decise di costruire un edificio dove alloggiare quando era esente dagli impegni ecclesiastici. Attualmente &egrave; uno dei pi&ugrave; significativi palazzi gentilizi della regione, sia per l&rsquo;impianto architettonico che per le decorazioni. Gran parte dello splendido edificio che costituisce un esempio unico ed irripetibile delle bellezze fermane &egrave; stato attentamente restaurato e convertito in lussuosi appartamenti.&nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
     "id": 40270,
     "title": "POLO MUSEALE DI PALAZZO DEI PRIORI",
     "lat": 43.161688,
@@ -16646,62 +16016,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 109320,
-    "title": "TORRE DA BORA",
-    "lat": 43.1389101,
-    "lng": 13.5847546,
-    "url": "https://fondoambiente.it/luoghi/torre-da-bora",
-    "description": "Per iscritti FAI riduzione del 10% per il soggiorno presso Torre da Bora a Fermo. &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 109321,
-    "title": "ROCCACCIA",
-    "lat": 42.9391458,
-    "lng": 13.3130445,
-    "url": "https://fondoambiente.it/luoghi/roccaccia",
-    "description": "Per gli iscritti FAI riduzione del 10% per il soggiorno presso la Roccaccia a Montefortino (FM) La Roccaccia, torre di avvistamento ed ultimo baluardo di un ben pi&ugrave; ampio sistema difensivo del X secolo, &egrave; sita in quello stupendo incavo di luce sospeso tra sacro e profano, tra la regina dell&rsquo;Appennino, la SIBILLA, ricca di storie di magie, di alchimie e leggende, vive e presenti ancor oggi, e la PRIORA, montagna addormentata fra i suoi boschi, ricca essa di santuari, eremi e romitori, luogo di culto e di preghiera. La Torre, che si trovava in uno stato di dignitosa decadenza, nel suo completo abbandono, oggi ha riacquistato una sua nuova bellezza, al centro di un sistema di sentieri e di percorsi naturalistici all&rsquo;interno dei quali sono state collocate delle creazioni artistiche. Camminamenti, punti panoramici, luoghi incontaminati consegnati dal tempo e giardini sono disseminati di opere d&rsquo;arte, punto d&rsquo;incontro tra la creativit&agrave; umana ed il mondo naturale.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 109319,
-    "title": "BOTTEGA DEI VASAI BOZZI",
-    "lat": 43.061339,
-    "lng": 13.5796245,
-    "url": "https://fondoambiente.it/luoghi/bottega-dei-vasai-bozzi",
-    "description": "Per gli iscritti FAI 10% di riduzione per gli acquisti presso la Bottega dei Vasai Bozzi a Montottone (FM) &nbsp;",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 111086,
-    "title": "ASSOCIAZIONE B&B DEL FERMANO",
-    "lat": 43.2826459,
-    "lng": 13.7373865,
-    "url": "https://fondoambiente.it/luoghi/associazione-bb-del-fermano",
-    "description": "Per iscritti FAI 10% di riduzione per i servizi offerti dall&#39;Associazione Bed &amp; Breakfast del Fermano. La prenotazione deve essere effettuata attraverso il loro portale o direttamente con la struttura ricettiva associata: CLICCA QUI PER PRENOTARE &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -16772,20 +16086,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 109764,
-    "title": "WEMARCHE",
-    "lat": 43.403203,
-    "lng": 13.5484506,
-    "url": "https://fondoambiente.it/luoghi/wemarche",
-    "description": "Per iscritti FAI 10% di riduzione per l&#39;acquisto di prodotti tipici presso WeMarche E nel cuore di Recanati, nella Piazza che porta il nome del grande poeta, sorge la realt&agrave; di We Marche, un progetto nato dall&rsquo;idea di un team di professionisti, appassionati del territorio marchigiano, che hanno il sogno di far conoscere le Marche e i prodotti di questa splendida terra in Italia e nel mondo. We Marche far&agrave; in modo che le tipicit&agrave; ed i prodotti artigianali e altamente selezionati che avrai scelto da regalare (o da regalarti) arrivino comodamene a casa tua o al destinatario del tuo gradito dono, per avere le Marche e i frutti di queste preziose terre sempre a portata di mano.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -18788,20 +18088,6 @@
     ]
   },
   {
-    "id": 117600,
-    "title": "FERTILI TERRENI TEATRO",
-    "lat": 45.0823839,
-    "lng": 7.5441058,
-    "url": "https://fondoambiente.it/luoghi/fertili-terreni-teatro",
-    "description": "Per iscritti FAI biglietti ridotti per assistere alla stagione teatrale 2024-2025 di Fertili Terreni Teatro presso Bellarte, OFF TOPIC, San Pietro in Vincoli a Torino DESCRIZIONE Fertili Terreni Teatro (FTT) &egrave; una rete di artisti e organizzatori uniti dalla passione per il teatro contemporaneo, nata dalla collaborazione tra tre realt&agrave; torinesi:&nbsp;&nbsp;A.M.A. Factory, Cubo Teatro e Tedac&agrave; Questa unione ha dato vita a una stagione diffusa che si sviluppa in tre spazi situati in diverse zone della citt&agrave;: San Pietro in Vincoli nel quartiere Aurora OFF TOPIC in Vanchiglietta Bellarte nel quartiere Parella Questa distribuzione territoriale mira a rendere il teatro contemporaneo accessibile a un pubblico pi&ugrave; ampio, avvicinando l&rsquo;esperienza teatrale alle diverse comunit&agrave; cittadine. FTT si impegna a promuovere una programmazione che rifletta la diversit&agrave; e la ricchezza del panorama teatrale contemporaneo, cercando di offrire spettacoli che stimolino la riflessione e l&#39;emozione. Oltre alla programmazione teatrale, nel corso degli anni FTT ha promosso diverse iniziative che mirano a coinvolgere attivamente il pubblico e a incentivare l&#39;accessibilit&agrave; culturale. Tra le principali ricordiamo: Officina FTT: un percorso di ascolto, coprogettazione e rilancio del ruolo delle arti performative nella citt&agrave; di Torino, che si sviluppa parallelamente nelle tre direzioni di sostegno al settore, protagonismo di giovani e adulti e accessibilit&agrave;, attraverso residenze, laboratori e altre azioni rivolte allo spettatore, tra cui:&nbsp; Progetto Visionari: iniziativa che coinvolge il pubblico nella selezione di alcuni titoli della stagione, rendendolo parte integrante del processo creativo. Young Board: creato per introdurre un gruppo di giovani under 25 alla progettazione culturale. FTT &egrave; attivamente impegnata nell&#39;implementazione di buone pratiche per rendere il teatro accessibile a tutti. Tra le iniziative intraprese rientra la resa accessibile degli spettacoli attraverso: Audiodescrizioni per il pubblico cieco e interpretariato LIS per i sordi. L&rsquo;iniziativa sociale del Biglietto Sospeso, in collaborazione con realt&agrave; del territorio, che permette alle fasce pi&ugrave; fragili di accedere agli spettacoli, promuovendo l&#39;inclusione culturale e garantendo a tutti la possibilit&agrave; di fruire della cultura teatrale.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 92990,
     "title": "GRAND HOTEL DES ILES BORROMÈES",
     "lat": 45.8872968,
@@ -18974,20 +18260,6 @@
     ]
   },
   {
-    "id": 108526,
-    "title": "GIUSEPPE VISCEGLIE ANTIQUARIO",
-    "lat": 41.1239685,
-    "lng": 16.8650261,
-    "url": "https://fondoambiente.it/luoghi/giuseppe-visceglie-antiquario",
-    "description": "Per gli iscritti FAI 15% di riduzione per l&#39;Antiquario Giuseppe Visceglie a Bari",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 102852,
     "title": "HOTEL RIVIERA",
     "lat": 40.7903253,
@@ -19012,48 +18284,6 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 108630,
-    "title": "LIBRERIA 101",
-    "lat": 41.122821,
-    "lng": 16.8668683,
-    "url": "https://fondoambiente.it/luoghi/libreria-101",
-    "description": "Per iscritti FAI riduzione del 5% per l&#39;acquisto di libri presso la Libreria 101 a Bari SONO ESCLUSI I LIBRI IN PROMOZIONE",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
-      }
-    ]
-  },
-  {
-    "id": 109024,
-    "title": "MISIA ARTE",
-    "lat": 41.125637,
-    "lng": 16.8610294,
-    "url": "https://fondoambiente.it/luoghi/misia-arte",
-    "description": "Per gli iscritti FAI riduzione del 10% per gli acquisti di opere d&rsquo;arte e mobili di design presso la galleria Misia Arte a Bari La Galleria Misia Arte si occupa di design moderno e contemporaneo, allestimenti e restauro d&rsquo;interni. Progettazione e realizzazione di elementi d&rsquo;arredo in edizione limitata. Restauro di oggetti e mobili antichi e moderni, stime e valutazioni. Eventi, esposizioni e vernissage. Ci occupiamo dell&rsquo;espressione visibile e della qualit&agrave; dell&rsquo;abitare attivando tra arti decorative, design e arte un dialogo culturale, stilistico e creativo dall&rsquo;ormai lontano 1984. Il progetto della galleria part&igrave; con la collaborazione di molti amici e designer, tra questi Ugo Marano, Tarshito e Shama, Riccardo Dalisi, Giancarlo Montebello che contribuirono a sostenere, con le proprie specificit&agrave;, l&rsquo;inizio di un percorso complesso, ricco di sperimentazione e associazioni creative tra arredamento, arte e design, in una citt&agrave; del Sud, poco avvezza a frequentazioni in un ambito di ricerca e di sperimentazione. Oggi, allo stesso modo e con l&rsquo;apporto di nuova linfa , continua la collaborazione con artisti di nuova generazione e makers aperti a nuovi sperimentalismi. Bari e la puglia non sono vissuti e interpretati come un territorio statico e autoreferenziale, ma come spazio aperto e inclusivo, crocevia di scambi culturali e influenze, terreno di cultura, spazio di crescita di una identit&agrave; artistica e progettuale in costante divenire. La galleria oggi &egrave; portavoce di una identit&agrave; fiera e in trasformazione: i nostri spazi offrono in forma libera, suggestioni, sovrapposizioni, scarti e associazioni possibili che mettono in gioco, nello stesso frammento di spazio/tempo possibilit&agrave; diverse, distanti ma vicine, collegati da inedite corrispondenze, intrecci, assonanze e contaminazioni. Interagisce con il territorio offrendo una perlustrazione dei talenti del passato e del presente culturalmente legati alla Puglia ma riconosciuti in ambito anche internazionale. Galleria di design moderno e arte contemporanea. &ldquo;Dalla via Putignani al giardino interno c&rsquo;&egrave; una sequenza di tre spazi totalmente differenti che come struttura mi hanno suggerito tre diversi paesaggi\\atmosfere per segnare un ritmo e accompagnare il visitatore dallo standard di una via del centro &ndash; livello materiale &ndash; all&rsquo;eccezione del giardino Eden &ndash; livello spirituale&rdquo;. Ancora una volta un tentativo di unione attraverso l&rsquo;architettura &ndash; cos&igrave; definisce il progetto di&nbsp;Misia Arte&nbsp;l&rsquo;architetto, artista e designer&nbsp;Tarshito, che nel 2002 ha curato la realizzazione dello spazio in via Putignani 153 insieme ad&nbsp;Anna Gambatesa&nbsp;(diciotto anni dopo l&rsquo;apertura della prima storica galleria al civico 97). Collaborarono al progetto originario, essenziale e poetico, che fu subito pubblicato su&nbsp;Vogue casa&nbsp;nel settembre 1985, anche la designer barese&nbsp;Shama&nbsp;e l&rsquo;artista napoletano&nbsp;Ugo Marano.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
-    "id": 108746,
-    "title": "PALAZZO CALO'",
-    "lat": 41.1272445,
-    "lng": 16.8693379,
-    "url": "https://fondoambiente.it/luoghi/palazzo-calo-",
-    "description": "Per gli iscritti FAI riduzione del 15% per i servizi del B&amp;B Palazzo Cal&ograve; a Bari Palazzo Cal&ograve; &egrave; la formula tutta nuova per alloggiare a Bari , capoluogo pugliese affacciato sull&rsquo;Adriatico, crocevia degli itinerari pi&ugrave; belli e interessanti della Puglia. 12 sistemazioni differenti, per soddisfare ogni esigenza, e numerosi servizi per concederti ogni comodit&agrave;. Palazzo Cal&ograve; &egrave; un viaggio fra storia e futuro: una dimora del XVI secolo interamente ristrutturata con criteri innovativi",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
       }
     ]
   },
@@ -19142,62 +18372,6 @@
     ]
   },
   {
-    "id": 110860,
-    "title": "IL CEDRANGOLO HOUSE",
-    "lat": 40.9563614,
-    "lng": 17.298477,
-    "url": "https://fondoambiente.it/luoghi/il-cedrangolo-house",
-    "description": "Per iscritti FAI riduzione del 10% per i servizi offerti da Il Cedrangolo House a Monopoli (BA) Il CEDRANGOLO offre appartamenti indipendenti nel centro di Monopoli, dove la brezza marina si mescola al profumo del cedro del nostro piccolo agrumeto mediterraneo interno. Il nome CEDRANGOLO deriva dal bellissimo albero di cedro i cui rami si protendono verso l&rsquo;edificio &ldquo;ottocentesco&rdquo;. Soggiornerai in camere luminose e ariose costruite secondo le tecniche costruttive &ldquo;ottocentesche&rdquo; ad archi e volte e realizzate con materiali naturali locali come il tufo e la calce. Tutti gli appartamenti sono dotati di una cucina completa, per mangiare in libert&agrave;. Nell&rsquo;appartamento CEDRANGOLO HOUSE TREE potrai rilassarti in una ampia sala da bagno con idromassaggio e rinfrescarti in giardino all&rsquo;ombra dell&rsquo;albero del cedro.&nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 108668,
-    "title": "IL TRAPPETELLO",
-    "lat": 40.88227,
-    "lng": 17.3471986,
-    "url": "https://fondoambiente.it/luoghi/il-trappetello",
-    "description": "Per gli iscritti FAI riduzione del 20% per il pernottamento presso Il Trappetello - hotel e residenza storica a Monopoli (BA) &egrave; esclusa dlla promozione la colazione internazionale Residenza storica fortificata del XVIII secolo costruita per volere del Barone Manfredi nel 1753. A soli pochi minuti d&rsquo;auto dal caratteristico centro storico di Monopoli, a met&agrave; strada tra Ostuni e Polignano a Mare, il Trappetello gode di una posizione strategica circondato dalle poetiche campagne della Valle d&rsquo;Itria guarda il blu intenso del Mar Mediterraneo raggiungibile anche in bicicletta. Storicamente luogo d&rsquo;incontro dei Cavalieri di Malta, il Trappetello &egrave; oggi Hotel e location per eventi esclusivi.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110917,
-    "title": "LE RADICI B&B",
-    "lat": 40.9008706,
-    "lng": 17.2948523,
-    "url": "https://fondoambiente.it/luoghi/le-radici-bb",
-    "description": "Per gli iscritti FAI riduzione del 15% per i servizi offerti da B&amp;B Le Radici a Monopoli (BA) Il bed &amp; breakfast &quot;Le radici&rdquo; si trova in una delle 99 contrade dell&rsquo;agro del comune Monopoli da cui dista circa 15 Km, a 356 metri sul livello del mare. Esso prende il nome dalla decisione dei proprietari, Roberto e Carla, di tornare nei luoghi delle proprie origini e di trasformare la propria casa, composta da pi&ugrave; coni attentamente ristrutturati e forniti di ogni comfort, in un luogo di accoglienza. La parte della casa adibita a bed &amp; breakfast &egrave; costituita da tre stanze matrimoniali per un totale di sei posti letto. Tutte le stanze dispongono di servizi privati con box doccia, aria condizionata/riscaldamento, televisore e Wi-Fi gratuito e ingresso indipendente, per la completa autonomia e privacy degli ospiti. L&rsquo;esterno, immerso nel verde degli ulivi, offre ampi spazi per il relax ed una piscina all&rsquo;aperto. La ricca colazione, con ampia scelta fra dolce e salato e composta anche da specialit&agrave; tipiche della tradizione pugliese, viene servita al tavolo personalmente da Roberto e Carla. La posizione del B&amp;B &egrave; strategica poich&eacute; consente di raggiungere in poco tempo le principali attrattive della zona come ad esempio Alberobello, Castellana Grotte, Fasano, Conversano, Ostuni, Polignano a mare. L&#39;Aeroporto pi&ugrave; vicino &egrave; quello di Bari-Karol Wojtyla, a 55 km, mentre quello di Brindisi dista a circa 65 km. &nbsp;",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 108829,
-    "title": "LIBRERIA MINOPOLIS",
-    "lat": 40.9513629,
-    "lng": 17.3002682,
-    "url": "https://fondoambiente.it/luoghi/libreria-minopolis",
-    "description": "Per iscritti FAI riduzione del 5% per gli acquisti presso la Libreria Minopolis a Monopoli (BA)",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
-      }
-    ]
-  },
-  {
     "id": 108037,
     "title": "PALAZZO INDELLI",
     "lat": 40.9535612,
@@ -19268,20 +18442,6 @@
     ]
   },
   {
-    "id": 82839,
-    "title": "LIBRERIA L'EDICOLA DI VIA ROMA - SANTERAMO IN COLLE (BA)",
-    "lat": 40.7947166,
-    "lng": 16.7555973,
-    "url": "https://fondoambiente.it/luoghi/libreria-l-edicola-di-via-roma-santeramo-in-colle-ba",
-    "description": "Per gli iscritti FAI riduzione del 5% per l&#39;acquisto di libri presso la libreia L&#39;Edicola di Via Roma a Santeramo in Colle (BA) La libreria &egrave; particolarmente sensibile alle tematiche ambientali e dispone di una vasta selezione di testi sull&#39;argomento. &nbsp;",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
-      }
-    ]
-  },
-  {
     "id": 120621,
     "title": "AMA FACTORY",
     "lat": 45.0819812,
@@ -19292,34 +18452,6 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 110836,
-    "title": "B&B PALAZZO LUPICINI",
-    "lat": 41.2657504,
-    "lng": 16.3041299,
-    "url": "https://fondoambiente.it/luoghi/bb-palazzo-lupicini",
-    "description": "Per iscritti FAI riduzione del 15% per il soggiorno presso il B&amp;B Palazzo Lupicini a Bisceglie (BT) Questa struttura si trova a 8 minuti a piedi dalla spiaggia. Situato a Bisceglie, a 800 m dalla Spiaggia del Pretore, il Palazzo Lupicini Affittacamere offre un ristorante, camere anallergiche e la connessione Wi-Fi gratuita in tutta la struttura.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110213,
-    "title": "BON TON CIOCCOLATERIA",
-    "lat": 41.240557,
-    "lng": 16.5025984,
-    "url": "https://fondoambiente.it/luoghi/bon-ton-cioccolateria",
-    "description": "Per iscritti FAI riduzione del 10% per le consumazioni presso Bon Ton cioccolateria a Bisceglie (BT)",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -19544,6 +18676,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 117600,
+    "title": "FERTILI TERRENI TEATRO",
+    "lat": 45.0823839,
+    "lng": 7.5441058,
+    "url": "https://fondoambiente.it/luoghi/fertili-terreni-teatro",
+    "description": "Per iscritti FAI biglietti ridotti per assistere alla stagione teatrale 2024-2025 di Fertili Terreni Teatro presso Bellarte, OFF TOPIC, San Pietro in Vincoli a Torino DESCRIZIONE Fertili Terreni Teatro (FTT) &egrave; una rete di artisti e organizzatori uniti dalla passione per il teatro contemporaneo, nata dalla collaborazione tra tre realt&agrave; torinesi:&nbsp;&nbsp;A.M.A. Factory, Cubo Teatro e Tedac&agrave; Questa unione ha dato vita a una stagione diffusa che si sviluppa in tre spazi situati in diverse zone della citt&agrave;: San Pietro in Vincoli nel quartiere Aurora OFF TOPIC in Vanchiglietta Bellarte nel quartiere Parella Questa distribuzione territoriale mira a rendere il teatro contemporaneo accessibile a un pubblico pi&ugrave; ampio, avvicinando l&rsquo;esperienza teatrale alle diverse comunit&agrave; cittadine. FTT si impegna a promuovere una programmazione che rifletta la diversit&agrave; e la ricchezza del panorama teatrale contemporaneo, cercando di offrire spettacoli che stimolino la riflessione e l&#39;emozione. Oltre alla programmazione teatrale, nel corso degli anni FTT ha promosso diverse iniziative che mirano a coinvolgere attivamente il pubblico e a incentivare l&#39;accessibilit&agrave; culturale. Tra le principali ricordiamo: Officina FTT: un percorso di ascolto, coprogettazione e rilancio del ruolo delle arti performative nella citt&agrave; di Torino, che si sviluppa parallelamente nelle tre direzioni di sostegno al settore, protagonismo di giovani e adulti e accessibilit&agrave;, attraverso residenze, laboratori e altre azioni rivolte allo spettatore, tra cui:&nbsp; Progetto Visionari: iniziativa che coinvolge il pubblico nella selezione di alcuni titoli della stagione, rendendolo parte integrante del processo creativo. Young Board: creato per introdurre un gruppo di giovani under 25 alla progettazione culturale. FTT &egrave; attivamente impegnata nell&#39;implementazione di buone pratiche per rendere il teatro accessibile a tutti. Tra le iniziative intraprese rientra la resa accessibile degli spettacoli attraverso: Audiodescrizioni per il pubblico cieco e interpretariato LIS per i sordi. L&rsquo;iniziativa sociale del Biglietto Sospeso, in collaborazione con realt&agrave; del territorio, che permette alle fasce pi&ugrave; fragili di accedere agli spettacoli, promuovendo l&#39;inclusione culturale e garantendo a tutti la possibilit&agrave; di fruire della cultura teatrale.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -19968,20 +19114,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 110214,
-    "title": "PARCO TURISTICO CULTURALE PALMIERI",
-    "lat": 40.2375216,
-    "lng": 18.2561954,
-    "url": "https://fondoambiente.it/luoghi/parco-turistico-culturale-palmieri",
-    "description": "Per iscritti FAI riduzione del 20% per le attivit&agrave; organizzate dall&#39;associazione Parco turistico culturale Palmieri a Martignano (LE) Kal&ograve;s &igrave;rtate stin Grec&igrave;a Salentina, Benvenuti nella Grec&igrave;a Salentina. Questo &egrave; il messaggio che accoglie coloro che fanno il loro ingresso nell&rsquo;area linguistica &ldquo;grika&rdquo; del Salento;un messaggio che testimonia l&rsquo;ospitalit&agrave; di una terra che con orgoglio conserva e promuove il proprio patrimonio linguistico, culturale, storico e artistico. Un&rsquo;area che costituisce un giovane modello di turismo culturale in grado di legare la fruizione del territorio alla capacit&agrave; ricettiva di strutture gestite con professionalit&agrave; e calore; che propone e promuove eventi culturali di fama ormai internazionale come il Festival della Notte della Taranta, i Canti di Passione, il Carnevale della Grec&igrave;a salentina. Un patrimonio straordinario custodito in una dimensione fatta di piccoli centri urbani (Calimera, Carpignano Salentino, Castrignano dei Greci, Corigliano d&rsquo;Otranto, Cutrofiano, Martano, Martignano, Melpignano, Sogliano Cavour, Soleto, Sternatia, Zollino), oggi insieme come Unione dei Comuni della Grec&igrave;a Salentina, che hanno mantenuto intatta l&rsquo;umilt&agrave; ed il senso di ospitalit&agrave; tipico delle popolazioni bizantine. Qui vive il griko (lingua di origine greco-bizantina) ancora oggi parlata, sebbene in una minima fascia di popolazione, emblema di un orgoglio popolare che, intriso di caparbiet&agrave; e fierezza, si tramanda in maniera orale da secoli fino a caratterizzare quest&rsquo;area come minoranza linguistica. Il piacere di vivere i centri storici, con i frantoi ipogei, le case a corte, i mignani, i portali, le cripte, le chiese, i palazzi, i castelli, ascoltando la lingua grika risuonare nelle piazze, nelle case o nelle partite a carte nei bar; tutto questo costituisce oggi un&rsquo;emozione genuina da portare nel cuore di chi viene a scoprire questa terra. Ev&ograve; ce es&ugrave; Experiences &ndash; Con Parco Palmieri alla scoperta della Grec&igrave;a Salentina. Nasce nell&rsquo;ambito del format di promozione e salvaguardia della lingua grika Ev&ograve; ce Es&ugrave; &ndash; Io e Te&rdquo; il programma di fruizione del territorio griko, attraverso Visite guidate, Laboratori e Bike Tour, pensati per immergere il viaggiatore nel territorio di minoranza linguistica della Grec&igrave;a Salentina. Attraverso i luoghi del vissuto, i paesaggi, l&rsquo;arte, la storia, i beni immateriali, gli eventi, e con linguaggi e approcci differenti e accattivanti, dal vivo racconto delle comunit&agrave;, con Ev&ograve; ce Es&ugrave; Experiences &egrave; possibile entrare nel racconto di un angolo straordinario di Puglia, diventarne parte e portarlo nel cuore.",
-    "categories": [
-      {
-        "id": 14,
-        "name": "Partecipare a corsi o escursioni"
       }
     ]
   },
@@ -20508,20 +19640,6 @@
     ]
   },
   {
-    "id": 109417,
-    "title": "MUSEO DELL'OSSIDIANA",
-    "lat": 39.792864,
-    "lng": 8.8030901,
-    "url": "https://fondoambiente.it/luoghi/museo-dell-ossidiana",
-    "description": "Per iscritti FAI riduzione del 50% per la visita presso il Museo dell&#39;Ossidiana a Pau (OR) Il percorso espositivo della struttura museale &egrave; organizzato secondo il principio della fruizione diretta e partecipata agli aspetti scientifici naturalistici, tecnologici, sociologici e storici dell&#39;ossidiana, intesi nella loro dimensione pi&ugrave; generale ed in quella che attiene pi&ugrave; specificamente alle caratteristiche regionali, del Monte Arci e del territorio di Pau.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 119449,
     "title": "OSTERIA IL BANCO",
     "lat": 40.3541667,
@@ -20588,20 +19706,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 109951,
-    "title": "CARLO DELFINO EDITORE",
-    "lat": 40.72456,
-    "lng": 8.5386838,
-    "url": "https://fondoambiente.it/luoghi/carlo-delfino-editore",
-    "description": "Per iscritti FAI riduzione del 25% sul catalogo di Carlo Delfino Editore L&#39;attivit&agrave; della Carlo Delfino editore nasce con la pubblicazione di opere di archeologia della Sardegna cui seguono quelle su ambiente, arte, storia sarda, tradizioni, lingua e cultura ecc. e la collana di carte temariche &quot;Vai da Te&quot;. Il bilancio attuale, dopo 35 anni, annovera anche importanti attivit&agrave; collaterali come l&#39;organizzazione di mostre d&#39;arte e presenza alle fiere librarie in Italia e all&#39;estero.",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
       }
     ]
   },
@@ -20784,48 +19888,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 118624,
-    "title": "ALBERGO DIFFUSO AQUAE SINIS",
-    "lat": 39.9267851,
-    "lng": 8.5291036,
-    "url": "https://fondoambiente.it/luoghi/albergo-diffuso-aquae-sinis",
-    "description": "Per iscritti FAI riduzione del 10% per soggiornare presso l&#39;Albergo Diffuso Aquae Sinis a Cabras&nbsp;(OR) DESCRIZIONE Aquae Sinis&nbsp;&egrave; un albergo diffuso costituito da tre case preesistenti, ubicate nel centro storico, ben integrate nella realt&agrave; locale, vicine tra loro, unite dalla stessa gestione e dalla presenza di aree comuni accessibili da tutti gli ospiti. L&rsquo;Aquae Sinis &egrave; un piccolo&nbsp;hotel di charme&nbsp;nel cuore della cittadina di Cabras, chi lo visita ha la possibilit&agrave; di apprezzare la bellezza di tre dimore seicentesche:&nbsp;Thermae, Mistras e Pontis. appartenenti all&rsquo;originario tessuto urbanistico del paese, riqualificate con eleganza in base ai canoni della bioedilizia.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 119543,
-    "title": "TEATRO LIRICO DI CAGLIARI",
-    "lat": 39.2260348,
-    "lng": 9.1209765,
-    "url": "https://fondoambiente.it/luoghi/teatro-lirico-di-cagliari",
-    "description": "Per iscritti FAI riduzione sugli spettacoli presso il Teatro Lirico di Cagliari riduzione del 10% per singolo spettacolo riduzione del 20% per gruppi composti da un minimo di n.20 iscritti FAI SCOPRI LA STAGIONE IN CORSO DESCRIZIONE Il Concorso nazionale per il Nuovo Teatro Comunale viene bandito, dall&#39;Amministrazione cagliaritana, nel 1964. La citt&agrave; mancava di un vero e proprio teatro dagli anni dell&#39;ultimo conflitto mondiale: le antiche sale del Politeama Regina Margherita e del Teatro Civico, entrambe nel centro storico, erano state infatti distrutte rispettivamente nel 1942 da un incendio e nel 1943 da due successive incursioni aeree alleate. Nei decenni successivi i concerti e gli allestimenti lirici avevano trovato ospitalit&agrave; in due sale, il cine-teatro Massimo e l&#39;Auditorium del Conservatorio, e in spazi di fortuna, che per&ograve; avevano sempre pesantemente condizionato la programmazione.&nbsp; Dei 34 progetti presentati al Concorso, tra i quali spiccano i nomi degli architetti Paolo Portoghesi, Carlo Mollino e Maurizio Sacripanti, 8 vennero ammessi alla fase finale nella quale fu dichiarato vincitore, tre anni pi&ugrave; tardi, quello denominato &quot;GGG&quot; e firmato dagli architetti bergamaschi Luciano Galmozzi, Francesco Ginoulhiac e Teresa Ginoulhiac Arslan. Quattro anni dopo venne aperto il cantiere e, dopo una lunghissima stagione di lavori e di interruzioni, il Teatro Comunale di Cagliari fu inaugurato il 2 settembre 1993. L&#39;opera, per quanto ancora da completare in parecchi locali di servizio ed ultimata nelle finiture interne dei foyer e della sala con scelte sicuramente differenti da quelle immaginate dai progettisti, &egrave; comunque considerata interessante. Con la realizzazione del Parco della Musica di Cagliari, il Teatro Comunale &egrave; stato integrato con i nuovi laboratori, dislocandoli ad opportuna distanza dall&#39;area artistica, ed un teatro ridotto da 320 posti. L&#39;area tra il Teatro Lirico ed il Conservatorio Statale di Musica &quot;Giovanni Pierluigi da Palestrina&quot; e tra il Teatro Lirico ed il THotel, &egrave; stata riqualificata realizzando le piazze Nuova e Nazzari, sotto le quali sono state ricavati due piani interrati per autorimesse. In particolare nella Piazza Amedeo Nazzari, dall&#39;estate 2020, la Fondazione Teatro Lirico di Cagliari allestisce, per la stagione estiva all&#39;aperto, l&#39;Arena Giusy Devinu, nome del noto soprano cagliaritano al quale &egrave; stato intitolato l&#39;attiguo piazzale di raccordo tra la via Sant&#39;Alenixedda e la piazza Nazzari, con capienza potenziale di circa 1800/2000 spettatori. &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 113752,
-    "title": "DI STEFANO DOLCIARIA",
-    "lat": 37.3926812,
-    "lng": 13.5334931,
-    "url": "https://fondoambiente.it/luoghi/di-stefano-dolciaria",
-    "description": "Per iscritti FAI riduzione del 10% per gli acquisti presso la Di Stefano Dolciaria a Raffadali (AG) Da 35 anni Di Stefano alimenta i propri sogni farcendo la tradizione con la sperimentazione. Tutto &egrave; iniziato nel 1986, in un laboratorio a Raffadali, in provincia di Agrigento. Da l&igrave; oggi siamo arrivati in tutta Italia. La nostra filosofia non e` cambiata con gli anni, ma siamo sempre dello stesso parere: prepariamo dolci come se fossero per i nostri cari. Abbiamo fatto delle scelte e tenuto fuori dalle nostre ricette emulsionanti, conservanti e tutto il superfluo. Ad alcune cose invece non abbiamo rinunciato: materia prima siciliana, lavorazione manuale, ricerca costante sul territorio.",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
       }
     ]
   },
@@ -21492,20 +20554,6 @@
     ]
   },
   {
-    "id": 110970,
-    "title": "GRAND HOTEL ET DES PALMES",
-    "lat": 38.1239142,
-    "lng": 13.3593181,
-    "url": "https://fondoambiente.it/luoghi/grand-hotel-et-des-palmes",
-    "description": "Per iscritti FAI 20% di riduzione per i servizi di pernottamento del Grand Hotel et des Palmes a Palermo &Egrave; un&rsquo;emozione perdersi tra i corridoi e i sontuosi saloni del Grand Hotel et Des Palmes, in cui il silenzio irreale insieme all&rsquo;arte tentano di fermare il tempo, aprendo le porte alle nostre virtuose suite. Opere di pregio, materiali e tessuti ricercati, modellano gli spazi insieme alla luce che vi filtra attraverso. In equilibrio tra estetica e funzionalit&agrave;, le suite del Grand Hotel et Des Palmes dialogano con la storia, il design e l&rsquo;innovazione tecnologica, sostituendo l&rsquo;idea di icona statica alla vitalit&agrave; dello spirito di oggi.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
     "id": 119627,
     "title": "CENTRO UNIVERSITARIO SPORTIVO CATANIA",
     "lat": 37.5264095,
@@ -22116,20 +21164,6 @@
     ]
   },
   {
-    "id": 118086,
-    "title": "HOTEL BAGLIO ONETO DEI PRINCIPI DI SAN LORENZO - LUXURY WINE RESORT",
-    "lat": 37.8220624,
-    "lng": 12.4674053,
-    "url": "https://fondoambiente.it/luoghi/hotel-baglio-oneto-dei-principi-di-san-lorenzo-luxury-wine-resort",
-    "description": "Per iscritti FAI riduzione del 10%&nbsp;per usufruire dei servizi offerti dall&#39;Hotel Baglio Oneto a Marsala Per usufruire della riduzione inserire il codice &quot;FAI&quot; sul sito&nbsp;bagliooneto.it DESCRIZIONE Da un&rsquo;antica dimora nobiliare del 1700, costruita per produrre vino ed olio, nasce il Baglio Oneto dei Principi di San Lorenzo, un vero e proprio Boutique Hotel di Lusso gestito con &ldquo;la nobile arte dell&rsquo;ospitalit&agrave;&rdquo; dalla famiglia dei discendenti. &nbsp; Adagiato su una verde collina, tra vigneti ed uliveti, il baglio domina il paesaggio. Da qui si godono i pi&ugrave; bei tramonti sul mare di tutta la Sicilia Occidentale, con il sole che si tuffa dietro le Isole Egadi e la Riserva Naturale dello Stagnone che protegge la verde isola di Mozia. Questo &egrave; il panorama che si gode dalla meravigliosa piscina infinity, salina e riscaldata, arredata con idromassaggi e lettini con massaggio ad aria. Le 47 camere panoramiche, recentemente rinnovate, sono finemente arredate secondo i colori delle antiche residenze siciliane e con materiali come legno, ceramiche e ferro battuto. Alcune si rivolgono all&rsquo;alba in campagna e altre godono il tramonto sul mare. La colazione internazionale, servita al buffet nella magnifica Corte Storica, propone una selezione di prodotti biologici e pietanze caratteristiche della Sicilia. Un&rsquo;esplosione di colori e sapori. Consigliata la visita del baglio e della cantina di affinamento all&#39;interno della tenuta con degustazione di vini e olio EVO di produzione del Baglio Oneto abbinati a prodotti tipici. Un momento di scoperta del genius loci e di socialit&agrave;. Cucina di eccellenza al ristorante &quot;Baglio Oneto dei Principi di San Lorenzo&quot; nelle location della Casa Padronale, della Terrazza di Venere e nel Giardino della Corte Storica con pietanze italiane e tipiche siciliane, abbinate ai vini della migliore tradizione italiana e a quelli di produzione di Baglio Oneto. Affiliati alla rete Slow Food e AIC (Associazione Italiana Celiachia). Men&ugrave; &ldquo;fuori orario&rdquo; sempre disponibili.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
     "id": 87731,
     "title": "CINEMA ODEON ",
     "lat": 43.7710254,
@@ -22252,20 +21286,6 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 86421,
-    "title": "ORCHESTRA DELLA TOSCANA",
-    "lat": 43.7701998,
-    "lng": 11.2615061,
-    "url": "https://fondoambiente.it/luoghi/orchestra-della-toscana",
-    "description": "Per gli iscritti FAI riduzione del 15% per i concerti dell&#39;Orchestra della Toscana a Firenze A partire dall&rsquo;8 ottobre&nbsp;ha inizio al Teatro Verdi di Firenze la 41esima Stagione Concertistica dell&rsquo;ORT, la prima curata interamente dal nuovo direttore artistico&nbsp;Daniele Rustioni, composta da ben 16 produzioni&nbsp;con grandi artisti di valore internazionale. Tra l&#39;ampio programma proposto che va dal Classicismo fino alla musica contemporanea, tre prime esecuzioni assolute: commissioni ORT affidate a Richard Danielpour, Lamberto Curtoni&nbsp;e&nbsp;Alberto Cara, ispirate alla Divina Commedia in occasione delle celebrazioni per i 700 anni dalla morte di Dante Alighieri. Abbonamenti a partire da &euro; 45,00 acquistabili alla Biglietteria del Teatro Verdi (lun-ven 10-13 e 16-19). Biglietti da &euro; 17,00 acquistabili alla Biglietteria, presso i punti&nbsp; del circuito Boxoffice e online su www.ticketone.it",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -22578,20 +21598,6 @@
     ]
   },
   {
-    "id": 40361,
-    "title": "MUSEO UGO GUIDI",
-    "lat": 43.9720238,
-    "lng": 10.1542317,
-    "url": "https://fondoambiente.it/luoghi/museo-ugo-guidi",
-    "description": "Per gli iscritti FAI riduzione&nbsp;del 50% sul biglietto per le visite guidate su prenotazione Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto del 20% per il Museo Ugo Guidi a Forte dei Marmi. Il Museo espone oltre 500 opere di Ugo Guidi, che testimoniano e raccontano la feconda stagione culturale del secondo &lsquo;900 presente. &nbsp; &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40360,
     "title": "FESTIVAL PUCCINIANO",
     "lat": 43.8336602,
@@ -22658,20 +21664,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 114922,
-    "title": "ARSENALI DELLA REPUBBLICA DI PISA",
-    "lat": 43.7139225,
-    "lng": 10.3891869,
-    "url": "https://fondoambiente.it/luoghi/arsenali-della-repubblica-di-pisa",
-    "description": "Per iscritti FAI riduzione sul biglietto per la visita alla mostra ANTONIO LIGABUE . Il ruggito dell&rsquo;anima presso gli Arsenali di Pisa dal 26 dicembre 2025 al 10 maggio 2026 DESCRIZIONE L&rsquo;esposizione offrir&agrave; al pubblico un&rsquo;occasione preziosa per riscoprire la potenza espressiva e il mondo interiore di un artista che ha saputo parlare con voce unica e universale. Il percorso espositivo racconter&agrave; la parabola umana e creativa di Ligabue, mettendone in luce la straordinaria vicinanza ai grandi protagonisti dell&rsquo;Espressionismo europeo. Prodotta da ARTIKA di Daniel Buso ed Elena Zannoni, con il patrocinio del Comune di Pisa e della Fondazione Augusto Agosta Tota per Antonio Ligabue e curata da Mario Alessandro Fiori, segretario generale della Fondazione, unitamente alla Direzione Artistica di Beside Arts, la mostra racconter&agrave; con oltre 80 opere la vita, la psiche e la storia tormentata di questo affascinante artista. Per Antonio Ligabue, l&rsquo;arte ha rappresentato da sempre un&rsquo;esigenza profonda e istintiva, un modo per affrontare le difficolt&agrave; e i tormenti della vita. Questa urgenza espressiva si riflette nella potenza visiva delle sue opere, capaci ancora oggi di emozionare e toccare l&rsquo;animo dello spettatore. La mostra celebrer&agrave; il percorso di questo genio visionario in continua evoluzione, mettendo in luce la sua incessante ricerca artistica, caratterizzata da un uso audace del colore - violento ma armonico - e da una forza emotiva intensa. Il suo linguaggio iconografico, al tempo stesso popolare e sofisticato, prende forma in dipinti di grande impatto. Il percorso della mostra condurr&agrave; il visitatore attraverso le tappe fondamentali della vita e dell&rsquo;attivit&agrave; artistica di Ligabue, svelando alcune delle sue opere pi&ugrave; emblematiche. Tra queste spiccano i celebri autoritratti e le sue iconiche raffigurazioni di animali feroci: tigri maestose, leopardi, rapaci in azione o impegnati in lotte per la sopravvivenza, e leoni imponenti. Un viaggio immersivo in una giungla aspra e magnetica, che esprime con forza l&rsquo;intensit&agrave; visiva e simbolica del mondo interiore dell&rsquo;artista.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -24290,20 +23282,6 @@
     ]
   },
   {
-    "id": 83668,
-    "title": "OSTERIA DEL MUSEO",
-    "lat": 43.0258026,
-    "lng": 12.4333665,
-    "url": "https://fondoambiente.it/luoghi/osteria-del-museo",
-    "description": "Per iscritti FAI riduzione per gli acquisti presso Osteria del Museo a Torgiano (Perugia) riduzione del 5% sull&#39;acquisto riduzione del 5% sulle degustazioni private - prezzo e tipologia da concordare DESCRIZIONE L&#39;enoteca-wine shop della Cantina Lungarotti sorge a fianco al Museo del Vino e al Museo dell&#39;Olivo e dell&#39;Olio, entrambi gestiti dalla Fondazione Lungarotti. COSA OFFRE Un luogo dove poter conoscere, degustare e acquistare tutti i vini e i prodotti delle Cantine Lungarotti",
-    "categories": [
-      {
-        "id": 13,
-        "name": "Comprare prodotti tipici"
-      }
-    ]
-  },
-  {
     "id": 116374,
     "title": "COMPLESSO MUSEALE SAN FRANCESCO DI TREVI E MUSEO DELLA CIVILTÀ DELL'ULIVO",
     "lat": 42.8770688,
@@ -24468,20 +23446,6 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 108566,
-    "title": "MUSEO FAINA",
-    "lat": 42.7170387,
-    "lng": 12.1125048,
-    "url": "https://fondoambiente.it/luoghi/museo-faina",
-    "description": "Per iscritti FAI biglietto ridotto per la visita del Museo Faina ad Orvieto. La Collezione Faina venne raccolta dai Conti Mauro ed Eugenio, a partire dal 1864. Ereditata da Claudio, fu da lui conservata e resa pubblica. Secondo una tradizione il nucleo originario della raccolta sarebbe stato costituito da 34 vasi donati al conte Mauro dalla principessa Maria Bonaparte in Valentini, figlia di Luciano Bonaparte &ndash; lo scopritore delle necropoli di Vulci &ndash; e nipote di Napoleone. La raccolta divenne di notevole importanza e il mondo scientifico inizi&ograve; ad interessarsi ad essa. Nel 1888 venne pubblicato il primo catalogo a stampa, a cura di Domenico Cardella. Il percorso espositivo mira ad illustrare le tappe di formazione della raccolta, dal nucleo originario costituito a partire dal 1864 dal conte Mauro secondo gli indirizzi collezionistici del tempo fino alla raccolta incrementata dall&#39;erede Eugenio che limit&ograve; le acquisizioni a reperti di area orvietana e promosse la formazione di un museo civico anzich&eacute; arricchire la collezione di famiglia. Dalla galleria situata al secondo piano del palazzo si pu&ograve; ammirare una prospettiva particolare del Duomo.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -27728,20 +26692,6 @@
     ]
   },
   {
-    "id": 118626,
-    "title": "CINEMA MANZONI",
-    "lat": 45.6811261,
-    "lng": 12.1675332,
-    "url": "https://fondoambiente.it/luoghi/cinema-manzoni",
-    "description": "Per iscritti FAI biglietto ridotto a 7 euro anzich&eacute; a 8.50 euro per assistere agli spettacoli del Cinema Manzoni a Paese (TV) DESCRIZIONE Il Cinema Multisala Manzoni nasce dall&#39;esperienza maturata nella gestione di uno storico cinema d&#39;essai italiano, il cinema Edera di Treviso. Dall&#39;evoluzione di un precedente cinema monoschermo, una completa ristrutturazione nel 1999 ha portato alla creazione di uno spazio rinnovato e accogliente, composto da tre sale: la Sala Teatro, la Sala Rosa e la Sala Blu. Questa trasformazione ha permesso di ampliare l&#39;offerta cinematografica, proponendo una programmazione flessibile e diversificata che spazia dal cinema d&#39;autore ai grandi eventi filmici della stagione. La programmazione si distingue per la sua capacit&agrave; di offrire non solo momenti di svago e intrattenimento, ma anche occasioni di approfondimento culturale e riflessione. Ci&ograve; si traduce in appuntamenti dedicati alla filmografia d&#39;autore e alle culture meno conosciute, proiezioni pomeridiane pensate per ragazzi e famiglie, e iniziative rivolte alle scuole. La sala principale &egrave; inoltre attrezzata per ospitare anche spettacoli teatrali, ampliando ulteriormente l&#39;offerta culturale.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 117543,
     "title": "LIBRERIA STUDIUM",
     "lat": 45.4389075,
@@ -27868,20 +26818,6 @@
     ]
   },
   {
-    "id": 118625,
-    "title": "CINEMA EDERA",
-    "lat": 45.6731907,
-    "lng": 12.2142651,
-    "url": "https://fondoambiente.it/luoghi/cinema-edera",
-    "description": "Per iscritti FAI biglietto ridotto a 7 euro anzich&eacute; a 8.50 euro per assistere agli spettacoli del Cinema Edera a Treviso DESCRIZIONE Questo storico cinema, attivo dal 1960, rappresenta un punto di riferimento culturale per la citt&agrave; e il territorio circostante. La sua lunga storia &egrave; intrecciata con le vicende di un&#39;epoca e la passione di una famiglia, iniziando con il sogno del signor Righetti di creare un luogo dedicato alla settima arte. Un momento significativo nella sua evoluzione &egrave; stata la scelta di orientarsi verso il cinema d&rsquo;essai, proponendo cinematografie inedite, registi esordienti e produzioni di qualit&agrave; artistica. Questa decisione ha portato il cinema a diventare un luogo di scoperta e approfondimento del linguaggio filmico, anche attraverso presentazioni di film, preparazione di schede, organizzazione di cineforum e incontri con i registi. Negli anni, l&#39;Edera ha saputo conquistare il suo pubblico presentando opere significative e dedicando rassegne a cinematografie meno conosciute. La creazione nel 1989 del Piccolo Edera, la prima multisala trevigiana, ha permesso di diversificare ulteriormente la programmazione. Nel 2010, a cinquant&#39;anni dalla sua nascita, era riconosciuto come il primo locale d&rsquo;essai del Triveneto e il terzo in Italia per numero di presenze. Questo riconoscimento testimonia il suo importante contributo culturale alla citt&agrave; di Treviso. La storia del Cinema Edera riflette un impegno costante nel promuovere una cultura cinematografica di qualit&agrave;, rendendolo un luogo di interesse per chi apprezza la storia, la cultura e le iniziative che arricchiscono il tessuto sociale del territorio. La sua evoluzione da sala unica a multisala d&#39;essai dimostra una capacit&agrave; di adattamento e una continua attenzione verso il proprio pubblico, mantenendo viva la passione per il cinema d&#39;autore.",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 82414,
     "title": "POZZO DI SAN PATRIZIO",
     "lat": 42.7225432,
@@ -27972,20 +26908,6 @@
     "lng": 11.372435,
     "url": "https://fondoambiente.it/luoghi/villa-pisani-bonetti",
     "description": "Per gli iscritti FAI riduzione del 10% per la visita presso Villa Pisani Bonetti a Bagnolo di Lonigo (VI) LA VILLA E&#39; APERTA TUTTO L&#39;ANNO SU APPUNTAMENTO. DESCRIZIONE La Villa Pisani di Bagnolo, progettata da Andrea Palladio fin dal 1541, data del ritorno dal suo primo viaggio a Roma, e costruita tra i 1544 e il 1545, &egrave; forse l&rsquo;opera pi&ugrave; rappresentativa del periodo giovanile della sua attivit&agrave;. Con essa inizia la gloriosa collaborazione del Palladio, con la Serenissima. L&rsquo;autore teneva in tanta stima questa sua opera e in tale considerazione il potere dei committenti, i Pisani, da aprire con essa la sezione dedicata alle &ldquo;Case di Villa&rdquo; nel suo famoso trattato: &ldquo;I Quattro Libri dell&rsquo;Architettura&rdquo;. (Venezia 1570). La Villa di Bagnolo, ispirata ai monumenti della antica Roma, in particolare agli edifici termali, ne ripeteva la monumentalit&agrave; e come tale ben si adattava a rappresentare l&rsquo;insediamento dei nuovi &ldquo;feudatari&rdquo; e l&rsquo;affermazione del potere di Venezia sulla terraferma. Secondo il progetto presentato sui Quattro Libri dell&rsquo;Architettura, l&rsquo;edificio avrebbe dovuto avere due facciate principali, delle quali quella verso il fiume, con i grandiosi fornici in bugnato rustico, si pu&ograve; tuttora ammirare nella sua integrit&agrave;. Un&rsquo;altra difformit&agrave;, rispetto al disegno del trattato palladiano, &egrave; costituita dalla mancata costruzione del porticato dorico che, partendo dai lati della Villa, avrebbe dovuto circondare il quadrilatero della corte rustica antistante. In suo luogo recentemente &egrave; stato piantato un viale di platani che ne restituisce, almeno visivamente, le proporzioni. Gli studiosi sono per&ograve; discordi nel ritenere certi i progetti rivisti dal Palladio in tarda et&agrave; per la stampa del suo trattato. La Villa &egrave; oggi in perfetto stato di conservazione grazie all&rsquo;opera dei proprietari precedenti ed attuali.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 108639,
-    "title": "VILLA ZILERI",
-    "lat": 45.5491587,
-    "lng": 11.4901654,
-    "url": "https://fondoambiente.it/luoghi/villa-zileri",
-    "description": "Per iscritti FAI riduzione del 20% per la visita presso la Villa Zileri a Monteviale (VI) Villa Zileri Motterle &egrave; un complesso storico monumentale situato nelle immediate vicinanze della citt&agrave; di Vicenza, ancora oggi inserito in un vasto parco storico, a sua volta, circondato da un&rsquo;estesa area di campagna. Il complesso edilizio di Villa Zileri si articola in tre nuclei principali: - La parte museale, composta dal Salone al Piano Nobile con gli affreschi di Giambattista Tiepolo, la Grotta delle Conchiglie e la Chiesa di S. Francesco; - La parte residenziale, con vere e proprie abitazioni in locazione; - La parte direzionale, dotata di eleganti e ampi uffici che consentono agli ospiti di immergersi in un&rsquo;oasi senza tempo. Il tutto circondato da un vasto Parco Storico, ricco di piante rare e secolari. Dal punto di vista artistico, Villa Zileri &egrave; conosciuta per essere la prima villa vicentina ad essere stata affrescata dall&rsquo;allora emergente Giambattista Tiepolo: qui l&rsquo;artista fu chiamato a celebrare le virt&ugrave; civili della nobile casata del committente, superando i tradizionali schemi allegorici nella vivace invenzione dei motivi e nella libert&agrave; coloristica. Al pianterreno si trova la &ldquo;Grotta delle Conchiglie&rdquo;: un ambiente voltato realizzato nel 1665 per volere di Alfonso Loschi col desiderio di suscitare la meraviglia dell&rsquo;ospite, effetto ottenuto grazie alla ricca decorazione delle conchiglie che creano un&rsquo;originale decorazione alle pareti e al soffitto, riquadrando affreschi rappresentati scene mitologiche della Scuola di Giulio Carpioni. Collegata alla Villa, vi &egrave; la Cappella di San Francesco. Realizzata nel 1600 su iniziativa/richiesta della contessa Elisabetta Poiana &ndash; moglie di Fabrizio Loschi &ndash; venne in seguito riedificata per opera dell&rsquo;architetto Caregaro Negrin, commissionato dalla contessa Drusilla Dal Verme di riorganizzarne gli spazi secondo il gusto dell&rsquo;eclettismo architettonico dell&rsquo;epoca. La peculiarit&agrave; del Parco Storico che circonda Villa Zileri Motterle &egrave; invece costituita dalla perfetta armonia tra l&rsquo;ambiente naturale delle colline e della campagna circostante, e quello storico-culturale del parco monumentale. Al suo interno, infatti, trovano dimora alcune rare e spontanee specie di flora e maestosi alberi centenari. Definito a met&agrave; Ottocento da Antonio Caregaro Negrin sulla base di un progetto dell&rsquo;architetto milanese Balzaretti, il Parco monumentale rispecchia i canoni del gusto romantico del giardino all&rsquo;inglese, dove aiuole tondeggianti, fiori profumati e colori brillanti dovevano inebriare l&rsquo;ospite e farlo sognare&hellip;&hellip; Riuscendoci tutt&rsquo;ora!",
     "categories": [
       {
         "id": 8,
