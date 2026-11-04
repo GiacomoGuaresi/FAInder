@@ -4247,25 +4247,11 @@
     "lat": 41.1773822,
     "lng": 14.2846939,
     "url": "https://fondoambiente.it/luoghi/associazione-pro-loco-caiazzo",
-    "description": "Per iscritti FAI biglietto ridotto a 13 euro anzich&eacute; 15 euro per assistere alla 7&deg; Stagione Teatrale presso il Teatro Jovinelli a Caiazzo (CE) DESCRIZIONE Il Teatro Jovinelli si&nbsp;trova alle spalle dell&#39;antico Palazzo Mazziotti nel cuore del centro storico di Caiazzo. Da alcuni anni nel periodo invernale si tiene una stagione teatrale che attira persone da tutta la provincia.",
+    "description": "Per iscritti FAI biglietto ridotto del 13% per assistere alla Stagione Teatrale presso il Teatro Jovinelli a Caiazzo (CE) DESCRIZIONE Il Teatro Jovinelli si&nbsp;trova alle spalle dell&#39;antico Palazzo Mazziotti nel cuore del centro storico di Caiazzo. Da alcuni anni nel periodo invernale si tiene una stagione teatrale che attira persone da tutta la provincia.",
     "categories": [
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
-    "id": 116148,
-    "title": "PACIFICO LIBRI",
-    "lat": 41.0749652,
-    "lng": 14.2549851,
-    "url": "https://fondoambiente.it/luoghi/pacifico-libri",
-    "description": "Per Iscritti FAI riduzioni fino al 15% per l&#39;acquisto di libri presso la Libreria Pacifico a Caserta Per Iscritti FAI riduzione del 5% su tutti i testi universitari, Per Iscritti FAI riduzione del 15%&nbsp;su Dizionari &quot;Rocci&quot;, &quot;IL&quot;, &quot;GI&quot;, &quot;Laura Tam Spagnolo&quot;, &quot;Hazon Inglese&quot;, &quot;ilRagazzini/Biagi&quot;, &quot;leRobert micro&quot;. &quot;Garzanti Francese&quot; Per Iscritti FAI riduzione del&nbsp;10% di su libri di narrativa, di cultura generale e letteratura per l&#39;infanzia. DESCRIZIONE La Libreria Pacifico offre&nbsp;un vasto assortimento di libri universitari per ragazzi, professionali e dizionari in lingua straniera.&nbsp;&nbsp;E&rsquo; disponibile anche un vasto assortimento di libri di narrativa e cultura generale&nbsp;proposti dall&rsquo; editoria locale ed &egrave; attivo un servizio prenotazioni che vi consente di trovare, nel giro di pochi giorni, anche il materiale momentaneamente non disponibile.&nbsp;",
-    "categories": [
-      {
-        "id": 12,
-        "name": "Leggere"
       }
     ]
   },
@@ -4317,7 +4303,7 @@
     "lat": 41.0967367,
     "lng": 14.2342654,
     "url": "https://fondoambiente.it/luoghi/officina-teatro",
-    "description": "Per iscritti FAI biglietto ridotto a 12 euro anzich&eacute; 14 euro per assistere agli spettacoli dell&#39;Officina Teatro a Caserta DESCRIZIONE L&rsquo;associazione&nbsp;culturale OfficinaTeatro nasce nel dicembre del 2007 ed inizia la sua attivit&agrave; come centro di produzioni teatrali e cinematografiche. Al centro dell&#39;attivit&agrave;&nbsp; si pongono lo studio, la ricerca, la formazione, il dibattito e l&rsquo;aggiornamento culturale, nonch&eacute; la creazione e messa in scena di spettacoli teatrali e comunque di iniziative dirette a diffondere il teatro, la cultura, l&rsquo;arte e lo spettacolo in genere.",
+    "description": "Per iscritti FAI biglietto ridotto a 13 euro anzich&eacute; 15 euro per assistere agli spettacoli dell&#39;Officina Teatro a Caserta DESCRIZIONE L&rsquo;associazione&nbsp;culturale OfficinaTeatro nasce nel dicembre del 2007 ed inizia la sua attivit&agrave; come centro di produzioni teatrali e cinematografiche. Al centro dell&#39;attivit&agrave;&nbsp; si pongono lo studio, la ricerca, la formazione, il dibattito e l&rsquo;aggiornamento culturale, nonch&eacute; la creazione e messa in scena di spettacoli teatrali e comunque di iniziative dirette a diffondere il teatro, la cultura, l&rsquo;arte e lo spettacolo in genere.",
     "categories": [
       {
         "id": 10,
@@ -4476,6 +4462,20 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 116148,
+    "title": "PACIFICO LIBRI",
+    "lat": 41.0750298,
+    "lng": 14.3318437,
+    "url": "https://fondoambiente.it/luoghi/pacifico-libri",
+    "description": "Per Iscritti FAI riduzioni fino al 15% per l&#39;acquisto di libri presso la Libreria Pacifico a Caserta Per Iscritti FAI riduzione del 5% su tutti i testi universitari, Per Iscritti FAI riduzione del 15%&nbsp;su Dizionari &quot;Rocci&quot;, &quot;IL&quot;, &quot;GI&quot;, &quot;Laura Tam Spagnolo&quot;, &quot;Hazon Inglese&quot;, &quot;ilRagazzini/Biagi&quot;, &quot;leRobert micro&quot;. &quot;Garzanti Francese&quot; Per Iscritti FAI riduzione del&nbsp;10% di su libri di narrativa, di cultura generale e letteratura per l&#39;infanzia. DESCRIZIONE La Libreria Pacifico offre&nbsp;un vasto assortimento di libri universitari per ragazzi, professionali e dizionari in lingua straniera.&nbsp;&nbsp;E&rsquo; disponibile anche un vasto assortimento di libri di narrativa e cultura generale&nbsp;proposti dall&rsquo; editoria locale ed &egrave; attivo un servizio prenotazioni che vi consente di trovare, nel giro di pochi giorni, anche il materiale momentaneamente non disponibile.&nbsp;",
+    "categories": [
+      {
+        "id": 12,
+        "name": "Leggere"
       }
     ]
   },
@@ -13772,20 +13772,6 @@
     ]
   },
   {
-    "id": 80990,
-    "title": "FONDAZIONE STELLINE ",
-    "lat": 45.465697,
-    "lng": 9.171871,
-    "url": "https://fondoambiente.it/luoghi/fondazione-stelline-",
-    "description": "&nbsp; Per gli iscritti FAI riduzione biglietto fino al 25% per visitare la Fondazione Stelline di Milano. DESCRIZIONE: Luogo di cultura e approfondimento, la fondazione &egrave; oggi riconosciuta come una realt&agrave; inclusiva e multidisciplinare di livello nazionale e internazionale situata nel cuore economico e culturale della citt&agrave; di Milano. &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 86015,
     "title": "GALLERIE D'ITALIA - PIAZZA DELLA SCALA",
     "lat": 45.46735,
@@ -14024,20 +14010,6 @@
     ]
   },
   {
-    "id": 40167,
-    "title": "SACRESTIA DEL BRAMANTE",
-    "lat": 45.4657499,
-    "lng": 9.1717678,
-    "url": "https://fondoambiente.it/luoghi/sacrestia-del-bramante",
-    "description": "Scopri come usufruire grazie alla tua tessera FAI del biglietto ridotto (sconto del 13%) per la visita alla Sacrestia del Bramante di Milano. La Sacrestia venne edificata durante l&#39;ultimo decennio del Quattrocento, quando Ludovico il Moro, Duca di Milano, decise di avviare un progetto di ampliamento e ristrutturazione del convento domenicano delle Grazie. A questo scopo egli chiam&ograve; a lavorare due artisti allora viventi: Bramante e Leonardo. Per gli iscritti FAI: biglietto ridotto &nbsp;Pinacoteca: &euro; 13.00 anzich&eacute; &euro; 15.00 + &euro; 1.50 di prevendita Sacrestia: &euro; 8.00 anzich&eacute; &euro; 10.00 + &euro; 1.50 di prevendita Cumulativo Pinacoteca e Sacrestia: &euro; 18.00 anzich&eacute; &euro; 20.00 + &euro; 1.50 di prevendita",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 86853,
     "title": "FESTIVAL MILANO MUSICA",
     "lat": 45.4720482,
@@ -14094,26 +14066,12 @@
     ]
   },
   {
-    "id": 41381,
-    "title": "TEATRI SALONE",
-    "lat": 45.4290552,
-    "lng": 9.1796321,
-    "url": "https://fondoambiente.it/luoghi/teatro-oscar-pacta-dei-teatri",
-    "description": "Per gli iscritti FAI biglietto di ingresso ridotto, 16 euro invece che 24 euro, per gli spettacoli della stagione al Pacta dei Teatri Salone a Milano Le riduzioni sono estese anche ad un accompagnatore. Per usufruire di tutte le offerte &egrave; necessario presentarsi alla cassa, esibendo il tesserino o segnalando la convenzione. PACTA dei Teatri &egrave; caratterizzato da una proposta sempre pi&ugrave; intensa, una stagione fatta di nuove collaborazioni, nuova drammaturgia, nuovi artisti. LEVITICO PENTATEUCO #3 &ndash; La Confraternita del Chianti - dal 13 al 16 ottobre LA MADRE DEL MARITO DI MIO FIGLIO &nbsp;&ndash; Compagnia Miritello-Torlasco - dal 20 al 23 ottobre SYBIL &ndash; PianoinBilico in collaborazione con Gecobeventi - dal 25 al 27 ottobre &nbsp; &nbsp;",
-    "categories": [
-      {
-        "id": 10,
-        "name": "Assistere a uno spettacolo"
-      }
-    ]
-  },
-  {
     "id": 40188,
     "title": "TEATRO CARCANO",
     "lat": 45.4565787,
     "lng": 9.1952755,
     "url": "https://fondoambiente.it/luoghi/teatro-carcano",
-    "description": "Per gli iscritti FAI riduzioni sui&nbsp;biglietti degli spettacoli della stagione 2026/27 - prezzo variabile a seconda dello spettacolo e della tipologia di seduta al Teatro Carcano a Milano. SPETTACOLI PROSA E DANZA STAGIONE 2026/27 In tutti i settori RID. CONVENZIONATI&nbsp;&euro; 20 invece di Poltronissima Intero &euro; 38- Ridotto under 30 / over 65 &euro; 27 - Ridotto under 18 &euro; 19 Poltrona/Balconata Intero &euro; 30 - Ridotto under 30 / over 65 &euro; 24 - Ridotto under 18 &euro; 19 SCOPRI LA STAGIONE&nbsp;2026/27&nbsp;QUI Spettacoli ottobre 2026 Prezzo in convenzione &euro; 20&nbsp;invece di &euro; 38/&euro; 30 DAL 15 AL 18 OTTOBRE 2026 INTELLETTO D&#39;AMORE - Dante e le donne scritto da Gabriele Vacis e Lella Costa con Lella Costa DAL 22 AL 25 OTTOBRE QUESTIONI DI CUORE dall&rsquo;omonimo libro di Natalia Aspesi con Lella Costa Prezzo in promozione &euro; 15 invece di &euro; 25 LUNEDI&#39; 19 OTTOBRE&nbsp; A VOLTE TI AMO di e con Matteo Lancini LUNEDI&#39; 26 OTTOBRE Nelson Mandela e la lotta all&rsquo;Apartheid. La &ldquo;Carta della libert&agrave;&rdquo; sudafricana di e con Paolo Colombo Prezzo in promozione &euro; 11 invece di &euro; 15 FATATEATRO SABATO 17 OTTOBRE&nbsp;PINOCCHIO DESCRIZIONE Tra i teatri pi&ugrave; antichi di Milano (1803), il Carcano ha ospitato le prime di capolavori dell&rsquo;opera lirica e della prosa. Oggi &egrave; cuore di un ambizioso progetto votato alla partecipazione civile e alla divulgazione culturale sotto la direzione artistica di Lella Costa e Serena Sinigaglia. Sono ESCLUSI dalla Convenzione: gli eventi della rassegna FOLLOW THE MONDAY alcuni eventi della rassegna AL CARCANO IN P&Egrave; gli spettacoli della rassegna I FANTAWEEKEND lo spettacolo &ldquo;FRANCESCO&rdquo; &nbsp;lo spettacolo &ldquo;IL PICCOLO PRINCIPE&rdquo; &nbsp;lo spettacolo &ldquo;C&rsquo;&Egrave; CHI DICE NO: RENZO, LUCIA, I GIOVANI&rdquo; &nbsp;lo spettacolo &ldquo;LA NOTTE DEL GOSPEL&rdquo; lo spettacolo &ldquo;GIOELE DIX LATE NIGHT SHOW&rdquo; (31 dicembre 2026) lo spettacolo &ldquo;IL RAGAZZO DAI PANTALONI ROSA&rdquo; SONO ESCLUSI I PACCHETTI ABBONAMENTO CHE POTETE CONSULTARE QUI BIGLIETTERIA Tel. 02-55181362, interno 1 | info@teatrocarcano.com La tariffa ridotta per convenzioni si applica a chi esibisce al botteghino al momento dell&rsquo;acquisto un documento in corso di validit&agrave; che attesti l&rsquo;iscrizione ad una delle realt&agrave; convenzionate, unitamente ad un documento di identit&agrave;.",
+    "description": "Per gli iscritti FAI riduzioni sui&nbsp;biglietti degli spettacoli della stagione 2026/27 - prezzo variabile a seconda dello spettacolo e della tipologia di seduta al Teatro Carcano a Milano. SPETTACOLI PROSA E DANZA STAGIONE 2026/27 In tutti i settori RID. CONVENZIONATI&nbsp;&euro; 20 invece di Poltronissima Intero &euro; 38- Ridotto under 30 / over 65 &euro; 27 - Ridotto under 18 &euro; 19 Poltrona/Balconata Intero &euro; 30 - Ridotto under 30 / over 65 &euro; 24 - Ridotto under 18 &euro; 19 SCOPRI LA STAGIONE&nbsp;2026/27&nbsp;QUI Spettacoli ottobre 2026 Prezzo in convenzione &euro; 20&nbsp;invece di &euro; 38/&euro; 30 Dal 17 al 22 novembre 2026LA MISTERIOSA SCOMPARSA DI W di Stefano Benni&nbsp;con Ambra Angiolini Mercoled&igrave; 25 novembre 2026 UOMINI SI DIVENTA Nella mente di un femminicida Reading contro la violenza sulle donne&nbsp;con Alessio Boni e Omar Pedrini Dal 28 al 29 novembre 2026 STAI ZITTA! dall&rsquo;omonimo libro di Michela Murgia di e con Antonella Questa, Valentina Melis&nbsp;e Letizia BraviPrezzo in promozione &euro; 11 invece di &euro; 15 FANTAWEEKEND 11&euro; INVECE CHE 15 &euro; Domenica 29 novembre alle ore 11:00 GLI ELFI DI BABBO NATALE DESCRIZIONE Tra i teatri pi&ugrave; antichi di Milano (1803), il Carcano ha ospitato le prime di capolavori dell&rsquo;opera lirica e della prosa. Oggi &egrave; cuore di un ambizioso progetto votato alla partecipazione civile e alla divulgazione culturale sotto la direzione artistica di Lella Costa e Serena Sinigaglia. Sono ESCLUSI dalla Convenzione: gli eventi della rassegna FOLLOW THE MONDAY alcuni eventi della rassegna AL CARCANO IN P&Egrave; gli spettacoli della rassegna I FANTAWEEKEND lo spettacolo &ldquo;FRANCESCO&rdquo; &nbsp;lo spettacolo &ldquo;IL PICCOLO PRINCIPE&rdquo; &nbsp;lo spettacolo &ldquo;C&rsquo;&Egrave; CHI DICE NO: RENZO, LUCIA, I GIOVANI&rdquo; &nbsp;lo spettacolo &ldquo;LA NOTTE DEL GOSPEL&rdquo; lo spettacolo &ldquo;GIOELE DIX LATE NIGHT SHOW&rdquo; (31 dicembre 2026) lo spettacolo &ldquo;IL RAGAZZO DAI PANTALONI ROSA&rdquo; SONO ESCLUSI I PACCHETTI ABBONAMENTO CHE POTETE CONSULTARE QUI BIGLIETTERIA Tel. 02-55181362, interno 1 | info@teatrocarcano.com La tariffa ridotta per convenzioni si applica a chi esibisce al botteghino al momento dell&rsquo;acquisto un documento in corso di validit&agrave; che attesti l&rsquo;iscrizione ad una delle realt&agrave; convenzionate, unitamente ad un documento di identit&agrave;.",
     "categories": [
       {
         "id": 10,
@@ -14296,20 +14254,6 @@
     "lng": 9.1899258,
     "url": "https://fondoambiente.it/luoghi/highline-galleria",
     "description": "Per iscritti FAI biglietto ridotto a 12 euro anzich&eacute; 15 euro per visitare la Galleria Vittorio Emanuele II a Milano DESCRIZIONE HIGHLINE&nbsp;&egrave; un progetto multidisciplinare in continua evoluzione. Un luogo che&nbsp;guarda al futuro&nbsp;ma&nbsp;con le radici ben ancorate&nbsp;a un passato fatto di storia, arte e meraviglia. Oltre alla SKYWALK a 40 metri di altezza che costeggia i tetti della&nbsp;Galleria Vittorio Emanuele II, HIGHLINE mira a&nbsp;diventare uno spazio culturale&nbsp;e&nbsp;inclusivo, grazie all&rsquo;apertura della&nbsp;Sala dell&rsquo;Orologio&nbsp;(ARTSPACE), della&nbsp;Terrazza Panoramica&nbsp;(ROOFTOP) e dell&rsquo;ARTSHOP, prevista per il 2025. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 84167,
-    "title": "MUSEO INTERATTIVO DEL CINEMA",
-    "lat": 45.5135863,
-    "lng": 9.2041909,
-    "url": "https://fondoambiente.it/luoghi/museo-interattivo-del-cinema",
-    "description": "Per gli iscritti FAI biglietto ridotto 4,00 Euro invece di 5,50 Euro per la visita al Museo Interattivo del Cinema a Milano.&nbsp; &nbsp;Il MIC non &egrave; solo un museo dove poter approfondire tematiche legate al cinema attraverso l&rsquo;interazione e il gioco, ma una vera e propria sala cinematografica con programmazione dedicata. &nbsp; &nbsp; &nbsp;",
     "categories": [
       {
         "id": 8,
@@ -18158,6 +18102,20 @@
     ]
   },
   {
+    "id": 122401,
+    "title": "SAN E BUN",
+    "lat": 44.6053145,
+    "lng": 7.5234836,
+    "url": "https://fondoambiente.it/luoghi/san-e-bun",
+    "description": "Per iscritti FAI riduzione del 10% sui prodotti in vendita dall&#39;azienda SAN E BUN a Verzuolo (CN) ACQUISTA SAL SITO&nbsp;QUI CON CODICE PROMO&nbsp;FAI10 DESCRIZIONE San e Bun nasce dalla passione per i sapori autentici e dalla voglia di valorizzare le tradizioni del nostro territorio. Abbiamo una piccola azienda agricola, dedita alla produzione biologica di: grano, mais pignoletto, legumi e nocciole. E&#39; stata creata una rete di collaboratori con cui vengono realizzate ricette personalizzate per prodotti di qualit&agrave;, realizzati con cura e attenzione, per portare sulle tavole dei nostri clienti il gusto genuino della tradizione piemontese. Dalle specialit&agrave; dolci e salate ai prodotti tipici locali, ogni proposta racconta una storia di sapori, territorio e passione. &nbsp; &nbsp; &nbsp; &nbsp;",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
     "id": 119837,
     "title": "COMPAGNIA EGRIBIANCODANZA",
     "lat": 45.0563663,
@@ -18335,7 +18293,7 @@
     "lat": 45.0655603,
     "lng": 7.6845764,
     "url": "https://fondoambiente.it/luoghi/circolo-del-design",
-    "description": "PER ISCRITTI FAI BIGLIETTO RIDOTTO AL COSTO DI 2 &euro; ANZICHE&#39; 5 &euro;&nbsp;PER LE MOSTRE PRESSO IL CIRCOLO DEL DESIGN DI TORINO DESCRIZIONE Il Circolo del Design &egrave; un centro di produzione culturale che approfondisce i temi del design contemporaneo, promuove la sperimentazione, la ricerca e l&rsquo;innovazione e favorisce l&rsquo;incontro del design con il mondo culturale, produttivo, istituzionale e accademico. Persegue la sua mission attraverso la programmazione di attivit&agrave; culturali, di ricerca e di formazione, lo sviluppo di opportunit&agrave; professionali tra designer e aziende e la collaborazione con le istituzioni, il mondo culturale e accademico per la creazione di un sistema del design a servizio della comunit&agrave; e del territorio. Online e offline, ogni giorno progetta contenuti che sappiano ispirare e lo fa collaborando con professionisti, istituzioni, studenti e visionari appassionati e curiosi. L&rsquo;ingegnere e Margherita: la citt&agrave; del teatro infinito 21 maggio - 3 ottobre 2026 Luned&igrave; &ndash; sabato | 14.00-19.00 sabato 25 luglio, chiuso Circolo del Design La mostra celebra l&rsquo;esperienza teatrale degli anni Novanta a Torino, partendo dalla duplice rappresentazione de &ldquo;L&rsquo;affare Makropulos&rdquo; di Karel Capek, che Luca Ronconi porta in scena contemporaneamente in due teatri torinesi il 9 dicembre 1993. Al Teatro Carignano porta lo spettacolo in prosa con scene e costumi di Carlo Diappi e Mariangela Melato nei panni della protagonista, mentre al Teatro Regio l&rsquo;opera in tre atti presenta le scenografie di Margherita Palli e Raina Kabaivanska come interprete principale. A partire dalle figure della scenografa Margherita Palli e dell&rsquo;ingegner Silvano Cova, l&rsquo;allora direttore tecnico e degli allestimenti scenici del Teatro Regio, la mostra racconta come la magia del teatro prende forma nella relazione tra arte e tecnica. In mostra i materiali d&rsquo;archivio del Centro Studi del Teatro Stabile Torino e dell&rsquo;Archivio Storico del Teatro Regio Torino raccontano quell&rsquo;esperienza, affiancati dalle testimonianze delle persone che l&rsquo;hanno resa possibile. SCOPRI QUI",
+    "description": "PER ISCRITTI FAI BIGLIETTO RIDOTTO AL COSTO DI 2 &euro; ANZICHE&#39; 5 &euro;&nbsp;PER LE MOSTRE PRESSO IL CIRCOLO DEL DESIGN DI TORINO DESCRIZIONE Il Circolo del Design &egrave; un centro di produzione culturale che approfondisce i temi del design contemporaneo, promuove la sperimentazione, la ricerca e l&rsquo;innovazione e favorisce l&rsquo;incontro del design con il mondo culturale, produttivo, istituzionale e accademico. Persegue la sua mission attraverso la programmazione di attivit&agrave; culturali, di ricerca e di formazione, lo sviluppo di opportunit&agrave; professionali tra designer e aziende e la collaborazione con le istituzioni, il mondo culturale e accademico per la creazione di un sistema del design a servizio della comunit&agrave; e del territorio. Online e offline, ogni giorno progetta contenuti che sappiano ispirare e lo fa collaborando con professionisti, istituzioni, studenti e visionari appassionati e curiosi. From The Ground Dal 14 ottobre 2026 al 30 gennaio 2027 La mostra - parte di &ldquo;Earthrise - Design for a living planet&rdquo;, giunto alla sua quarta edizione - presenta otto progetti italiani, tre internazionali e una residenza e sar&agrave; visibile al pubblico fino al 30 gennaio 2027. From the Ground parte dalla terra ed esplora territori, tradizioni, tecnologia, comunit&agrave; umane e non umane, attraverso il lavoro di designer nazionali e internazionali che hanno sperimentato con le argille. SCOPRI QUI",
     "categories": [
       {
         "id": 8,
@@ -21514,6 +21472,20 @@
     ]
   },
   {
+    "id": 122400,
+    "title": "PALACULTURA ANTONELLO",
+    "lat": 38.1977407,
+    "lng": 15.5513132,
+    "url": "https://fondoambiente.it/luoghi/palacultura-antonello",
+    "description": "Per iscritti FAI biglietto ridotto del 5% per i concerti organizzati dalla Filarmonica Laudamo a Messina SCOPRI IL PROGRAMMA DESCRIZIONE La Filarmonica Antonio Laudamo di Messina &egrave; la pi&ugrave; antica societ&agrave; di concerti della Sicilia e la settima fondata in Italia. Nata nel 1921, rappresenta una delle istituzioni musicali pi&ugrave; storiche e prestigiose del panorama culturale meridionale, riconosciuta come Ente Morale nel 1993 e oggi operante come Ente del Terzo Settore&nbsp; &nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 118116,
     "title": "GIUNTI ODEON - CINEMA",
     "lat": 43.7556429,
@@ -21566,6 +21538,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 122398,
+    "title": "FONDAZIONE TAORMINA",
+    "lat": 37.8397589,
+    "lng": 15.273927,
+    "url": "https://fondoambiente.it/luoghi/fondazione-taormina",
+    "description": "Per iscritti FAI riduzione del 25% per gli spettacoli organizzati dalla Fondazione Taormina SCOPRI IL PROGRAMMA DESCRIZIONE La Fondazione Taormina &egrave; un centro di ideazione e produzione di cultura che promuove e realizza iniziative ed eventi culturali, artistici e sociali di rilevanza locale, nazionale e internazionale. La Fondazione promuove la crescita culturale della comunit&agrave; locale, contribuendo allo sviluppo sociale ed economico del territorio taorminese e siciliano. Valorizza il patrimonio identitario, materiale e immateriale, in continuit&agrave; con la storia della comunit&agrave;. Stimola innovazione culturale e creativit&agrave;, favorendo il diritto alla cultura e la partecipazione di tutti i cittadini &mdash; in particolare i giovani &mdash; promuovendo una citt&agrave; creativa e interculturale, in collaborazione con altri soggetti pubblici e privati. Sviluppa e consolida l&#39;immagine di Taormina a livello nazionale e internazionale, realizzando una programmazione culturale e artistica coordinata e costruendo reti tra istituzioni e partner. Valorizza la musica, le forme d&#39;arte, gli antichi mestieri e le tradizioni popolari locali e siciliane. Tutela e promuove le risorse archeologiche esistenti e di nuova emersione, garantendone la conservazione.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -22360,34 +22346,6 @@
     "lng": 11.0437503,
     "url": "https://fondoambiente.it/luoghi/osteria-del-pettirosso",
     "description": "Per Iscritti FAI riduzione del 12% per usufruire dei servizi offerti dall&#39;Osteria del Pettirosso a Rovereto DESCRIZIONE L&rsquo;Osteria del Pettirosso, aperta dal maggio del 2001, si trova nel centro storico di Rovereto, a due passi dal Mart, il museo di arte moderna e contemporanea pi&ugrave; importante d&rsquo;Italia. Nel locale si respira l&rsquo;aria delle osterie anni &rsquo;30 grazie al prezioso recupero delle cantine, al lavoro degli artigiani locali e alla cura riservata ai particolari dell&rsquo;epoca.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 118812,
-    "title": "HOTEL LE FONTANELLE",
-    "lat": 43.3853832,
-    "lng": 11.4007853,
-    "url": "https://fondoambiente.it/luoghi/hotel-le-fontanelle",
-    "description": "Per iscritti FAI riduzione sul soggiorno e sui servizi offerti dall&#39;Hotel Le Fontanelle a Castelnuovo Berardenga (SI) 15% di riduzione sulle tariffe delle camere con trattamento B&amp;B, servizi ristorativi e wellness 10% di riduzione su degustazioni, tour e acquisto vini presso la cantina Vallepicciola TERMINI E CONDIZIONI Per tariffe e disponibilit&agrave; per un possibile soggiorno a Hotel Le Fontanelle si prega di contattare anticipatamente l&rsquo;indirizzo e-mail bookingfontanelle@fontanellestate.com Per servizi ristorativi e wellness si richiede la prenotazione anticipata contattando via e-mail conciergefontanelle@fontanellestate.com Per attivit&agrave; presso la cantina Vallepicciola si richiede la prenotazione anticipata contattando via e-mail visit@vallepicciola.com Per usufruire degli sconti riservati, all&rsquo;arrivo in hotel o presso la cantina si richiede la presentazione della tessera d&#39;iscrizione FAI nominativa DESCRIZIONE Situato nel cuore della Toscana, Hotel Le Fontanelle &egrave; un incantevole casale ristrutturato con cura, rispettando la sua storia e l&rsquo;autenticit&agrave; del borgo. Dal 2006, accoglie gli ospiti in un ambiente elegante e discreto, con arredi che richiamano i colori delle colline del Chianti. Le camere e le suite sono accoglienti e intime, alcune delle quali situate nella dependance Villa Il Mandorlo, a circa 400 metri dall&#39;area principale. L&#39;hotel dispone di una piscina esterna con vista sui vigneti e di un&#39;area wellness, The Health Club, con piscina interna riscaldata, ideali per rigenerarsi. Il ristorante La Colonna propone piatti della cucina italiana classica, preparati con ingredienti locali. In estate, la Terrazza Belvedere permette di cenare sotto le stelle, in un&rsquo;atmosfera suggestiva.",
-    "categories": [
-      {
-        "id": 9,
-        "name": "Soggiornare e mangiare"
-      }
-    ]
-  },
-  {
-    "id": 118813,
-    "title": "HOTEL THE CLUB HOUSE",
-    "lat": 43.3888177,
-    "lng": 11.3953322,
-    "url": "https://fondoambiente.it/luoghi/hotel-the-club-house",
-    "description": "Per iscritti FAI riduzione sul soggiorno e sui servizi offerti dall&#39;Hotel The Club House a Castelnuovo Berardenga SI 15% di riduzione sulle tariffe delle camere con trattamento B&amp;B, servizi ristorativi e wellness 10% di riduzione su degustazioni, tour e acquisto vini presso la cantina Vallepicciola TERMINI E CONDIZIONI Per tariffe e disponibilit&agrave; per un possibile soggiorno a The Club House si prega di contattare anticipatamente l&rsquo;indirizzo e-mail bookingclubhouse@fontanellestate.com Per servizi ristorativi e wellness si richiede la prenotazione anticipata contattando via e-mail conciergeclubhouse@fontanellestate.com Per le attivit&agrave; presso la cantina Vallepicciola si richiede la prenotazione anticipata contattando via e-mail visit@vallepicciola.com Per usufruire degli sconti riservati, all&rsquo;arrivo in hotel o presso la cantina si richiede la presentazione della tessera d&#39;iscrizione FAI nominativa DESCRIZIONE Hotel The Club House 5*L, nel cuore del Chianti a Castelnuovo Berardenga, &egrave; un elegante casale del 1730 completamente restaurato e inaugurato nel 2022. L&#39;architettura e il design della struttura sono stati curati con grande attenzione dall&rsquo;architetto Margherita Gozzi, il cui obbiettivo &egrave; stato quello di creare un unicum, dove storia e tradizione si fondono armoniosamente con un&#39;ospitalit&agrave; contemporanea e immersiva. The Club House offre 15 camere (12 Superior e 3 Suite) e due ristoranti: Il Visibilio, 1 Stella Michelin, che propone un men&ugrave; degustazione al buio, e Osteria Il Tuscanico, con cucina tipica toscana. La nuova SPA, The Wellness Sanctuary, garantisce un&rsquo;esperienza di benessere olistico per rigenerare mente e corpo. Un&rsquo;oasi di lusso autentico nel paesaggio incantato del Chianti.",
     "categories": [
       {
         "id": 9,
@@ -27000,20 +26958,6 @@
     ]
   },
   {
-    "id": 86666,
-    "title": "GALLERIE D'ITALIA - PALAZZO LEONI MONTANARI",
-    "lat": 45.5501379,
-    "lng": 11.5470123,
-    "url": "https://fondoambiente.it/luoghi/gallerie-d-italia-palazzo-leoni-montanari",
-    "description": "Per gli iscritti FAI biglietto ridotto per Gallerie d&#39;Italia a Palazzo Leoni Montanari a Vicenza DESCRIZIONE Palazzo Leoni Montanari stupisce per il suo straordinario&nbsp;impianto scenografico, la storia della casata vicentina e le sue&nbsp;imperdibili collezioni:&nbsp;un viaggio nell&rsquo;arte del Settecento veneto, dai dipinti di maestri come Canaletto, Longhi, Guardi, Carlevarjis fino alla stupefacente scultura in marmo raffigurante la Caduta degli Angeli ribelli dell&rsquo;artista padovano Francesco Bertos, oltre a un percorso tra arte e spiritualit&agrave; ortodossa dedicato a una delle maggiori raccolte di icone russe custodite in Occidente. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40473,
     "title": "MUSEI CIVICI VICENZA : TEATRO OLIMPICO",
     "lat": 45.5491452,
@@ -27598,6 +27542,48 @@
       {
         "id": 14,
         "name": "Partecipare a corsi o escursioni"
+      }
+    ]
+  },
+  {
+    "id": 110173,
+    "title": "CARTERIA TASSOTTI",
+    "lat": 45.7664466,
+    "lng": 11.729206,
+    "url": "https://fondoambiente.it/luoghi/carteria-tassotti",
+    "description": "Per iscritti FAI riduzione del 10% sugli acquisti presso la Carteria TassottiDESCRIZIONE A pochi metri dallo storico Ponte Vecchio di Bassano del Grappa, la Carteria Tassotti custodisce un patrimonio di arte e maestria artigianale che affonda le radici nella grande tradizione locale tipografica. La famiglia Tassotti, a partire dal 1957, si pone come ideale prosecutrice e rinnovatrice dell&#39;antica stamperia Remondini, attiva a Bassano tra il 1657 e il 1861. Varcare la soglia di questo spazio permette di immergersi nel mondo della stampa artistica a cui si affianca una proposta culturale di rilievo: l&#39;edificio ospita infatti la Raccolta Remondini-Tassotti, una preziosa esposizione privata di volumi e stampe originali del Settecento, riconosciuta dall&#39;Associazione Italiana Musei della Stampa e della Carta e in costante dialogo con il patrimonio civico di Palazzo Sturm. Accanto alle testimonianze storiche, potrete trovare un assortimento completo di carte decorative stampate a foglio, creazioni di cartotecnica, quaderni, stampe d&#39;arte ed edizioni dedicate alla storia e alle tradizioni del territorio, arricchite anche da appuntamenti laboratoriali dedicati all&#39;arte della legatoria, alla calligrafia e all&#39;origami. Ogni manufatto riflette la cura della produzione Made in Italy e una precisa attenzione verso la sostenibilit&agrave; ambientale, fondata sull&#39;impiego consapevole della carta e sulla tutela delle risorse del pianeta.",
+    "categories": [
+      {
+        "id": 13,
+        "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 110172,
+    "title": "LIBRERIA PALAZZO ROBERTI",
+    "lat": 45.7662349,
+    "lng": 11.7344653,
+    "url": "https://fondoambiente.it/luoghi/libreria-palazzo-roberti",
+    "description": "Per iscritti FAI riduzione del 5% sugli acquisti presso la Libreria Palazzo Roberti a Bassano del GrappaDESCRIZIONE Nel cuore del centro storico di Bassano del Grappa, all&#39;interno di una dimora nobiliare del Seicento, la Libreria Palazzo Roberti rappresenta una rara testimonianza di grande libreria indipendente. Gestita dalla famiglia Manfrotto, la struttura sviluppata su tre livelli intreccia il rispetto per la memoria architettonica con una vivace vocazione culturale. Il piano terra e il mezzanino accolgono una ricca proposta editoriale ordinata per percorsi tematici mentre, salendo al piano nobile, il fascino storico e artistico si rivela appieno: un salone dal restauro meticoloso, che ha ridato luce a splendidi affreschi parietali, fa da cornice a incontri culturali, mostre fotografiche e concerti di musica classica. Nell&#39;ala adiacente al giardino, si trova uno spazio dedicato all&#39;infanzia e all&#39;adolescenza con una ricca proposta di libri per tutte le et&agrave; e per tutti i gusti oltre. Vengono anche organizzati laboratori ed esperienze di lettura espressiva. A questo dialogo tra tempo e narrazione si affianca il reparto di cartoleria che offre una vasta gamma di oggetti per la scuola, per l&rsquo;ufficio e per regalo. Una grande attenzione &egrave; posta nella scelta, come fornitori, di piccole realt&agrave; artigianali e nel valorizzare l&#39;eccellenza manifatturiera della carta italiana attraverso articoli raffinati, creazioni artigianali e proposte ecologiche e originali.",
+    "categories": [
+      {
+        "id": 12,
+        "name": "Leggere"
+      }
+    ]
+  },
+  {
+    "id": 86666,
+    "title": "GALLERIE D'ITALIA - PALAZZO LEONI MONTANARI",
+    "lat": 45.5501379,
+    "lng": 11.5470123,
+    "url": "https://fondoambiente.it/luoghi/gallerie-d-italia-palazzo-leoni-montanari",
+    "description": "Per gli iscritti FAI biglietto ridotto per visitare la collezione permanente e le mostre di Gallerie d&#39;Italia a Palazzo Leoni Montanari a Vicenza DESCRIZIONE La storia del palazzo comincia attorno al 1676, quando Giovanni I Leoni Montanari fa costruire una sontuosa dimora nel centro storico di Vicenza, vicino alla chiesa domenicana di Santa Corona, allora uno dei cuori pulsanti della vita religiosa e culturale della citt&agrave;. Alla fine del Settecento gli spazi interni della dimora hanno gi&agrave; visto significative modifiche per rispondere alle nuove esigenze abitative ed estetiche della casata Leoni Montanari, da sempre partecipe alla vita culturale cittadina. Con l&#39;inizio dell&#39;Ottocento, gran parte dell&#39;originale impianto barocco ha subito un&#39;ulteriore evoluzione per assecondare le trasformazioni del gusto, prima neoclassico e successivamente eclettico. Infine, dopo diversi passaggi di propriet&agrave; lungo il XIX secolo, nel 1908 l&#39;edificio &egrave; stato acquisito dalla Banca Cattolica Vicentina, entrando a far parte dell&#39;attuale patrimonio storico, artistico e architettonico tutelato dal Gruppo Intesa Sanpaolo. Il Palazzo apre al pubblico nel 1999 come prima sede delle Gallerie d&rsquo;Italia, polo museale di Intesa Sanpaolo. L&#39;edificio si distingue per un ricco apparato decorativo in cui stucchi, affreschi e sculture impreziosiscono gli ambienti interni. Spazi di grande suggestione, tra cui la Loggia d&#39;Ercole, l&#39;ingresso ornamentale con grifoni e il Salone di Apollo, offrono una testimonianza significativa del mecenatismo e dell&#39;architettura d&#39;epoca. Il percorso museale custodisce collezioni permanenti di notevole valore storico e artistico. L&#39;itinerario comprende una raccolta di icone russe tra le pi&ugrave; rilevanti in Occidente, costituita da 462 tavole che documentano la pittura sacra dal Medioevo fino al XIX secolo. La sezione dedicata al Settecento Veneto celebra la grande stagione artistica della Serenissima con le vedute di celebri figure della pittura quali Canaletto e Guardi, le vivaci scene di costume di Pietro Longhi e la virtuosistica scultura Caduta degli angeli ribelli di Francesco Bertos, ricavata da un unico blocco di marmo di Carrara. Nella Sala dei Fauni trova inoltre spazio l&#39;esposizione &quot;Vitalit&agrave; del Tempo&quot;, incentrata sulla scultura di Arturo Martini e sulle raffigurazioni dedicate a La Pisana. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   }
