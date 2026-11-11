@@ -44,7 +44,8 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
           display: none !important;
         }
         .leaflet-control-attribution {
-          display: none !important;
+          font-size: 10px;
+          background: rgba(255, 255, 255, 0.7);
         }
         .location-button {
           position: absolute;
@@ -97,8 +98,10 @@ const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favorit
         });
         var userLocation = [${userLat}, ${userLng}];
         
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-          attribution: '',
+        // Testo senza link: un tocco non deve far navigare la WebView fuori dalla mappa
+        map.attributionControl.setPrefix(false);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors',
           maxZoom: 19
         }).addTo(map);
         
@@ -724,6 +727,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
             onMessage={handleWebViewMessage}
             javaScriptEnabled={true}
             domStorageEnabled={true}
+            applicationNameForUserAgent="FAInder/1.0 (+https://github.com/GiacomoGuaresi/FAInder)"
             startInLoadingState={true}
             key={`${getFilteredPoints().length}-${location?.coords.latitude}-${location?.coords.longitude}-${Array.from(selectedCategories).join(',')}`}
             renderLoading={() => (
