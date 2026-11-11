@@ -7,7 +7,12 @@
 
 FAInder is an Android/iOS app for FAI members and anyone curious about Italian heritage. It shows about 2,000 places on a map (FAI properties and the venues that offer benefits to FAI members), lets you filter them by category, and keeps track of where you have been. It is an independent project, **not affiliated with FAI**.
 
-<!-- screenshots: docs/screenshots/ (map, place detail, check-in, membership card, statistics) -->
+<p align="center">
+  <img src="docs/screenshots/map.jpg" alt="Map with the places around Bergamo" width="200"/>
+  <img src="docs/screenshots/detail.jpg" alt="Place sheet with check-in buttons" width="200"/>
+  <img src="docs/screenshots/visited.jpg" alt="List of visited places" width="200"/>
+  <img src="docs/screenshots/stats.jpg" alt="Statistics screen" width="200"/>
+</p>
 
 ## What it does
 

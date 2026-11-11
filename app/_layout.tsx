@@ -1,27 +1,25 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
+import { DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
 import { ErrorBoundary } from '@/components/error-boundary';
 import { CategoryProvider } from '@/contexts/CategoryContext';
-import { useColorScheme } from '@/hooks/use-color-scheme';
 
 export const unstable_settings = {
   anchor: '(tabs)',
 };
 
+// L'app ha un solo tema, chiaro: non segue il tema di sistema
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <ErrorBoundary>
       <CategoryProvider>
-        <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+        <ThemeProvider value={DefaultTheme}>
           <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           </Stack>
-          <StatusBar style="auto" />
+          <StatusBar style="dark" />
         </ThemeProvider>
       </CategoryProvider>
     </ErrorBoundary>

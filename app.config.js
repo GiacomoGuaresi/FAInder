@@ -9,7 +9,7 @@ module.exports = {
     orientation: "portrait",
     icon: "./assets/images/icon.png",
     scheme: "fainder",
-    userInterfaceStyle: "automatic",
+    userInterfaceStyle: "light",
     newArchEnabled: true,
 
     jsEngine: "hermes",
