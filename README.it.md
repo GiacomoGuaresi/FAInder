@@ -25,7 +25,7 @@ Versione 1.0, sviluppata e provata su Android. Lo stesso codice si può compilar
 
 ## Provala
 
-Scarica l'APK dall'[ultima release](https://github.com/GiacomoGuaresi/FAInder/releases/latest) e installalo su un telefono Android (va consentita l'installazione da origini sconosciute).
+Scarica l'APK dalla [pagina delle release](https://github.com/GiacomoGuaresi/FAInder/releases) e installalo su un telefono Android (va consentita l'installazione da origini sconosciute).
 
 Per avviarla dai sorgenti:
 

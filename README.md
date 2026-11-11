@@ -25,7 +25,7 @@ Version 1.0, developed and tested on Android. The same code can be built for iOS
 
 ## Try it
 
-Download the APK from the [latest release](https://github.com/GiacomoGuaresi/FAInder/releases/latest) and install it on an Android phone (you need to allow installation from unknown sources).
+Download the APK from the [releases page](https://github.com/GiacomoGuaresi/FAInder/releases) and install it on an Android phone (you need to allow installation from unknown sources).
 
 To run it from source:
 
