@@ -10,7 +10,7 @@ import { ActivityIndicator, Alert, Modal, StyleSheet, TouchableOpacity, View } f
 
 const PDF_STORAGE_KEY = 'fai_card_pdf';
 
-export default function TabTwoScreen() {
+export default function TesseraScreen() {
   const [pdfUri, setPdfUri] = useState<string | null>(null);
   const [mimeType, setMimeType] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
