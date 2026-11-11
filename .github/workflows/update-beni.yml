@@ -23,15 +23,9 @@ jobs:
 
       - run: pip install requests
 
-      - run: python scripts/fetch_beni_fai.py
-
-      - name: Force file update
+      - name: Fetch data
         run: |
-          # Remove the old file to ensure Git detects the change
-          rm -f data/beni-fai.json
-          # Run the script again to create a fresh file
           python scripts/fetch_beni_fai.py
-          # Force add the file
           git add -f data/beni-fai.json
 
       - name: Check for changes

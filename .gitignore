@@ -46,3 +46,7 @@ scripts/data/beni-fai.json
 
 # Android APK files
 *.apk
+
+# Python
+__pycache__/
+.pytest_cache/

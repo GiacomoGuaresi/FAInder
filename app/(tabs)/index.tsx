@@ -7,22 +7,12 @@ import { ActivityIndicator, Modal, ScrollView, StyleSheet, Text, TextInput, Touc
 import { WebView } from 'react-native-webview';
 
 import { ErrorBoundary } from '@/components/error-boundary';
+import { FAI_DATA_URL, FAVORITES_STORAGE_KEY, NOT_INTERESTED_STORAGE_KEY, VISITED_STORAGE_KEY } from '@/lib/constants';
+import { extractCategories, filterBySelectedCategories } from '@/lib/filters';
+import { decodeHtmlEntities, truncateText } from '@/lib/text';
+import { FaiPoint } from '@/lib/types';
+import { parseVisited, serializeVisited } from '@/lib/visited';
 import { useCategoryContext } from '../../contexts/CategoryContext';
-
-interface Category {
-  id: number;
-  name: string;
-}
-
-interface FaiPoint {
-  id: number;
-  title: string;
-  lat: number;
-  lng: number;
-  url: string;
-  description?: string;
-  categories?: Category[];
-}
 
 interface SearchResult {
   display_name: string;
@@ -30,65 +20,8 @@ interface SearchResult {
   lon: string;
 }
 
-const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/main/data/beni-fai.json';
-const VISITED_STORAGE_KEY = 'fai_visited_places';
-const FAVORITES_STORAGE_KEY = 'fai_favorites_places';
-const NOT_INTERESTED_STORAGE_KEY = 'fai_not_interested_places';
-const CATEGORY_FILTERS_STORAGE_KEY = 'fai_category_filters';
 
-interface VisitedPlace {
-  id: number;
-  visitDate: string; // ISO date string
-}
-
-// Funzione per decodificare entità HTML
-const decodeHtmlEntities = (text: string): string => {
-  const entityMap: { [key: string]: string } = {
-    '&#39;': "'",
-    '&quot;': '"',
-    '&amp;': '&',
-    '&lt;': '<',
-    '&gt;': '>',
-    '&agrave;': 'à',
-    '&egrave;': 'è',
-    '&eacute;': 'é',
-    '&igrave;': 'ì',
-    '&ograve;': 'ò',
-    '&ugrave;': 'ù',
-    '&Agrave;': 'À',
-    '&Egrave;': 'È',
-    '&Eacute;': 'É',
-    '&Igrave;': 'Ì',
-    '&Ograve;': 'Ò',
-    '&Ugrave;': 'Ù',
-    '&nbsp;': ' ',
-    '&euro;': '€',
-    '&ndash;': '–',
-    '&mdash;': '—',
-    '&lsquo;': '\'',
-    '&rsquo;': '\'',
-    '&ldquo;': '"',
-    '&rdquo;': '"',
-    '&hellip;': '…'
-  };
-
-  let decoded = text;
-  Object.entries(entityMap).forEach(([entity, char]) => {
-    decoded = decoded.replace(new RegExp(entity, 'g'), char);
-  });
-  
-  return decoded;
-};
-
-// Funzione per tagliare testo a 200 caratteri
-const truncateText = (text: string, maxLength: number = 200): string => {
-  if (text.length <= maxLength) {
-    return text;
-  }
-  return text.substring(0, maxLength).trim() + '...';
-};
-
-const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Map<number, string>, favoritesIds: Set<number>, notInterestedIds: Set<number>, userLocation?: Location.LocationObject) => {
+const generateMapHTML = (faiPoints: FaiPoint[], visitedIds: Set<number>, favoritesIds: Set<number>, notInterestedIds: Set<number>, userLocation?: Location.LocationObject) => {
   const userLat = userLocation?.coords.latitude ?? 45.4642;
   const userLng = userLocation?.coords.longitude ?? 9.19;
   
@@ -398,6 +331,8 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const { availableCategories, setAvailableCategories, selectedCategories, toggleCategory, clearCategories } = useCategoryContext();
   const mapRef = useRef<WebView>(null);
+  // Date di visita per id: lo stato tiene solo gli id, le date servono a elenco e statistiche
+  const visitDatesRef = useRef<Map<number, string>>(new Map());
 
   useEffect(() => {
     (async () => {
@@ -429,17 +364,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
         const data: FaiPoint[] = await response.json();
         setFaiPoints(data);
         
-        // Extract unique categories
-        const categoryMap = new Map<number, string>();
-        data.forEach(point => {
-          if (point.categories) {
-            point.categories.forEach(category => {
-              categoryMap.set(category.id, category.name);
-            });
-          }
-        });
-        const uniqueCategories = Array.from(categoryMap.entries()).map(([id, name]) => ({ id, name }));
-        setAvailableCategories(uniqueCategories.sort((a, b) => a.name.localeCompare(b.name)));
+        setAvailableCategories(extractCategories(data));
       } catch (error) {
         console.error('Error fetching FAI points:', error);
         // Fallback to local data if remote fails
@@ -447,17 +372,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
           const localData: FaiPoint[] = require('../../data/beni-fai.json');
           setFaiPoints(localData);
           
-          // Extract unique categories from local data
-          const categoryMap = new Map<number, string>();
-          localData.forEach(point => {
-            if (point.categories) {
-              point.categories.forEach(category => {
-                categoryMap.set(category.id, category.name);
-              });
-            }
-          });
-          const uniqueCategories = Array.from(categoryMap.entries()).map(([id, name]) => ({ id, name }));
-          setAvailableCategories(uniqueCategories.sort((a, b) => a.name.localeCompare(b.name)));
+          setAvailableCategories(extractCategories(localData));
         } catch (localError) {
           console.error('Error loading local data:', localError);
         }
@@ -471,39 +386,9 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
     (async () => {
       try {
         const stored = await AsyncStorage.getItem(VISITED_STORAGE_KEY);
-        if (stored) {
-          try {
-            const parsedData = JSON.parse(stored);
-            
-            // Handle different data formats - convert to Set
-            let ids: number[];
-            
-            if (Array.isArray(parsedData)) {
-              if (parsedData.length > 0 && typeof parsedData[0] === 'number') {
-                // Old format: array of numbers
-                ids = parsedData as number[];
-              } else if (typeof parsedData[0] === 'object' && parsedData[0].id) {
-                // New format: array of objects with id
-                ids = (parsedData as VisitedPlace[]).map(item => item.id);
-              } else {
-                ids = [];
-              }
-            } else {
-              ids = [];
-            }
-            
-            const visitedSet = new Set<number>(ids);
-            setVisitedIds(visitedSet);
-            
-            // Save in simple format for future
-            await AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(Array.from(visitedSet)));
-          } catch (parseError) {
-            console.error('Error parsing visited data:', parseError);
-            // If there's an error, reset data
-            await AsyncStorage.removeItem(VISITED_STORAGE_KEY);
-            setVisitedIds(new Set());
-          }
-        }
+        const places = parseVisited(stored);
+        visitDatesRef.current = new Map(places.map(place => [place.id, place.visitDate]));
+        setVisitedIds(new Set(places.map(place => place.id)));
       } catch (error) {
         console.error('Error loading visited places:', error);
       }
@@ -537,13 +422,7 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
   }, []);
 
   const getFilteredPoints = useCallback(() => {
-    if (selectedCategories.size === 0) {
-      return faiPoints;
-    }
-    return faiPoints.filter(point => 
-      point.categories && 
-      point.categories.some(category => selectedCategories.has(category.id))
-    );
+    return filterBySelectedCategories(faiPoints, selectedCategories);
   }, [faiPoints, selectedCategories]);
 
   const toggleVisited = useCallback(async (id: number) => {
@@ -553,15 +432,17 @@ export default function MapScreen({ onOpenFilterModal }: MapScreenProps = {}) {
       const newSet = new Set(prev);
       if (newSet.has(id)) {
         newSet.delete(id);
+        visitDatesRef.current.delete(id);
         console.log('Removing from visited');
       } else {
         newSet.add(id);
+        visitDatesRef.current.set(id, new Date().toISOString());
         console.log('Adding to visited');
       }
       console.log('New visitedIds size:', newSet.size);
       
       // Save to storage first - EXACTLY like toggleFavorite
-      AsyncStorage.setItem(VISITED_STORAGE_KEY, JSON.stringify(Array.from(newSet)));
+      AsyncStorage.setItem(VISITED_STORAGE_KEY, serializeVisited(newSet, visitDatesRef.current));
       
       // Send update message to WebView to change marker color - EXACTLY like toggleFavorite
       if (mapRef.current) {
