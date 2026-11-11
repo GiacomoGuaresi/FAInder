@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     left: 0,
     width: 280,
     height: '100%',
-    backgroundColor: '#222',
+    backgroundColor: 'white',
     zIndex: 1001,
     shadowColor: '#000',
     shadowOffset: { width: 2, height: 0 },
@@ -92,12 +92,12 @@ const styles = StyleSheet.create({
     paddingTop:36,
     paddingBottom:8,
     borderBottomWidth: 1,
-    borderBottomColor: '#444',
+    borderBottomColor: '#eee',
   },
   sidebarTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: 'white',
+    color: '#222',
   },
   closeSidebarButton: {
     padding: 8,
@@ -117,14 +117,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#444',
+    borderBottomColor: '#eee',
   },
   menuItemIcon: {
     marginRight: 16,
   },
   menuItemText: {
     fontSize: 16,
-    color: 'white',
+    color: '#222',
     fontWeight: '500',
   },
   propertiesHeader: {
@@ -308,7 +308,7 @@ export default function TabLayout() {
         <View style={styles.sidebarHeader}>
           <Text style={styles.sidebarTitle}>Menu</Text>
           <TouchableOpacity onPress={toggleSidebar} style={styles.closeSidebarButton}>
-            <Ionicons name="close" size={24} color="white" />
+            <Ionicons name="close" size={24} color="#222" />
           </TouchableOpacity>
         </View>
         <View style={styles.sidebarContent}>
@@ -316,7 +316,7 @@ export default function TabLayout() {
             style={styles.menuItem}
             onPress={navigateToLuoghiPreferiti}
           >
-            <Ionicons name="star" size={20} color="#FFD700" style={styles.menuItemIcon} />
+            <Ionicons name="star" size={20} color="#F5B301" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>Luoghi Preferiti</Text>
           </TouchableOpacity>
           <TouchableOpacity 
@@ -344,14 +344,14 @@ export default function TabLayout() {
           <View style={{ flex: 1 }} />
           
           <TouchableOpacity 
-            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#444' }]}
+            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#eee' }]}
             onPress={navigateToStatistiche}
           >
             <Ionicons name="bar-chart-outline" size={20} color="#e74f30" style={styles.menuItemIcon} />
             <Text style={styles.menuItemText}>Statistiche</Text>
           </TouchableOpacity>
           <TouchableOpacity 
-            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#444' }]}
+            style={[styles.menuItem, { borderTopWidth: 1, borderTopColor: '#eee' }]}
             onPress={navigateToAbout}
           >
             <Ionicons name="information-circle-outline" size={20} color="#e74f30" style={styles.menuItemIcon} />
