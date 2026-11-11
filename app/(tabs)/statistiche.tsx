@@ -3,32 +3,22 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
 import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, Dimensions, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { FAI_DATA_URL, FAVORITES_STORAGE_KEY, NOT_INTERESTED_STORAGE_KEY, VISITED_STORAGE_KEY } from '@/lib/constants';
+import {
+  computeCategoryStats,
+  computeSeasonStats,
+  countVisitsByYear,
+  filterVisibleIds,
+  filterVisibleVisits,
+  topCategories as pickTopCategories,
+  topPlacesByYear,
+  topSeason as pickTopSeason,
+} from '@/lib/stats';
+import { filterVisiblePoints } from '@/lib/filters';
+import { FaiPoint, VisitedPlace } from '@/lib/types';
+import { parseVisited } from '@/lib/visited';
 import { useCategoryContext } from '../../contexts/CategoryContext';
 
-interface FaiPoint {
-  id: number;
-  title: string;
-  lat: number;
-  lng: number;
-  url: string;
-  description?: string;
-  categories?: Category[];
-}
-
-interface Category {
-  id: number;
-  name: string;
-}
-
-interface VisitedPlace {
-  id: number;
-  visitDate: string;
-}
-
-const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/main/data/beni-fai.json';
-const VISITED_STORAGE_KEY = 'fai_visited_places';
-const FAVORITES_STORAGE_KEY = 'fai_favorites_places';
-const NOT_INTERESTED_STORAGE_KEY = 'fai_not_interested_places';
 
 const screenWidth = Dimensions.get('window').width;
 
@@ -73,9 +63,7 @@ export default function StatisticheScreen() {
             AsyncStorage.getItem(NOT_INTERESTED_STORAGE_KEY)
           ]);
 
-          if (visitedStored) {
-            setVisitedPlaces(JSON.parse(visitedStored));
-          }
+          setVisitedPlaces(parseVisited(visitedStored));
 
           if (favoritesStored) {
             setFavoritesIds(new Set(JSON.parse(favoritesStored)));
@@ -92,144 +80,18 @@ export default function StatisticheScreen() {
   );
 
   // Filtra i luoghi escludendo quelli delle categorie nascoste
-  const visiblePoints = faiPoints.filter(point => {
-    if (!point.categories || point.categories.length === 0) {
-      return true;
-    }
-    return !point.categories.some(category => hiddenCategories.has(category.id));
-  });
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const visiblePoints = filterVisiblePoints(faiPoints, hiddenCategories);
+  const filteredVisitedPlaces = filterVisibleVisits(visitedPlaces, faiPoints, hiddenCategories);
+  const filteredFavoritesIds = filterVisibleIds(favoritesIds, faiPoints, hiddenCategories);
 
-  const filteredVisitedPlaces = visitedPlaces.filter(vp => {
-    const point = faiPoints.find(p => p.id === vp.id);
-    if (!point) return false;
-    if (!point.categories || point.categories.length === 0) return true;
-    return !point.categories.some(category => hiddenCategories.has(category.id));
-  });
-
-  const filteredFavoritesIds = new Set(
-    Array.from(favoritesIds).filter(id => {
-      const point = faiPoints.find(p => p.id === id);
-      if (!point) return false;
-      if (!point.categories || point.categories.length === 0) return true;
-      return !point.categories.some(category => hiddenCategories.has(category.id));
-    })
-  );
-
-  // Statistiche per anno
-  const currentYear = new Date().getFullYear();
-  const visitsByYear = filteredVisitedPlaces.reduce((acc, place) => {
-    let year: number;
-    
-    if (!place.visitDate || place.visitDate === '') {
-      year = currentYear;
-    } else {
-      try {
-        const date = new Date(place.visitDate);
-        year = isNaN(date.getTime()) ? currentYear : date.getFullYear();
-      } catch {
-        year = currentYear;
-      }
-    }
-    
-    acc[year] = (acc[year] || 0) + 1;
-    return acc;
-  }, {} as Record<number, number>);
-
-  // Statistiche per categoria
-  const categoryStats = visiblePoints.reduce((acc, point) => {
-    if (point.categories && point.categories.length > 0) {
-      point.categories.forEach(category => {
-        if (!acc[category.name]) {
-          acc[category.name] = {
-            visited: 0,
-            favorites: 0,
-            notInterested: 0
-          };
-        }
-        
-        if (filteredVisitedPlaces.some(vp => vp.id === point.id)) {
-          acc[category.name].visited++;
-        }
-        if (filteredFavoritesIds.has(point.id)) {
-          acc[category.name].favorites++;
-        }
-        if (notInterestedIds.has(point.id)) {
-          acc[category.name].notInterested++;
-        }
-      });
-    } else {
-      if (!acc['Senza categoria']) {
-        acc['Senza categoria'] = {
-          visited: 0,
-          favorites: 0,
-          notInterested: 0
-        };
-      }
-      
-      if (filteredVisitedPlaces.some(vp => vp.id === point.id)) {
-        acc['Senza categoria'].visited++;
-      }
-      if (filteredFavoritesIds.has(point.id)) {
-        acc['Senza categoria'].favorites++;
-      }
-      if (notInterestedIds.has(point.id)) {
-        acc['Senza categoria'].notInterested++;
-      }
-    }
-    return acc;
-  }, {} as Record<string, { visited: number; favorites: number; notInterested: number }>);
-
-  // Top luoghi visitati per anno
-  const getTopPlacesByYear = (year: number, limit: number = 3) => {
-    const yearVisits = filteredVisitedPlaces.filter(vp => {
-      let visitYear: number;
-      if (!vp.visitDate || vp.visitDate === '') {
-        visitYear = currentYear;
-      } else {
-        try {
-          const date = new Date(vp.visitDate);
-          visitYear = isNaN(date.getTime()) ? currentYear : date.getFullYear();
-        } catch {
-          visitYear = currentYear;
-        }
-      }
-      return visitYear === year;
-    });
-
-    return yearVisits
-      .map(vp => faiPoints.find(p => p.id === vp.id))
-      .filter(Boolean)
-      .slice(0, limit);
-  };
-
-  // Stagioni preferite
-  const getSeasonStats = () => {
-    const seasons = { Primavera: 0, Estate: 0, Autunno: 0, Inverno: 0 };
-    
-    filteredVisitedPlaces.forEach(vp => {
-      let month: number;
-      if (!vp.visitDate || vp.visitDate === '') {
-        month = new Date().getMonth();
-      } else {
-        try {
-          const date = new Date(vp.visitDate);
-          month = isNaN(date.getTime()) ? new Date().getMonth() : date.getMonth();
-        } catch {
-          month = new Date().getMonth();
-        }
-      }
-
-      if (month >= 2 && month <= 4) seasons.Primavera++;
-      else if (month >= 5 && month <= 7) seasons.Estate++;
-      else if (month >= 8 && month <= 10) seasons.Autunno++;
-      else seasons.Inverno++;
-    });
-
-    return seasons;
-  };
-
-  const seasonStats = getSeasonStats();
-  const topSeason = Object.entries(seasonStats).reduce((a, b) => a[1] > b[1] ? a : b)[0];
+  const visitsByYear = countVisitsByYear(filteredVisitedPlaces, now);
+  const categoryStats = computeCategoryStats(visiblePoints, filteredVisitedPlaces, filteredFavoritesIds, notInterestedIds);
+  const getTopPlacesByYear = (year: number, limit: number = 3) =>
+    topPlacesByYear(filteredVisitedPlaces, faiPoints, year, now, limit);
+  const seasonStats = computeSeasonStats(filteredVisitedPlaces, now);
+  const topSeason = pickTopSeason(seasonStats);
 
   if (loading) {
     return (
@@ -242,9 +104,7 @@ export default function StatisticheScreen() {
 
   const totalVisits = filteredVisitedPlaces.length;
   const totalFavorites = filteredFavoritesIds.size;
-  const topCategories = Object.entries(categoryStats)
-    .sort(([,a], [,b]) => b.visited - a.visited)
-    .slice(0, 3);
+  const topCategories = pickTopCategories(categoryStats, 3);
 
   return (
     <View style={styles.container}>

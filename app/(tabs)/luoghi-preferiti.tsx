@@ -6,64 +6,9 @@ import * as WebBrowser from 'expo-web-browser';
 import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, Alert, FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-interface FaiPoint {
-  id: number;
-  title: string;
-  lat: number;
-  lng: number;
-  url: string;
-  description?: string;
-}
-
-const FAI_DATA_URL = 'https://raw.githubusercontent.com/GiacomoGuaresi/FAInder/main/data/beni-fai.json';
-const FAVORITES_STORAGE_KEY = 'fai_favorites_places';
-
-// Funzione per decodificare entità HTML
-const decodeHtmlEntities = (text: string): string => {
-  const entityMap: { [key: string]: string } = {
-    '&#39;': "'",
-    '&quot;': '"',
-    '&amp;': '&',
-    '&lt;': '<',
-    '&gt;': '>',
-    '&agrave;': 'à',
-    '&egrave;': 'è',
-    '&eacute;': 'é',
-    '&igrave;': 'ì',
-    '&ograve;': 'ò',
-    '&ugrave;': 'ù',
-    '&Agrave;': 'À',
-    '&Egrave;': 'È',
-    '&Eacute;': 'É',
-    '&Igrave;': 'Ì',
-    '&Ograve;': 'Ò',
-    '&Ugrave;': 'Ù',
-    '&nbsp;': ' ',
-    '&euro;': '€',
-    '&ndash;': '–',
-    '&mdash;': '—',
-    '&lsquo;': '\'',
-    '&rsquo;': '\'',
-    '&ldquo;': '"',
-    '&rdquo;': '"',
-    '&hellip;': '…'
-  };
-
-  let decoded = text;
-  Object.entries(entityMap).forEach(([entity, char]) => {
-    decoded = decoded.replace(new RegExp(entity, 'g'), char);
-  });
-  
-  return decoded;
-};
-
-// Funzione per tagliare testo a 200 caratteri
-const truncateText = (text: string, maxLength: number = 200): string => {
-  if (text.length <= maxLength) {
-    return text;
-  }
-  return text.substring(0, maxLength).trim() + '...';
-};
+import { FAI_DATA_URL, FAVORITES_STORAGE_KEY } from '@/lib/constants';
+import { decodeHtmlEntities, truncateText } from '@/lib/text';
+import { FaiPoint } from '@/lib/types';
 
 export default function LuoghiPreferitiScreen() {
   const [loading, setLoading] = useState(true);
