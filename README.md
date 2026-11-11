@@ -1,310 +1,67 @@
 <div align="center">
-  <img src="assets/images/LOGO.png" alt="FAInder Logo" width="200"/>
+  <img src="assets/images/LOGO.png" alt="FAInder logo" width="160"/>
   <h1>FAInder</h1>
+  <p>The places of FAI (Fondo Ambiente Italiano) on a map, with a personal log of the ones you have visited.</p>
+  <p><a href="README.it.md">Italiano</a></p>
 </div>
 
-FAInder è un progetto **open source** che raccoglie e rende consultabili, in forma geografica, alcuni luoghi e attività presenti sulla piattaforma pubblica del Fondo Ambiente Italiano (FAI).
+FAInder is an Android/iOS app for FAI members and anyone curious about Italian heritage. It shows about 2,000 places on a map (FAI properties and the venues that offer benefits to FAI members), lets you filter them by category, and keeps track of where you have been. It is an independent project, **not affiliated with FAI**.
 
-Il progetto nasce con l'obiettivo di **facilitare la ricerca e la scoperta** di luoghi di interesse culturale, storico e territoriale, attraverso una rappresentazione su mappa semplice e accessibile.
+<!-- screenshots: docs/screenshots/ (map, place detail, check-in, membership card, statistics) -->
 
-## 📱 App Mobile
+## What it does
 
-FAInder include un'applicazione mobile nativa per iOS e Android che permette di:
+- **Map** of all places around you, with search by town or address and filters by category.
+- **Place sheet** with a short description, a link to the official FAI page and directions in Google Maps.
+- **Check-in**: mark a place as visited, favourite or not interesting; each state has its own marker colour and its own list.
+- **Membership card**: keep a PDF or a photo of your FAI card at hand.
+- **Statistics**: visits per year, favourite categories and season.
 
-- **Esplorare la mappa** dei beni FAI con la propria posizione
-- **Tracciare i luoghi visitati** con un sistema di check-in
-- **Visualizzare i dettagli** di ogni bene e accedere alla pagina ufficiale FAI
-- **Consultare la propria "Tessera FAI"** con le statistiche di progresso
+Everything you mark stays on your phone. There is no account and no server.
 
-L'app è sviluppata con React Native/Expo e offre un'esperienza utente ottimizzata per dispositivi mobili.
+## Status
 
----
+Version 1.0, developed and tested on Android. The same code can be built for iOS, but no iOS build is distributed. The statistics screen is the most recent part and the least polished.
 
-## 🎯 Obiettivo del progetto
+## Try it
 
-FAInder ha uno scopo **puramente informativo e sperimentale**:
+Download the APK from the [latest release](https://github.com/GiacomoGuaresi/FAInder/releases/latest) and install it on an Android phone (you need to allow installation from unknown sources).
 
-- aggregare dati pubblicamente accessibili
-- trasformarli in un formato leggero (JSON) adatto a mappe e applicazioni
-- consentire la consultazione rapida dei luoghi tramite coordinate geografiche
-- rimandare sempre alla pagina ufficiale del luogo sul sito FAI
-
-Il progetto **non sostituisce**, **non replica** e **non intende competere** con i servizi ufficiali del FAI.
-
----
-
-## 🛠️ Setup Sviluppo
-
-### Prerequisiti
-- Node.js (v18 o superiore)
-- Expo CLI
-- Python 3.11+ (per lo script di scraping)
-- npm o yarn
-
-### Configurazione Ambiente
-
-1. **Installa le dipendenze**:
-   ```bash
-   npm install
-   ```
-
-2. **Avvia l'app**:
-   ```bash
-   npm start
-   # oppure
-   expo start
-   ```
-
-**Nota**: L'app utilizza OpenStreetMap e non richiede API key per funzionare. Assicurati di avere configurato correttamente `eas.json` per le credenziali di build.
-
-### Build di Produzione
-
-Per la build di produzione:
+To run it from source:
 
 ```bash
-# Build Android
-eas build --platform android
-
-# Build iOS  
-eas build --platform ios
-
-# Build Web
-eas build --platform web
+git clone https://github.com/GiacomoGuaresi/FAInder.git
+cd FAInder
+npm install
+npm start
 ```
 
----
+More in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
 
-## � Struttura del Progetto
+## How it is built
 
-```
-FAInder/
-├── app/                    # Navigazione e schermate React Native
-│   ├── (tabs)/            # Tab navigation (Explore, About, etc.)
-│   ├── _layout.tsx        # Layout principale
-│   └── modal.tsx          # Componenti modali
-├── components/            # Componenti riutilizzabili
-│   ├── ui/               # Componenti UI base
-│   └── ...               # Altri componenti custom
-├── constants/            # Costanti dell'app (temi, configurazioni)
-├── data/                 # Dati generati (beni-fai.json)
-├── hooks/                # Custom hooks React
-├── scripts/              # Script di utilità
-│   ├── fetch_beni_fai.py # Script scraping dati FAI
-│   └── reset-project.js  # Reset progetto
-├── services/             # Servizi API e logica business
-├── assets/               # Risorse statiche (immagini, icone)
-├── .github/workflows/    # GitHub Actions (update automatico)
-└── docs/                 # Documentazione dettagliata
-```
+- **App**: React Native with Expo (SDK 54) and Expo Router, in TypeScript.
+- **Map**: Leaflet with OpenStreetMap tiles inside a WebView; the app and the map exchange messages to update markers without reloading. Address search uses Nominatim. No API keys.
+- **Storage**: AsyncStorage for visits, favourites, filters and the membership card.
+- **Data**: a Python script reads two public FAI endpoints and writes `data/beni-fai.json`; a GitHub Action runs it every night and commits the file when it changes. The app downloads the file from this repository and falls back to the bundled copy when offline.
+- **Tests**: the logic for filters, visits and statistics lives in `lib/` and is covered by Jest; the data script is covered by pytest. CI runs lint, type check and tests on every pull request.
 
-### Componenti Principali
+Details on the data in [docs/DATA.md](docs/DATA.md).
 
-- **App Mobile**: React Native con Expo Router per navigazione
-- **Data Pipeline**: Script Python per scraping e GitHub Actions per aggiornamento automatico
-- **Map Integration**: OpenStreetMap tramite react-native-maps
-- **Storage**: AsyncStorage per tracking locale luoghi visitati
+## About the data
 
----
+FAInder uses only information that the FAI website already serves publicly, without login. For each place the JSON file holds name, coordinates, categories, a short description and the link to the official page, where the app always sends you for the full content.
 
-## � Contenuto del repository
+"FAI" and all texts about the places belong to Fondo Ambiente Italiano and their respective owners. Accuracy and freshness are not guaranteed. If FAI or another rights holder wants something changed or removed, please [open an issue](https://github.com/GiacomoGuaresi/FAInder/issues) and I will act on it promptly.
 
-Il repository include:
+## How it was made
 
-- uno script di scraping che interroga le API pubbliche del FAI
-- un file JSON generato automaticamente contenente:
-  - coordinate geografiche
-  - nome del luogo
-  - link alla pagina ufficiale FAI
-- una semplice applicazione che utilizza questi dati per mostrarli su mappa
+I wrote the app by hand in February 2026 (66 commits; the other commits in the history are the nightly data updates made by GitHub Actions). In November 2026 I used Claude to tidy up the documentation, move the logic into `lib/`, and add tests and CI: those commits are co-authored and marked as such.
 
-Il file JSON viene aggiornato automaticamente tramite GitHub Actions.
+## Contributing
 
----
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## 🔌 API e Dati
+## License
 
-### Fonte dei Dati
-
-I dati provengono esclusivamente da **endpoint pubblici** della piattaforma FAI:
-
-```
-https://platform.fondoambiente.it/api/luoghi/faixme
-```
-
-### Struttura dei Dati
-
-Il file `data/beni-fai.json` contiene un array di oggetti con la seguente struttura:
-
-```json
-{
-  "id": "12345",
-  "title": "Nome del Luogo",
-  "lat": 45.1234,
-  "lng": 9.5678,
-  "url": "https://fondoambiente.it/luoghi/slug-del-luogo",
-  "description": "Descrizione pulita del luogo"
-}
-```
-
-### Script di Scraping
-
-Lo script `scripts/fetch_beni_fai.py` esegue le seguenti operazioni:
-
-1. **Paginazione**: Recupera i dati paginati dall'API FAI
-2. **Filtraggio**: Mantiene solo luoghi con coordinate valide
-3. **Pulizia**: Rimuovi tag HTML dalle descrizioni
-4. **Normalizzazione**: Formatta i dati in struttura coerente
-5. **Output**: Salva in formato JSON leggibile
-
-### Aggiornamento Automatico
-
-I dati vengono aggiornati automaticamente tramite GitHub Actions:
-- **Frequenza**: Ogni giorno a mezzanotte (UTC)
-- **Trigger**: Manuale via `workflow_dispatch`
-- **Output**: Commit automatico con timestamp
-
-Vengono utilizzate **solo informazioni già accessibili pubblicamente**, senza autenticazione, login o aggiramento di sistemi di protezione.
-
----
-
-## 🚀 Sviluppo
-
-### Workflow Locale
-
-1. **Setup Ambiente**:
-   ```bash
-   # Clona il repository
-   git clone https://github.com/GiacomoGuaresi/FAI-nder.git
-   cd FAI-nder
-   
-   # Installa dipendenze
-   npm install
-   ```
-
-2. **Sviluppo App**:
-   ```bash
-   # Avvia development server
-   npm start
-   
-   # Test su dispositivo/simulator
-   npm run android    # Android
-   npm run ios        # iOS  
-   npm run web        # Web
-   ```
-
-3. **Aggiornamento Dati**:
-   ```bash
-   # Manual update dei dati FAI
-   python scripts/fetch_beni_fai.py
-   ```
-
-### Debug e Testing
-
-- **Debug**: Usa Expo DevTools per ispezionare l'app
-- **Logs**: Controlla console Metro per errori runtime
-- **Testing**: I test sono nella cartella `__tests__/`
-
-### Code Style
-
-- **Linting**: `npm run lint` per controllare stile codice
-- **TypeScript**: Configurazione in `tsconfig.json`
-- **ESLint**: Regole in `eslint.config.js`
-
----
-
-## 🤝 Contribuire
-
-Questo progetto **NON è affiliato, sponsorizzato o approvato** dal Fondo Ambiente Italiano (FAI).
-
-- Il nome “FAI” è di proprietà del Fondo Ambiente Italiano.
-- Tutti i contenuti testuali, multimediali e informativi restano di proprietà dei rispettivi titolari.
-- FAInder si limita a **rimandare alle pagine ufficiali** del sito FAI, senza duplicarne i contenuti.
-
-Se il FAI o altri titolari dei diritti ritengono che questo progetto violi in qualsiasi modo le loro policy, sono invitati a contattare l’autore per una rapida rimozione o modifica.
-
----
-
-## � Contribuire
-
-### Come Contribuire
-
-1. **Fork** il repository
-2. **Crea un branch**: `git checkout -b feature/nuova-funzionalita`
-3. **Commit**: `git commit -m 'Aggiungi nuova funzionalità'`
-4. **Push**: `git push origin feature/nuova-funzionalita`
-5. **Pull Request**: Apri una PR su GitHub
-
-### Aree di Contributo
-
-- **Bug Fix**: Correzioni e miglioramenti
-- **Features**: Nuove funzionalità per l'app
-- **Documentation**: Miglioramento documentazione
-- **Data Quality**: Miglioramento script scraping
-
-### Linee Guida
-
-- Mantieni il codice pulito e commentato
-- Segui le convenzioni TypeScript/React
-- Testa le modifiche su più piattaforme
-- Aggiorna la documentazione se necessario
-
-I dati generati da questo progetto sono destinati a:
-
-- ricerca
-- sperimentazione
-- visualizzazione geografica
-- uso educativo e non commerciale
-
-Non è garantita l’accuratezza, completezza o attualità delle informazioni.
-
----
-
-## � Documentazione Dettagliata
-
-Per documentazione tecnica approfondita, consulta la cartella [`docs/`](./docs):
-
-- **[🚀 Sviluppo](./docs/DEVELOPMENT.md)** - Guida completa sviluppo app mobile
-### App Mobile
-- React Native con Expo
-- React Native Maps per la visualizzazione geografica
-- AsyncStorage per il tracciamento locale
-- Expo Location per i servizi di geolocalizzazione
-
-### Web
-- Applicazione web client-side per la visualizzazione
-
----
-
-## 📜 Licenza
-
-Il codice del progetto è distribuito sotto licenza **MIT License**.
-
-- **Codice**: [MIT License](./LICENSE) - uso, modifica, distribuzione liberi
-- **Dati**: Soggetti alle condizioni d'uso del sito FAI di origine
-- **Attribuzione**: Mantenere copyright e licenza in copie
-
-### Cosa Puoi Fare
-
-✅ **Uso Commerciale**: Utilizzare il software per scopi commerciali  
-✅ **Modifica**: Modificare il codice sorgente  
-✅ **Distribuzione**: Distribuire copie modificate o originali  
-✅ **Uso Privato**: Utilizzare privatamente senza obbligo di distribuzione  
-
-### Condizioni
-
-⚠️ **Copyright**: Includere il copyright originale in tutte le copie  
-⚠️ **License**: Includere una copia della licenza MIT  
-⚠️ **Attribution**: Mantenere notice di copyright e licenza  
-
-### Limitazioni
-
-❌ **Responsabilità**: Nessuna garanzia o responsabilità dell'autore  
-❌ **Dati FAI**: I dati dei beni FAI rimangono di proprietà del FAI  
-
----
-
-## ✉️ Contatti
-
-Per segnalazioni, richieste o problemi:
-- apri una **Issue** su GitHub
-- oppure contatta l'autore tramite il profilo GitHub
+Code under the [MIT License](LICENSE). The data about the places remains subject to the terms of the FAI website.
