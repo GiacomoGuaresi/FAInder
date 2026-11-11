@@ -7,7 +7,12 @@
 
 FAInder è un'app Android/iOS per gli iscritti al FAI e per chi è curioso del patrimonio italiano. Mostra su mappa circa 2.000 luoghi (i beni del FAI e le strutture che offrono vantaggi agli iscritti), permette di filtrarli per categoria e tiene traccia di dove sei stato. È un progetto indipendente, **non affiliato al FAI**.
 
-<!-- screenshot: docs/screenshots/ (mappa, dettaglio luogo, check-in, tessera, statistiche) -->
+<p align="center">
+  <img src="docs/screenshots/map.jpg" alt="Mappa con i luoghi intorno a Bergamo" width="200"/>
+  <img src="docs/screenshots/detail.jpg" alt="Scheda del luogo con i pulsanti di check-in" width="200"/>
+  <img src="docs/screenshots/visited.jpg" alt="Elenco dei luoghi visitati" width="200"/>
+  <img src="docs/screenshots/stats.jpg" alt="Schermata delle statistiche" width="200"/>
+</p>
 
 ## Cosa fa
 
