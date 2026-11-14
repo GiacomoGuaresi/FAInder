@@ -7037,7 +7037,7 @@
     "lat": 44.2536427,
     "lng": 12.283682,
     "url": "https://fondoambiente.it/luoghi/terme-di-cervia",
-    "description": "Per Iscritti FAI riduzione del 20% per il singolo ingresso al percorso termale presso le Terme di Cervia (RA) Per Iscritti FAI riduzione del 10% per l&#39;acquisto di prodotti cosmetici della linea Liman Termae se acquistati in loco DESCRIZIONE Adiacenti alla millenaria pineta di 27 ettari, attraversata da sentieri per attivit&agrave; a piedi e in bicicletta, le Terme di Cervia consentono&nbsp;trattamenti di cura e benessere completi, supportati da attrezzature e apparecchiature di avanguardia e da uno staff medico composto da specialisti esperti e qualificati. Lo stabilimento termale &egrave; stato costruito tra il 1960 e il 1961, in un momento di grande dinamismo del turismo a Cervia, dall&rsquo;architetto Carlo Vigan&ograve;&nbsp;e ancora oggi si caratterizza per le particolari soluzioni formali esterne (come le parti in vetro colorato) e di design di interni.",
+    "description": "Per Iscritti FAI riduzione per il&nbsp; percorso termale presso le Terme di Cervia (RA) 20% di sconto sul singolo ingresso al Percorso Termale&nbsp;L&rsquo;ingresso comprende l&rsquo;accesso alla: Vasca termale grande ideale per l&rsquo;attivit&agrave; motoria; Vasca termale profonda per un&rsquo;esperienza di totale sospensione; Vasca termale ipertonica con altissima concentrazione di sali minerali, riduce l&rsquo;infiammazione della pelle e migliora l&rsquo;idratazione: Percorso kneipp; Terrazza del Sole con vasca termale idromassaggio all&rsquo;aperto, chaise longue e zona relax; Corsi di Acquagym pi&ugrave; volte al giorno; Accesso libero alla Palestra; Fornitura di biancheria calda igienizzata. 10% di sconto sui cosmetici della linea LimanTermae prodotta in esclusiva per Terme di Cervia se acquistati presso le nostre casse.&nbsp;Formule di ultima generazione, arricchite con principi attivi come Acido Ialuronico, Caviale, Alga Verde ed Escina. Sieri leggeri, creme setose, butter scrub profumati: sono i nuovi prodotti skincare della linea cosmetica Liman Termae, l&rsquo;unica realizzata con Acqua Madre termale delle saline di Cervia &nbsp; DESCRIZIONE Adiacenti alla millenaria pineta di 27 ettari, attraversata da sentieri per attivit&agrave; a piedi e in bicicletta, le Terme di Cervia consentono&nbsp;trattamenti di cura e benessere completi, supportati da attrezzature e apparecchiature di avanguardia e da uno staff medico composto da specialisti esperti e qualificati. Lo stabilimento termale &egrave; stato costruito tra il 1960 e il 1961, in un momento di grande dinamismo del turismo a Cervia, dall&rsquo;architetto Carlo Vigan&ograve;&nbsp;e ancora oggi si caratterizza per le particolari soluzioni formali esterne (come le parti in vetro colorato) e di design di interni.",
     "categories": [
       {
         "id": 15,
@@ -11626,6 +11626,20 @@
     ]
   },
   {
+    "id": 83847,
+    "title": "TEATRO SOCIALE: SEDE ESPOSIZIONE DELL’INDUSTRIA BRESCIANA 1889",
+    "lat": 45.535539,
+    "lng": 10.2204489,
+    "url": "https://fondoambiente.it/luoghi/teatro-sociale-sede-esposizione-dell-industria-bresciana-1889",
+    "description": "Per iscritti FAI biglietti ridotti per gli spettacoli del Teatro Sociale di Brescia platea 29 &euro; a 26 &euro; I galleria&nbsp;22 &euro; a 20 &euro; II galleria&nbsp;19 &euro; a 17 &euro; III galleria 15&euro; a 13 &euro; SCOPRI IL PROGRAMMA DESCRIZIONE Nato nel 1974 dall&#39;esperienza della Compagnia della Loggetta, il Centro Teatrale Bresciano (CTB) &egrave; da oltre cinquant&#39;anni il punto di riferimento per la creazione e diffusione della cultura teatrale a Brescia e in Italia. Riconosciuto dal Ministero della Cultura come Teatro di Rilevante Interesse Culturale, vanta circa 300 spettacoli prodotti, realizzati con i pi&ugrave; grandi registi e interpreti della scena contemporanea. La proposta artistica affianca ai classici e alla drammaturgia d&#39;autore la ricerca multidisciplinare (danza, musica e circo contemporaneo) e progetti site-specific legati al territorio. Teatro Sociale &egrave; un teatro di Brescia, secondo per grandezza e capienza al teatro Grande, situato in via Felice Cavallotti, a est di piazza Bruno Boni. Fondato nel 1851 come teatro Guillaume, &egrave; stato ricostruito due volte e la struttura attuale, in pieno stile liberty, risale al 1905.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
     "id": 111561,
     "title": "AGROITTICA LOMBARDA",
     "lat": 45.3686145,
@@ -11762,6 +11776,20 @@
       {
         "id": 8,
         "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 117848,
+    "title": "TEATRO RENATO BORSONI",
+    "lat": 45.5457617,
+    "lng": 10.1893077,
+    "url": "https://fondoambiente.it/luoghi/teatro-renato-borsoni",
+    "description": "Per iscritti FAI biglietti ridotti per gli spettacoli del Teatro Borsoni di Brescia PLATEA 21 &euro; invece che 25 &euro; SCOPRI IL PROGRAMMA DESCRIZIONE Nato nel 1974 dall&#39;esperienza della Compagnia della Loggetta, il Centro Teatrale Bresciano (CTB) &egrave; da oltre cinquant&#39;anni il punto di riferimento per la creazione e diffusione della cultura teatrale a Brescia e in Italia. Riconosciuto dal Ministero della Cultura come Teatro di Rilevante Interesse Culturale, vanta circa 300 spettacoli prodotti, realizzati con i pi&ugrave; grandi registi e interpreti della scena contemporanea. La proposta artistica affianca ai classici e alla drammaturgia d&#39;autore la ricerca multidisciplinare (danza, musica e circo contemporaneo) e progetti site-specific legati al territorio. Il Teatro Renato Borsoni &egrave; stato inaugurato il 21 settembre 2024. Di propriet&agrave; del Comune di Brescia, &egrave; la terza sala a gestione diretta del Centro Teatrale Bresciano, dopo il Teatro Sociale e il Teatro Mina Mezzadri. &Egrave; un teatro di nuova costruzione, progettato dall&rsquo;architetto Camillo Botticini, cardine del piano di rigenerazione urbana nato nell&rsquo;alveo di Oltre la Strada, il progetto del Comune di Brescia a sostegno della valorizzazione del benessere e della qualit&agrave; della vita partecipata in una delle periferie pi&ugrave; difficili della citt&agrave;, quella di via Milano. Un intervento che ha dato luogo a diverse azioni di riqualificazione che, in questi anni, hanno modificato significativamente la vita del quartiere. Il nuovo Teatro Borsoni &egrave; parte fondamentale di questo ambizioso piano che vede le attivit&agrave; culturali e, in particolare, il teatro, apportatrici di novit&agrave; e processi di rilevanza imprescindibile: l&rsquo;attivazione e la gestione del nuovo Teatro Borsoni da parte del CTB &egrave; concepita infatti quale presidio culturale, di identit&agrave;, di miglioramento dell&rsquo;area",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -12546,6 +12574,34 @@
       {
         "id": 11,
         "name": "Stare a contatto con la natura"
+      }
+    ]
+  },
+  {
+    "id": 122473,
+    "title": "TEATRO MINA MEZZADRI",
+    "lat": 45.56025,
+    "lng": 9.3838236,
+    "url": "https://fondoambiente.it/luoghi/teatro-mina-mezzadri",
+    "description": "Per iscritti FAI biglietti ridotti per gli spettacoli del Teatro Mezzadri di Brescia PLATEA 16 &euro; invece che 18 &euro; SCOPRI IL PROGRAMMA DESCRIZIONE Nato nel 1974 dall&#39;esperienza della Compagnia della Loggetta, il Centro Teatrale Bresciano (CTB) &egrave; da oltre cinquant&#39;anni il punto di riferimento per la creazione e diffusione della cultura teatrale a Brescia e in Italia. Riconosciuto dal Ministero della Cultura come Teatro di Rilevante Interesse Culturale, vanta circa 300 spettacoli prodotti, realizzati con i pi&ugrave; grandi registi e interpreti della scena contemporanea. La proposta artistica affianca ai classici e alla drammaturgia d&#39;autore la ricerca multidisciplinare (danza, musica e circo contemporaneo) e progetti site-specific legati al territorio. Il monastero di Santa Chiara vecchia, la cui Chiesa &egrave; oggi il Teatro Mina Mezzadri del Centro Teatrale Bresciano, ha origini incerte. Le prime notizie documentate risalgono al XIII secolo, quando, nel 1255, papa Alessandro IV pose sotto la sua protezione le monache di clausura dell&rsquo;Ordine di San Damiano, seguaci della regola benedettina, poi francescana: era a loro concesso il pieno possesso del sito. Nessuna traccia &egrave; rimata degli edifici che costituivano questo primo insediamento, poich&eacute; nel tempo furono operate numerose trasformazioni e rifacimenti. Nel 1580 San Carlo Borromeo si rec&ograve; in visita apostolica al monastero, e, come riportano le cronache, la chiesa di presentava &ldquo;abbastanza ampia, decorosa e tutta voltata&rdquo;. Costituita da due spazi distinti, la chiesa prevedeva uno spazio pubblico con affaccio su contrada Santa Chiara e uno interno per le monache. Tra la seconda parte del Seicento e l&rsquo;inizio del Settecento il complesso registr&ograve; importanti ampliamenti e rifacimenti; ultimo e pi&ugrave; importante, del 1756, la scalinata monumentale di Girelli, con statua di Santa Chiara attribuita a Calegari. Sull&rsquo;onda delle massicce soppressioni di enti religiosi ed ecclesiastici nelle zone di controllo francese, il convento fu soppresso nel 1797, divenne caserma nel 1804, poi sede del collegio di Giuseppe Baldoni. Passato al collegio Peroni nel 1830, mantenne la funzione educativa e ospit&ograve; i feriti di San Martino e Solferino nel 1859.",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 122472,
+    "title": "TEATRO TELAIO",
+    "lat": 45.4858444,
+    "lng": 9.3800987,
+    "url": "https://fondoambiente.it/luoghi/teatro-telaio",
+    "description": "Per iscritti FAI biglietti ridotti a 6€ per gli spettacoli del Teatro Telaio di BresciaDESCRIZIONE Da quasi cinquant&rsquo;anni punto di riferimento fondamentale per la vita culturale e teatrale bresciana, Teatro Telaio&nbsp;&egrave; un centro di produzione e promozione spettacoli orientato alla costante ricerca della qualit&agrave; artistica e dell&#39;impegno sociale.¿Riconosciuto dal Ministero della Cultura, Teatro Telaio offre una ricca programmazione dedicata alle giovani generazioni, alle famiglie e alle scuole, curando rassegne di rilievo sul territorio &ndash; come la celebre&nbsp;Storie, Storie, Storie&nbsp;e il Festival Trame &ndash; e trasformando ogni appuntamento in uno spazio vivo di crescita, emozione e condivisione. PRENOTAZIONE DEL BIGLIETTO RIDOTTO QUI&nbsp;",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Assistere a uno spettacolo"
       }
     ]
   },
@@ -14225,7 +14281,7 @@
     "lat": 45.4697657,
     "lng": 9.1924709,
     "url": "https://fondoambiente.it/luoghi/teatro-manzoni-milano-40190",
-    "description": "Per gli iscritti FAI riduzione del 20% al Teatro Manzoni di Milano, ogni tessera FAI d&agrave; diritto all&#39;acquisto di 2 biglietti ridotti: La modalit&agrave; di acquisto online prevede l&#39;inserimento del codice sconto nel sito www.teatromanzoni.it, &egrave; possibile scrivere a gruppi@teatromanzoni.it oppure in biglietteria ( da luned&igrave; a sabato dalle 12.30 alle 19 orario continuato ) presentando tessera FAI e facendo riferimento alla newsletter mensile di competenza del mese mandata dal teatro. PER ACQUISTI SOLO SUL SITO DEGLI SPETTACOLI VEDERE I SINGOLI CODICI SCONTI SCOPRI TUTTO IL PROGRAMMA DEL TEATRO PROSA Dal 23 al 25 ottobre 2026&nbsp;FRATELLO SOLE, SORELLA LUNA dall&rsquo;opera di Franco Zeffirelli Fratello Sole, Sorella Luna Codice promozionale: PRFZFSSRLN1026CV Dal 29 ottobre all&rsquo;8 novembre 2026&nbsp;QUALCOSA &Egrave; ANDATO STORTO! uno spettacolo scritto, diretto e interpretato da Carlo Buccirosso&nbsp;Codice promozionale: PRQEASBC1026CV RIDERE ALLA GRANDE 12 ottobre e 2 novembre 2026 - ore 20.45 LE DONNE NON FANNO RIDERE con Paolo Ruffini&nbsp;Codice promozionale: RGLDFRPR1026CV Gioved&igrave; 15 ottobre 2026 - ore 20.45 PINO E GLI I.A.NTICORPI Uno spettacolo sulla stupidit&agrave; naturale scritto con l&rsquo;intelligenza artificiale&nbsp;Codice promozionale: RGPNGNTC1026CV EXTRA&nbsp; Luned&igrave; 26 ottobre 2026 - ore 20.45 AION - Il tempo che siamo&nbsp;di Gisella Zilembo con i talenti delle Residenze Artistiche MAB&nbsp;Codice promozionale: EXAITCSGZ1026CV FAMILY Sabato 31 ottobre 2026 - ore 17.30 Un Teatro da Favola LA FAMIGLIA TRANSYLVANIA 2&nbsp;Codice promozionale: FMLFTDUTDF1026CV &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+    "description": "Per gli iscritti FAI riduzione del 20% al Teatro Manzoni di Milano, ogni tessera FAI d&agrave; diritto all&#39;acquisto di 2 biglietti ridotti: La modalit&agrave; di acquisto online prevede l&#39;inserimento del codice sconto nel sito www.teatromanzoni.it, &egrave; possibile scrivere a gruppi@teatromanzoni.it oppure in biglietteria ( da luned&igrave; a sabato dalle 12.30 alle 19 orario continuato ) presentando tessera FAI e facendo riferimento alla newsletter mensile di competenza del mese mandata dal teatro. PER ACQUISTI SOLO SUL SITO DEGLI SPETTACOLI VEDERE I SINGOLI CODICI SCONTI SCOPRI TUTTO IL PROGRAMMA DEL TEATRO PROSA Dal 12 al 22 novembre 2026&nbsp;ASSASSINIO SULL&rsquo;ORIENT EXPRESS di Agatha Christie&nbsp;Repliche dal marted&igrave; al venerd&igrave;: ore 20.45 / sabato 21 novembre ore 15.30 Codice promozionale: PRASOECG1126CV Dal 26 novembre al 6 dicembre 2026 INDOVINA CHI VIENE A CENA? di William Arthur Rose - Adattamento teatrale di Mario Scaletta&nbsp;Cesare Bocci e Vittoria Belvedere&nbsp;&nbsp;Repliche dal marted&igrave; al venerd&igrave;: ore 20.45 / sabato 5 dicembre ore 20.45&nbsp; Codice promozionale: PRBBICVAC1126CV &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
     "categories": [
       {
         "id": 10,
@@ -26936,6 +26992,20 @@
     "lng": 11.372435,
     "url": "https://fondoambiente.it/luoghi/villa-pisani-bonetti",
     "description": "Per gli iscritti FAI riduzione del 10% per la visita presso Villa Pisani Bonetti a Bagnolo di Lonigo (VI) LA VILLA E&#39; APERTA TUTTO L&#39;ANNO SU APPUNTAMENTO. DESCRIZIONE La Villa Pisani di Bagnolo, progettata da Andrea Palladio fin dal 1541, data del ritorno dal suo primo viaggio a Roma, e costruita tra i 1544 e il 1545, &egrave; forse l&rsquo;opera pi&ugrave; rappresentativa del periodo giovanile della sua attivit&agrave;. Con essa inizia la gloriosa collaborazione del Palladio, con la Serenissima. L&rsquo;autore teneva in tanta stima questa sua opera e in tale considerazione il potere dei committenti, i Pisani, da aprire con essa la sezione dedicata alle &ldquo;Case di Villa&rdquo; nel suo famoso trattato: &ldquo;I Quattro Libri dell&rsquo;Architettura&rdquo;. (Venezia 1570). La Villa di Bagnolo, ispirata ai monumenti della antica Roma, in particolare agli edifici termali, ne ripeteva la monumentalit&agrave; e come tale ben si adattava a rappresentare l&rsquo;insediamento dei nuovi &ldquo;feudatari&rdquo; e l&rsquo;affermazione del potere di Venezia sulla terraferma. Secondo il progetto presentato sui Quattro Libri dell&rsquo;Architettura, l&rsquo;edificio avrebbe dovuto avere due facciate principali, delle quali quella verso il fiume, con i grandiosi fornici in bugnato rustico, si pu&ograve; tuttora ammirare nella sua integrit&agrave;. Un&rsquo;altra difformit&agrave;, rispetto al disegno del trattato palladiano, &egrave; costituita dalla mancata costruzione del porticato dorico che, partendo dai lati della Villa, avrebbe dovuto circondare il quadrilatero della corte rustica antistante. In suo luogo recentemente &egrave; stato piantato un viale di platani che ne restituisce, almeno visivamente, le proporzioni. Gli studiosi sono per&ograve; discordi nel ritenere certi i progetti rivisti dal Palladio in tarda et&agrave; per la stampa del suo trattato. La Villa &egrave; oggi in perfetto stato di conservazione grazie all&rsquo;opera dei proprietari precedenti ed attuali.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 108639,
+    "title": "VILLA ZILERI",
+    "lat": 45.5491587,
+    "lng": 11.4901654,
+    "url": "https://fondoambiente.it/luoghi/villa-zileri",
+    "description": "Per iscritti FAI riduzione del 20% per la visita presso la Villa Zileri a Monteviale (VI) Villa Zileri Motterle &egrave; un complesso storico monumentale situato nelle immediate vicinanze della citt&agrave; di Vicenza, ancora oggi inserito in un vasto parco storico, a sua volta, circondato da un&rsquo;estesa area di campagna. Il complesso edilizio di Villa Zileri si articola in tre nuclei principali: - La parte museale, composta dal Salone al Piano Nobile con gli affreschi di Giambattista Tiepolo, la Grotta delle Conchiglie e la Chiesa di S. Francesco; - La parte residenziale, con vere e proprie abitazioni in locazione; - La parte direzionale, dotata di eleganti e ampi uffici che consentono agli ospiti di immergersi in un&rsquo;oasi senza tempo. Il tutto circondato da un vasto Parco Storico, ricco di piante rare e secolari. Dal punto di vista artistico, Villa Zileri &egrave; conosciuta per essere la prima villa vicentina ad essere stata affrescata dall&rsquo;allora emergente Giambattista Tiepolo: qui l&rsquo;artista fu chiamato a celebrare le virt&ugrave; civili della nobile casata del committente, superando i tradizionali schemi allegorici nella vivace invenzione dei motivi e nella libert&agrave; coloristica. Al pianterreno si trova la &ldquo;Grotta delle Conchiglie&rdquo;: un ambiente voltato realizzato nel 1665 per volere di Alfonso Loschi col desiderio di suscitare la meraviglia dell&rsquo;ospite, effetto ottenuto grazie alla ricca decorazione delle conchiglie che creano un&rsquo;originale decorazione alle pareti e al soffitto, riquadrando affreschi rappresentati scene mitologiche della Scuola di Giulio Carpioni. Collegata alla Villa, vi &egrave; la Cappella di San Francesco. Realizzata nel 1600 su iniziativa/richiesta della contessa Elisabetta Poiana &ndash; moglie di Fabrizio Loschi &ndash; venne in seguito riedificata per opera dell&rsquo;architetto Caregaro Negrin, commissionato dalla contessa Drusilla Dal Verme di riorganizzarne gli spazi secondo il gusto dell&rsquo;eclettismo architettonico dell&rsquo;epoca. La peculiarit&agrave; del Parco Storico che circonda Villa Zileri Motterle &egrave; invece costituita dalla perfetta armonia tra l&rsquo;ambiente naturale delle colline e della campagna circostante, e quello storico-culturale del parco monumentale. Al suo interno, infatti, trovano dimora alcune rare e spontanee specie di flora e maestosi alberi centenari. Definito a met&agrave; Ottocento da Antonio Caregaro Negrin sulla base di un progetto dell&rsquo;architetto milanese Balzaretti, il Parco monumentale rispecchia i canoni del gusto romantico del giardino all&rsquo;inglese, dove aiuole tondeggianti, fiori profumati e colori brillanti dovevano inebriare l&rsquo;ospite e farlo sognare&hellip;&hellip; Riuscendoci tutt&rsquo;ora!",
     "categories": [
       {
         "id": 8,
