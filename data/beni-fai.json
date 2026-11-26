@@ -6612,20 +6612,6 @@
     ]
   },
   {
-    "id": 40089,
-    "title": "FONDAZIONE MAGNANI ROCCA",
-    "lat": 44.6392232,
-    "lng": 10.3817554,
-    "url": "https://fondoambiente.it/luoghi/fondazione-magnani-rocca-parma-40089",
-    "description": "Per gli iscritti FAI biglietto ridotto per la visita alla Fondazione Magnani Rocca (Parma) La prestigiosa collezione di Luigi Magnani annovera opere di Gentile da Fabriano, Filippo Lippi, Carpaccio, D&uuml;rer, Tiziano, Rubens, Van Dyck, Goya e, tra i contemporanei, Monet, Renoir, C&eacute;zanne, sino a De Chirico, De Pisis, 50 opere di Morandi, Burri, oltre a sculture di Canova e di Bartolini. &nbsp;",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
     "id": 40082,
     "title": "MUSEO CIVICO D'ARTE",
     "lat": 44.6480955,
@@ -7066,6 +7052,20 @@
     "lng": 12.153877,
     "url": "https://fondoambiente.it/luoghi/museo-della-citta-e-del-territorio",
     "description": "Per Iscritti FAI biglietto ridotto per visitare il&nbsp;MAR &ndash; Museo d&rsquo;Arte della citt&agrave; di Ravenna&nbsp; Per gruppi composti da un minimo di 15&nbsp;visitatori ad un massimo di 25 possibilit&agrave; di visita guidata gratuiti previa prenotazione. In tal caso sar&agrave; previsto il costo solo del biglietto ridotto DESCRIZIONE Realizzato agli inizi del XVI secolo, il chiostro dell&rsquo;Abbazia di Santa Maria in Porto prende il nome dalla Loggia del Giardino, meglio conosciuta come Loggetta Lombardesca, dalle maestranze campionesi e lombarde che vi lavorarono sotto la direzione di Tullio Lombardo. Dell&rsquo;edificio originario, che dall&rsquo;et&agrave; delle soppressioni napoleoniche ha subito pi&ugrave; volte riconversioni d&rsquo;uso e rifunzionalizzazioni, sino al restauro degli inizi degli anni &rsquo;70 del Novecento, rimane il chiostro dalle proporzioni rinascimentali, l&rsquo;impianto degli spazi e l&rsquo;elegante loggia a cinque archi, divenuta il simbolo e l&rsquo;emergenza monumentale dell&rsquo;intero complesso. Attualmente la Loggetta Lombardesca ospita il Museo d&rsquo;Arte della citt&agrave; di Ravenna, dal 2002 Istituzione del Comune di Ravenna. Le Collezioni del museo conservano opere risalenti al periodo compreso tra il XIV e il XXI secolo. Di grande importanza per il patrimonio della citt&agrave; &egrave; la&nbsp;Lastra sepolcrale di Guidarello Guidarelli, scultura di Tullio Lombardo resa celebre dalla poesia di Gabriele d&rsquo;Annunzio, che ne ha fatto una vera e propria leggenda. Il secondo &lsquo;900 &egrave; documentato da alcuni di spicco della scena artistica nazionale come Emilio Greco, Mario Schifano, Carla Accardi, Tano Festa, Alighiero Boetti, Enrico Castellani, fino al XXI secolo con l&rsquo;irriverente Alessandro Cattelan e lo street artist Banksy. Il museo, inoltre, custodisce la Collezione di Mosaici Contemporanei con opere di artisti internazionali come Marc Chagall, Georges Mathieu, Afro, Renato Guttuso ed Emilio Vedova, fino ad arrivare alle sperimentazioni del linguaggio del mosaico contemporaneo. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
+    "id": 40089,
+    "title": "FONDAZIONE MAGNANI ROCCA",
+    "lat": 44.6392232,
+    "lng": 10.3817554,
+    "url": "https://fondoambiente.it/luoghi/fondazione-magnani-rocca-parma-40089",
+    "description": "Per gli iscritti FAI biglietto ridotto per la visita alla Fondazione Magnani Rocca (Parma) La prestigiosa collezione di Luigi Magnani annovera opere di Gentile da Fabriano, Filippo Lippi, Carpaccio, D&uuml;rer, Tiziano, Rubens, Van Dyck, Goya e, tra i contemporanei, Monet, Renoir, C&eacute;zanne, sino a De Chirico, De Pisis, 50 opere di Morandi, Burri, oltre a sculture di Canova e di Bartolini. &nbsp;",
     "categories": [
       {
         "id": 8,
