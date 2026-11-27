@@ -355,7 +355,7 @@
     "lat": 45.7560383,
     "lng": 11.9227559,
     "url": "https://fondoambiente.it/luoghi/memoriale-brion",
-    "description": "Un capolavoro di Carlo Scarpa immerso nella campagna trevigiana",
+    "description": "L’ultimo capolavoro di Carlo Scarpa immerso nella campagna trevigiana",
     "categories": [
       {
         "id": null,
@@ -1750,6 +1750,20 @@
       {
         "id": 13,
         "name": "Comprare prodotti tipici"
+      }
+    ]
+  },
+  {
+    "id": 122551,
+    "title": "PALAZZO FARINOSI BRANCONI",
+    "lat": 42.3536392,
+    "lng": 13.3958868,
+    "url": "https://fondoambiente.it/luoghi/palazzo-farinosi-branconi",
+    "description": "Gli iscritti FAI biglietto ridotto per l&#39;ingresso a Palazzo Farinosi Branconi e all&#39;esposizione permanente. DESCRIZIONE &nbsp; Nel cuore del centro storico dell&#39;Aquila, affacciato su Piazza San Silvestro, Palazzo Farinosi Branconi &egrave; una delle pi&ugrave; significative testimonianze della storia artistica e culturale della citt&agrave;. Legato alla famiglia Branconio, protagonista della stagione rinascimentale aquilana e strettamente connessa alla figura di Raffaello, il palazzo conserva sale affrescate, soffitti lignei e preziosi apparati decorativi che raccontano secoli di storia. Dopo un importante intervento di recupero e restauro successivo al sisma del 2009, l&#39;edificio &egrave; stato restituito alla citt&agrave; come nuova sede del Polo Culturale dell&#39;Aquila de La Galleria BPER. &nbsp; Il palazzo ospita oggi &ldquo;Scrigno di memorie. Paesaggi, colori e tradizione: cinque secoli di arte del Meridione&rdquo;, un percorso permanente che riunisce opere provenienti dalla Corporate Collection BPER e dalla storica raccolta della Cassa di Risparmio della Provincia dell&#39;Aquila. Attraverso dipinti realizzati tra la fine del Quattrocento e i primi decenni del Novecento, il percorso racconta le relazioni artistiche tra Abruzzo, Marche, Umbria, Roma, Napoli e il Mezzogiorno in generale, mettendo in dialogo opere, architettura e memoria del territorio. L&#39;allestimento valorizza inoltre gli ambienti storici del palazzo, tra cui la suggestiva Sala di San Clemente, nella quale &egrave; in corso un complesso intervento di restauro. Al secondo piano &egrave; ospitata una mostra temporanea sulla Storia del Palazzo che ne racconta le fasi pi&ugrave; importanti dal punto di vista storico e architettonico precedenti e successive alla ferita del terremoto. La mostra, dal titolo &quot;I colori del tempo. Lo splendore ritrovato di Palazzo Farinosi Branconi&rdquo; alterna interessanti materiali fotografici e video.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -6426,6 +6440,20 @@
       {
         "id": 10,
         "name": "Assistere a uno spettacolo"
+      }
+    ]
+  },
+  {
+    "id": 122552,
+    "title": "PALAZZO BARBANTINI-KOCH",
+    "lat": 44.8361862,
+    "lng": 11.6190674,
+    "url": "https://fondoambiente.it/luoghi/palazzo-barbantini-koch",
+    "description": "Gli iscritti al FAI biglietto ridotto per l&#39;ingresso a Palazzo Barbantini-Koch. DESCRIZIONE Palazzo Barbantini-Koch, storica sede della Cassa di Risparmio di Ferrara, apre per la prima volta al pubblico come Polo Culturale de La Galleria BPER. Dopo un importante intervento di restauro e valorizzazione, l&#39;edificio restituisce alla citt&agrave; uno dei pi&ugrave; significativi esempi di architettura bancaria del primo Novecento, trasformato oggi in uno spazio dedicato all&#39;arte e alla cultura. &nbsp; Gli spazi rinnovati ospitano il percorso permanente &quot;Uno scrigno di storia. Arte a Ferrara tra passato e presente&quot;, una selezione di oltre cento opere provenienti dalle raccolte ex CARIFE e dalla Corporate Collection BPER. La mostra ripercorre oltre cinque secoli di arte ferrarese, dai protagonisti del Rinascimento come Panetti, Ortolano, Garofalo e Girolamo da Carpi fino agli artisti dell&#39;Ottocento e del Novecento, tra cui Previati, De Pisis e Funi, offrendo uno sguardo sull&#39;identit&agrave; culturale della citt&agrave; e sulle relazioni artistiche che ne hanno segnato la storia. La visita comprende inoltre la mostra temporanea &quot;VANITAS. Fiori e simboli, da Hayez a Casorati&quot;, inaugurando cos&igrave; il programma espositivo del nuovo polo culturale e offrendo al pubblico un percorso che intreccia arte, collezionismo e patrimonio storico. &nbsp;",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
@@ -14733,7 +14761,7 @@
     "lat": 45.5869825,
     "lng": 9.2592167,
     "url": "https://fondoambiente.it/luoghi/il-bistrot-reale",
-    "description": "Per Iscritti FAI riduzione del 15% per usufruire dei servizi offerti, quali Pranzo, Aperitivo, Cena e Cerimonie ed Eventi, dal Bistrot Reale a Monza DESCRIZIONE Nella splendida cornice dei Giardini Reali ci si potr&agrave; concedere una pausa per un caff&egrave; o una bibita e i visitatori e i turisti potranno trovare un complesso monumentale fornito anche di un servizio di caffetteria.&nbsp;",
+    "description": "Per Iscritti FAI riduzione sui servizi offerti, quali Pranzo, Aperitivo, Cena e Cerimonie ed Eventi, dal Bistrot Reale a Monza 10% di sconto sulla ristorazione presso il ristorante all&rsquo;interno della Villa Reale di Monza (esclusi bar e caffetteria) 5% di sconto su banqueting ed eventi DESCRIZIONE Nella splendida cornice dei Giardini Reali ci si potr&agrave; concedere una pausa per un caff&egrave; o una bibita e i visitatori e i turisti potranno trovare un complesso monumentale fornito anche di un servizio di caffetteria.&nbsp;",
     "categories": [
       {
         "id": 9,
@@ -15298,6 +15326,20 @@
       {
         "id": 12,
         "name": "Leggere"
+      }
+    ]
+  },
+  {
+    "id": 108736,
+    "title": "MUSEO DEL SERRONE, ORANGERIE",
+    "lat": 45.5229434,
+    "lng": 9.0449027,
+    "url": "https://fondoambiente.it/luoghi/serrone-oragerie",
+    "description": "Per iscritti FAI biglietto ridotto per la mostra LUIGI CONCONI E LA SCAPIGLIATURA presso Orangerie della Reggia di MonzaDal 06 Novembre 2026 al 14 Marzo 2027Orari di apertura: - Mercoled&igrave;, gioved&igrave; e venerd&igrave;: 10:00 - 13:00; 14:00 - 18:00 - Sabato, domenica e festivi: 10:00 - 19:00 -&nbsp;Ultimo ingresso consentito un&rsquo;ora prima della chiusura DESCRIZIONE La Scapigliatura: nascita ed evoluzione di un movimento La mostra &ldquo;Luigi Conconi e la Scapigliatura&rdquo; si concentra sulla vita e sull&rsquo;opera di Luigi Conconi, uno dei protagonisti della scena artistica milanese tra Ottocento e Novecento, attraverso oltre 150 opere tra dipinti, disegni e incisioni. A cura di Simona Bartolena, l&rsquo;esposizione ricostruisce il percorso artistico dell&rsquo;autore e il contesto culturale in cui si &egrave; sviluppato, proponendo anche una selezione di lavori dei principali esponenti della Scapigliatura, tra cui Tranquillo Cremona, Daniele Ranzoni e Giuseppe Grandi, insieme a Vespasiano Bignami, Paolo Troubetzkoy e Gaetano Previati. La mostra intende inoltre restituire a Conconi la giusta visibilit&agrave; e il riconoscimento critico, a oltre cent&rsquo;anni dall&rsquo;ultima monografica dedicata alla sua attivit&agrave; pittorica.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
