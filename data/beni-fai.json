@@ -8888,6 +8888,20 @@
     ]
   },
   {
+    "id": 10454,
+    "title": "FORTE TRIONFALE",
+    "lat": 41.9109,
+    "lng": 12.4818,
+    "url": "https://fondoambiente.it/luoghi/forte-trionfale",
+    "description": "Per iscritti FAI riduzione per la visita alla mostra Amazing Wonders &ndash; Immersive Experience presso il Forte Trionfale a Roma Dal 20 Novembre 2026 al 30 Aprile 2027 I biglietti si acquistano direttamente in cassa, mostrando la tessera FAI i biglietti ordinari a 12 euro invece che 15 euro durante la settimana&nbsp; 17 euro&nbsp;invece che21 euro nel week end e nei festivi DESCRIZIONE LA PI&Ugrave; GRANDE MOSTRA DI ARTE E TECNOLOGIA PER LA PRIMA VOLTA IN ITALIA. &nbsp; Amazing Wonders Immersive Experience arriva a Roma, negli spazi storici di Forte Trionfale, con una mostra internazionale che unisce arte contemporanea, natura e innovazione tecnologica. Dal 20 novembre 2026, Amazing Wonders presenta un percorso espositivo di 21.000&nbsp;MQ con oltre 30 installazioni immersive e interattive di artisti di fama internazionale, tra produzioni inedite, prime mondiali e opere presentate per la prima volta in Italia. Un&rsquo;esperienza multisensoriale in cui intelligenza artificiale, realt&agrave; digitale, videoproiezioni immersive, laser, light design, robotica e sistemi interattivi danno vita a nuove forme di espressione artistica.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
+      }
+    ]
+  },
+  {
     "id": 115900,
     "title": "FORUM STUDIOS",
     "lat": 41.9296773,
@@ -15238,20 +15252,6 @@
     "lng": 8.8603568,
     "url": "https://fondoambiente.it/luoghi/mulino-di-mora-bassa",
     "description": "Per iscritti FAI biglietto ridotto a 5 &euro; per la visita al Mulino di Mora Bassa a Vigevano (PV) DESCRIZIONE Le antiche sale di Mora Bassa ospitano una mostra didattica sulle trasformazioni territoriali operate dalla rete irrigua; la mostra, composta da quaranta grandi pannelli, &egrave; intitolata &ldquo;L&rsquo;acqua disegna il paesaggio&ldquo;. Intorno al manufatto, alimentato dalle acque dell&rsquo;antinca Roggia Mora, aleggiano interessanti richiami di storia e di leggenda che riportano alla figura di Leonardo da Vinci. In questo ambito l&rsquo;Ecomuseo ospita un&rsquo;importante&nbsp;mostra permanente costituita dai modelli in legno, funzionanti, di macchine leonardesche, mostra curata dall&rsquo;Associazione culturale &ldquo;La Citt&agrave; Ideale&ldquo;, la quale gestisce le visite e organizza appositi laboratori didattici.",
-    "categories": [
-      {
-        "id": 8,
-        "name": "Visitare luoghi d'arte"
-      }
-    ]
-  },
-  {
-    "id": 119787,
-    "title": "AREAMILANO SESTO",
-    "lat": 45.5399876,
-    "lng": 9.2463509,
-    "url": "https://fondoambiente.it/luoghi/areamilano-sesto",
-    "description": "Per iscritti FAI riduzione fino al 10% su tutte le tipologie di biglietto, valido tutti i giorni, per la mostra Euphoria &ndash; Art is in the Air presso il Balloon Museum a Sesto San Giovanni ACQUISTO AL SEGUENTE SITO&nbsp; la convenzione &egrave; valida sia per l&#39;acquisto online e in biglietteria, sar&agrave; richiesta la validit&agrave; della tessera per usufruire dell&#39;ingresso ridotto. Dal 18 ottobre 2025 al 15 marzo 2026 (prorogata) DESCRIZIONE Dopo il grande successo internazionale, con oltre 7 milioni di visitatori in tutto il mondo, il Balloon Museum &egrave; ora a MilanoSesto con&nbsp;Euphoria - Art is in the Air, la mostra che riunisce 20 opere di rinomati artisti contemporanei&nbsp;dedicate all&rsquo;espressione di questa emozione attraverso l&rsquo;arte.&nbsp; Euphoria - Art is in the Air&nbsp;invita a riflettere sulla potenza trasformativa dell&rsquo;arte e sul&nbsp;potere comunicativo dell&rsquo;Inflatable Art: simbolo di leggerezza, trasformazione e libert&agrave;, questa forma espressiva rompe le regole dell&#39;arte tradizionale.&nbsp; Qui il visitatore non guarda&nbsp;soltanto,&nbsp;ma partecipa, interagisce, si muove, scopre. La mostra accoglie visitatori di tutte le et&agrave;, coinvolgendoli in un&rsquo;avventura emozionante e sorprendente: un&#39;occasione unica per vivere l&#39;arte come mai prima d&#39;ora.&nbsp;",
     "categories": [
       {
         "id": 8,
@@ -21874,6 +21874,20 @@
       {
         "id": 9,
         "name": "Soggiornare e mangiare"
+      }
+    ]
+  },
+  {
+    "id": 102861,
+    "title": "MUSEO DELLE MINIERE",
+    "lat": 43.3907938,
+    "lng": 10.7376183,
+    "url": "https://fondoambiente.it/luoghi/museo-delle-miniere",
+    "description": "Per iscritti FAi riduzione sulla visita al Museo delle Miniere di Montecatini Val di CecinaDESCRIZIONE Il Museo delle Miniere di Montecatini Val di Cecina, in provincia di Pisa, permette di scoprire un&rsquo;antica miniera di rame situata a circa un chilometro dal centro storico. Attiva fino al 1907, nell&rsquo;Ottocento fu la pi&ugrave; grande miniera di rame d&rsquo;Europa. Qui nacque la societ&agrave; Montecatini, poi confluita nella Montedison: un legame che rende questo luogo una testimonianza importante della storia industriale italiana. La visita guidata accompagna il pubblico tra strutture ottocentesche, ex officine, laverie e gallerie sotterranee, raccontando le tecniche di estrazione e la vita dei minatori. Tra gli elementi pi&ugrave; rappresentativi spicca il Pozzo Alfredo, che conserva ancora il sistema di estrazione a mastelli. Il percorso offre cos&igrave; un incontro diretto con gli ambienti e gli strumenti del lavoro minerario. Il &nbsp;museo pu&ograve; diventare un&rsquo;occasione per riflettere sul valore del patrimonio industriale e sulla sua conservazione. Conoscere questo luogo significa riscoprire non soltanto la ricchezza del sottosuolo, ma anche la memoria delle persone che vi hanno lavorato e il loro legame con il territorio.",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Visitare luoghi d'arte"
       }
     ]
   },
